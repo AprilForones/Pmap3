@@ -46,7 +46,7 @@
       "id": "h8i9",
       "categoryId": "17b0",
       "name": "STUDENT PLAZA",
-      "desc": "Student plaza, where you can buy food and drinks. "
+      "desc": "Student plaza. "
     },
     {
       "id": "i9j0",
@@ -101,28 +101,24 @@
       "categoryId": "e928",
       "name": "Finance Purchasing Dep/Teller",
       "desc": "Building for financial business"
-
     },
     {
       "id": "q9r9",
       "categoryId": "58a9",
       "name": "Atrium",
       "desc": "Atrium Between PTC and CMA"
-
     },
     {
       "id": "q8r9",
       "categoryId": "e928",
       "name": "Registrar Office",
       "desc": "Registar's office"
-
     },
     {
       "id": "q1r9",
       "categoryId": "e928",
       "name": "CMA HALL",
       "desc": "CMA HALL"
-
     }
   ],
   "categories": [
