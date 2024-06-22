@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "devnhost": "vite --host",
     "dev:all": "concurrently \"npm run dev\" \"npm run server\"",
-    "server": "json-server --watch server/db.json --port 8080 --static ./dist"
+   "server": "json-server --watch server/db.json --port 8080 --static ./dist" 
   },
   "dependencies": {
     "json-server": "^1.0.0-alpha.23"
