@@ -1,0 +1,166 @@
+{
+  "objects": [
+    {
+      "id": "a1b2",
+      "categoryId": "e753",
+      "name": "FrontEntrance",
+      "desc": "The Front entrance is located here and this is where the IT Department is Located."
+    },
+    {
+      "id": "b2c3",
+      "categoryId": "e928",
+      "name": "CSDL/ITS BLDG",
+      "desc": "The CSDL is located here."
+    },
+    {
+      "id": "c3d4",
+      "categoryId": "e928",
+      "name": "FVR BLDG",
+      "desc": "Various facilities are located here. refer to building information below for further details."
+    },
+    {
+      "id": "d4e5",
+      "categoryId": "e928",
+      "name": "CMA BLDG",
+      "desc": "Building used by CMA Students."
+    },
+    {
+      "id": "e5f6",
+      "categoryId": "e928",
+      "name": "BASIC ED BLDG",
+      "desc": "Building used by JR. and SR. Highschool Students."
+    },
+    {
+      "id": "f6g7",
+      "categoryId": "e928",
+      "name": "CELA DEP",
+      "desc": " Used by Medical Students"
+    },
+    {
+      "id": "g7h8",
+      "categoryId": "d21e",
+      "name": "GYMNASIUM",
+      "desc": "School Gymnasium"
+    },
+    {
+      "id": "h8i9",
+      "categoryId": "17b0",
+      "name": "STUDENT PLAZA",
+      "desc": "Student plaza, where you can buy food and drinks. "
+    },
+    {
+      "id": "i9j0",
+      "categoryId": "e928",
+      "name": "Technical Vocational Bldg.",
+      "desc": "Used for automotive purposes."
+    },
+    {
+      "id": "j0k1",
+      "categoryId": "87b0",
+      "name": "NORTH HALL",
+      "desc": "North hall, used by various department of students."
+    },
+    {
+      "id": "k1l2",
+      "categoryId": "17b0",
+      "name": "VEHICLE PARKING",
+      "desc": "School Parking Lot."
+    },
+    {
+      "id": "l2m3",
+      "categoryId": "17b0",
+      "name": "PHINMA FOREST",
+      "desc": "Used by students to rest and get some fresh air."
+    },
+    {
+      "id": "m3n4",
+      "categoryId": "87b0",
+      "name": "Engineering Bldg.",
+      "desc": "Engineering Bldg., used by various department of students."
+    },
+    {
+      "id": "n4o5",
+      "categoryId": "52f1",
+      "name": "PHINMA AVE",
+      "desc": "Goes through the school, usually used to get around school."
+    },
+    {
+      "id": "p6q7",
+      "categoryId": "17b0",
+      "name": "MBA Hall",
+      "desc": "Fashion and quality at the best price"
+    },
+    {
+      "id": "q7r8",
+      "categoryId": "e928",
+      "name": "Riverside Bldg",
+      "desc": "Building used by Medical Students"
+    },
+    {
+      "id": "q8r9",
+      "categoryId": "e928",
+      "name": "Finance Purchasing Dep/Teller",
+      "desc": "Building for financial business"
+
+    },
+    {
+      "id": "q9r9",
+      "categoryId": "58a9",
+      "name": "Atrium",
+      "desc": "Atrium Between PTC and CMA"
+
+    },
+    {
+      "id": "q8r9",
+      "categoryId": "e928",
+      "name": "Registrar Office",
+      "desc": "Registar's office"
+
+    },
+    {
+      "id": "q1r9",
+      "categoryId": "e928",
+      "name": "CMA HALL",
+      "desc": "CMA HALL"
+
+    }
+  ],
+  "categories": [
+    {
+      "id": "52f1",
+      "name": "Avenue"
+    },
+    {
+      "id": "e928",
+      "name": "Department Building "
+    },
+    {
+      "id": "58a9",
+      "name": " "
+    },
+    {
+      "id": "16be",
+      "name": " "
+    },
+    {
+      "id": "d21e",
+      "name": "GYM Area"
+    },
+    {
+      "id": "a191",
+      "name": "Old Stage "
+    },
+    {
+      "id": "87b0",
+      "name": "Hall"
+    },
+    {
+      "id": "17b0",
+      "name": "Others"
+    },
+    {
+      "id": "e753",
+      "name": " "
+    }
+  ]
+}
