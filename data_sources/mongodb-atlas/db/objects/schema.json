@@ -1,0 +1,23 @@
+{
+    "title": "object",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "categoryId": {
+            "bsonType": "string"
+        },
+        "desc": {
+            "bsonType": "string"
+        },
+        "id": {
+            "bsonType": "string"
+        },
+        "name": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id"
+    ]
+}
