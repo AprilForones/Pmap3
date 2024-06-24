@@ -2,10 +2,10 @@ import { Suspense, createContext } from "react";
 import { Route, Routes } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import "./styles/App.css";
-import Map from "./pages/Map";
-import { AdminContextType } from "./utils/types";
 import Loading from "./pages/Loading";
+import Map from "./pages/Map";
+import "./styles/App.css";
+import { AdminContextType } from "./utils/types";
 
 export const AdminContext = createContext<AdminContextType | null>(null);
 function App() {

@@ -1,10 +1,15 @@
 import { Beacon, Category, ObjectItem } from "@/utils/types";
 import apiService from "./apiService";
 
+
 export async function getObjects(): Promise<ObjectItem[]> {
   try {
-    const response = await apiService.get("/objects");
-    return response.data as ObjectItem[];
+    const response =  await fetch("db.json");
+    const data = await response.json();
+
+    console.log(data.objects);
+
+    return data.objects;
   } catch (error) {
     console.error("Error fetching objects:", error);
     throw error;
@@ -13,8 +18,16 @@ export async function getObjects(): Promise<ObjectItem[]> {
 
 export async function getObjectById(id: string): Promise<ObjectItem> {
   try {
-    const response = await apiService.get(`/objects/${id}`);
-    return response.data[0] as ObjectItem;
+    const response = await fetch("db.json");
+    const data = await response.json();
+    const object = data.objects.find((obj: ObjectItem) => obj.id === id);
+
+    console.log('Single object', object);
+
+    if (!object) {
+      throw new Error(`Object with ID ${id} not found`);
+    }
+    return object;
   } catch (error) {
     console.error(`Error fetching object with ID ${id}:`, error);
     throw error;
