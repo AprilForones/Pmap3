@@ -7,7 +7,7 @@ export async function getObjects(): Promise<ObjectItem[]> {
     const response =  await fetch("db.json");
     const data = await response.json();
 
-    console.log(data.objects);
+    // console.log(data.objects);
 
     return data.objects;
   } catch (error) {
@@ -22,7 +22,7 @@ export async function getObjectById(id: string): Promise<ObjectItem> {
     const data = await response.json();
     const object = data.objects.find((obj: ObjectItem) => obj.id === id);
 
-    console.log('Single object', object);
+    // console.log('Single object', object);
 
     if (!object) {
       throw new Error(`Object with ID ${id} not found`);
@@ -51,7 +51,7 @@ export async function getCategories(): Promise<Category[]> {
     const response =  await fetch("db.json");
     const data = await response.json();
 
-    console.log(data.categories );
+    // console.log(data.categories );
 
     return data.categories;
 
@@ -113,7 +113,7 @@ export async function updateObject(  id: string,  updatedData: Partial<ObjectIte
     //const object = data.objects.find((obj: ObjectItem) => updatedData);
     const object = data.objects.find((obj: ObjectItem) => obj.id === id);
 
-    console.log('Single object', object);
+    // console.log('Single object', object);
 
     if (!object) {
       throw new Error(`Object with ID ${id} not found`);
@@ -125,6 +125,7 @@ export async function updateObject(  id: string,  updatedData: Partial<ObjectIte
     throw error;
   }
 }
+
 
 export async function updateCategory(
   id: string,

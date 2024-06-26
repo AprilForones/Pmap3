@@ -55,7 +55,7 @@ function ObjectEditView({
               value="new_category"
               onClick={() => setNewCategoryModalOpen(true)}
             >
-              + Neue Kategorie
+              + Add Category
             </option>
           </select>
 
