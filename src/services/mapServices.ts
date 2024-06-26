@@ -51,9 +51,9 @@ export async function getCategories(): Promise<Category[]> {
     const response =  await fetch("db.json");
     const data = await response.json();
 
-    console.log(data.categor);
+    console.log(data.categories );
 
-    return data.Category;
+    return data.categories;
 
   } catch (error) {
     console.error("Error fetching categories:", error);
@@ -104,17 +104,14 @@ export async function deleteCategory(id: string): Promise<void> {
   }
 }
 
-export async function updateObject(
-  id: string,
-  updatedData: Partial<ObjectItem>
-): Promise<ObjectItem | null> {
+export async function updateObject(  id: string,  updatedData: Partial<ObjectItem>): Promise<ObjectItem | null> {
   try {
     // const response = await apiService.put(`/objects/${id}`, updatedData);
     // return response.data as ObjectItem;
     const response = await fetch("db.json");
     const data = await response.json();
     //const object = data.objects.find((obj: ObjectItem) => updatedData);
-    const object = data.objects.find((obj: ObjectItem) => obj.id === updatedData);
+    const object = data.objects.find((obj: ObjectItem) => obj.id === id);
 
     console.log('Single object', object);
 
@@ -139,7 +136,7 @@ export async function updateCategory(
 
     const response = await fetch("db.json");
     const data = await response.json();
-    const categor = data.categor.find((categ: Category) => categ.id === updatedData.id);
+    const categor = data.categories.find((categ: Category) => categ.id === updatedData.id);
 
     console.log('Single object', categor);
 
