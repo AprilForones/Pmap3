@@ -2,8 +2,8 @@
   --object-opacity: 0.1;
   --object-color: #c1c1c1;
   --object-oppacity-hover: 0.5;
-  --position-color: rgba(129, 129, 129, 0.557);
-  --path-color: #488af4;
+  --position-color: rgb(30, 255, 0);
+  --path-color: #02ff17;
 }
 
 .object {
@@ -24,7 +24,7 @@
 
 .position-active {
   opacity: 1;
-  fill: #4285f4;
+  fill: #02ff17;
 }
 
 .path {
@@ -36,7 +36,7 @@
 
 .path-once {
   opacity: 1;
-  stroke-width: 4;
+  stroke-width: 7;
   stroke-linecap: round;
   stroke-dasharray: 2338.5;
   stroke-dashoffset: 2338.5;
@@ -51,7 +51,7 @@
 
 .path-active {
   opacity: 1;
-  stroke-width: 4;
+  stroke-width: 7;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-dasharray: 10;
