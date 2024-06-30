@@ -13,8 +13,8 @@ function Positions({
   className,
   navigation,
 }: PositionsProps) {
-  const positionBackgroundColor = "#4285f4";
-  const positionBackgroundRadius = positionRadius + 7;
+  const positionBackgroundColor = "#02ff17";
+  const positionBackgroundRadius = positionRadius + 5;
   const positonBackgroundOpacity = 0.2;
   const startVertex = graphData.vertices.find(
     (v) => v.id === navigation?.start

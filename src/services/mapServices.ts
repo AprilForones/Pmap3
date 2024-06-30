@@ -104,7 +104,7 @@ export async function deleteCategory(id: string): Promise<void> {
   }
 }
 
-export async function updateObject(  id: string,  updatedData: Partial<ObjectItem>): Promise<ObjectItem | null> {
+export async function updateObject(  id: string,  _updatedData: Partial<ObjectItem>): Promise<ObjectItem | null> {
   try {
     // const response = await apiService.put(`/objects/${id}`, updatedData);
     // return response.data as ObjectItem;

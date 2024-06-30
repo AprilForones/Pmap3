@@ -3,7 +3,7 @@
     {
       "id": "a1b2",
       "categoryId": "e753",
-      "name": "FrontEntrance",
+      "name": "Front Entrance",
       "desc": "The Front entrance is located here and this is where the IT Department is Located."
     },
     {
@@ -33,14 +33,14 @@
     {
       "id": "f6g7",
       "categoryId": "e928",
-      "name": "CELA DEP",
-      "desc": " Used by Medical Students"
+      "name": "CELA DEPARTMENT",
+      "desc": " Used by Medical Students."
     },
     {
       "id": "g7h8",
       "categoryId": "d21e",
       "name": "GYMNASIUM",
-      "desc": "School Gymnasium"
+      "desc": "School Gymnasium."
     },
     {
       "id": "h8i9",
@@ -88,37 +88,67 @@
       "id": "p6q7",
       "categoryId": "17b0",
       "name": "MBA Hall",
-      "desc": "Fashion and quality at the best price"
+      "desc": "Fashion and quality at the best price."
     },
     {
       "id": "q7r8",
       "categoryId": "e928",
       "name": "Riverside Bldg",
-      "desc": "Building used by Medical Students"
+      "desc": "Building used by Medical Students."
     },
     {
       "id": "q8r9",
       "categoryId": "e928",
-      "name": "Finance Purchasing Dep/Teller",
-      "desc": "Building for financial business"
+      "name": "Teller",
+      "desc": "Building for Teller."
+    },
+    {
+      "id": "r9y9",
+      "categoryId": "e928",
+      "name": "Finance Purchasing Department",
+      "desc": "Building for financial business."
     },
     {
       "id": "q9r9",
       "categoryId": "58a9",
       "name": "Atrium",
-      "desc": "Atrium Between PTC and CMA"
+      "desc": "Atrium Between PTC and CMA."
     },
     {
-      "id": "q8r9",
+      "id": "a4z8",
       "categoryId": "e928",
       "name": "Registrar Office",
-      "desc": "Registar's office"
+      "desc": "Registar's office."
     },
     {
       "id": "q1r9",
       "categoryId": "e928",
       "name": "CMA HALL",
-      "desc": "CMA HALL"
+      "desc": "CMA HALL."
+    },
+    {
+      "id": "c2v2",
+      "categoryId": "17b0",
+      "name": "Vehicle Entrance",
+      "desc": "Vehicle Entrance."
+    },
+    {
+      "id": "m2m2",
+      "categoryId": "17b0",
+      "name": "Pedistrian Entrance/Exit",
+      "desc": "Pedistrian Entrance/Exit."
+    },
+    {
+      "id": "f7h9",
+      "categoryId": "e928",
+      "name": "OP",
+      "desc": "OP/Marketing department."
+    },
+    {
+      "id": "n5o6",
+      "categoryId": "a191",
+      "name": "Old Stage",
+      "desc": "Phinma Garden's Olden Stage."
     }
   ],
   "categories": [
@@ -144,7 +174,7 @@
     },
     {
       "id": "a191",
-      "name": "Old Stage "
+      "name": "Old Stage"
     },
     {
       "id": "87b0",

@@ -36,7 +36,7 @@
 
 .path-once {
   opacity: 1;
-  stroke-width: 7;
+  stroke-width: 3;
   stroke-linecap: round;
   stroke-dasharray: 2338.5;
   stroke-dashoffset: 2338.5;
@@ -51,10 +51,10 @@
 
 .path-active {
   opacity: 1;
-  stroke-width: 7;
+  stroke-width: 3;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-dasharray: 10;
+  stroke-dasharray: 5;
   animation: march 3s linear infinite reverse;
 }
 

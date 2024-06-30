@@ -10,10 +10,10 @@ interface ObjectDetailsViewProps {
 
 function ObjectDetailsView({
   object,
-  handleEditClick,
+  //handleEditClick,
   objectNavigation,
 }: ObjectDetailsViewProps) {
-  const isEditable = import.meta.env.PROD ? false : true;
+  //const isEditable = import.meta.env.PROD ? false : true;
   return (
     <>
       <DialogHeader>
@@ -33,7 +33,8 @@ function ObjectDetailsView({
             <FiNavigation />
           </button>
         </div>
-        {isEditable && (
+        {/* {isEditable && 
+        (
           <button
             className="text-blue-500 border-0 bg-inherit outline-none"
             onClick={handleEditClick}
@@ -41,7 +42,7 @@ function ObjectDetailsView({
           >
             Edit
           </button>
-        )}
+        )} */}
       </DialogBody>
     </>
   );

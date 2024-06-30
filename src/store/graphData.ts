@@ -3,7 +3,7 @@ export interface VertexData {
   objectName: string | null;
   cx: number;
   cy: number;
-  r: number,
+
 }
 
 export interface EdgeData {
@@ -17,236 +17,298 @@ export interface GraphData {
 }
 export const graphData: GraphData = {
   vertices: [
-    { id: "v1", objectName: null, cx: 186.5, cy: 906.5, r: 30 },//Entrance Vehicle
-    { id: "v2", objectName: "null", cx: 697, cy: 905 , r: 30  },
-    { id: "v3", objectName: null, cx: 1144, cy: 905 , r: 30  }, //basic ed
-    { id: "v4", objectName: "BASIC ED BLDG", cx: 1145.5, cy: 763.5 , r: 30  },
-    { id: "v5", objectName: null, cx: 1459, cy: 908 , r: 30  }, //cela dept
-    { id: "v6", objectName: "CELA DEP", cx: 1457.5, cy: 751.5 , r: 30  },
-    { id: "v7", objectName: "null", cx: 1663, cy: 903 , r: 30  },
-    { id: "v8", objectName: null, cx: 2063, cy: 898 , r: 30  },//gym
-    { id: "v9", objectName: "GYMNASIUM", cx: 2063.5, cy: 745.5 , r: 30  },
-    { id: "v10", objectName: "null", cx: 2623, cy: 907 , r: 30  },
-    { id: "v11", objectName: null, cx: 2623, cy: 605 , r: 30  },//engineering building
-    { id: "v12", objectName: "Engineering Bldg.", cx: 2622.5, cy: 506.5  , r: 30 },
-    { id: "v13", objectName: "null", cx: 545, cy: 1133  , r: 30 },
-    { id: "v14", objectName: "null", cx: 697, cy: 1128  , r: 30 },
-    { id: "v15", objectName: "null", cx: 828, cy: 1131 , r: 30 },
-    { id: "v16", objectName: null, cx: 1148, cy: 1124, r: 30  },//v_parking
-    { id: "v17", objectName: "VEHICLE PARKING", cx: 1145.5, cy: 1231.5 , r: 30  },
-    { id: "v18", objectName: null, cx: 2059, cy: 1123 , r: 30  },//p_ave
-    { id: "v19", objectName: "null", cx: 828, cy: 1240 , r: 30 },
-    { id: "v20", objectName: "PHINMA AVE", cx: 2063.5, cy: 1231.5 , r: 30 },
-    { id: "v21", objectName: null, cx: 2619, cy: 1230 , r: 30 }, //mbahall
-    { id: "v22", objectName: "MBA Hall", cx: 2870.5, cy: 1240.5 , r: 30 },
-    { id: "v23", objectName: "null", cx: 3268, cy: 1227 , r: 30 },
-    { id: "v24", objectName: null , cx: 3263, cy: 1074 , r: 30  },//riverside
-    { id: "v25", objectName: "Riverside Bldg", cx: 3256.5, cy: 928.5 , r: 30 },
-    { id: "v26", objectName: null, cx: 3605.5, cy: 1240.5 , r: 30 },//v_entrsceexit
-    //{ id: "v27", objectName: "null", cx: 3605.5, cy: 1240.5 , r: 30 },//v_entrsceexit
-    { id: "v28", objectName: "null", cx: 833, cy: 1371 , r: 30 },
-    { id: "v29", objectName: null, cx: 1149, cy: 1371 , r: 30 },//fvr
-    { id: "v30", objectName: "FVR BLDG", cx:1146.5, cy: 1508.5 , r: 30 },
-    { id: "v31", objectName: null, cx: 2066, cy: 1381 , r: 30 },//sp front
-    { id: "v32", objectName: "FrontEntrance", cx: 480.5, cy: 1508.5 , r: 30 },
-    { id: "v33", objectName: null, cx: 548, cy: 1507 , r: 30 }, //f_entrance
-    { id: "v34", objectName: null, cx: 545, cy: 1711 , r: 30 }, //atrium
-    { id: "v35", objectName: null, cx: 673, cy: 1706 , r: 30 },//its
-    { id: "v36", objectName: "CSDL/ITS BLDG", cx: 675.5, cy: 1605.5 , r: 30 },
-    { id: "v37", objectName: "null", cx: 811, cy: 1706 , r: 30 },
-    { id: "v38", objectName: "OP", cx:1003.5, cy: 1824.5 , r: 30 },
-    { id: "v39", objectName: "Registrar Office", cx: 1282.5, cy: 1834.5 , r: 30 },
-    { id: "v40", objectName: "Finance Purchasing Dep/Teller", cx: 1512.5, cy: 1834.5 , r: 30 },
-    { id: "v41", objectName: "CMA HALL", cx: 1665.5, cy: 1658.5 , r: 30 },
-    { id: "v42", objectName: null, cx: 1760, cy: 1662 , r: 30 },//sp_left
-    { id: "v43", objectName: "STUDENT PLAZA", cx: 2063.5, cy: 1658.5 , r: 30 },
-    { id: "v44", objectName: null, cx: 2617, cy: 1662  , r: 30}, //sp_mba
-    { id: "v45", objectName: null , cx: 548, cy: 1911 , r: 30},//atruimL
-    { id: "v46", objectName: "Atrium", cx: 813.5, cy: 1915.5 , r: 30},
-    { id: "v47", objectName: null, cx: 1004, cy: 1920 , r: 30},//op
-    { id: "v48", objectName: null, cx: 1283, cy: 1920 , r: 30},//registrar
-    { id: "v49", objectName: null, cx: 1515, cy: 1920 , r: 30},//teller-cma
-    { id: "v50", objectName: null, cx: 1663, cy: 1920 , r: 30},//cma hall
-    { id: "v51", objectName: null, cx: 2059, cy: 1860 , r: 30}, //sp-pf
-    { id: "v52", objectName: "CMA BLDG", cx: 1512.5, cy: 2209.5 , r: 30},
-    { id: "v53", objectName: null, cx: 1668, cy: 2205 , r: 30},//CMA_PF
-    { id: "v54", objectName: "null", cx: 1760, cy: 2205 , r: 30},
-    { id: "v55", objectName: null, cx: 2066, cy: 2210 , r: 30},//pf
-    { id: "v56", objectName: "PHINMA FOREST", cx: 2063.5, cy: 2098.5 , r: 30},
-    { id: "v57", objectName: null, cx: 2615, cy: 2089 , r: 30},//mbahall_pf
-    { id: "v58", objectName: "MBA Hall", cx: 2870.5, cy: 2098.5  , r: 30},
-    { id: "v59", objectName: null, cx: 2071, cy: 2796 , r: 30},//nh_pf
-    { id: "v60", objectName: null, cx: 1668, cy: 2788, r: 30},//nh
-    { id: "v61", objectName: null, cx: 1271, cy: 2791 , r: 30},//TVB
-    { id: "v62", objectName:"Technical Vocational Bldg.", cx:1268.5, cy: 2850.5 , r: 30},//Technical Vocational Bldg
-    { id: "v63", objectName: "NORTH HALL", cx: 1661.5, cy: 2848.5 , r: 30},//"NORTH HALL"
-    { id: "v64", objectName: "NORTH HALL", cx: 2063.5 , cy: 2851.5  , r: 30},//"NORTH HALL"
-    { id: "v65", objectName: "null", cx: 1664, cy: 1123 , r: 30},
-    { id: "v66", objectName: "null", cx: 1669, cy: 1373 , r: 30},
+    //visible for change position, Yellow color base on map sample
+    { id: "v1", objectName: null, cx: 101, cy: 116},//Entrance Vehicle
+    { id: "v2", objectName: null, cx: 175, cy: 116},//basic ed
+    { id: "v3", objectName: null, cx: 228, cy: 116},//cela
+    { id: "v4", objectName: null, cx: 306, cy: 116},//gym
+    { id: "v5", objectName: null, cx: 382, cy: 77},//Eng Bldg
+    { id: "v6", objectName: null, cx: 382, cy: 144},//mba hall
+    { id: "v7", objectName: null, cx: 306, cy: 144},//p ave
+    { id: "v8", objectName: null, cx: 175, cy: 144},//v parking
+    { id: "v9", objectName: null, cx: 175, cy: 180},//fvr
+    { id: "v10", objectName: null, cx: 228, cy: 180},//finance
+    { id: "v11", objectName: null, cx: 251, cy: 180},//cma
+    { id: "v12", objectName: null, cx: 307, cy: 180},//sp upper
+    { id: "v13", objectName: null, cx: 257, cy: 205},//sp left
+   // { id: "v14", objectName: null, cx: 251, cy: 180},//cma
+    { id: "v15", objectName: null, cx: 377, cy: 205},//sp right
+    { id: "v16", objectName: null, cx: 389, cy: 205},//mba-sp
+    { id: "v17", objectName: null, cx: 49, cy: 218},//ptc
+    { id: "v18", objectName: null, cx: 136, cy: 225},//op left
+    { id: "v19", objectName: null, cx: 113, cy: 225},//its
+    { id: "v20", objectName: null, cx: 154, cy: 261},//op-atrium
+    { id: "v21", objectName: null, cx: 201, cy: 261},//registrar-atrium
+    { id: "v22", objectName: null, cx: 228, cy: 256},//teller
+    { id: "v23", objectName: null, cx: 228, cy: 265},//cma
+    { id: "v24", objectName: null, cx: 307, cy: 258},//sp-forest
+    { id: "v25", objectName: null, cx: 382, cy: 282},//mba-pf
+    { id: "v26", objectName: null, cx: 245, cy: 299},//cma-cmahall
+    { id: "v27", objectName: null, cx: 257, cy: 299},//cma-pf
+    { id: "v28", objectName: null, cx: 251, cy: 373},//cmanh
+    { id: "v29", objectName: null, cx: 204, cy: 380},//techvoc
+    { id: "v30", objectName: null, cx: 383, cy: 380},//nh mba oldstage
+    { id: "v31", objectName: null, cx: 307, cy: 372},//cmanh
+    { id: "v32", objectName: null, cx: 473, cy: 144},//riverside
+    { id: "v33", objectName: null, cx: 508, cy: 144},//Pedistrian
+    { id: "v34", objectName: null, cx: 382, cy: 282},//old stage
+   
+    //Objects, Green Circles
+    { id: "v35", objectName: "Vehicle Entrance", cx: 94, cy: 116},//Entrance Vehicle
+    { id: "v36", objectName: "BASIC ED BLDG", cx: 175, cy: 107},//Basic Ed
+    { id: "v37", objectName: "CELA DEPARTMENT", cx: 228, cy: 106},//CELA
+    { id: "v38", objectName: "GYMNASIUM", cx: 306, cy: 105},//GYM
+    { id: "v39", objectName: "Engineering Bldg.", cx: 382, cy: 68},//ENG BLDG
+    { id: "v40", objectName: "MBA Hall", cx: 382, cy: 151},//MBA HALL
+    { id: "v41", objectName: "Pedistrian Entrance/Exit", cx: 498, cy: 144},//Pedestrian Entrance/Exit
+    { id: "v42", objectName: "Riverside Bldg", cx: 473, cy: 134},//Riverside Bldg
+    { id: "v43", objectName: "MBA Hall", cx: 391, cy: 282},//MBA Hall-PForest
+    { id: "v44", objectName: "MBA Hall", cx: 391, cy: 380},//MBA HALL-oldstage
+    { id: "v45", objectName: "Old Stage", cx: 382, cy: 362},//Old stage
+    { id: "v46", objectName: "PHINMA AVE", cx: 306, cy: 151},//Phinma Ave
+    { id: "v47", objectName: "VEHICLE PARKING", cx: 175, cy: 151},//Vehicle Parking
+    { id: "v48", objectName: "Front Entrance", cx: 33, cy: 218},//PTC Bldg
+    { id: "v49", objectName: "CSDL/ITS BLDG", cx: 113, cy: 218},//ITS
+    { id: "v50", objectName: "FVR BLDG", cx: 175, cy: 186},//FVR
+    { id: "v51", objectName: "Finance Purchasing Department", cx: 228, cy: 186},//Finance
+    { id: "v52", objectName: "OP", cx: 154, cy: 249},//OP
+    { id: "v53", objectName: "OP", cx: 136, cy: 235},//OP
+    { id: "v54", objectName: "Registrar Office", cx: 201, cy: 249},//Registrar
+    { id: "v55", objectName: "CMA HALL", cx: 251, cy: 186},//CMA HALL
+    { id: "v56", objectName: "STUDENT PLAZA", cx: 263, cy: 205},//SP Left
+    { id: "v57", objectName: "STUDENT PLAZA", cx: 307, cy: 188},//SP Upper
+    { id: "v58", objectName: "CMA HALL", cx: 240, cy: 299},//CMA Left
+    { id: "v59", objectName: "CMA HALL", cx: 228, cy: 270},//CMA upper
+    { id: "v60", objectName: "Atrium", cx: 94, cy: 229},//PTC-Artium
+    { id: "v61", objectName: "Atrium", cx: 113, cy: 261},//Artium
+    { id: "v62", objectName: "PHINMA FOREST", cx: 262, cy: 299},//PGarden  Left
+    { id: "v63", objectName: "PHINMA FOREST", cx: 307, cy: 252},//PGarden  upper
+    { id: "v64", objectName: "PHINMA FOREST", cx: 307, cy: 252},//PGarden  upper
+    { id: "v65", objectName: "NORTH HALL", cx: 307, cy: 379},//NH Right
+    { id: "v66", objectName: "NORTH HALL", cx: 251, cy: 380},//NH Left
+    { id: "v67", objectName: "Technical Vocational Bldg.", cx: 197, cy: 380},//TechVoc
+    { id: "v68", objectName: "STUDENT PLAZA", cx: 371, cy: 205},//SP Right
+    { id: "v69", objectName: "STUDENT PLAZA", cx: 395, cy: 205},//SP Right-MB HALL
+    { id: "v70", objectName: "CMA HALL", cx: 251, cy: 261},//CMA HALL
+    { id: "v71", objectName: "Teller", cx: 228, cy: 250},//Teller
+    
+    //Gray circles (not to be showned or "null")
+    { id: "v72", objectName: "Null", cx: 136, cy: 116},//Basic ed
+    { id: "v73", objectName: "Null", cx: 251, cy: 116},//cela-gym
+    { id: "v74", objectName: "Null", cx: 382, cy: 116},//gym-mba
+    { id: "v75", objectName: "Null", cx: 383, cy: 205},//SP-MBA
+    { id: "v76", objectName: "Null", cx: 306, cy: 204},//SP inside
+    { id: "v77", objectName: "Null", cx: 307, cy: 363},//PF-nh-old stage
+    { id: "v78", objectName: "Null", cx: 307, cy: 282},//PF-nh-old stage
+    { id: "v79", objectName: "Null", cx: 251, cy: 299},//cma-pf-cma
+    { id: "v80", objectName: "Null", cx: 307, cy: 298},//PF
+    { id: "v81", objectName: "Null", cx: 307, cy: 354},//PF
+    { id: "v82", objectName: "Null", cx: 94, cy: 152},//Ptc upper
+    { id: "v83", objectName: "Null", cx: 135, cy: 151},//ITS upper
+    { id: "v84", objectName: "Null", cx: 136, cy: 186},//ITS -fvr
+    { id: "v85", objectName: "Null", cx: 136, cy: 218},//ITS -fvr
+    { id: "v86", objectName: "Null", cx: 136, cy: 261},//Atruim
+    { id: "v87", objectName: "Null", cx: 154, cy: 261},//Atruim-OP
+    { id: "v88", objectName: "Null", cx: 94, cy: 261},//Atruim-ptc
+    { id: "v90", objectName: "Null", cx: 94, cy: 218},//Atruim-ptc-Its
+    { id: "v91", objectName: "Null", cx: 288, cy: 261},//Atruim-teller-cma
+    { id: "v92", objectName: "Null", cx: 251, cy: 261},//teller-cma
+    { id: "v93", objectName: "Null", cx: 251, cy: 205},//cma-sp
+    { id: "v94", objectName: "Null", cx: 383, cy: 188},//mba sp
+    { id: "v95", objectName: "Null", cx: 251, cy: 144},//parking - ave
   ],
-
   edges: [
-    { id: "v1_to_v2", from: "v1", to: "v2" },
-    { id: "v2_to_v1", from: "v2", to: "v1" },
-    { id: "v2_to_v3", from: "v2", to: "v3" },
-    { id: "v2_to_v14", from: "v2", to: "v14" },
-    { id: "v3_to_v2", from: "v3", to: "v2" },
-    { id: "v3_to_v16", from: "v3", to: "v16" },
-    { id: "v3_to_v4", from: "v3", to: "v4" },
-    //{ id: "v4_to_v3", from: "v4", to: "v3" },
-    { id: "v3_to_v5", from: "v3", to: "v5" },
-    { id: "v5_to_v6", from: "v5", to: "v6" },
-    //{ id: "v6_to_v5", from: "v6", to: "v5" },
-    { id: "v5_to_v7", from: "v5", to: "v7" },
-    { id: "v7_to_v8", from: "v7", to: "v8" },
-    { id: "v7_to_v50", from: "v7", to: "v50" },
-    { id: "v8_to_v9", from: "v8", to: "v9" },
-    { id: "v8_to_v20", from: "v8", to: "v20" },
-    //{ id: "v9_to_v8", from: "v9", to: "v8" },
-    { id: "v8_to_v10", from: "v8", to: "v10" },
-    { id: "v8_to_v18", from: "v8", to: "v18" },
-    { id: "v8_to_v31", from: "v8", to: "v31" },
-    { id: "v10_to_v11", from: "v10", to: "v11" },
-    { id: "v10_to_v21", from: "v10", to: "v21" },
-    { id: "v11_to_v10", from: "v11", to: "v10" },
-    { id: "v11_to_v12", from: "v11", to: "v12" },
-    //{ id: "v12_to_v11", from: "v12", to: "v11" },
-    { id: "v13_to_v14", from: "v13", to: "v14" },
-    { id: "v13_to_v33", from: "v13", to: "v33" },
-    { id: "v14_to_v13", from: "v14", to: "v13" },
-    { id: "v14_to_v2", from: "v14", to: "v2" },
-    { id: "v14_to_v15", from: "v14", to: "v15" },
-    { id: "v15_to_v14", from: "v15", to: "v14" },
-    { id: "v15_to_v16", from: "v15", to: "v16" },
-    { id: "v16_to_v15", from: "v16", to: "v15" },
-    { id: "v16_to_v17", from: "v16", to: "v17" },
-    { id: "v16_to_v29", from: "v16", to: "v29" },
-    { id: "v16_to_v30", from: "v16", to: "v30" },
-    { id: "v16_to_v18", from: "v16", to: "v18" },
-    //{ id: "v17_to_v16", from: "v17", to: "v16" },
-    { id: "v18_to_v16", from: "v18", to: "v16" },
-    { id: "v18_to_v31", from: "v18", to: "v31" },
-    { id: "v18_to_v20", from: "v18", to: "v20" },
-    { id: "v18_to_v65", from: "v18", to: "v65" },
-    { id: "v19_to_v20", from: "v19", to: "v20" },
-    { id: "v20_to_v21", from: "v20", to: "v21" },
-    { id: "v20_to_v31", from: "v20", to: "v31" },
-    { id: "v20_to_v22", from: "v20", to: "v22" },
-    { id: "v20_to_v51", from: "v20", to: "v51" },
-    { id: "v21_to_v22", from: "v21", to: "v22" },
-    { id: "v21_to_v23", from: "v21", to: "v23" },
-    { id: "v23_to_v26", from: "v23", to: "v26" },
-    { id: "v23_to_v22", from: "v23", to: "v22" },
-    { id: "v24_to_v23", from: "v24", to: "v23" },
-    { id: "v24_to_v25", from: "v24", to: "v25" },
-    { id: "v26_to_v23", from: "v26", to: "v23" },
-    { id: "v28_to_v19", from: "v28", to: "v19" },
-    { id: "v28_to_v29", from: "v28", to: "v29" },
-    { id: "v28_to_v37", from: "v28", to: "v37" },
-    { id: "v29_to_v31", from: "v29", to: "v31" },
-    { id: "v29_to_v30", from: "v29", to: "v30" },
-    { id: "v31_to_v43", from: "v31", to: "v43" },
-    { id: "v31_to_v29", from: "v31", to: "v29" },
-    { id: "v31_to_v20", from: "v31", to: "v20" },
-    { id: "v31_to_v8", from: "v31", to: "v8" },
-    { id: "v32_to_v33", from: "v32", to: "v33" },
-    { id: "v33_to_v13", from: "v33", to: "v13" },
-    { id: "v33_to_v34", from: "v33", to: "v34" },
-    { id: "v33_to_v45", from: "v33", to: "v45" },
-    { id: "v34_to_v13", from: "v34", to: "v13" },
-    { id: "v34_to_v33", from: "v34", to: "v33" },
-    { id: "v34_to_v35", from: "v34", to: "v35" },
-    { id: "v34_to_v37", from: "v34", to: "v37" },
-    { id: "v34_to_v45", from: "v34", to: "v45" },
-    { id: "v45_to_v34", from: "v45", to: "v34" },
-    { id: "v35_to_v36", from: "v35", to: "v36" },
-    { id: "v37_to_v35", from: "v37", to: "v35" },
-    { id: "v37_to_v28", from: "v37", to: "v28" },
-    { id: "v37_to_v46", from: "v37", to: "v46" },
-    { id: "v41_to_v42", from: "v41", to: "v42" },
-    { id: "v41_to_v31", from: "v41", to: "v50" },
-    { id: "v42_to_v43", from: "v42", to: "v43" },
-    { id: "v43_to_v42", from: "v43", to: "v42" },
-    { id: "v43_to_v31", from: "v43", to: "v31" },
-    { id: "v43_to_v44", from: "v43", to: "v44" },
-    { id: "v43_to_v51", from: "v43", to: "v51" },
-    { id: "v44_to_v42", from: "v44", to: "v42" },
-    { id: "v44_to_v57", from: "v44", to: "v57" },
-    { id: "v44_to_v21", from: "v44", to: "v21" },
-    { id: "v45_to_v47", from: "v45", to: "v47" },
-    { id: "v45_to_v33", from: "v45", to: "v33" },
-    { id: "v45_to_v48", from: "v45", to: "v48" },
-    { id: "v45_to_v49", from: "v45", to: "v49" },
-    { id: "v45_to_v45", from: "v45", to: "v50" },
-    { id: "v46_to_v45", from: "v46", to: "v45" },
-    { id: "v46_to_v47", from: "v46", to: "v47" },
-    { id: "v46_to_v48", from: "v46", to: "v48" },
-    { id: "v46_to_v49", from: "v46", to: "v49" },
-    { id: "v46_to_v50", from: "v46", to: "v50" },
-    { id: "v47_to_v46", from: "v47", to: "v46" },
-    { id: "v47_to_v38", from: "v47", to: "v38" },
-    { id: "v48_to_v39", from: "v48", to: "v39" },
-    { id: "v48_to_v46", from: "v48", to: "v46" },
-    { id: "v49_to_v40", from: "v49", to: "v40" },
-    { id: "v49_to_v46", from: "v49", to: "v46" },
-    { id: "v49_to_v52", from: "v49", to: "v52" },
-    { id: "v50_to_v41", from: "v50", to: "v41" },
-    { id: "v50_to_v49", from: "v50", to: "v49" },
-    { id: "v50_to_v46", from: "v50", to: "v46" },
-    { id: "v50_to_v53", from: "v53", to: "v53" },
-    { id: "v51_to_v43", from: "v50", to: "v46" },
-    { id: "v51_to_v56", from: "v51", to: "v56" },
-   // { id: "v51_to_v57", from: "v51", to: "v57" },
-    { id: "v51_to_v55", from: "v51", to: "v55" },
-    { id: "v51_to_v20", from: "v51", to: "v20" },
-    { id: "v53_to_v50", from: "v53", to: "v50" },
-    { id: "v53_to_v44", from: "v53", to: "v44" },
-    { id: "v53_to_v54", from: "v53", to: "v54" },
-    { id: "v53_to_v60", from: "v53", to: "v60" },
-    { id: "v54_to_v53", from: "v54", to: "v53" },
-    { id: "v54_to_v55", from: "v54", to: "v55" },
-    { id: "v55_to_v56", from: "v55", to: "v56" },
-    { id: "v55_to_v64", from: "v55", to: "v64" },
-    { id: "v55_to_v59", from: "v55", to: "v59" },
-    { id: "v56_to_v51", from: "v56", to: "v51" },
-    { id: "v56_to_v55", from: "v56", to: "v55" },
-    { id: "v56_to_v64", from: "v56", to: "v64" },
-    { id: "v57_to_v56", from: "v57", to: "v56" },
-    { id: "v57_to_v58", from: "v57", to: "v58" },
-    { id: "v57_to_v44", from: "v57", to: "v44" },
-    { id: "v58_to_v56", from: "v58", to: "v56" },
-    { id: "v58_to_v57", from: "v58", to: "v57" },
-    { id: "v59_to_v55", from: "v59", to: "v55" },
-    { id: "v59_to_v51", from: "v59", to: "v51" },
-    { id: "v59_to_18", from: "v59", to: "v18" },
-    { id: "v59_to_v20", from: "v59", to: "v20" },
-    { id: "v59_to_v61", from: "v59", to: "v61" },
-    { id: "v59_to_v64", from: "v59", to: "v64" },
-    { id: "v59_to_v31", from: "v59", to: "v31" },
-    { id: "v59_to_v8", from: "v59", to: "v8" },
-    { id: "v60_to_v63", from: "v60", to: "v63" },
-    { id: "v60_to_v53", from: "v60", to: "v53" },
-    { id: "v60_to_v59", from: "v60", to: "v59" },
-    { id: "v60_to_v50", from: "v60", to: "v50" },
-    { id: "v60_to_v61", from: "v60", to: "v61" },
-    { id: "v60_to_v7", from: "v60", to: "v7" },
-    { id: "v61_to_v59", from: "v61", to: "v59" },
-    { id: "v61_to_v60", from: "v61", to: "v60" },
-    { id: "v61_to_v62", from: "v61", to: "v62" },
-    //{ id: "v61_to_v60", from: "v61", to: "v60" },
-    { id: "v65_to_v7", from: "v65", to: "v7" },
-    { id: "v7_to_65", from: "v7", to: "v65" },
-    { id: "v65_to_64", from: "v65", to: "v64" },
-    { id: "v65_to_v16", from: "v65", to: "v16" },
-    { id: "v65_to_v18", from: "v65", to: "v18" },
-    { id: "v65_to_v50", from: "v65", to: "v50" },
-    { id: "v65_to_53", from: "v65", to: "v53" },
-    { id: "v65_to_v60", from: "v65", to: "v60" },
-    { id: "v66_to_53", from: "v66", to: "v53" },
-    { id: "v66_to_v60", from: "v66", to: "v60" },
-    { id: "v66_to_v29", from: "v66", to: "v29" },
-    { id: "v66_to_v31", from: "v66", to: "v31" },
-    { id: "v66_to_v50", from: "v65", to: "v50" },
+    { id: "v1_to_v72", from: "v1", to: "v72" },//ev-null
+    { id: "v72_to_v83", from: "v72", to: "v83" },//null-null
+    { id: "v72_to_v84", from: "v72", to: "v84" },//null-null
+    { id: "v72_to_v53", from: "v72", to: "v53" },//null-obj op left
+    { id: "v72_to_v2", from: "v72", to: "v2" },//null-basic ed
+    { id: "v72_to_v35", from: "v72", to: "v35" },//null-obj.ev
+    { id: "v1_to_v2", from: "v1", to: "v2" },//ev-basic
+    { id: "v1_to_v3", from: "v1", to: "v3" },//ev-cela
+    { id: "v1_to_v73", from: "v1", to: "v2" },//ev-null
+    { id: "v1_to_v4", from: "v1", to: "v2" },//ev-gym
+    { id: "v1_to_v74", from: "v1", to: "v2" },//ev-null
+    
+    { id: "v2_to_v36", from: "v2", to: "v36" },//basic-obj.ed
+    { id: "v2_to_v47", from: "v2", to: "v47" },//basic-obj.parking
+    { id: "v2_to_v72", from: "v2", to: "v72" },//basic-null
+    { id: "v2_to_v35", from: "v2", to: "v35" },//basic-obj.ev
+    { id: "v2_to_v50", from: "v2", to: "v50" },//basic-obj.fvr
+    { id: "v2_to_v3", from: "v2", to: "v3" },//basic-cela
+    { id: "v2_to_v73", from: "v2", to: "v73" },//basic-null
+    { id: "v2_to_v4", from: "v2", to: "v4" },//basic-gym
+    { id: "v2_to_v74", from: "v2", to: "v74" },//basic-null
+  
+    { id: "v3_to_v37", from: "v3", to: "v37" },//cela-obj.cela
+    { id: "v3_to_v2", from: "v3", to: "v2" },//cela-basic
+    { id: "v3_to_v72", from: "v3", to: "v72" },//cela-null
+    { id: "v3_to_v35", from: "v23", to: "v35" },//cela-ev
+    { id: "v3_to_v73", from: "v3", to: "v73" },//cela-null
+    { id: "v3_to_v4", from: "v3", to: "v4" },//cela-gym
+    { id: "v3_to_v74", from: "v3", to: "v74" },//cela-null
+    { id: "v3_to_v51", from: "v3", to: "v51" },//cela-finance
+   
+    { id: "v4_to_v38", from: "v4", to: "v38" },//gym-obj.gym
+    { id: "v4_to_v74", from: "v4", to: "v74" },//gym-null
+    { id: "v4_to_v72", from: "v4", to: "v72" },//gym-null
+    { id: "v4_to_v3", from: "v4", to: "v3" },//gym-cela
+    { id: "v4_to_v2", from: "v4", to: "v2" },//gym-basic
+    { id: "v4_to_v73", from: "v4", to: "v73" },//gym-null
+    { id: "v4_to_v35", from: "v4", to: "v35" },//gym-ev
+    { id: "v4_to_v46", from: "v4", to: "v46" },//gym-obj.ave
+    //{ id: "v4_to_v12", from: "v4", to: "v12" },//gym-sp upper // not function
+    { id: "v4_to_v63", from: "v4", to: "v63" },//gym-obj.pf //not function
+    { id: "v4_to_v65", from: "v4", to: "v65" },//gym-obj.nh
+    { id: "v4_to_v12", from: "v4", to: "v57" },//gym-obj.sp
+    //{ id: "v4_to_v7", from: "v4", to: "v7" },//gym-obj.nh
+   
+    { id: "v74_to_v39", from: "v74", to: "v39" },//null-obj.eng
+    { id: "v74_to_v4", from: "v74", to: "v4" },//null-gym
+    { id: "v74_to_v37", from: "v74", to: "v3" },//null-cela
+    { id: "v74_to_v36", from: "v74", to: "v2" },//null-basic
+    { id: "v74_to_v35", from: "v74", to: "v35" },//null-obj.ev
+    { id: "v74_to_v73", from: "v74", to: "v73" },//null-null
+    { id: "v74_to_v72", from: "v74", to: "v72" },//null-null
+    { id: "v74_to_v40", from: "v74", to: "v40" },//null-obj.mbahall
+    { id: "v74_to_v94", from: "v74", to: "v94" },//null-null
+    { id: "v74_to_v75", from: "v74", to: "v75" },//null-null
+    { id: "v74_to_v25", from: "v74", to: "v25" },//null-mbapf
+    { id: "v74_to_v45", from: "v74", to: "v45" },//null-obj.oldstage
+   
+    { id: "v5_to_v74", from: "v5", to: "v74" },//eng-null
+    { id: "v5_to_v39", from: "v5", to: "v39" },//eng-obj.eng
+    { id: "v5_to_v40", from: "v5", to: "v40" },//eng-obj.mba
+    { id: "v5_to_v94", from: "v5", to: "v40" },//eng-null
+    { id: "v5_to_v75", from: "v5", to: "v75" },//eng-null
+    { id: "v5_to_v25", from: "v5", to: "v25" },//eng-mbapf
+    { id: "v5_to_v45", from: "v5", to: "v45" },//eng-obj.oldstage
+   
+    { id: "v6_to_v40", from: "v6", to: "v40" },//mba hall-obj.mba
+    { id: "v6_to_v32", from: "v6", to: "v32" },//mba hall-riverside
+    { id: "v6_to_v7", from: "v6", to: "v7" },//mba hall-p ave
+    { id: "v6_to_v8", from: "v6", to: "v8" },//mba hall-p parking
+    { id: "v6_to_v94", from: "v6", to: "v94" },//mba hall-mbasp
+    { id: "v6_to_v75", from: "v6", to: "v75" },//mba hall-spmba
+    { id: "v6_to_v25", from: "v6", to: "v25" },//mba hall-mbapf
+     { id: "v6_to_v74", from: "v6", to: "v74" },//-mba hall- null
+
+    { id: "v7_to_v46", from: "v7", to: "v46" },//p ave-obj.p ave
+    { id: "v7_to_v12", from: "v7", to: "v12" },//p ave-sp upper
+    { id: "v7_to_v57", from: "v7", to: "v57" },//gym-obj.nh
+    { id: "v7_to_v6", from: "v7", to: "v6" },//p ave-obj.mba hall
+    { id: "v7_to_v95", from: "v7", to: "v95" },//p ave-null
+   
+    { id: "v8_to_v47", from: "v8", to: "v47" },//p ave-obj p ave
+    { id: "v8_to_v6", from: "v8", to: "v6" },//p ave-mbha hall   
+    { id: "v95_to_v8", from: "v95", to: "v8" },//null-vparking
+    { id: "v8_to_v2", from: "v8", to: "v2" },//parking-basic
+    //{ id: "v8_to_v83", from: "v8", to: "v83" },//parking-null
+    { id: "v83_to_v84", from: "v83", to: "v84" },//null-null
+    { id: "v84_to_v50", from: "v84", to: "v50" },//null-obj fvr
+    { id: "v8_to_v50", from: "v8", to: "v50" },//parking-obj fvr
+    { id: "v8_to_v95", from: "v8", to: "v95" },//parking-null
+    { id: "v8_to_v7", from: "v8", to: "v7" },//parking-mba hall
+    //{ id: "v8_to_v4", from: "v8", to: "v4" },//parking-mba hall
+    
+    { id: "v9_to_v50", from: "v9", to: "v50" },//fvr-obj fvr
+    { id: "v50_to_v2", from: "v50", to: "v2" },//fvr-obj fvr
+    { id: "v9_to_v8", from: "v9", to: "v8" },//fvr-parking
+    { id: "v9_to_v2", from: "v9", to: "v2" },//fvr-basic ed
+    { id: "v9_to_v10", from: "v9", to: "v10" },//fvr-finance
+    { id: "v9_to_v11", from: "v9", to: "v11" },//fvr-cma hall
+    { id: "v9_to_v12", from: "v9", to: "v12" },//fvr-sp upper
+    { id: "v9_to_v94", from: "v9", to: "v94" },//fvr-spmba
+    { id: "v9_to_v84", from: "v9", to: "v84" },//fvr-null
+   
+    { id: "v10_to_v51", from: "v10", to: "v51" },//finance-obj finance
+    { id: "v10_to_v9", from: "v10", to: "v9" },//finance-fvr
+    { id: "v10_to_v11", from: "v10", to: "v11" },//finance-cma hall
+    { id: "v10_to_v12", from: "v10", to: "v12" },//finance-SP
+    { id: "v10_to_v94", from: "v10", to: "v94" },//finance-spmba
+    { id: "v10_to_v84", from: "v10", to: "v84" },//finance null
+    { id: "v10_to_v3", from: "v10", to: "v3" },//finance-obj finance
+    
+    { id: "v11_to_v55", from: "v11", to: "v55" },//cma hall - obj cma hall
+    { id: "v11_to_v10", from: "v11", to: "v10" },//cma hall - finance
+    { id: "v11_to_v9", from: "v11", to: "v9" },//cma hall - fvr
+    { id: "v11_to_84", from: "v11", to: "v84" },//cma hall - null
+    { id: "v11_to_v12", from: "v11", to: "v12" },//cma hall - sp
+    { id: "v11_to_v94", from: "v11", to: "v94" },//cma hall - spmba
+    { id: "v11_to_v95", from: "v11", to: "v95" },//cma hall - null
+    { id: "v11_to_v73", from: "v11", to: "v73" },//cma hall - null
+
+    { id: "v12_to_v57", from: "v12", to: "v57" },//SP - obj sp
+    { id: "v12_to_v46", from: "v12", to: "v46" },//SP - obj Ave
+    //{ id: "v12_to_v57", from: "v12", to: "v57" },//SP - obj sp
+    { id: "v12_to_v4", from: "v12", to: "v4" },//SP - obj gym
+    { id: "v12_to_v94", from: "v12", to: "v94" },//SP - spmba
+    { id: "v12_to_v11", from: "v12", to: "v11" },//SP - finance
+    { id: "v12_to_v9", from: "v12", to: "v9" },//SP - fvr
+    { id: "v12_to_v84", from: "v12", to: "v84" },//SP - null
+    { id: "v12_to_v65", from: "v12", to: "v65" },//SP - nh
+
+    { id: "v13_to_v56", from: "v13", to: "v56" },//SP - obj sp left
+    { id: "v13_to_v93", from: "v13", to: "v93" },//SP - null
+    { id: "v13_to_v76", from: "v13", to: "v76" },//SP - sp inside null
+    { id: "v76_to_v78", from: "v76", to: "v78" },//SP - null
+    { id: "v78_to_v65", from: "v78", to: "v65" },//null - nh
+    { id: "v13_to_v75", from: "v13", to: "v75" },//SPmba null - null
+    { id: "v93_to_v55", from: "v93", to: "v55" },//SPLeft null - cma hall
+    { id: "v93_to_v92", from: "v93", to: "v92" },//cma null - null
+    { id: "v93_to_v31", from: "v93", to: "v31" },//cma null -NH null
+
+    { id: "v15_to_v68", from: "v15", to: "v68" },//SP right - obj sp right
+    { id: "v15_to_v75", from: "v15", to: "v75" },//SP right - null
+    { id: "v15_to_v76", from: "v15", to: "v76" },//SP right - obj sp right
+    { id: "v75_to_v45", from: "v75", to: "v45" },//SP right - obj sp right
+
+    { id: "v16_to_v69", from: "v16", to: "v69" },//mbasp - obj mba
+    { id: "v16_to_v75", from: "v16", to: "v75" },//mbasp - obj mba
+    //{ id: "v16_to_v45", from: "v16", to: "v45" },//mbasp - null
+
+    { id: "v17_to_v48", from: "v17", to: "v48" },//ptc - obj ptc
+    { id: "v17_to_v90", from: "v17", to: "v90" },//ptc - null
+    { id: "v17_to_v85", from: "v17", to: "v85" },//ptc - null
+    //to be checked
+    { id: "v18_to_v53", from: "v18", to: "v53" },//op left - obj op left
+    { id: "v18_to_v85", from: "v18", to: "v85" },//op left - null
+    { id: "v85_to_v53", from: "v85", to: "v53" },//op left - null
+    { id: "v18_to_v86", from: "v18", to: "v86" },//op left - atruim null
+    { id: "v90_to_v18", from: "v90", to: "v18" },//null -  p left
+    { id: "v18_to_v19", from: "v19", to: "v18" },//its - op left
+
+    { id: "v19_to_v49", from: "v19", to: "v49" },//its - obj its
+    { id: "v19_to_v18", from: "v19", to: "v18" },//its - op left
+    { id: "v19_to_v87", from: "v19", to: "v87" },//its - op left
+
+    { id: "v90_to_v49", from: "v90", to: "v49" },//null - null
+    { id: "v90_to_v82", from: "v90", to: "v82" },//null - null
+    { id: "v82_to_v83", from: "v82", to: "v83" },//null - null
+    { id: "v83_to_v72", from: "v83", to: "v72" },//null - null
+    { id: "v90_to_v85", from: "v90", to: "v85" },//null - null
+    { id: "v85_to_v84", from: "v85", to: "v84" },//null - null
+    { id: "v82_to_v40", from: "v82", to: "v40" },//null - obj mba hall
+
+
+    { id: "v83_to_v53", from: "v83", to: "v53" },//null-obj op left
+    { id: "v84_to_v83", from: "v84", to: "v83" },//null - null
+    { id: "v84_to_v85", from: "v84", to: "v85" },//null - null
+    { id: "v84_to_v53", from: "v84", to: "v53" },//null - obj op left
+    { id: "v84_to_v86", from: "v84", to: "v86" },//null - obj op
+    { id: "v84_to_v51", from: "v84", to: "v51" },//null - obj finance
+    { id: "v84_to_v55", from: "v84", to: "v55" },//null - obj cma hall
+    { id: "v84_to_v57", from: "v84", to: "v57" },//null - obj sp upper
+    { id: "v84_to_v94", from: "v84", to: "v51" },//null- obj finance
+
+    { id: "v95_to_v73", from: "v95", to: "v73" },//null-null
+    { id: "v95_to_v55", from: "v95", to: "v55" },//null-obj cma hall
+
+
+
+    //{ id: "v12_to_v57", from: "v12", to: "v57" },//sp-objsp upper
+    { id: "v32_to_v42", from: "v32", to: "v42" },//riverside-obj.riverside
+
 
   ],
 };
