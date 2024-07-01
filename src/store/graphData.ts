@@ -37,7 +37,7 @@ export const graphData: GraphData = {
     { id: "v17", objectName: null, cx: 49, cy: 218},//ptc
     { id: "v18", objectName: null, cx: 136, cy: 225},//op left
     { id: "v19", objectName: null, cx: 113, cy: 225},//its
-    { id: "v20", objectName: null, cx: 154, cy: 261},//op-atrium
+    { id: "v20", objectName: "null", cx: 113, cy: 261},//op-atrium
     { id: "v21", objectName: null, cx: 201, cy: 261},//registrar-atrium
     { id: "v22", objectName: null, cx: 228, cy: 256},//teller
     { id: "v23", objectName: null, cx: 228, cy: 265},//cma
@@ -52,7 +52,10 @@ export const graphData: GraphData = {
     { id: "v32", objectName: null, cx: 473, cy: 144},//riverside
     { id: "v33", objectName: null, cx: 508, cy: 144},//Pedistrian
     { id: "v34", objectName: null, cx: 382, cy: 282},//old stage
-   
+    { id: "v96", objectName: null, cx: 154, cy: 261},//OP
+    { id: "v86", objectName: null, cx: 136, cy: 261},//Atruim
+
+
     //Objects, Green Circles
     { id: "v35", objectName: "Vehicle Entrance", cx: 94, cy: 116},//Entrance Vehicle
     { id: "v36", objectName: "BASIC ED BLDG", cx: 175, cy: 107},//Basic Ed
@@ -79,7 +82,7 @@ export const graphData: GraphData = {
     { id: "v57", objectName: "STUDENT PLAZA", cx: 307, cy: 188},//SP Upper
     { id: "v58", objectName: "CMA HALL", cx: 240, cy: 299},//CMA Left
     { id: "v59", objectName: "CMA HALL", cx: 228, cy: 270},//CMA upper
-    { id: "v60", objectName: "Atrium", cx: 94, cy: 229},//PTC-Artium
+    { id: "v60", objectName: "null", cx: 94, cy: 229},//PTC-Artium
     { id: "v61", objectName: "Atrium", cx: 113, cy: 261},//Artium
     { id: "v62", objectName: "PHINMA FOREST", cx: 262, cy: 299},//PGarden  Left
     { id: "v63", objectName: "PHINMA FOREST", cx: 307, cy: 252},//PGarden  upper
@@ -107,7 +110,6 @@ export const graphData: GraphData = {
     { id: "v83", objectName: "Null", cx: 135, cy: 151},//ITS upper
     { id: "v84", objectName: "Null", cx: 136, cy: 186},//ITS -fvr
     { id: "v85", objectName: "Null", cx: 136, cy: 218},//ITS -fvr
-    { id: "v86", objectName: "Null", cx: 136, cy: 261},//Atruim
     { id: "v87", objectName: "Null", cx: 154, cy: 261},//Atruim-OP
     { id: "v88", objectName: "Null", cx: 94, cy: 261},//Atruim-ptc
     { id: "v90", objectName: "Null", cx: 94, cy: 218},//Atruim-ptc-Its
@@ -279,11 +281,45 @@ export const graphData: GraphData = {
     { id: "v18_to_v19", from: "v19", to: "v18" },//its - op left
 
     { id: "v19_to_v49", from: "v19", to: "v49" },//its - obj its
-    { id: "v19_to_v18", from: "v19", to: "v18" },//its - op left
-    { id: "v19_to_v87", from: "v19", to: "v87" },//its - op left
+    { id: "v19_to_v18", from: "v19", to: "v18" },//its - op left  
+    { id: "v19_to_v61", from: "v19", to: "v61" },//its - atruim
 
+    { id: "v21_to_v54", from: "v21", to: "v54" },//registrar - obj registrar
+    { id: "v21_to_v91", from: "v21", to: "v91" },//registrar - obj registrar
+    { id: "v21_to_v92", from: "v21", to: "v92" },//registrar - obj registrar
+
+    { id: "v22_to_v71", from: "v22", to: "v71" },//teller - obj teller
+    { id: "v22_to_v91", from: "v22", to: "v91" },//registrar - null
+    { id: "v22_to_v92", from: "v22", to: "v92" },//registrar - null
+
+    { id: "v23_to_v59", from: "v23", to: "v59" },//cma up- obj cma
+    { id: "v23_to_v91", from: "v23", to: "v91" },//cma up- null
+    { id: "v23_to_v92", from: "v23", to: "v92" },//cma up- null
+
+    { id: "v91_to_v90", from: "v91", to: "v90" },//null - null
+    { id: "v91_to_v92", from: "v91", to: "v92" },//null - null
+    { id: "v91_to_v87", from: "v91", to: "v87" },//null - null
+    { id: "v91_to_v61", from: "v91", to: "v61" },//null - null
+    { id: "v91_to_v88", from: "v91", to: "v88" },//null - null
+
+    { id: "v92_to_v90", from: "v92", to: "v90" },//null - null
+    { id: "v92_to_v93", from: "v92", to: "v93" },//null - null
+    { id: "v92_to_v87", from: "v92", to: "v87" },//null - null
+    { id: "v92_to_v61", from: "v92", to: "v61" },//null - null
+    { id: "v92_to_v88", from: "v92", to: "v88" },//null - null
+    { id: "v92_to_v95", from: "v92", to: "v95" },//null - null
+    { id: "v92_to_v73", from: "v92", to: "v73" },//null - null
+    { id: "v92_to_v79", from: "v92", to: "v79" },//null - null
+    { id: "v92_to_v66", from: "v92", to: "v66" },//null - null
+
+    { id: "v61_to_v86", from: "v61", to: "v86" },//atrum-atruim null
+    { id: "v61_to_v88", from: "v61", to: "v88" },//its - atruim
+
+    //{ id: "v90_to_v61", from: "v90", to: "v61" },//null - null 
     { id: "v90_to_v49", from: "v90", to: "v49" },//null - null
     { id: "v90_to_v82", from: "v90", to: "v82" },//null - null
+    { id: "v90_to_v88", from: "v90", to: "v88" },//null - null
+
     { id: "v82_to_v83", from: "v82", to: "v83" },//null - null
     { id: "v83_to_v72", from: "v83", to: "v72" },//null - null
     { id: "v90_to_v85", from: "v90", to: "v85" },//null - null
@@ -294,12 +330,38 @@ export const graphData: GraphData = {
     { id: "v83_to_v53", from: "v83", to: "v53" },//null-obj op left
     { id: "v84_to_v83", from: "v84", to: "v83" },//null - null
     { id: "v84_to_v85", from: "v84", to: "v85" },//null - null
-    { id: "v84_to_v53", from: "v84", to: "v53" },//null - obj op left
     { id: "v84_to_v86", from: "v84", to: "v86" },//null - obj op
     { id: "v84_to_v51", from: "v84", to: "v51" },//null - obj finance
     { id: "v84_to_v55", from: "v84", to: "v55" },//null - obj cma hall
     { id: "v84_to_v57", from: "v84", to: "v57" },//null - obj sp upper
-    { id: "v84_to_v94", from: "v84", to: "v51" },//null- obj finance
+    { id: "v84_to_v12", from: "v84", to: "v12" },//null- obj sp upper
+
+    { id: "v86_to_v61", from: "v86", to: "v61" },//null atruim - atrium
+    { id: "v86_to_v83", from: "v88", to: "v83" },//null atruim - null
+    { id: "v86_to_v84", from: "v88", to: "v84" },//null atruim - null
+    { id: "v86_to_v85", from: "v88", to: "v85" },//null atruim - null
+    { id: "v86_to_v87", from: "v88", to: "v87" },//null atruim - null
+    { id: "v86_to_v72", from: "v88", to: "v72" },//null atruim - null
+    { id: "v86_to_v88", from: "v88", to: "v88" },//null atruim - null
+    
+    { id: "v88_to_v61", from: "v88", to: "v61" },//null atruim - atrium
+  //  { id: "v88_to_v60", from: "v88", to: "v60" },//null atruim - atrium
+    { id: "v88_to_v90", from: "v88", to: "v90" },//null atruim - null
+    { id: "v88_to_v82", from: "v88", to: "v82" },//null atruim - null
+  //  { id: "v88_to_v60", from: "v88", to: "v60" },//null atruim - atrium
+    { id: "v88_to_v86", from: "v88", to: "v86" },//null atruim - null atrium
+    { id: "v88_to_v87", from: "v88", to: "v87" },//null atruim - null atrium
+    { id: "v88_to_v21", from: "v88", to: "v21" },//null atruim - null atrium
+  //  { id: "v88_to_v91", from: "v88", to: "v91" },//null atruim -  null atrium
+    { id: "v88_to_v92", from: "v88", to: "v92" },//null atruim -  null atrium
+    { id: "v88_to_v91", from: "v88", to: "v91" },//null atruim -  null atrium
+
+    { id: "v87_to_v52", from: "v87", to: "v52" },//op-obj op
+    { id: "v87_to_v86", from: "v87", to: "v86" },//op-  null atrium
+    { id: "v87_to_v88", from: "v87", to: "v88" },//op -  null atrium
+    { id: "v87_to_v21", from: "v87", to: "v21" },//op -  registrar
+    { id: "v87_to_v91", from: "v87", to: "v91" },//op-  null atrium
+    { id: "v87_to_v92", from: "v87", to: "v92" },//op-  null 
 
     { id: "v95_to_v73", from: "v95", to: "v73" },//null-null
     { id: "v95_to_v55", from: "v95", to: "v55" },//null-obj cma hall
