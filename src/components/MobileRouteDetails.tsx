@@ -21,6 +21,7 @@ function MobileRouteDetails() {
       <div className="bg-gray-200 text-gray-900 px-3 py-1 center w-fit rounded-md text-sm font-semibold m-3">
         <TbRoute className="inline-block mr-1" />
         {/* {walkingTime} seconds away -  */}
+        <h4>Click the Green button for new location position.</h4>
         {rightRouteLength} meters
       </div>
     </div>

@@ -303,6 +303,7 @@ export const graphData: GraphData = {
     { id: "v24_to_v63", from: "v24", to: "v63" },//sp pf- obj sp
     { id: "v24_to_v64", from: "v24", to: "v64" },//sp pf- obj pf
     { id: "v24_to_v78", from: "v24", to: "v78" },//sp pf- null
+    { id: "v24_to_v76", from: "v24", to: "v76" },//sp pf- null
     { id: "v78_to_v24", from: "v78", to: "v24" },//sp pf- null
     { id: "v24_to_v81", from: "v24", to: "v81" },//sp pf- null
     { id: "v24_to_v80", from: "v24", to: "v81" },//sp pf- null
@@ -326,7 +327,7 @@ export const graphData: GraphData = {
     { id: "v32_to_v41", from: "v32", to: "v41" },// 
 
     { id: "v78_to_v34", from: "v78", to: "v34" },// 
-    { id: "v78_to_v68", from: "v78", to: "v68" },// 
+   // { id: "v78_to_v68", from: "v78", to: "v68" },// 
 
     { id: "v34_to_v43", from: "v34", to: "v43" },//
     { id: "v34_to_v45", from: "v34", to: "v45" },//
@@ -338,6 +339,8 @@ export const graphData: GraphData = {
     { id: "v31_to_v65", from: "v31", to: "v65" },// 
 
     { id: "v33_to_v32", from: "v31", to: "v65" },// 
+
+    { id: "v78_to_v34", from: "v78", to: "34" },//
     
     { id: "v91_to_v90", from: "v91", to: "v90" },//null - null
     { id: "v91_to_v92", from: "v91", to: "v92" },//null - null
