@@ -85,7 +85,7 @@ export const graphData: GraphData = {
     { id: "v60", objectName: "null", cx: 94, cy: 229},//PTC-Artium
     { id: "v61", objectName: "Atrium", cx: 113, cy: 261},//Artium
     { id: "v62", objectName: "PHINMA FOREST", cx: 262, cy: 299},//PGarden  Left
-    { id: "v63", objectName: "PHINMA FOREST", cx: 307, cy: 252},//PGarden  upper
+    { id: "v63", objectName: "PHINMA FOREST", cx: 307, cy: 252},//sp down
     { id: "v64", objectName: "PHINMA FOREST", cx: 307, cy: 252},//PGarden  upper
     { id: "v65", objectName: "NORTH HALL", cx: 307, cy: 379},//NH Right
     { id: "v66", objectName: "NORTH HALL", cx: 251, cy: 380},//NH Left
@@ -161,6 +161,7 @@ export const graphData: GraphData = {
     { id: "v4_to_v46", from: "v4", to: "v46" },//gym-obj.ave
     //{ id: "v4_to_v12", from: "v4", to: "v12" },//gym-sp upper // not function
     { id: "v4_to_v63", from: "v4", to: "v63" },//gym-obj.pf //not function
+    { id: "v4_to_v64", from: "v4", to: "v64" },//gym-obj.pf //not function
     { id: "v4_to_v65", from: "v4", to: "v65" },//gym-obj.nh
     { id: "v4_to_v12", from: "v4", to: "v57" },//gym-obj.sp
     //{ id: "v4_to_v7", from: "v4", to: "v7" },//gym-obj.nh
@@ -238,6 +239,7 @@ export const graphData: GraphData = {
     { id: "v11_to_v12", from: "v11", to: "v12" },//cma hall - sp
     { id: "v11_to_v94", from: "v11", to: "v94" },//cma hall - spmba
     { id: "v11_to_v95", from: "v11", to: "v95" },//cma hall - null
+    { id: "v11_to_v92", from: "v11", to: "v95" },//cma hall - null
     { id: "v11_to_v73", from: "v11", to: "v73" },//cma hall - null
 
     { id: "v12_to_v57", from: "v12", to: "v57" },//SP - obj sp
@@ -253,17 +255,19 @@ export const graphData: GraphData = {
     { id: "v13_to_v56", from: "v13", to: "v56" },//SP - obj sp left
     { id: "v13_to_v93", from: "v13", to: "v93" },//SP - null
     { id: "v13_to_v76", from: "v13", to: "v76" },//SP - sp inside null
+    //{ id: "v13_to_v76", from: "v13", to: "v76" },//SP - sp inside null
     { id: "v76_to_v78", from: "v76", to: "v78" },//SP - null
     { id: "v78_to_v65", from: "v78", to: "v65" },//null - nh
     { id: "v13_to_v75", from: "v13", to: "v75" },//SPmba null - null
     { id: "v93_to_v55", from: "v93", to: "v55" },//SPLeft null - cma hall
     { id: "v93_to_v92", from: "v93", to: "v92" },//cma null - null
-    { id: "v93_to_v31", from: "v93", to: "v31" },//cma null -NH null
+    { id: "v93_to_v66", from: "v93", to: "v66" },//cma null -NH null
 
     { id: "v15_to_v68", from: "v15", to: "v68" },//SP right - obj sp right
     { id: "v15_to_v75", from: "v15", to: "v75" },//SP right - null
     { id: "v15_to_v76", from: "v15", to: "v76" },//SP right - obj sp right
     { id: "v75_to_v45", from: "v75", to: "v45" },//SP right - obj sp right
+    { id: "v75_to_v68", from: "v75", to: "v68" },//SP right - obj sp right
 
     { id: "v16_to_v69", from: "v16", to: "v69" },//mbasp - obj mba
     { id: "v16_to_v75", from: "v16", to: "v75" },//mbasp - obj mba
@@ -293,9 +297,48 @@ export const graphData: GraphData = {
     { id: "v22_to_v92", from: "v22", to: "v92" },//registrar - null
 
     { id: "v23_to_v59", from: "v23", to: "v59" },//cma up- obj cma
-    { id: "v23_to_v91", from: "v23", to: "v91" },//cma up- null
+    //{ id: "v23_to_v91", from: "v23", to: "v91" },//cma up- null
     { id: "v23_to_v92", from: "v23", to: "v92" },//cma up- null
 
+    { id: "v24_to_v63", from: "v24", to: "v63" },//sp pf- obj sp
+    { id: "v24_to_v64", from: "v24", to: "v64" },//sp pf- obj pf
+    { id: "v24_to_v78", from: "v24", to: "v78" },//sp pf- null
+    { id: "v78_to_v24", from: "v78", to: "v24" },//sp pf- null
+    { id: "v24_to_v81", from: "v24", to: "v81" },//sp pf- null
+    { id: "v24_to_v80", from: "v24", to: "v81" },//sp pf- null
+    { id: "v24_to_v65", from: "v24", to: "v65" },//sp pf- null
+
+    { id: "v25_to_v43", from: "v25", to: "v43" },//mba pf- obj mba pf
+
+    { id: "v26_to_v58", from: "v26", to: "v58" },// cma hall - obj cma hall
+    { id: "v26_to_v79", from: "v26", to: "v79" },// cma hall 
+    
+    { id: "v27_to_v56", from: "v27", to: "v56" },//
+    { id: "v80_to_v27", from: "v80", to: "v27" },// 
+    { id: "v27_to_v59", from: "v27", to: "v59" },//
+
+    { id: "v28_to_v66", from: "v28", to: "v66" },//
+    
+    { id: "v29_to_v67", from: "v29", to: "v67" },// 
+    
+    { id: "v32_to_v42", from: "v32", to: "v42" },// 
+    { id: "v32_to_v33", from: "v32", to: "v33" },// 
+    { id: "v32_to_v41", from: "v32", to: "v41" },// 
+
+    { id: "v78_to_v34", from: "v78", to: "v34" },// 
+    { id: "v78_to_v68", from: "v78", to: "v68" },// 
+
+    { id: "v34_to_v43", from: "v34", to: "v43" },//
+    { id: "v34_to_v45", from: "v34", to: "v45" },//
+    
+    { id: "v30_to_v44", from: "v30", to: "v44" },//
+    { id: "v30_to_v65", from: "v30", to: "v65" },//
+    { id: "v30_to_v66", from: "v30", to: "v66" },//
+    
+    { id: "v31_to_v65", from: "v31", to: "v65" },// 
+
+    { id: "v33_to_v32", from: "v31", to: "v65" },// 
+    
     { id: "v91_to_v90", from: "v91", to: "v90" },//null - null
     { id: "v91_to_v92", from: "v91", to: "v92" },//null - null
     { id: "v91_to_v87", from: "v91", to: "v87" },//null - null
@@ -305,12 +348,17 @@ export const graphData: GraphData = {
     { id: "v92_to_v90", from: "v92", to: "v90" },//null - null
     { id: "v92_to_v93", from: "v92", to: "v93" },//null - null
     { id: "v92_to_v87", from: "v92", to: "v87" },//null - null
-    { id: "v92_to_v61", from: "v92", to: "v61" },//null - null
+    { id: "v92_to_v61", from: "v92", to: "v61" },//null - obj atruim
     { id: "v92_to_v88", from: "v92", to: "v88" },//null - null
     { id: "v92_to_v95", from: "v92", to: "v95" },//null - null
     { id: "v92_to_v73", from: "v92", to: "v73" },//null - null
     { id: "v92_to_v79", from: "v92", to: "v79" },//null - null
     { id: "v92_to_v66", from: "v92", to: "v66" },//null - null
+    { id: "v92_to_v91", from: "v93", to: "v91" },//null - null
+    { id: "v92_to_v23", from: "v93", to: "v23" },//null - obj cma upper
+    //{ id: "v92_to_v21", from: "v93", to: "v21" },//null - null
+
+    //{ id: "v93_to_v91", from: "v93", to: "v91" },//cma null -NH null
 
     { id: "v61_to_v86", from: "v61", to: "v86" },//atrum-atruim null
     { id: "v61_to_v88", from: "v61", to: "v88" },//its - atruim
@@ -336,7 +384,7 @@ export const graphData: GraphData = {
     { id: "v84_to_v57", from: "v84", to: "v57" },//null - obj sp upper
     { id: "v84_to_v12", from: "v84", to: "v12" },//null- obj sp upper
 
-    { id: "v86_to_v61", from: "v86", to: "v61" },//null atruim - atrium
+    { id: "v86_to_v61", from: "v86", to: "v61" },//atruim - obj atrium
     { id: "v86_to_v83", from: "v88", to: "v83" },//null atruim - null
     { id: "v86_to_v84", from: "v88", to: "v84" },//null atruim - null
     { id: "v86_to_v85", from: "v88", to: "v85" },//null atruim - null
@@ -369,7 +417,7 @@ export const graphData: GraphData = {
 
 
     //{ id: "v12_to_v57", from: "v12", to: "v57" },//sp-objsp upper
-    { id: "v32_to_v42", from: "v32", to: "v42" },//riverside-obj.riverside
+   // { id: "v32_to_v42", from: "v32", to: "v42" },//riverside-obj.riverside
 
 
   ],
