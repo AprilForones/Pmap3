@@ -51,7 +51,7 @@ export const graphData: GraphData = {
     { id: "v31", objectName: null, cx: 307, cy: 372},//cmanh
     { id: "v32", objectName: null, cx: 473, cy: 144},//riverside
     { id: "v33", objectName: null, cx: 508, cy: 144},//Pedistrian
-    { id: "v34", objectName: null, cx: 382, cy: 282},//old stage
+    { id: "v34", objectName: null, cx: 382, cy: 354},//old stage
     { id: "v96", objectName: null, cx: 154, cy: 261},//OP
     { id: "v86", objectName: null, cx: 136, cy: 261},//Atruim
 
@@ -85,8 +85,8 @@ export const graphData: GraphData = {
     { id: "v60", objectName: "null", cx: 94, cy: 229},//PTC-Artium
     { id: "v61", objectName: "Atrium", cx: 113, cy: 261},//Artium
     { id: "v62", objectName: "PHINMA FOREST", cx: 262, cy: 299},//PGarden  Left
-    { id: "v63", objectName: "PHINMA FOREST", cx: 307, cy: 252},//sp down
-    { id: "v64", objectName: "PHINMA FOREST", cx: 307, cy: 252},//PGarden  upper
+    { id: "v63", objectName: "PHINMA FOREST", cx: 307, cy: 252},//PGarden  upper
+    { id: "v64", objectName: "STUDENT PLAZA", cx: 307, cy: 252},//PGarden  upper
     { id: "v65", objectName: "NORTH HALL", cx: 307, cy: 379},//NH Right
     { id: "v66", objectName: "NORTH HALL", cx: 251, cy: 380},//NH Left
     { id: "v67", objectName: "Technical Vocational Bldg.", cx: 197, cy: 380},//TechVoc
@@ -120,308 +120,143 @@ export const graphData: GraphData = {
     { id: "v95", objectName: "Null", cx: 251, cy: 144},//parking - ave
   ],
   edges: [
-    { id: "v1_to_v72", from: "v1", to: "v72" },//ev-null
-    { id: "v72_to_v83", from: "v72", to: "v83" },//null-null
-    { id: "v72_to_v84", from: "v72", to: "v84" },//null-null
-    { id: "v72_to_v53", from: "v72", to: "v53" },//null-obj op left
-    { id: "v72_to_v2", from: "v72", to: "v2" },//null-basic ed
-    { id: "v72_to_v35", from: "v72", to: "v35" },//null-obj.ev
-    { id: "v1_to_v2", from: "v1", to: "v2" },//ev-basic
-    { id: "v1_to_v3", from: "v1", to: "v3" },//ev-cela
-    { id: "v1_to_v73", from: "v1", to: "v2" },//ev-null
-    { id: "v1_to_v4", from: "v1", to: "v2" },//ev-gym
-    { id: "v1_to_v74", from: "v1", to: "v2" },//ev-null
-    
-    { id: "v2_to_v36", from: "v2", to: "v36" },//basic-obj.ed
-    { id: "v2_to_v47", from: "v2", to: "v47" },//basic-obj.parking
-    { id: "v2_to_v72", from: "v2", to: "v72" },//basic-null
-    { id: "v2_to_v35", from: "v2", to: "v35" },//basic-obj.ev
-    { id: "v2_to_v50", from: "v2", to: "v50" },//basic-obj.fvr
-    { id: "v2_to_v3", from: "v2", to: "v3" },//basic-cela
-    { id: "v2_to_v73", from: "v2", to: "v73" },//basic-null
-    { id: "v2_to_v4", from: "v2", to: "v4" },//basic-gym
-    { id: "v2_to_v74", from: "v2", to: "v74" },//basic-null
-  
-    { id: "v3_to_v37", from: "v3", to: "v37" },//cela-obj.cela
-    { id: "v3_to_v2", from: "v3", to: "v2" },//cela-basic
-    { id: "v3_to_v72", from: "v3", to: "v72" },//cela-null
-    { id: "v3_to_v35", from: "v23", to: "v35" },//cela-ev
-    { id: "v3_to_v73", from: "v3", to: "v73" },//cela-null
-    { id: "v3_to_v4", from: "v3", to: "v4" },//cela-gym
-    { id: "v3_to_v74", from: "v3", to: "v74" },//cela-null
-    { id: "v3_to_v51", from: "v3", to: "v51" },//cela-finance
-   
-    { id: "v4_to_v38", from: "v4", to: "v38" },//gym-obj.gym
-    { id: "v4_to_v74", from: "v4", to: "v74" },//gym-null
-    { id: "v4_to_v72", from: "v4", to: "v72" },//gym-null
-    { id: "v4_to_v3", from: "v4", to: "v3" },//gym-cela
-    { id: "v4_to_v2", from: "v4", to: "v2" },//gym-basic
-    { id: "v4_to_v73", from: "v4", to: "v73" },//gym-null
-    { id: "v4_to_v35", from: "v4", to: "v35" },//gym-ev
-    { id: "v4_to_v46", from: "v4", to: "v46" },//gym-obj.ave
-    //{ id: "v4_to_v12", from: "v4", to: "v12" },//gym-sp upper // not function
-    { id: "v4_to_v63", from: "v4", to: "v63" },//gym-obj.pf //not function
-    { id: "v4_to_v64", from: "v4", to: "v64" },//gym-obj.pf //not function
-    { id: "v4_to_v65", from: "v4", to: "v65" },//gym-obj.nh
-    { id: "v4_to_v12", from: "v4", to: "v57" },//gym-obj.sp
-    //{ id: "v4_to_v7", from: "v4", to: "v7" },//gym-obj.nh
-   
-    { id: "v74_to_v39", from: "v74", to: "v39" },//null-obj.eng
-    { id: "v74_to_v4", from: "v74", to: "v4" },//null-gym
-    { id: "v74_to_v37", from: "v74", to: "v3" },//null-cela
-    { id: "v74_to_v36", from: "v74", to: "v2" },//null-basic
-    { id: "v74_to_v35", from: "v74", to: "v35" },//null-obj.ev
-    { id: "v74_to_v73", from: "v74", to: "v73" },//null-null
-    { id: "v74_to_v72", from: "v74", to: "v72" },//null-null
-    { id: "v74_to_v40", from: "v74", to: "v40" },//null-obj.mbahall
-    { id: "v74_to_v94", from: "v74", to: "v94" },//null-null
-    { id: "v74_to_v75", from: "v74", to: "v75" },//null-null
-    { id: "v74_to_v25", from: "v74", to: "v25" },//null-mbapf
-    { id: "v74_to_v45", from: "v74", to: "v45" },//null-obj.oldstage
-   
-    { id: "v5_to_v74", from: "v5", to: "v74" },//eng-null
-    { id: "v5_to_v39", from: "v5", to: "v39" },//eng-obj.eng
-    { id: "v5_to_v40", from: "v5", to: "v40" },//eng-obj.mba
-    { id: "v5_to_v94", from: "v5", to: "v40" },//eng-null
-    { id: "v5_to_v75", from: "v5", to: "v75" },//eng-null
-    { id: "v5_to_v25", from: "v5", to: "v25" },//eng-mbapf
-    { id: "v5_to_v45", from: "v5", to: "v45" },//eng-obj.oldstage
-   
-    { id: "v6_to_v40", from: "v6", to: "v40" },//mba hall-obj.mba
-    { id: "v6_to_v32", from: "v6", to: "v32" },//mba hall-riverside
-    { id: "v6_to_v7", from: "v6", to: "v7" },//mba hall-p ave
-    { id: "v6_to_v8", from: "v6", to: "v8" },//mba hall-p parking
-    { id: "v6_to_v94", from: "v6", to: "v94" },//mba hall-mbasp
-    { id: "v6_to_v75", from: "v6", to: "v75" },//mba hall-spmba
-    { id: "v6_to_v25", from: "v6", to: "v25" },//mba hall-mbapf
-     { id: "v6_to_v74", from: "v6", to: "v74" },//-mba hall- null
-
-    { id: "v7_to_v46", from: "v7", to: "v46" },//p ave-obj.p ave
-    { id: "v7_to_v12", from: "v7", to: "v12" },//p ave-sp upper
-    { id: "v7_to_v57", from: "v7", to: "v57" },//gym-obj.nh
-    { id: "v7_to_v6", from: "v7", to: "v6" },//p ave-obj.mba hall
-    { id: "v7_to_v95", from: "v7", to: "v95" },//p ave-null
-   
-    { id: "v8_to_v47", from: "v8", to: "v47" },//p ave-obj p ave
-    { id: "v8_to_v6", from: "v8", to: "v6" },//p ave-mbha hall   
-    { id: "v95_to_v8", from: "v95", to: "v8" },//null-vparking
-    { id: "v8_to_v2", from: "v8", to: "v2" },//parking-basic
-    //{ id: "v8_to_v83", from: "v8", to: "v83" },//parking-null
-    { id: "v83_to_v84", from: "v83", to: "v84" },//null-null
-    { id: "v84_to_v50", from: "v84", to: "v50" },//null-obj fvr
-    { id: "v8_to_v50", from: "v8", to: "v50" },//parking-obj fvr
-    { id: "v8_to_v95", from: "v8", to: "v95" },//parking-null
-    { id: "v8_to_v7", from: "v8", to: "v7" },//parking-mba hall
-    //{ id: "v8_to_v4", from: "v8", to: "v4" },//parking-mba hall
-    
-    { id: "v9_to_v50", from: "v9", to: "v50" },//fvr-obj fvr
-    { id: "v50_to_v2", from: "v50", to: "v2" },//fvr-obj fvr
-    { id: "v9_to_v8", from: "v9", to: "v8" },//fvr-parking
-    { id: "v9_to_v2", from: "v9", to: "v2" },//fvr-basic ed
-    { id: "v9_to_v10", from: "v9", to: "v10" },//fvr-finance
-    { id: "v9_to_v11", from: "v9", to: "v11" },//fvr-cma hall
-    { id: "v9_to_v12", from: "v9", to: "v12" },//fvr-sp upper
-    { id: "v9_to_v94", from: "v9", to: "v94" },//fvr-spmba
-    { id: "v9_to_v84", from: "v9", to: "v84" },//fvr-null
-   
-    { id: "v10_to_v51", from: "v10", to: "v51" },//finance-obj finance
-    { id: "v10_to_v9", from: "v10", to: "v9" },//finance-fvr
-    { id: "v10_to_v11", from: "v10", to: "v11" },//finance-cma hall
-    { id: "v10_to_v12", from: "v10", to: "v12" },//finance-SP
-    { id: "v10_to_v94", from: "v10", to: "v94" },//finance-spmba
-    { id: "v10_to_v84", from: "v10", to: "v84" },//finance null
-    { id: "v10_to_v3", from: "v10", to: "v3" },//finance-obj finance
-    
-    { id: "v11_to_v55", from: "v11", to: "v55" },//cma hall - obj cma hall
-    { id: "v11_to_v10", from: "v11", to: "v10" },//cma hall - finance
-    { id: "v11_to_v9", from: "v11", to: "v9" },//cma hall - fvr
-    { id: "v11_to_84", from: "v11", to: "v84" },//cma hall - null
-    { id: "v11_to_v12", from: "v11", to: "v12" },//cma hall - sp
-    { id: "v11_to_v94", from: "v11", to: "v94" },//cma hall - spmba
-    { id: "v11_to_v95", from: "v11", to: "v95" },//cma hall - null
-    { id: "v11_to_v92", from: "v11", to: "v95" },//cma hall - null
-    { id: "v11_to_v73", from: "v11", to: "v73" },//cma hall - null
-
-    { id: "v12_to_v57", from: "v12", to: "v57" },//SP - obj sp
-    { id: "v12_to_v46", from: "v12", to: "v46" },//SP - obj Ave
-    //{ id: "v12_to_v57", from: "v12", to: "v57" },//SP - obj sp
-    { id: "v12_to_v4", from: "v12", to: "v4" },//SP - obj gym
-    { id: "v12_to_v94", from: "v12", to: "v94" },//SP - spmba
-    { id: "v12_to_v11", from: "v12", to: "v11" },//SP - finance
-    { id: "v12_to_v9", from: "v12", to: "v9" },//SP - fvr
-    { id: "v12_to_v84", from: "v12", to: "v84" },//SP - null
-    { id: "v12_to_v65", from: "v12", to: "v65" },//SP - nh
-
-    { id: "v13_to_v56", from: "v13", to: "v56" },//SP - obj sp left
-    { id: "v13_to_v93", from: "v13", to: "v93" },//SP - null
-    { id: "v13_to_v76", from: "v13", to: "v76" },//SP - sp inside null
-    //{ id: "v13_to_v76", from: "v13", to: "v76" },//SP - sp inside null
-    { id: "v76_to_v78", from: "v76", to: "v78" },//SP - null
-    { id: "v78_to_v65", from: "v78", to: "v65" },//null - nh
-    { id: "v13_to_v75", from: "v13", to: "v75" },//SPmba null - null
-    { id: "v93_to_v55", from: "v93", to: "v55" },//SPLeft null - cma hall
-    { id: "v93_to_v92", from: "v93", to: "v92" },//cma null - null
-    { id: "v93_to_v66", from: "v93", to: "v66" },//cma null -NH null
-
-    { id: "v15_to_v68", from: "v15", to: "v68" },//SP right - obj sp right
-    { id: "v15_to_v75", from: "v15", to: "v75" },//SP right - null
-    { id: "v15_to_v76", from: "v15", to: "v76" },//SP right - obj sp right
-    { id: "v75_to_v45", from: "v75", to: "v45" },//SP right - obj sp right
-    { id: "v75_to_v68", from: "v75", to: "v68" },//SP right - obj sp right
-
-    { id: "v16_to_v69", from: "v16", to: "v69" },//mbasp - obj mba
-    { id: "v16_to_v75", from: "v16", to: "v75" },//mbasp - obj mba
-    //{ id: "v16_to_v45", from: "v16", to: "v45" },//mbasp - null
-
-    { id: "v17_to_v48", from: "v17", to: "v48" },//ptc - obj ptc
-    { id: "v17_to_v90", from: "v17", to: "v90" },//ptc - null
-    { id: "v17_to_v85", from: "v17", to: "v85" },//ptc - null
-    //to be checked
-    { id: "v18_to_v53", from: "v18", to: "v53" },//op left - obj op left
-    { id: "v18_to_v85", from: "v18", to: "v85" },//op left - null
-    { id: "v85_to_v53", from: "v85", to: "v53" },//op left - null
-    { id: "v18_to_v86", from: "v18", to: "v86" },//op left - atruim null
-    { id: "v90_to_v18", from: "v90", to: "v18" },//null -  p left
-    { id: "v18_to_v19", from: "v19", to: "v18" },//its - op left
-
-    { id: "v19_to_v49", from: "v19", to: "v49" },//its - obj its
-    { id: "v19_to_v18", from: "v19", to: "v18" },//its - op left  
-    { id: "v19_to_v61", from: "v19", to: "v61" },//its - atruim
-
-    { id: "v21_to_v54", from: "v21", to: "v54" },//registrar - obj registrar
-    { id: "v21_to_v91", from: "v21", to: "v91" },//registrar - obj registrar
-    { id: "v21_to_v92", from: "v21", to: "v92" },//registrar - obj registrar
-
-    { id: "v22_to_v71", from: "v22", to: "v71" },//teller - obj teller
-    { id: "v22_to_v91", from: "v22", to: "v91" },//registrar - null
-    { id: "v22_to_v92", from: "v22", to: "v92" },//registrar - null
-
-    { id: "v23_to_v59", from: "v23", to: "v59" },//cma up- obj cma
-    //{ id: "v23_to_v91", from: "v23", to: "v91" },//cma up- null
-    { id: "v23_to_v92", from: "v23", to: "v92" },//cma up- null
-
-    { id: "v24_to_v63", from: "v24", to: "v63" },//sp pf- obj sp
-    { id: "v24_to_v64", from: "v24", to: "v64" },//sp pf- obj pf
-    { id: "v24_to_v78", from: "v24", to: "v78" },//sp pf- null
-    { id: "v24_to_v76", from: "v24", to: "v76" },//sp pf- null
-    { id: "v78_to_v24", from: "v78", to: "v24" },//sp pf- null
-    { id: "v24_to_v81", from: "v24", to: "v81" },//sp pf- null
-    { id: "v24_to_v80", from: "v24", to: "v81" },//sp pf- null
-    { id: "v24_to_v65", from: "v24", to: "v65" },//sp pf- null
-
-    { id: "v25_to_v43", from: "v25", to: "v43" },//mba pf- obj mba pf
-
-    { id: "v26_to_v58", from: "v26", to: "v58" },// cma hall - obj cma hall
-    { id: "v26_to_v79", from: "v26", to: "v79" },// cma hall 
-    
-    { id: "v27_to_v56", from: "v27", to: "v56" },//
-    { id: "v80_to_v27", from: "v80", to: "v27" },// 
-    { id: "v27_to_v59", from: "v27", to: "v59" },//
-
-    { id: "v28_to_v66", from: "v28", to: "v66" },//
-    
-    { id: "v29_to_v67", from: "v29", to: "v67" },// 
-    
-    { id: "v32_to_v42", from: "v32", to: "v42" },// 
-    { id: "v32_to_v33", from: "v32", to: "v33" },// 
-    { id: "v32_to_v41", from: "v32", to: "v41" },// 
-
-    { id: "v78_to_v34", from: "v78", to: "v34" },// 
-   // { id: "v78_to_v68", from: "v78", to: "v68" },// 
-
-    { id: "v34_to_v43", from: "v34", to: "v43" },//
-    { id: "v34_to_v45", from: "v34", to: "v45" },//
-    
-    { id: "v30_to_v44", from: "v30", to: "v44" },//
-    { id: "v30_to_v65", from: "v30", to: "v65" },//
-    { id: "v30_to_v66", from: "v30", to: "v66" },//
-    
-    { id: "v31_to_v65", from: "v31", to: "v65" },// 
-
-    { id: "v33_to_v32", from: "v31", to: "v65" },// 
-
-    { id: "v78_to_v34", from: "v78", to: "34" },//
-    
-    { id: "v91_to_v90", from: "v91", to: "v90" },//null - null
-    { id: "v91_to_v92", from: "v91", to: "v92" },//null - null
-    { id: "v91_to_v87", from: "v91", to: "v87" },//null - null
-    { id: "v91_to_v61", from: "v91", to: "v61" },//null - null
-    { id: "v91_to_v88", from: "v91", to: "v88" },//null - null
-
-    { id: "v92_to_v90", from: "v92", to: "v90" },//null - null
-    { id: "v92_to_v93", from: "v92", to: "v93" },//null - null
-    { id: "v92_to_v87", from: "v92", to: "v87" },//null - null
-    { id: "v92_to_v61", from: "v92", to: "v61" },//null - obj atruim
-    { id: "v92_to_v88", from: "v92", to: "v88" },//null - null
-    { id: "v92_to_v95", from: "v92", to: "v95" },//null - null
-    { id: "v92_to_v73", from: "v92", to: "v73" },//null - null
-    { id: "v92_to_v79", from: "v92", to: "v79" },//null - null
-    { id: "v92_to_v66", from: "v92", to: "v66" },//null - null
-    { id: "v92_to_v91", from: "v93", to: "v91" },//null - null
-    { id: "v92_to_v23", from: "v93", to: "v23" },//null - obj cma upper
-    //{ id: "v92_to_v21", from: "v93", to: "v21" },//null - null
-
-    //{ id: "v93_to_v91", from: "v93", to: "v91" },//cma null -NH null
-
-    { id: "v61_to_v86", from: "v61", to: "v86" },//atrum-atruim null
-    { id: "v61_to_v88", from: "v61", to: "v88" },//its - atruim
-
-    //{ id: "v90_to_v61", from: "v90", to: "v61" },//null - null 
-    { id: "v90_to_v49", from: "v90", to: "v49" },//null - null
-    { id: "v90_to_v82", from: "v90", to: "v82" },//null - null
-    { id: "v90_to_v88", from: "v90", to: "v88" },//null - null
-
-    { id: "v82_to_v83", from: "v82", to: "v83" },//null - null
-    { id: "v83_to_v72", from: "v83", to: "v72" },//null - null
-    { id: "v90_to_v85", from: "v90", to: "v85" },//null - null
-    { id: "v85_to_v84", from: "v85", to: "v84" },//null - null
-    { id: "v82_to_v40", from: "v82", to: "v40" },//null - obj mba hall
-
-
-    { id: "v83_to_v53", from: "v83", to: "v53" },//null-obj op left
-    { id: "v84_to_v83", from: "v84", to: "v83" },//null - null
-    { id: "v84_to_v85", from: "v84", to: "v85" },//null - null
-    { id: "v84_to_v86", from: "v84", to: "v86" },//null - obj op
-    { id: "v84_to_v51", from: "v84", to: "v51" },//null - obj finance
-    { id: "v84_to_v55", from: "v84", to: "v55" },//null - obj cma hall
-    { id: "v84_to_v57", from: "v84", to: "v57" },//null - obj sp upper
-    { id: "v84_to_v12", from: "v84", to: "v12" },//null- obj sp upper
-
-    { id: "v86_to_v61", from: "v86", to: "v61" },//atruim - obj atrium
-    { id: "v86_to_v83", from: "v88", to: "v83" },//null atruim - null
-    { id: "v86_to_v84", from: "v88", to: "v84" },//null atruim - null
-    { id: "v86_to_v85", from: "v88", to: "v85" },//null atruim - null
-    { id: "v86_to_v87", from: "v88", to: "v87" },//null atruim - null
-    { id: "v86_to_v72", from: "v88", to: "v72" },//null atruim - null
-    { id: "v86_to_v88", from: "v88", to: "v88" },//null atruim - null
-    
-    { id: "v88_to_v61", from: "v88", to: "v61" },//null atruim - atrium
-  //  { id: "v88_to_v60", from: "v88", to: "v60" },//null atruim - atrium
-    { id: "v88_to_v90", from: "v88", to: "v90" },//null atruim - null
-    { id: "v88_to_v82", from: "v88", to: "v82" },//null atruim - null
-  //  { id: "v88_to_v60", from: "v88", to: "v60" },//null atruim - atrium
-    { id: "v88_to_v86", from: "v88", to: "v86" },//null atruim - null atrium
-    { id: "v88_to_v87", from: "v88", to: "v87" },//null atruim - null atrium
-    { id: "v88_to_v21", from: "v88", to: "v21" },//null atruim - null atrium
-  //  { id: "v88_to_v91", from: "v88", to: "v91" },//null atruim -  null atrium
-    { id: "v88_to_v92", from: "v88", to: "v92" },//null atruim -  null atrium
-    { id: "v88_to_v91", from: "v88", to: "v91" },//null atruim -  null atrium
-
-    { id: "v87_to_v52", from: "v87", to: "v52" },//op-obj op
-    { id: "v87_to_v86", from: "v87", to: "v86" },//op-  null atrium
-    { id: "v87_to_v88", from: "v87", to: "v88" },//op -  null atrium
-    { id: "v87_to_v21", from: "v87", to: "v21" },//op -  registrar
-    { id: "v87_to_v91", from: "v87", to: "v91" },//op-  null atrium
-    { id: "v87_to_v92", from: "v87", to: "v92" },//op-  null 
-
-    { id: "v95_to_v73", from: "v95", to: "v73" },//null-null
-    { id: "v95_to_v55", from: "v95", to: "v55" },//null-obj cma hall
-
-
-
-    //{ id: "v12_to_v57", from: "v12", to: "v57" },//sp-objsp upper
-   // { id: "v32_to_v42", from: "v32", to: "v42" },//riverside-obj.riverside
-
-
+    // positions to objects
+    { id: "v1_to_v35", from: "v1", to: "v35" },//Vehicle Entrance
+    { id: "v2_to_v36", from: "v2", to: "v36" },//BASIC ED BLDG
+    { id: "v3_to_v37", from: "v3", to: "v37" },//CELA DEPARTMENT
+    { id: "v4_to_v38", from: "v4", to: "v38" },//GYMNASIUM
+    { id: "v5_to_v39", from: "v5", to: "v39" },//Engineering Bldg.
+    { id: "v6_to_v40", from: "v6", to: "v40" },//mba hall
+    { id: "v7_to_v46", from: "v7", to: "v46" },//PHINMA AVE
+    { id: "v8_to_v47", from: "v8", to: "v47" },//Vehicle Parking
+    { id: "v9_to_v50", from: "v9", to: "v50" },//FVR
+    { id: "v10_to_v51", from: "v10", to: "v51" },//Finance
+    { id: "v11_to_v55", from: "v10", to: "v55" },//cma top
+    { id: "v12_to_v57", from: "v12", to: "v57" },//sp upper
+    { id: "v13_to_v56", from: "v13", to: "v56" },//sp left
+    { id: "v15_to_v68", from: "v15", to: "v68" },//sp right
+    { id: "v16_to_v69", from: "v16", to: "v69" },//mba middle
+    { id: "v17_to_v48", from: "v17", to: "v48" },//PTC
+    { id: "v18_to_v53", from: "v18", to: "v53" },//op left
+    { id: "v19_to_v49", from: "v19", to: "v49" },//ITS
+    { id: "v21_to_v54", from: "v21", to: "v54" },//Registrar
+    { id: "v22_to_v71", from: "v22", to: "v71" },//teller
+    { id: "v23_to_v59", from: "v23", to: "v59" },//cma upper
+    { id: "v24_to_v63", from: "v24", to: "v63" },//PF upper
+    { id: "v24_to_v64", from: "v24", to: "v64" },//SP lower
+    { id: "v25_to_v43", from: "v25", to: "v43" },//mba-PF
+    { id: "v26_to_v58", from: "v26", to: "v58" },//cma-cma hall
+    { id: "v27_to_v62", from: "v27", to: "v62" },//pf - cma hall
+    { id: "v28_to_v66", from: "v28", to: "v66" },//nh-cma
+    { id: "v29_to_v67", from: "v29", to: "v67" },//techvoc
+    { id: "v30_to_v44", from: "v30", to: "v44" },//oldstage-nh-mba
+    { id: "v31_to_v65", from: "v31", to: "v65" },//nh-pf
+    { id: "v32_to_v42", from: "v32", to: "v42" },//riverside
+    { id: "v32_to_v41", from: "v33", to: "v41" },//pedistrian
+    { id: "v34_to_v45", from: "v34", to: "v56" },//old stage
+    { id: "v96_to_v53", from: "v96", to: "v53" },//op-atruim
+    { id: "v86_to_v61", from: "v86", to: "v61" },//atrium
+  // positions path
+    //v.entrance
+    { id: "v1_to_v72", from: "v1", to: "v72" },
+    { id: "v1_to_v2", from: "v1", to: "v2" },
+    { id: "v1_to_v3", from: "v1", to: "v3" },
+    { id: "v1_to_v73", from: "v1", to: "v73" },
+    { id: "v1_to_v4", from: "v1", to: "v4" },
+    { id: "v1_to_v74", from: "v1", to: "v74" },
+    //baasic
+    { id: "v2_to_v8", from: "v2", to: "v8" },
+    { id: "v2_to_v3", from: "v2", to: "v3" },
+    { id: "v2_to_v73", from: "v2", to: "v73" },
+    { id: "v2_to_v4", from: "v2", to: "v4" },
+    { id: "v2_to_v74", from: "v2", to: "v74" },
+    { id: "v2_to_v9", from: "v2", to: "v9" },
+    //cela
+    { id: "v3_to_v10", from: "v3", to: "v10" },
+    { id: "v3_to_v73", from: "v3", to: "v73" },
+    { id: "v3_to_v4", from: "v3", to: "v4" },
+    { id: "v3_to_v74", from: "v3", to: "v74" },
+    //gym
+    { id: "v4_to_v7", from: "v4", to: "v7" },
+    { id: "v4_to_v3", from: "v4", to: "v3" },
+    { id: "v4_to_v73", from: "v4", to: "v73" },
+    { id: "v4_to_v74", from: "v4", to: "v74" },
+    { id: "v4_to_v12", from: "v4", to: "v12" },
+    { id: "v4_to_v76", from: "v4", to: "v76" },
+    { id: "v4_to_v24", from: "v4", to: "v24" },
+    { id: "v4_to_v78", from: "v4", to: "v78" },
+    { id: "v4_to_v80", from: "v4", to: "v80" },
+    { id: "v4_to_v81", from: "v4", to: "v81" },
+    { id: "v4_to_v31", from: "v4", to: "v31" },
+    //eng
+    { id: "v5_to_v74", from: "v5", to: "v74" },
+    { id: "v5_to_v6", from: "v5", to: "v6" },
+    { id: "v5_to_v75", from: "v5", to: "v75" },
+    { id: "v5_to_v25", from: "v5", to: "v25" },
+    { id: "v5_to_v34", from: "v5", to: "v34" },
+    //mba
+    { id: "v6_to_v74", from: "v6", to: "v74" },
+    { id: "v6_to_v75", from: "v6", to: "v75" },
+    { id: "v6_to_v32", from: "v6", to: "v32" },
+    { id: "v6_to_v25", from: "v6", to: "v25" },
+    { id: "v6_to_v34", from: "v6", to: "v34" },
+    { id: "v6_to_v7", from: "v6", to: "v7" },
+    { id: "v6_to_v95", from: "v6", to: "v95" },
+    { id: "v6_to_v8", from: "v6", to: "v8" },
+    { id: "v6_to_v83", from: "v6", to: "v83" },
+  //avenue
+    { id: "v7_to_v12", from: "v7", to: "v12" },
+    { id: "v7_to_v95", from: "v7", to: "v95" },
+    { id: "v7_to_v8", from: "v7", to: "v8" },
+    { id: "v7_to_v83", from: "v7", to: "v83" },
+    { id: "v7_to_v76", from: "v7", to: "v76" },
+    { id: "v7_to_v24", from: "v7", to: "v24" },
+    { id: "v7_to_v78", from: "v7", to: "v78" },
+    { id: "v7_to_v80", from: "v7", to: "v80" },
+    { id: "v7_to_v81", from: "v7", to: "v81" },
+    { id: "v7_to_v31", from: "v7", to: "v31" },
+   //parking
+    { id: "v8_to_v9", from: "v8", to: "v9" },
+    { id: "v8_to_v83", from: "v8", to: "v83" },
+    { id: "v8_to_v82", from: "v8", to: "v82" },
+    //fvr
+    { id: "v9_to_v10", from: "v9", to: "v10" },
+    { id: "v9_to_v11", from: "v9", to: "v11" },
+    { id: "v9_to_v12", from: "v9", to: "v12" },
+    { id: "v9_to_v94", from: "v9", to: "v94" },
+    { id: "v9_to_v84", from: "v9", to: "v84" },
+    //finance
+    { id: "v10_to_v11", from: "v10", to: "v11" },
+    { id: "v10_to_v12", from: "v10", to: "v12" },
+    { id: "v10_to_v94", from: "v10", to: "v94" },
+    //cma upper
+    { id: "v11_to_v95", from: "v11", to: "v95" },
+    { id: "v11_to_v73", from: "v11", to: "v73" },
+    { id: "v11_to_v93", from: "v11", to: "v93" },
+    { id: "v11_to_v79", from: "v11", to: "v79" },
+    { id: "v11_to_v28", from: "v11", to: "v98" },
+    { id: "v11_to_v12", from: "v11", to: "v12" },
+    { id: "v11_to_v94", from: "v11", to: "v94" },
+    //sp upper
+    { id: "v12_to_v76", from: "v12", to: "v76" },
+    { id: "v12_to_v24", from: "v12", to: "v24" },
+    { id: "v12_to_v78", from: "v12", to: "v78" },
+    { id: "v12_to_v80", from: "v12", to: "v80" },
+    { id: "v12_to_v81", from: "v12", to: "v81" },
+    { id: "v12_to_v31", from: "v12", to: "v31" },
+    { id: "v12_to_v94", from: "v12", to: "v94" },
+    { id: "v12_to_v11", from: "v12", to: "v11" },
+    //sp left
+    { id: "v13_to_v93", from: "v13", to: "v93" },
+    { id: "v13_to_v76", from: "v13", to: "v76" },
+    //sp right
+    { id: "v14_to_v75", from: "v14", to: "v75" },
+    { id: "v14_to_v76", from: "v14", to: "v76" },
+    //mba middle
+    { id: "v16_to_v75", from: "v16", to: "v75" },
+    //PTC
+    { id: "v17_to_v90", from: "v17", to: "v90" },
+    { id: "v17_to_v19", from: "v17", to: "v19" },
+    { id: "v17_to_v18", from: "v17", to: "v18" },
   ],
 };
