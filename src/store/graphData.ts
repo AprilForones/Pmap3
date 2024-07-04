@@ -45,10 +45,10 @@ export const graphData: GraphData = {
     { id: "v25", objectName: null, cx: 382, cy: 282},//mba-pf
     { id: "v26", objectName: null, cx: 245, cy: 299},//cma-cmahall
     { id: "v27", objectName: null, cx: 257, cy: 299},//cma-pf
-    { id: "v28", objectName: null, cx: 251, cy: 373},//cmanh
+    { id: "v28", objectName: null, cx: 251, cy: 380},//cmanh
     { id: "v29", objectName: null, cx: 204, cy: 380},//techvoc
     { id: "v30", objectName: null, cx: 383, cy: 380},//nh mba oldstage
-    { id: "v31", objectName: null, cx: 307, cy: 372},//cmanh
+    { id: "v31", objectName: null, cx: 307, cy: 380},//cmanh
     { id: "v32", objectName: null, cx: 473, cy: 144},//riverside
     { id: "v33", objectName: null, cx: 508, cy: 144},//Pedistrian
     { id: "v34", objectName: null, cx: 382, cy: 354},//old stage
@@ -164,7 +164,7 @@ export const graphData: GraphData = {
     { id: "v1_to_v73", from: "v1", to: "v73" },
     { id: "v1_to_v4", from: "v1", to: "v4" },
     { id: "v1_to_v74", from: "v1", to: "v74" },
-    //baasic
+    //basic
     { id: "v2_to_v8", from: "v2", to: "v8" },
     { id: "v2_to_v3", from: "v2", to: "v3" },
     { id: "v2_to_v73", from: "v2", to: "v73" },
@@ -258,5 +258,74 @@ export const graphData: GraphData = {
     { id: "v17_to_v90", from: "v17", to: "v90" },
     { id: "v17_to_v19", from: "v17", to: "v19" },
     { id: "v17_to_v18", from: "v17", to: "v18" },
+    //OP LEFT
+    { id: "v18_to_v86", from: "v18", to: "v86" },
+    { id: "v18_to_v84", from: "v18", to: "v84" },
+    { id: "v18_to_v83", from: "v18", to: "v83" },
+    { id: "v18_to_v72", from: "v17", to: "v72" },
+    { id: "v18_to_v19", from: "v18", to: "v19" },
+    //ITS
+    { id: "v19_to_v18", from: "v19", to: "v18" },
+    { id: "v19_to_v90", from: "v19", to: "v90" },
+    { id: "v19_to_v61", from: "v19", to: "v61" },
+    //registrar
+    { id: "v21_to_v87", from: "v21", to: "v87" },
+    { id: "v21_to_v86", from: "v21", to: "v86" },
+    { id: "v21_to_v88", from: "v21", to: "v88" },
+    { id: "v21_to_v91", from: "v21", to: "v91" },
+    { id: "v21_to_v92", from: "v21", to: "v92" },
+    //Teller
+    { id: "v22_to_v91", from: "v22", to: "v91" },
+    //CMA Upper
+    { id: "v23_to_v91", from: "v23", to: "v91" },
+    //SP Lower or PF Upper
+    { id: "v24_to_v78", from: "v24", to: "v78" },
+    { id: "v24_to_v81", from: "v24", to: "v81" },
+    { id: "v24_to_v80", from: "v24", to: "v80" },
+    { id: "v24_to_v76", from: "v24", to: "v76" },
+    { id: "v24_to_v12", from: "v24", to: "v12" },
+    { id: "v24_to_v4", from: "v24", to: "v4" },
+    { id: "v24_to_v7", from: "v24", to: "v7" },
+    //PF and MBA Hall
+    { id: "v25_to_v78", from: "v25", to: "v78" },
+    { id: "v25_to_v75", from: "v25", to: "v75" },
+    { id: "v25_to_v6", from: "v25", to: "v6" },
+    { id: "v25_to_v74", from: "v25", to: "v74" },
+    { id: "v24_to_v34", from: "v25", to: "v34" },
+    //CMA -CMA HALL
+    { id: "v26_to_v79", from: "v26", to: "v79" },
+    // PF Left Side
+    { id: "v27_to_v79", from: "v27", to: "v79" },
+    { id: "v27_to_v80", from: "v27", to: "v80" },
+    // NH Left
+    { id: "v28_to_v79", from: "v28", to: "v79" },
+    { id: "v28_to_v93", from: "v28", to: "v93" },
+    { id: "v28_to_v11", from: "v28", to: "v11" },
+    { id: "v28_to_v95", from: "v28", to: "v95" },
+    { id: "v28_to_v73", from: "v28", to: "v73" },
+    { id: "v28_to_v31", from: "v28", to: "v31" },
+    { id: "v28_to_v30", from: "v28", to: "v30" },
+    { id: "v28_to_v29", from: "v28", to: "v29" },
+    //techvoc
+    { id: "v29_to_v31", from: "v29", to: "v31" },
+    { id: "v29_to_v30", from: "v29", to: "v30" },
+    { id: "v29_to_v28", from: "v29", to: "v28" },
+    //NH-MB-OLD Stage
+    { id: "v30_to_v28", from: "v30", to: "v28" },
+    { id: "v30_to_v29", from: "v30", to: "v29" },
+    { id: "v30_to_v31", from: "v30", to: "v31" },
+    { id: "v30_to_v34", from: "v30", to: "v34" },
+    //NH Right
+    { id: "v31_to_v28", from: "v31", to: "v28" },
+    { id: "v31_to_v29", from: "v31", to: "v29" },
+    { id: "v31_to_v80", from: "v31", to: "v80" },
+    { id: "v31_to_v78", from: "v31", to: "v78" },
+    { id: "v31_to_v24", from: "v31", to: "v24" },
+    { id: "v31_to_v76", from: "v31", to: "v76" },
+    { id: "v31_to_v12", from: "v31", to: "v12" },
+    { id: "v31_to_v7", from: "v31", to: "v7" },
+    { id: "v31_to_v4", from: "v31", to: "v4" },
+    //
+    
   ],
 };
