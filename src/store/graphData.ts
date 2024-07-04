@@ -152,7 +152,7 @@ export const graphData: GraphData = {
     { id: "v30_to_v44", from: "v30", to: "v44" },//oldstage-nh-mba
     { id: "v31_to_v65", from: "v31", to: "v65" },//nh-pf
     { id: "v32_to_v42", from: "v32", to: "v42" },//riverside
-    { id: "v32_to_v41", from: "v33", to: "v41" },//pedistrian
+    { id: "v33_to_v41", from: "v33", to: "v41" },//pedistrian
     { id: "v34_to_v45", from: "v34", to: "v56" },//old stage
     { id: "v96_to_v53", from: "v96", to: "v53" },//op-atruim
     { id: "v86_to_v61", from: "v86", to: "v61" },//atrium
@@ -204,6 +204,7 @@ export const graphData: GraphData = {
     { id: "v6_to_v95", from: "v6", to: "v95" },
     { id: "v6_to_v8", from: "v6", to: "v8" },
     { id: "v6_to_v83", from: "v6", to: "v83" },
+    { id: "v6_to_v33", from: "v6", to: "v33" },
   //avenue
     { id: "v7_to_v12", from: "v7", to: "v12" },
     { id: "v7_to_v95", from: "v7", to: "v95" },
@@ -215,10 +216,12 @@ export const graphData: GraphData = {
     { id: "v7_to_v80", from: "v7", to: "v80" },
     { id: "v7_to_v81", from: "v7", to: "v81" },
     { id: "v7_to_v31", from: "v7", to: "v31" },
+    { id: "v7_to_v33", from: "v7", to: "v33" },
    //parking
     { id: "v8_to_v9", from: "v8", to: "v9" },
     { id: "v8_to_v83", from: "v8", to: "v83" },
     { id: "v8_to_v82", from: "v8", to: "v82" },
+    { id: "v8_to_v33", from: "v8", to: "v33" },
     //fvr
     { id: "v9_to_v10", from: "v9", to: "v10" },
     { id: "v9_to_v11", from: "v9", to: "v11" },
@@ -325,7 +328,69 @@ export const graphData: GraphData = {
     { id: "v31_to_v12", from: "v31", to: "v12" },
     { id: "v31_to_v7", from: "v31", to: "v7" },
     { id: "v31_to_v4", from: "v31", to: "v4" },
-    //
-    
+    //Riverside
+    { id: "v32_to_v6", from: "v32", to: "v6" },
+    { id: "v32_to_v33", from: "v32", to: "v33" },
+    { id: "v32_to_v7", from: "v32", to: "v7" },
+    { id: "v32_to_v8", from: "v32", to: "v8" },
+    { id: "v32_to_v83", from: "v32", to: "v83" },
+    //Pedistrian
+    { id: "v33_to_v6", from: "v33", to: "v6" },
+    { id: "v33_to_v32", from: "v33", to: "v32" },
+    { id: "v33_to_v7", from: "v33", to: "v7" },
+    { id: "v33_to_v8", from: "v33", to: "v8" },
+    { id: "v33_to_v83", from: "v33", to: "v83" },
+    //oldstage
+    { id: "v34_to_v25", from: "v34", to: "v25" },
+    { id: "v34_to_v75", from: "v34", to: "v75" },
+    { id: "v34_to_v6", from: "v34", to: "v6" },
+    { id: "v34_to_v74", from: "v34", to: "v7" },
+    //OP
+    { id: "v96_to_v86", from: "v96", to: "v86" },
+    { id: "v96_to_v88", from: "v96", to: "v88" },
+    { id: "v96_to_v11", from: "v96", to: "v11" },
+    { id: "v96_to_v91", from: "v96", to: "v91" },
+    { id: "v96_to_v92", from: "v96", to: "v92" },
+    //atrium
+    { id: "v86_to_v96", from: "v86", to: "v96" },
+    { id: "v86_to_v88", from: "v86", to: "v88" },
+    { id: "v86_to_v11", from: "v86", to: "v11" },
+    { id: "v86_to_v91", from: "v86", to: "v91" },
+    { id: "v86_to_v92", from: "v86", to: "v92" },
+    { id: "v86_to_v84", from: "v86", to: "v84" },
+    { id: "v86_to_v83", from: "v86", to: "v83" },
+    { id: "v86_to_v72", from: "v86", to: "v72" },
+    //nulls or gray ones
+    { id: "v72_to_v84", from: "v72", to: "v84" },
+    { id: "v72_to_v83", from: "v72", to: "v83" },
+    { id: "v72_to_v18", from: "v72", to: "v18" },
+    { id: "v72_to_v86", from: "v72", to: "v86" },
+    { id: "v72_to_v3", from: "v72", to: "v3" },
+    { id: "v72_to_v4", from: "v72", to: "v18" },
+    { id: "v72_to_v74", from: "v72", to: "v74" },
+
+
+    { id: "v73_to_v95", from: "v73", to: "v95" },
+    { id: "v73_to_v83", from: "v73", to: "v83" },
+    { id: "v73_to_v11", from: "v73", to: "v11" },
+    { id: "v73_to_v93", from: "v73", to: "v93" },
+    { id: "v73_to_v79", from: "v73", to: "v79" },
+    { id: "v73_to_v66", from: "v73", to: "v66" },
+    { id: "v73_to_v2", from: "v73", to: "v2" },
+    { id: "v73_to_v3", from: "v73", to: "v3" },
+    { id: "v73_to_v4", from: "v73", to: "v4" },
+    { id: "v73_to_v74", from: "v73", to: "v74" },
+
+    { id: "v74_to_v2", from: "v74", to: "v2" },
+    { id: "v74_to_v3", from: "v74", to: "v3" },
+    { id: "v74_to_v4", from: "v74", to: "v4" },
+    { id: "v74_to_v73", from: "v74", to: "v73" },
+    { id: "v74_to_v6", from: "v74", to: "v6" },
+    { id: "v74_to_v25", from: "v74", to: "v25" },
+    { id: "v74_to_v75", from: "v74", to: "v75" },
+    { id: "v74_to_v34", from: "v74", to: "v34" },
+
+
+   
   ],
 };
