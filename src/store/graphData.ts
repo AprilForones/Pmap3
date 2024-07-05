@@ -80,8 +80,8 @@ export const graphData: GraphData = {
     { id: "v55", objectName: "CMA HALL", cx: 251, cy: 186},//CMA HALL
     { id: "v56", objectName: "STUDENT PLAZA", cx: 263, cy: 205},//SP Left
     { id: "v57", objectName: "STUDENT PLAZA", cx: 307, cy: 188},//SP Upper
-    { id: "v58", objectName: "CMA HALL", cx: 240, cy: 299},//CMA Left
-    { id: "v59", objectName: "CMA HALL", cx: 228, cy: 270},//CMA upper
+    { id: "v58", objectName: "CMA BLDG", cx: 240, cy: 299},//CMA Left
+    { id: "v59", objectName: "CMA BLDG", cx: 228, cy: 270},//CMA upper
     { id: "v60", objectName: "null", cx: 94, cy: 229},//PTC-Artium
     { id: "v61", objectName: "Atrium", cx: 113, cy: 261},//Artium
     { id: "v62", objectName: "PHINMA FOREST", cx: 262, cy: 299},//PGarden  Left
@@ -113,7 +113,7 @@ export const graphData: GraphData = {
     { id: "v87", objectName: "Null", cx: 154, cy: 261},//Atruim-OP
     { id: "v88", objectName: "Null", cx: 94, cy: 261},//Atruim-ptc
     { id: "v90", objectName: "Null", cx: 94, cy: 218},//Atruim-ptc-Its
-    { id: "v91", objectName: "Null", cx: 288, cy: 261},//Atruim-teller-cma
+    { id: "v91", objectName: "Null", cx: 228, cy: 261},//Atruim-teller-cma
     { id: "v92", objectName: "Null", cx: 251, cy: 261},//teller-cma
     { id: "v93", objectName: "Null", cx: 251, cy: 205},//cma-sp
     { id: "v94", objectName: "Null", cx: 383, cy: 188},//mba sp
@@ -153,7 +153,7 @@ export const graphData: GraphData = {
     { id: "v31_to_v65", from: "v31", to: "v65" },//nh-pf
     { id: "v32_to_v42", from: "v32", to: "v42" },//riverside
     { id: "v33_to_v41", from: "v33", to: "v41" },//pedistrian
-    { id: "v34_to_v45", from: "v34", to: "v56" },//old stage
+    { id: "v34_to_v45", from: "v34", to: "v45" },//old stage
     { id: "v96_to_v53", from: "v96", to: "v53" },//op-atruim
     { id: "v86_to_v61", from: "v86", to: "v61" },//atrium
   // positions path
@@ -195,6 +195,7 @@ export const graphData: GraphData = {
     { id: "v5_to_v25", from: "v5", to: "v25" },
     { id: "v5_to_v34", from: "v5", to: "v34" },
     //mba
+    { id: "v40_to_v6", from: "v6", to: "v40" },
     { id: "v6_to_v74", from: "v6", to: "v74" },
     { id: "v6_to_v75", from: "v6", to: "v75" },
     { id: "v6_to_v32", from: "v6", to: "v32" },
@@ -240,6 +241,7 @@ export const graphData: GraphData = {
     { id: "v11_to_v28", from: "v11", to: "v98" },
     { id: "v11_to_v12", from: "v11", to: "v12" },
     { id: "v11_to_v94", from: "v11", to: "v94" },
+    { id: "v11_to_v92", from: "v11", to: "v92" },
     //sp upper
     { id: "v12_to_v76", from: "v12", to: "v76" },
     { id: "v12_to_v24", from: "v12", to: "v24" },
@@ -275,12 +277,14 @@ export const graphData: GraphData = {
     { id: "v21_to_v87", from: "v21", to: "v87" },
     { id: "v21_to_v86", from: "v21", to: "v86" },
     { id: "v21_to_v88", from: "v21", to: "v88" },
-    { id: "v21_to_v91", from: "v21", to: "v91" },
+    //{ id: "v21_to_v91", from: "v21", to: "v91" },
     { id: "v21_to_v92", from: "v21", to: "v92" },
     //Teller
     { id: "v22_to_v91", from: "v22", to: "v91" },
+    //{ id: "v22_to_v71", from: "v22", to: "v71" },
     //CMA Upper
-    { id: "v23_to_v91", from: "v23", to: "v91" },
+    { id: "v59_to_v91", from: "v59", to: "v91" },
+    { id: "v59_to_v23", from: "v59", to: "v23" },
     //SP Lower or PF Upper
     { id: "v24_to_v78", from: "v24", to: "v78" },
     { id: "v24_to_v81", from: "v24", to: "v81" },
@@ -291,12 +295,14 @@ export const graphData: GraphData = {
     { id: "v24_to_v7", from: "v24", to: "v7" },
     //PF and MBA Hall
     { id: "v25_to_v78", from: "v25", to: "v78" },
+    { id: "v25_to_v45", from: "v25", to: "v45" },
     { id: "v25_to_v75", from: "v25", to: "v75" },
     { id: "v25_to_v6", from: "v25", to: "v6" },
     { id: "v25_to_v74", from: "v25", to: "v74" },
     { id: "v24_to_v34", from: "v25", to: "v34" },
     //CMA -CMA HALL
-    { id: "v26_to_v79", from: "v26", to: "v79" },
+    { id: "v58_to_v79", from: "v58", to: "v79" },
+    { id: "v58_to_v26", from: "v58", to: "v26" },
     // PF Left Side
     { id: "v27_to_v79", from: "v27", to: "v79" },
     { id: "v27_to_v80", from: "v27", to: "v80" },
@@ -341,22 +347,22 @@ export const graphData: GraphData = {
     { id: "v33_to_v8", from: "v33", to: "v8" },
     { id: "v33_to_v83", from: "v33", to: "v83" },
     //oldstage
-    { id: "v34_to_v25", from: "v34", to: "v25" },
+    //{ id: "v34_to_v45", from: "v34", to: "v45" },
     { id: "v34_to_v75", from: "v34", to: "v75" },
     { id: "v34_to_v6", from: "v34", to: "v6" },
     { id: "v34_to_v74", from: "v34", to: "v7" },
     //OP
-    { id: "v96_to_v86", from: "v96", to: "v86" },
-    { id: "v96_to_v88", from: "v96", to: "v88" },
-    { id: "v96_to_v11", from: "v96", to: "v11" },
-    { id: "v96_to_v91", from: "v96", to: "v91" },
-    { id: "v96_to_v92", from: "v96", to: "v92" },
+    { id: "v87_to_v86", from: "v87", to: "v86" },
+    { id: "v87_to_v88", from: "v87", to: "v88" },
+    { id: "v87_to_v52", from: "v87", to: "v52" },
+    { id: "v87_to_v91", from: "v87", to: "v91" },
+    { id: "v87_to_v92", from: "v87", to: "v92" },
     //atrium
     { id: "v86_to_v96", from: "v86", to: "v96" },
     { id: "v86_to_v88", from: "v86", to: "v88" },
     { id: "v86_to_v11", from: "v86", to: "v11" },
-    { id: "v86_to_v91", from: "v86", to: "v91" },
-    { id: "v86_to_v92", from: "v86", to: "v92" },
+    //{ id: "v86_to_v91", from: "v86", to: "v91" },
+    //{ id: "v86_to_v92", from: "v86", to: "v92" },
     { id: "v86_to_v84", from: "v86", to: "v84" },
     { id: "v86_to_v83", from: "v86", to: "v83" },
     { id: "v86_to_v72", from: "v86", to: "v72" },
@@ -390,7 +396,164 @@ export const graphData: GraphData = {
     { id: "v74_to_v75", from: "v74", to: "v75" },
     { id: "v74_to_v34", from: "v74", to: "v34" },
 
+    { id: "v75_to_v74", from: "v75", to: "v74" },
+    { id: "v75_to_v6", from: "v75", to: "v6" },
+    { id: "v75_to_v15", from: "v75", to: "v15" },
+    { id: "v75_to_v16", from: "v75", to: "v16" },
+    { id: "v75_to_v25", from: "v75", to: "v25" },
+    { id: "v75_to_v34", from: "v75", to: "v34" },
+    { id: "v75_to_v45", from: "v75", to: "v45" },
 
+    { id: "v76_to_v13", from: "v76", to: "v13" },
+    { id: "v76_to_v24", from: "v76", to: "v24" },
+    { id: "v76_to_v12", from: "v76", to: "v12" },
+    { id: "v76_to_v15", from: "v76", to: "v15" },
+    { id: "v76_to_v7", from: "v76", to: "v7" },
+    { id: "v76_to_v4", from: "v76", to: "v4" },
+    { id: "v76_to_v78", from: "v76", to: "v78" },
+    { id: "v76_to_v80", from: "v76", to: "v80" },
+    { id: "v76_to_v82", from: "v76", to: "v82" },
+    { id: "v76_to_v65", from: "v76", to: "v65" },
    
+    { id: "v78_to_v24", from: "v78", to: "v24" },
+    { id: "v78_to_v25", from: "v78", to: "v25" },
+    { id: "v78_to_v80", from: "v78", to: "v80" },
+    { id: "v78_to_v81", from: "v78", to: "v81" },
+    { id: "v78_to_v65", from: "v78", to: "v65" },
+    { id: "v78_to_v12", from: "v78", to: "v12" },
+    //{ id: "v78_to_v6", from: "v78", to: "v6" },
+    { id: "v78_to_v4", from: "v78", to: "v4" },
+
+    { id: "v79_to_v26", from: "v79", to: "v26" },
+    { id: "v79_to_v27", from: "v79", to: "v27" },
+    { id: "v79_to_v80", from: "v79", to: "v80" },
+    { id: "v79_to_v66", from: "v79", to: "v66" },
+    { id: "v79_to_v92", from: "v79", to: "v92" },
+    { id: "v79_to_v93", from: "v79", to: "v93" },
+    { id: "v79_to_v11", from: "v79", to: "v11" },
+    { id: "v79_to_v95", from: "v79", to: "v95" },
+    { id: "v79_to_v73", from: "v79", to: "v73" },
+
+    { id: "v80_to_v27", from: "v80", to: "v27" },
+    { id: "v80_to_v78", from: "v80", to: "v78" },
+    { id: "v80_to_v24", from: "v80", to: "v24" },
+    //{ id: "v80_to_v76", from: "v80", to: "v76" },
+    { id: "v80_to_v12", from: "v80", to: "v12" },
+    { id: "v80_to_v7", from: "v80", to: "v7" },
+    { id: "v80_to_v4", from: "v80", to: "v4" },
+    { id: "v80_to_v76", from: "v80", to: "v76" },
+    { id: "v80_to_v81", from: "v80", to: "v81" },
+    { id: "v80_to_v65", from: "v80", to: "v65" },
+
+    { id: "v81_to_v34", from: "v81", to: "v34" },
+    { id: "v81_to_v65", from: "v81", to: "v65" },
+    { id: "v81_to_v45", from: "v81", to: "v34" },
+    { id: "v81_to_v80", from: "v81", to: "v80" },
+    { id: "v81_to_v78", from: "v81", to: "v78" },
+    { id: "v81_to_v24", from: "v81", to: "v24" },
+    { id: "v81_to_v76", from: "v81", to: "v76" },
+    { id: "v81_to_v12", from: "v81", to: "v12" },
+    { id: "v81_to_v4", from: "v81", to: "v4" },
+    { id: "v81_to_v7", from: "v81", to: "v7" },
+
+    { id: "v82_to_v83", from: "v82", to: "v83" },
+    { id: "v82_to_v90", from: "v82", to: "v90" },
+    { id: "v82_to_v60", from: "v82", to: "v60" },
+    { id: "v82_to_v94", from: "v82", to: "v94" },
+
+    { id: "v83_to_v72", from: "v83", to: "v72" },
+    { id: "v83_to_v84", from: "v83", to: "v84" },
+    { id: "v83_to_v18", from: "v83", to: "v18" },
+    { id: "v83_to_v86", from: "v83", to: "v86" },
+    { id: "v83_to_v8", from: "v83", to: "v8" },
+    { id: "v83_to_v95", from: "v83", to: "v95" },
+    { id: "v83_to_v7", from: "v83", to: "v7" },
+    { id: "v83_to_v6", from: "v83", to: "6" },
+
+    { id: "v84_to_v72", from: "v84", to: "v72" },
+    { id: "v84_to_v83", from: "v84", to: "v83" },
+    { id: "v84_to_v18", from: "v84", to: "v18" },
+    { id: "v84_to_v86", from: "v84", to: "v86" },
+    { id: "v84_to_v9", from: "v84", to: "v9" },
+    { id: "v84_to_v10", from: "v84", to: "v10" },
+    { id: "v84_to_v11", from: "v84", to: "v11" },
+    { id: "v84_to_v12", from: "v84", to: "v12" },
+    { id: "v84_to_v94", from: "v84", to: "v94" },
+
+    //{ id: "v86_to_v72", from: "v86", to: "v72" },
+    //{ id: "v86_to_v83", from: "v86", to: "v83" },
+    //{ id: "v86_to_v84", from: "v86", to: "v84" },
+    //{ id: "v86_to_v88", from: "v86", to: "v88" },
+    { id: "v86_to_v87", from: "v86", to: "v87" },
+    { id: "v86_to_v91", from: "v86", to: "v91" },
+    { id: "v86_to_v92", from: "v86", to: "v92" },
+
+    { id: "v88_to_v60", from: "v88", to: "v18" },
+    { id: "v88_to_v86", from: "v88", to: "v86" },
+    { id: "v88_to_v87", from: "v88", to: "v87" },
+    { id: "v88_to_v91", from: "v88", to: "v91" },
+    { id: "v88_to_v92", from: "v88", to: "v11" },
+    { id: "v88_to_v90", from: "v88", to: "v90" },
+    { id: "v88_to_v82", from: "v88", to: "v82" },
+
+    { id: "v90_to_v60", from: "v90", to: "v60" },
+    { id: "v90_to_v17", from: "v90", to: "v17" },
+    { id: "v90_to_v88", from: "v90", to: "v88" },
+    { id: "v90_to_v82", from: "v90", to: "v82" },
+    { id: "v90_to_v19", from: "v90", to: "v19" },
+    { id: "v90_to_v18", from: "v90", to: "v18" },
+
+    { id: "v91_to_v92", from: "v91", to: "v92" },
+    { id: "v91_to_v87", from: "v91", to: "v87" },
+    { id: "v91_to_v88", from: "v91", to: "v88" },
+    { id: "v91_to_v21", from: "v91", to: "v21" },
+    { id: "v91_to_v86", from: "v91", to: "v86" },
+
+    { id: "v92_to_v91", from: "v92", to: "v91" },
+    { id: "v92_to_v87", from: "v92", to: "v87" },
+    { id: "v92_to_v88", from: "v92", to: "v88" },
+    { id: "v92_to_v21", from: "v92", to: "v21" },
+    { id: "v92_to_v86", from: "v92", to: "v86" },
+    { id: "v92_to_v93", from: "v92", to: "v93" },
+    { id: "v92_to_v11", from: "v92", to: "v11" },
+    { id: "v92_to_v95", from: "v92", to: "v95" },
+    { id: "v92_to_v73", from: "v92", to: "v73" },
+    { id: "v92_to_v79", from: "v92", to: "v79" },
+    { id: "v92_to_v66", from: "v92", to: "v66" },
+
+    { id: "v93_to_v92", from: "v93", to: "v93" },
+    { id: "v93_to_v11", from: "v93", to: "v11" },
+    { id: "v93_to_v95", from: "v93", to: "v95" },
+    { id: "v93_to_v73", from: "v93", to: "v73" },
+    { id: "v93_to_v79", from: "v93", to: "v79" },
+    { id: "v93_to_v66", from: "v93", to: "v66" },
+    { id: "v93_to_v76", from: "v93", to: "v76" },
+    { id: "v93_to_v15", from: "v93", to: "v15" },
+    { id: "v93_to_v75", from: "v93", to: "v75" },
+
+    { id: "v94_to_v75", from: "v94", to: "v75" },
+    { id: "v94_to_v12", from: "v94", to: "v12" },
+    { id: "v94_to_v11", from: "v94", to: "v11" },
+    { id: "v94_to_v10", from: "v94", to: "v10" },
+    { id: "v94_to_v9", from: "v94", to: "v9" },
+    { id: "v94_to_v84", from: "v94", to: "v84" },
+    //{ id: "v94_to_v12", from: "v94", to: "v12" },
+   //{ id: "v94_to_v11", from: "v94", to: "v11" },
+    { id: "v94_to_v6", from: "v94", to: "v6" },
+    { id: "v94_to_v74", from: "v94", to: "v74" },
+    { id: "v94_to_v5", from: "v94", to: "v5" },
+    { id: "v94_to_v34", from: "v94", to: "v34" },
+    { id: "v94_to_v25", from: "v94", to: "v25" },
+
+    { id: "v95_to_v93", from: "v95", to: "v93" },
+    { id: "v95_to_v11", from: "v95", to: "v11" },
+    { id: "v95_to_v92", from: "v95", to: "v95" },
+    { id: "v95_to_v73", from: "v95", to: "v73" },
+    { id: "v95_to_v79", from: "v95", to: "v79" },
+    { id: "v95_to_v66", from: "v95", to: "v66" },
+    { id: "v95_to_v8", from: "v95", to: "v8" },
+    { id: "v95_to_v7", from: "v95", to: "v7" },
+    { id: "v95_to_v83", from: "v95", to: "v83" },
+
   ],
 };
