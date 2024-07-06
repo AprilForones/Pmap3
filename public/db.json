@@ -14,7 +14,7 @@
     },
     {
       "id": "c3d4",
-      "categoryId": "e928",
+      "categoryId": "58a9",
       "name": "FVR BLDG",
       "desc": "Various facilities are located here. refer to building information below for further details."
     },
@@ -74,7 +74,7 @@
     },
     {
       "id": "m3n4",
-      "categoryId": "87b0",
+      "categoryId": "e928",
       "name": "Engineering Bldg.",
       "desc": "Engineering Bldg., used by various department of students."
     },
@@ -86,7 +86,7 @@
     },
     {
       "id": "p6q7",
-      "categoryId": "17b0",
+      "categoryId": "87b0",
       "name": "MBA Hall",
       "desc": "Fashion and quality at the best price."
     },
@@ -98,13 +98,13 @@
     },
     {
       "id": "q8r9",
-      "categoryId": "e928",
+      "categoryId": "58a9",
       "name": "Teller",
       "desc": "Building for Teller."
     },
     {
       "id": "r9y9",
-      "categoryId": "e928",
+      "categoryId": "58a9",
       "name": "Finance Purchasing Department",
       "desc": "Building for financial business."
     },
@@ -116,7 +116,7 @@
     },
     {
       "id": "a4z8",
-      "categoryId": "e928",
+      "categoryId": "58a9",
       "name": "Registrar Office",
       "desc": "Registar's office."
     },
@@ -128,13 +128,13 @@
     },
     {
       "id": "c2v2",
-      "categoryId": "17b0",
+      "categoryId": "58a9",
       "name": "Vehicle Entrance",
       "desc": "Vehicle Entrance."
     },
     {
       "id": "m2m2",
-      "categoryId": "17b0",
+      "categoryId": "58a9",
       "name": "Pedistrian Entrance/Exit",
       "desc": "Pedistrian Entrance/Exit."
     },
@@ -146,7 +146,7 @@
     },
     {
       "id": "n5o6",
-      "categoryId": "a191",
+      "categoryId": "58a9",
       "name": "Old Stage",
       "desc": "Phinma Garden's Olden Stage."
     }
