@@ -58,9 +58,9 @@ function IndoorMapWrapper() {
 
       <TransformWrapper
         centerOnInit
-        minScale={isMobile ? 0.4 : 1}
+        minScale={isMobile ? 0.9 : 1}
         doubleClick={{ mode: "reset" }}
-        initialScale={isMobile ? 0.4 : 1}
+        initialScale={isMobile ? 0.9 : 1}
         smooth={true}
         wheel={{ smoothStep: 0.01 }}
       >
