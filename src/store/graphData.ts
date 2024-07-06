@@ -52,7 +52,6 @@ export const graphData: GraphData = {
     { id: "v32", objectName: null, cx: 474, cy: 151},//riverside
     { id: "v33", objectName: null, cx: 508, cy: 151},//Pedistrian
     { id: "v34", objectName: null, cx: 382, cy: 354},//old stage
-    // { id: "v96", objectName: null, cx: 154, cy: 261},//OP
     { id: "v86", objectName: null, cx: 136, cy: 261},//Atruim
 
 
@@ -70,7 +69,7 @@ export const graphData: GraphData = {
     { id: "v45", objectName: "Old Stage", cx: 382, cy: 362},//Old stage
     { id: "v46", objectName: "PHINMA AVE", cx: 323, cy: 151},//Phinma Ave
     { id: "v47", objectName: "VEHICLE PARKING", cx: 188, cy: 151},//Vehicle Parking
-    { id: "v48", objectName: "Front Entrance", cx: 43, cy: 221},//PTC Bldg
+    { id: "v48", objectName: "Front Entrance", cx: 43, cy: 221},//Front Entrance
     { id: "v49", objectName: "CSDL/ITS BLDG", cx: 115, cy: 221},//ITS
     { id: "v50", objectName: "FVR BLDG", cx: 175, cy: 186},//FVR
     { id: "v51", objectName: "Finance Purchasing Department", cx: 228, cy: 186},//Finance
@@ -94,6 +93,7 @@ export const graphData: GraphData = {
     { id: "v69", objectName: "STUDENT PLAZA", cx: 395, cy: 205},//SP Right-MB HALL
     { id: "v70", objectName: "CMA HALL", cx: 251, cy: 261},//CMA HALL
     { id: "v71", objectName: "Teller", cx: 228, cy: 250},//Teller
+    { id: "v96", objectName: "PTC Bldg", cx: 88, cy: 218},//PTC Bldg
     
     //Gray circles (not to be showned or "null")
     { id: "v72", objectName: "Null", cx: 136, cy: 116},//Basic ed
@@ -156,6 +156,7 @@ export const graphData: GraphData = {
     { id: "v34_to_v45", from: "v34", to: "v45" },//old stage
     { id: "v87_to_v52", from: "v87", to: "v52" },//op-atruim
     { id: "v86_to_v61", from: "v86", to: "v61" },//atrium
+    
   // positions path
     //v.entrance
     { id: "v1_to_v72", from: "v1", to: "v72" },
@@ -268,6 +269,7 @@ export const graphData: GraphData = {
     { id: "v17_to_v90", from: "v17", to: "v90" },
     { id: "v17_to_v85", from: "v17", to: "v85" },
     { id: "v17_to_v49", from: "v17", to: "v49" },
+    { id: "v17_to_v96", from: "v17", to: "v96" },
     //OP LEFT
     { id: "v18_to_v86", from: "v18", to: "v86" },
     { id: "v18_to_v84", from: "v18", to: "v84" },
@@ -501,6 +503,7 @@ export const graphData: GraphData = {
     { id: "v90_to_v82", from: "v90", to: "v82" },
     { id: "v90_to_v49", from: "v90", to: "v49" },
     { id: "v90_to_v85", from: "v90", to: "v85" },
+    { id: "v90_to_v96", from: "v90", to: "v96" },
 
     { id: "v91_to_v92", from: "v91", to: "v92" },
     { id: "v91_to_v87", from: "v91", to: "v87" },

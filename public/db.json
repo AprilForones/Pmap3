@@ -4,7 +4,7 @@
       "id": "a1b2",
       "categoryId": "e753",
       "name": "Front Entrance",
-      "desc": "The Front entrance is located here and this is where the IT Department is Located."
+      "desc": "The Front entrance is located here."
     },
     {
       "id": "b2c3",
@@ -149,6 +149,12 @@
       "categoryId": "58a9",
       "name": "Old Stage",
       "desc": "Phinma Garden's Olden Stage."
+    },
+    {
+      "id": "x5x6",
+      "categoryId": "58a9",
+      "name": "PTC Bldg",
+      "desc": "This is where the IT Department is Located"
     }
   ],
   "categories": [
