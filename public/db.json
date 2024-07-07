@@ -19,10 +19,16 @@
       "desc": "Various facilities are located here. refer to building information below for further details."
     },
     {
+      "id": "c3c4",
+      "categoryId": "58a9",
+      "name": "University Library Building",
+      "desc": "University Library located in Second Floor at Atruim."
+    },
+    {
       "id": "d4e5",
       "categoryId": "e928",
       "name": "CMA Building Entrance 1",
-      "desc": "Building used by CMA Students."
+      "desc": "Building used by CMA Students. Located in second floor at Atruim."
     },
     {
       "id": "d4f5",
@@ -207,7 +213,13 @@
     {
       "id": "x5x6",
       "categoryId": "58a9",
-      "name": "PTC Building",
+      "name": "PTC Building Entrance 1",
+      "desc": "This is where the IT Department is Located"
+    },
+    {
+      "id": "z5x6",
+      "categoryId": "58a9",
+      "name": "PTC Building Entrance 2",
       "desc": "This is where the IT Department is Located"
     }
   ],

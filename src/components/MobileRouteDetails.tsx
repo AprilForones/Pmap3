@@ -18,10 +18,14 @@ function MobileRouteDetails() {
         </h1>
         <p className="text-gray-500 text-sm">{object?.categoryName}</p>
       </div>
+      <div className="p-4 pb-0">
+        <h4 className="text-gray-900 text-sm"> 
+          Click the Green button to start new location position.
+        </h4>        
+      </div>
       <div className="bg-gray-200 text-gray-900 px-3 py-1 center w-fit rounded-md text-sm font-semibold m-3">
         <TbRoute className="inline-block mr-1" />
         {/* {walkingTime} seconds away -  */}
-        <h4>Click the Green button for new location position.</h4>
         {rightRouteLength} meters
       </div>
     </div>

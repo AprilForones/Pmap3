@@ -94,11 +94,19 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
             className={`${className} object`}
             d="M287 385H392V410H287z"
             onClick={handleObjectClick}
-          />          
+          />
+          {/* Ground Floor           */}
           <path
-            id="PTC Building"
+            id="PTC Building Entrance 1"
             className={`${className} object`}
              d="M40.7803 137.548H87.2835V286.374H40.7803z"
+            onClick={handleObjectClick}
+          />
+          {/* second floor*/}
+          <path
+            id="PTC Building Entrance 2"
+            className={`${className} object`}
+             d="M87.5 224.5H101.5V252.5H87.5z"
             onClick={handleObjectClick}
           />
            <path
@@ -146,15 +154,21 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
           <path
             id="OP/Marketing Department Entrance 2"
             className={`${className} object`}
-            d="M151 219H179V246H151z"
+            d="M151 219H174V246H151z"
             onClick={handleObjectClick}
           />
           <path
             id="FVR Building"
             className={`${className} object`}
-             d="M139.229 187.911H218.0825V216.4513H139.229z"
+             d="M139 188H218V201H139z"
             onClick={handleObjectClick}
           />
+          <path
+            id="University Library Building"
+            className={`${className} object`}
+             d="M139 202H218V218H139z"
+            onClick={handleObjectClick}
+          />          
           <path
             id="CSDL/ITS Building"
             className={`${className} object`}
@@ -202,7 +216,7 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
            <path
             id="Registrar Office"
             className={`${className} object`}
-              d="M181.548 218.452h36.395v32.238h-36.395v-32.238z"
+              d="M184 218h34v33h-34v-33z"
             onClick={handleObjectClick}
           />
            <path
