@@ -3,97 +3,145 @@
     {
       "id": "a1b2",
       "categoryId": "e753",
-      "name": "Front Entrance",
+      "name": "School Front Entrance",
       "desc": "The Front entrance is located here."
     },
     {
       "id": "b2c3",
       "categoryId": "e928",
-      "name": "CSDL/ITS BLDG",
+      "name": "CSDL/ITS Building",
       "desc": "The CSDL is located here."
     },
     {
       "id": "c3d4",
       "categoryId": "58a9",
-      "name": "FVR BLDG",
+      "name": "FVR Building",
       "desc": "Various facilities are located here. refer to building information below for further details."
     },
     {
       "id": "d4e5",
       "categoryId": "e928",
-      "name": "CMA BLDG",
+      "name": "CMA Building Entrance 1",
+      "desc": "Building used by CMA Students."
+    },
+    {
+      "id": "d4f5",
+      "categoryId": "e928",
+      "name": "CMA Building Entrance 2",
       "desc": "Building used by CMA Students."
     },
     {
       "id": "e5f6",
       "categoryId": "e928",
-      "name": "BASIC ED BLDG",
+      "name": "BASIC ED Building",
       "desc": "Building used by JR. and SR. Highschool Students."
     },
     {
       "id": "f6g7",
       "categoryId": "e928",
-      "name": "CELA DEPARTMENT",
+      "name": "CELA Department",
       "desc": " Used by Medical Students."
     },
     {
       "id": "g7h8",
       "categoryId": "d21e",
-      "name": "GYMNASIUM",
+      "name": "Gymnasium",
       "desc": "School Gymnasium."
     },
     {
       "id": "h8i9",
       "categoryId": "17b0",
-      "name": "STUDENT PLAZA",
+      "name": "Student Plaza Entrance 1",
+      "desc": "Student plaza. "
+    },
+    {
+      "id": "h8k9",
+      "categoryId": "17b0",
+      "name": "Student Plaza Entrance 2",
+      "desc": "Student plaza. "
+    },
+    {
+      "id": "h8j9",
+      "categoryId": "17b0",
+      "name": "Student Plaza Entrance 3",
+      "desc": "Student plaza. "
+    },
+    {
+      "id": "h8l9",
+      "categoryId": "17b0",
+      "name": "Student Plaza Entrance 4",
       "desc": "Student plaza. "
     },
     {
       "id": "i9j0",
       "categoryId": "e928",
-      "name": "Technical Vocational Bldg.",
+      "name": "Technical Vocational Building",
       "desc": "Used for automotive purposes."
     },
     {
       "id": "j0k1",
       "categoryId": "87b0",
-      "name": "NORTH HALL",
+      "name": "North Hall Entrance 1",
+      "desc": "North hall, used by various department of students."
+    },
+    {
+      "id": "j0k2",
+      "categoryId": "87b0",
+      "name": "North  Hall Entrance 2",
       "desc": "North hall, used by various department of students."
     },
     {
       "id": "k1l2",
       "categoryId": "17b0",
-      "name": "VEHICLE PARKING",
+      "name": "School Vehicle Parking",
       "desc": "School Parking Lot."
     },
     {
       "id": "l2m3",
       "categoryId": "17b0",
-      "name": "PHINMA FOREST",
+      "name": "PHINMA Forest",
       "desc": "Used by students to rest and get some fresh air."
     },
     {
       "id": "m3n4",
       "categoryId": "e928",
-      "name": "Engineering Bldg.",
+      "name": "Engineering Building",
       "desc": "Engineering Bldg., used by various department of students."
     },
     {
       "id": "n4o5",
       "categoryId": "52f1",
-      "name": "PHINMA AVE",
+      "name": "PHINMA Avenue",
       "desc": "Goes through the school, usually used to get around school."
     },
     {
       "id": "p6q7",
       "categoryId": "87b0",
-      "name": "MBA Hall",
+      "name": "MBA Hall Entrance 1",
+      "desc": "Fashion and quality at the best price."
+    },
+    {
+      "id": "b6b8",
+      "categoryId": "87b0",
+      "name": "MBA Hall Entrance 2",
+      "desc": "Fashion and quality at the best price."
+    },
+    {
+      "id": "c6c7",
+      "categoryId": "87b0",
+      "name": "MBA Hall Entrance 3",
+      "desc": "Fashion and quality at the best price."
+    },
+    {
+      "id": "d6d7",
+      "categoryId": "87b0",
+      "name": "MBA Hall Entrance 4",
       "desc": "Fashion and quality at the best price."
     },
     {
       "id": "q7r8",
       "categoryId": "e928",
-      "name": "Riverside Bldg",
+      "name": "Riverside Building",
       "desc": "Building used by Medical Students."
     },
     {
@@ -129,8 +177,8 @@
     {
       "id": "c2v2",
       "categoryId": "58a9",
-      "name": "Vehicle Entrance",
-      "desc": "Vehicle Entrance."
+      "name": "School Vehicle Entrance",
+      "desc": "School Vehicle Entrance."
     },
     {
       "id": "m2m2",
@@ -141,7 +189,13 @@
     {
       "id": "f7h9",
       "categoryId": "e928",
-      "name": "OP",
+      "name": "OP/Marketing Department Entrance 1",
+      "desc": "OP/Marketing department."
+    },
+    {
+      "id": "f7k9",
+      "categoryId": "e928",
+      "name": "OP/Marketing Department Entrance 2",
       "desc": "OP/Marketing department."
     },
     {
@@ -153,7 +207,7 @@
     {
       "id": "x5x6",
       "categoryId": "58a9",
-      "name": "PTC Bldg",
+      "name": "PTC Building",
       "desc": "This is where the IT Department is Located"
     }
   ],
