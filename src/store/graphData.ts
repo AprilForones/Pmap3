@@ -94,7 +94,7 @@ export const graphData: GraphData = {
     { id: "v69", objectName: "MBA Hall Entrance 2", cx: 395, cy: 205},//SP Right-MB HALL
     { id: "v70", objectName: "CMA HALL", cx: 251, cy: 261},//CMA HALL
     { id: "v71", objectName: "Teller", cx: 228, cy: 250},//Teller
-    { id: "v96", objectName: "PTC Building", cx: 88, cy: 221},//PTC Bldg
+    { id: "v96", objectName: "PTC Building Entrance 1", cx: 88, cy: 221},//PTC Bldg
     { id: "v97", objectName: "PHINMA Forest", cx: 307, cy: 290},//PHINMA Forest center
     { id: "v104", objectName: "University Library Building", cx: 180, cy: 218},//lib
     
