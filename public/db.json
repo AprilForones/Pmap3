@@ -56,25 +56,25 @@
     },
     {
       "id": "h8i9",
-      "categoryId": "17b0",
+      "categoryId": "16be",
       "name": "Student Plaza Entrance 1",
       "desc": "Student plaza. "
     },
     {
       "id": "h8k9",
-      "categoryId": "17b0",
+      "categoryId": "16be",
       "name": "Student Plaza Entrance 2",
       "desc": "Student plaza. "
     },
     {
       "id": "h8j9",
-      "categoryId": "17b0",
+      "categoryId": "16be",
       "name": "Student Plaza Entrance 3",
       "desc": "Student plaza. "
     },
     {
       "id": "h8l9",
-      "categoryId": "17b0",
+      "categoryId": "16be",
       "name": "Student Plaza Entrance 4",
       "desc": "Student plaza. "
     },
@@ -98,13 +98,13 @@
     },
     {
       "id": "k1l2",
-      "categoryId": "17b0",
+      "categoryId": "16be",
       "name": "School Vehicle Parking",
       "desc": "School Parking Lot."
     },
     {
       "id": "l2m3",
-      "categoryId": "17b0",
+      "categoryId": "16be",
       "name": "PHINMA Forest",
       "desc": "Used by students to rest and get some fresh air."
     },
@@ -172,11 +172,11 @@
       "id": "a4z8",
       "categoryId": "58a9",
       "name": "Registrar Office",
-      "desc": "Registar's office."
+      "desc": "Registar's office.Located in second floor at Atruim."
     },
     {
       "id": "q1r9",
-      "categoryId": "e928",
+      "categoryId": "87b0",
       "name": "CMA HALL",
       "desc": "CMA HALL."
     },
@@ -226,11 +226,11 @@
   "categories": [
     {
       "id": "52f1",
-      "name": "Avenue"
+      "name": " "
     },
     {
       "id": "e928",
-      "name": "Department Building "
+      "name": " "
     },
     {
       "id": "58a9",
@@ -242,19 +242,19 @@
     },
     {
       "id": "d21e",
-      "name": "GYM Area"
+      "name": " "
     },
     {
       "id": "a191",
-      "name": "Old Stage"
+      "name": " "
     },
     {
       "id": "87b0",
-      "name": "Hall"
+      "name": " "
     },
     {
       "id": "17b0",
-      "name": "Others"
+      "name": " "
     },
     {
       "id": "e753",
