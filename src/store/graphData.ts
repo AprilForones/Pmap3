@@ -18,116 +18,93 @@ export interface GraphData {
 export const graphData: GraphData = {
   vertices: [
     //visible for change position, Yellow color base on map sample
-    { id: "v1", objectName: null, cx: 101, cy: 116},//Entrance Vehicle
-    { id: "v2", objectName: null, cx: 175, cy: 116},//basic ed
-    { id: "v3", objectName: null, cx: 228, cy: 116},//cela
-    { id: "v4", objectName: null, cx: 306, cy: 116},//gym
-    { id: "v5", objectName: null, cx: 382, cy: 77},//Eng Bldg
-    { id: "v6", objectName: null, cx: 382, cy: 151},//mba hall
-    { id: "v7", objectName: null, cx: 306, cy: 151},//p ave
-    { id: "v8", objectName: null, cx: 175, cy: 151},//v parking
-    { id: "v9", objectName: null, cx: 175, cy: 180},//fvr
-    { id: "v10", objectName: null, cx: 228, cy: 180},//finance
-    { id: "v11", objectName: "null", cx: 251, cy: 180},//cma
-    { id: "v12", objectName: null, cx: 307, cy: 180},//sp upper
-    { id: "v13", objectName: null, cx: 257, cy: 205},//sp left
-    { id: "v14", objectName: null, cx: 251, cy: 250},//cma
-    { id: "v15", objectName: null, cx: 377, cy: 205},//sp right
-    { id: "v16", objectName: null, cx: 389, cy: 205},//mba-sp
-    { id: "v17", objectName: null, cx: 54, cy: 221},//ptc
-    { id: "v18", objectName: null, cx: 135, cy: 229},//op left
-    { id: "v19", objectName: null, cx: 115, cy: 229},//its
-    { id: "v20", objectName: "null", cx: 113, cy: 261},//op-atrium
-    { id: "v21", objectName: null, cx: 201, cy: 255},//registrar-atrium
-    { id: "v22", objectName: null, cx: 228, cy: 256},//teller
-    { id: "v23", objectName: null, cx: 201, cy: 267},//cma
-    { id: "v24", objectName: null, cx: 307, cy: 258},//sp-forest
-    { id: "v25", objectName: null, cx: 382, cy: 282},//mba-pf
-    { id: "v26", objectName: null, cx: 245, cy: 299},//cma-cmahall
-    { id: "v27", objectName: "null", cx: 257, cy: 299},//cma-pf
-    { id: "v28", objectName: null, cx: 251, cy: 380},//cmanh
-    { id: "v29", objectName: null, cx: 204, cy: 380},//techvoc
-    { id: "v30", objectName: null, cx: 383, cy: 380},//nh mba oldstage
-    { id: "v31", objectName: null, cx: 307, cy: 380},//cmanh
-    { id: "v32", objectName: null, cx: 474, cy: 151},//riverside
-    { id: "v33", objectName: null, cx: 508, cy: 151},//Pedistrian
-    { id: "v34", objectName: null, cx: 382, cy: 354},//old stage
-    { id: "v86", objectName: "null", cx: 136, cy: 261},//Atruim
-    { id: "v103", objectName: null, cx: 180, cy: 228},//lib
+    { id: "v1", objectName: null, cx: 101, cy: 128},//Entrance Vehicle
+    { id: "v2", objectName: null, cx: 169, cy: 128},//basic ed
+    { id: "v3", objectName: null, cx: 228, cy: 128},//ccje
+    { id: "v4", objectName: null, cx: 310, cy: 128},//gym
+    { id: "v5", objectName: null, cx: 383, cy: 90},//Eng Bldg
+    { id: "v6", objectName: null, cx: 383, cy: 164},//mba hall 1
+    { id: "v7", objectName: null, cx: 389, cy: 220},//mba hall 2
+    { id: "v8", objectName: null, cx: 382, cy: 294},//mba hall 3
+    { id: "v9", objectName: null, cx: 383, cy: 392},//mba hall 4
+    { id: "v10", objectName: null, cx: 464, cy: 154},//riverside
+    { id: "v11", objectName: null, cx: 524, cy: 164},//pedistrian entrance
+    { id: "v12", objectName: null, cx: 175, cy: 191},//fvr
+    { id: "v13", objectName: null, cx: 228, cy: 191},//finance
+    { id: "v14", objectName: null, cx: 308, cy: 220},//SP
+    { id: "v15", objectName: null, cx: 41, cy: 233},//Entrance Bldg
+    { id: "v16", objectName: null, cx: 94, cy: 233},//PTC 1
+    { id: "v17", objectName: null, cx: 85, cy: 241},//ptc 2
+    { id: "v18", objectName: null, cx: 115, cy: 241},//its
+    { id: "v19", objectName: null, cx: 132, cy: 241},//op left
+    { id: "v20", objectName: null, cx: 179, cy: 240},//Lib
+    { id: "v21", objectName: null, cx: 154, cy: 265},//OP 2
+    { id: "v22", objectName: null, cx: 94, cy: 273},//atrium
+    { id: "v23", objectName: null, cx: 201, cy: 267},//registrar
+    { id: "v24", objectName: null, cx: 228, cy: 267},//teller
+    { id: "v25", objectName: null, cx: 201, cy: 281},//cma upper
+    { id: "v26", objectName: null, cx: 241, cy: 311},//cma right
+    { id: "v27", objectName: null, cx: 308, cy: 311},//PF
+    { id: "v28", objectName: null, cx: 382, cy: 366},//old stage
+    { id: "v29", objectName: null, cx: 197, cy: 392},//techvoc
+    { id: "v30", objectName: null, cx: 382, cy: 392},//nh mba oldstage
+    { id: "v31", objectName: null, cx: 251, cy: 392},//NH L
+    { id: "v32", objectName: null, cx: 308, cy: 392},//NH R
 
     //Objects, Green Circles
-    { id: "v35", objectName: "School Vehicle Entrance", cx: 94, cy: 116},//Entrance Vehicle
-    { id: "v36", objectName: "BASIC ED Building", cx: 175, cy: 107},//Basic Ed
-    { id: "v37", objectName: "CELA Department", cx: 228, cy: 106},//CELA
-    { id: "v38", objectName: "Gymnasium", cx: 306, cy: 105},//GYM
-    { id: "v39", objectName: "Engineering Building", cx: 382, cy: 68},//ENG BLDG
-    { id: "v40", objectName: "MBA Hall Entrance 1", cx: 391, cy: 151},//MBA HALL
-    { id: "v41", objectName: "Pedistrian Entrance/Exit", cx: 526, cy: 151},//Pedestrian Entrance/Exit
-    { id: "v42", objectName: "Riverside Building", cx: 473, cy: 134},//Riverside Bldg
-    { id: "v43", objectName: "MBA Hall Entrance 3", cx: 391, cy: 282},//MBA Hall-PForest
-    { id: "v44", objectName: "MBA Hall Entrance 4", cx: 391, cy: 380},//MBA HALL-oldstage
-    { id: "v45", objectName: "Old Stage", cx: 382, cy: 362},//Old stage
-    { id: "v46", objectName: "PHINMA Avenue", cx: 323, cy: 151},//Phinma Ave
-    { id: "v47", objectName: "School Vehicle Parking", cx: 188, cy: 151},//Vehicle Parking
-    { id: "v48", objectName: "School Front Entrance", cx: 43, cy: 221},//Front Entrance
-    { id: "v49", objectName: "CSDL/ITS Building", cx: 115, cy: 221},//ITS
-    { id: "v50", objectName: "FVR Building", cx: 175, cy: 186},//FVR
-    { id: "v51", objectName: "Finance Purchasing Department", cx: 228, cy: 186},//Finance
-    { id: "v52", objectName: "OP/Marketing Department Entrance 2", cx: 154, cy: 249},//OP
-    { id: "v53", objectName: "OP/Marketing Department Entrance 1", cx: 136, cy: 239},//OP
-    { id: "v54", objectName: "Registrar Office", cx: 201, cy: 249},//Registrar
-    { id: "v55", objectName: "null", cx: 251, cy: 186},//CMA HALL
-    { id: "v56", objectName: "Student Plaza Entrance 3", cx: 263, cy: 205},//SP Left
-    { id: "v57", objectName: "Student Plaza Entrance 1", cx: 307, cy: 188},//SP Upper
-    { id: "v58", objectName: "CMA Building Entrance 2", cx: 240, cy: 299},//CMA Left
-    { id: "v59", objectName: "CMA Building Entrance 1", cx: 201, cy: 270},//CMA upper
-    { id: "v60", objectName: null, cx: 94, cy: 229},//PTC-Artium
-    { id: "v100", objectName: "PTC Building Entrance 2", cx: 88, cy: 229},//PTC-Artium
-    { id: "v61", objectName: "Atrium", cx: 113, cy: 261},//Artium
-    { id: "v62", objectName: "null", cx: 262, cy: 299},//PGarden  Left
-    { id: "v63", objectName: "null", cx: 307, cy: 252},//PGarden  upper
-    { id: "v64", objectName: "Student Plaza Entrance 2", cx: 307, cy: 252},//PGarden  upper
-    { id: "v65", objectName: "North  Hall Entrance 2", cx: 307, cy: 379},//NH Right
-    { id: "v66", objectName: "North Hall Entrance 1", cx: 251, cy: 385},//NH Left
-    { id: "v67", objectName: "Technical Vocational Building", cx: 197, cy: 380},//TechVoc
-    { id: "v68", objectName: "Student Plaza Entrance 4", cx: 371, cy: 205},//SP Right
-    { id: "v69", objectName: "MBA Hall Entrance 2", cx: 395, cy: 205},//SP Right-MB HALL
-    { id: "v70", objectName: "CMA HALL", cx: 251, cy: 261},//CMA HALL
-    { id: "v71", objectName: "Teller", cx: 228, cy: 250},//Teller
-    { id: "v96", objectName: "PTC Building Entrance 1", cx: 88, cy: 221},//PTC Bldg
-    { id: "v97", objectName: "PHINMA Forest", cx: 307, cy: 290},//PHINMA Forest center
-    { id: "v104", objectName: "University Library Building", cx: 180, cy: 218},//lib
-    
+    { id: "v33", objectName: "School Vehicle Entrance", cx: 94, cy: 128},//v entrance
+    { id: "v34", objectName: "BASIC ED Building", cx: 169, cy: 113},//basic ed
+    { id: "v86", objectName: "CCJE Department", cx: 228, cy: 113},//ccje
+    { id: "v103", objectName: "Gymnasium", cx: 310, cy: 113},//gym
+    { id: "v35", objectName: "Engineering Building", cx: 383, cy: 80},//eng bldg
+    { id: "v36", objectName: "MBA Hall Entrance 1", cx: 395, cy: 164},//MBA HALL 1
+    { id: "v37", objectName: "MBA Hall Entrance 2", cx: 396, cy: 220},//MBA HALL 2
+    { id: "v38", objectName: "MBA Hall Entrance 3", cx: 394, cy: 294},//MBA HALL 3
+    { id: "v39", objectName: "MBA Hall Entrance 4", cx: 394, cy: 392},//MBA Hall 4
+    { id: "v40", objectName: "Riverside Building", cx: 464, cy: 44},//Riverside Bldg
+    { id: "v41", objectName: "Pedistrian Entrance/Exit", cx: 532, cy: 164},//Pedestrian Entrance/Exit
+    { id: "v42", objectName:  "FVR Building", cx: 175, cy: 198},//FVR
+    { id: "v43", objectName: "Finance Purchasing Department", cx: 228, cy: 198},//Finance
+    { id: "v44", objectName: "School Front Entrance", cx: 33, cy: 233},//Front Entrance
+    { id: "v45", objectName: "CSDL/ITS Building", cx: 115, cy: 221},//ITS
+    { id: "v46", objectName: "OP/Marketing Department Entrance 1", cx: 139, cy: 241},//OP L
+    { id: "v47", objectName: "University Library Building", cx: 179, cy: 240},//lib
+    { id: "v48", objectName: "PTC Building Entrance 1", cx: 84, cy: 233},//PTC Bldg
+    { id: "v49", objectName: "PTC Building Entrance 2", cx: 94, cy: 241},//PTC-Artium
+    { id: "v50", objectName: "Atrium", cx: 115, cy: 273},//Artium
+    { id: "v51", objectName: "OP/Marketing Department Entrance 2", cx: 154, cy: 258},//OP
+    { id: "v52", objectName: "Registrar Office", cx: 201, cy: 261},//Registrar
+    { id: "v53", objectName: "Teller", cx: 228, cy: 261},//Teller
+    { id: "v54", objectName: "CMA Building Entrance 1", cx: 201, cy: 287},//CMA upper
+    { id: "v55", objectName: "CMA Building Entrance 2", cx: 234, cy: 311},//CMA right
+    { id: "v56", objectName: "PHINMA Forest", cx: 308, cy: 294},//PHINMA Forest center
+    { id: "v57", objectName: "Old Stage", cx: 382, cy: 374},//old stage
+    { id: "v58", objectName: "North Hall Entrance 1", cx: 251, cy: 400},//NH Left
+    { id: "v59", objectName: "North  Hall Entrance 2", cx: 308, cy: 400},//NH Right
+    { id: "v60", objectName: "Technical Vocational Building", cx: 197, cy: 397},//TechVoc
+
     //Gray circles (not to be showned or "null")
-    { id: "v72", objectName: "Null", cx: 136, cy: 116},//Basic ed
-    { id: "v73", objectName: "Null", cx: 251, cy: 116},//cela-gym
-    { id: "v74", objectName: "Null", cx: 382, cy: 116},//gym-mba
-    { id: "v75", objectName: "Null", cx: 383, cy: 205},//SP-MBA
-    { id: "v76", objectName: "Null", cx: 306, cy: 204},//SP inside
-    { id: "v77", objectName: "Null", cx: 307, cy: 363},//PF-nh-old stage
-    { id: "v78", objectName: "Null", cx: 307, cy: 282},//PF-nh-old stage
-    { id: "v79", objectName: "Null", cx: 251, cy: 299},//cma-pf-cma
-    { id: "v80", objectName: null, cx: 307, cy: 298},//PF
-    { id: "v81", objectName: "Null", cx: 307, cy: 354},//PF
-    { id: "v82", objectName: "Null", cx: 94, cy: 152},//Ptc upper
-    { id: "v83", objectName: "Null", cx: 135, cy: 151},//ITS upper
-    { id: "v84", objectName: "Null", cx: 135, cy: 179},//ITS -fvr
-    { id: "v85", objectName: "Null", cx: 135, cy: 221},//ITS -fvr
-    { id: "v87", objectName: null, cx: 154, cy: 255},//Atruim-OP
-    { id: "v88", objectName: null, cx: 94, cy: 261},//Atruim-ptc 2nd floor
-    { id: "v90", objectName: null , cx: 94, cy: 221},//Atruim-ptc-Its
-    { id: "v91", objectName: "Null", cx: 228, cy: 261},//Atruim-teller-cma
-    { id: "v92", objectName: "Null", cx: 251, cy: 261},//teller-cma
-    { id: "v93", objectName: "Null", cx: 251, cy: 205},//cma-sp
-    { id: "v94", objectName: "Null", cx: 383, cy: 179},//mba sp
-    { id: "v95", objectName: "Null", cx: 251, cy: 151},//parking - ave
-    { id: "v98", objectName: "Null", cx: 154, cy: 261},//atrium-op
-    { id: "v99", objectName: "Null", cx: 201, cy: 261},//atrium - reg
-    { id: "v101", objectName: "Null", cx: 94, cy: 261},//Atruim-ptc ground floor
-    { id: "v102", objectName: "Null", cx: 179, cy: 261},//Atruim-library
-    { id: "v105", objectName: "Null", cx: 201, cy: 265},//atrium 2md
-
-
+    { id: "v61", objectName: "null", cx: 136, cy: 128},//VE-BE
+    { id: "v62", objectName: "null", cx: 251, cy: 128},//ccje-gym
+    { id: "v63", objectName: "null", cx: 383, cy: 128},//gym mba
+    { id: "v64", objectName: "null", cx: 132, cy: 191},//its fvr
+    { id: "v65", objectName: "null", cx: 251, cy: 191},//finance-cma hall
+    { id: "v66", objectName: "null", cx: 383, cy: 191},//sp-mba1
+    { id: "v67", objectName: "null", cx: 382, cy: 220},//sp-mba2
+    { id: "v68", objectName: "null", cx: 464, cy: 163},//mba1 -riverside
+    { id: "v69", objectName: "null", cx: 251, cy: 220},//SP-cma HALL
+    { id: "v70", objectName: "null", cx: 41, cy: 241},//entrance-ptc
+    { id: "v71", objectName: "null", cx: 132, cy: 233},//its-op
+    { id: "v72", objectName: "Null", cx: 136, cy: 273},//atrium
+    { id: "v73", objectName: "Null", cx: 154, cy: 273},//atrium-op
+    { id: "v74", objectName: "Null", cx: 201, cy: 273},//atrium-registrar-cma u
+    { id: "v75", objectName: "Null", cx: 228, cy: 273},//teller
+    { id: "v76", objectName: "Null", cx: 251, cy: 273},//teller-cma
+    { id: "v77", objectName: "Null", cx: 308, cy: 263},//PF-sp
+    { id: "v78", objectName: "Null", cx: 308, cy: 366},//PF-old stage
+    { id: "v79", objectName: "Null", cx: 251, cy: 311},//cma-pf-cma
+    { id: "v80", objectName: "null", cx: 263, cy: 311},//PF-cma
+    
   ],
 
   edges: [

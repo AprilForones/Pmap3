@@ -45,7 +45,7 @@
     {
       "id": "f6g7",
       "categoryId": "e928",
-      "name": "CELA Department",
+      "name": "CCJE Department",
       "desc": " Used by Medical Students."
     },
     {
@@ -55,27 +55,9 @@
       "desc": "School Gymnasium."
     },
     {
-      "id": "h8i9",
-      "categoryId": "16be",
-      "name": "Student Plaza Entrance 1",
-      "desc": "Student plaza. "
-    },
-    {
       "id": "h8k9",
       "categoryId": "16be",
-      "name": "Student Plaza Entrance 2",
-      "desc": "Student plaza. "
-    },
-    {
-      "id": "h8j9",
-      "categoryId": "16be",
-      "name": "Student Plaza Entrance 3",
-      "desc": "Student plaza. "
-    },
-    {
-      "id": "h8l9",
-      "categoryId": "16be",
-      "name": "Student Plaza Entrance 4",
+      "name": "Student Plaza",
       "desc": "Student plaza. "
     },
     {
@@ -97,12 +79,6 @@
       "desc": "North hall, used by various department of students."
     },
     {
-      "id": "k1l2",
-      "categoryId": "16be",
-      "name": "School Vehicle Parking",
-      "desc": "School Parking Lot."
-    },
-    {
       "id": "l2m3",
       "categoryId": "16be",
       "name": "PHINMA Forest",
@@ -114,12 +90,7 @@
       "name": "Engineering Building",
       "desc": "Engineering Bldg., used by various department of students."
     },
-    {
-      "id": "n4o5",
-      "categoryId": "52f1",
-      "name": "PHINMA Avenue",
-      "desc": "Goes through the school, usually used to get around school."
-    },
+
     {
       "id": "p6q7",
       "categoryId": "87b0",
@@ -214,13 +185,13 @@
       "id": "x5x6",
       "categoryId": "58a9",
       "name": "PTC Building Entrance 1",
-      "desc": "This is where the IT Department is Located"
+      "desc": "This is where the IT Department is Located. Ground Floor Entrance."
     },
     {
       "id": "z5x6",
       "categoryId": "58a9",
       "name": "PTC Building Entrance 2",
-      "desc": "This is where the IT Department is Located"
+      "desc": "This is where the IT Department is Located. Entrance 2 is connected to Atrium"
     }
   ],
   "categories": [

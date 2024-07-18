@@ -8,239 +8,239 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
       <path
             id="School Front Entrance"
             className={`${className} object`}
-             d="M26.7676 189.466H39.833200000000005V258.7225H26.7676z"
+             d="M26.268 200.966h14.065v70.256H26.268v-70.256z"
             onClick={handleObjectClick}
             />
            <path
               id="BASIC ED Building"
               className={`${className} object`}
-               d="M139 27H200V100H139z"
+               d="M139 39H200V112H139z"
               onClick={handleObjectClick}
             /> 
           <path
             id="Gymnasium"
             className={`${className} object`}
-           d="M248.669 30.4163H373.344V99.22059999999999H248.669z"
+             d="M248.669 42.4163H373.344V111.22059999999999H248.669z"
             onClick={handleObjectClick}
           />
-          <path
+          {/* <path
             id="School Vehicle Parking"
             className={`${className} object`}
-            d="M138.589 136.726H237.64V188.5895H138.589z"
+            d=""
             onClick={handleObjectClick}
-          />
-          <path
+          /> */}
+          {/* <path
              id="PHINMA Avenue"
             className={`${className} object`}
-            d="M263.303 127.139H393.462V188.5892H263.303z"
+            d=""
             onClick={handleObjectClick}
-          />
+          /> */}
           <path
             id="PHINMA Forest"
             className={`${className} object`}
-              d="M264 253H393V377H264z"
+             d="M264 265H393V389H264z"
             onClick={handleObjectClick}
           />
           <path
-            id="CELA Department"
+            id="CCJE Department"
             className={`${className} object`}
-             d="M208 28H240.6115V99.6803H208z"
+             d="M204 40H245V112H204z"
             onClick={handleObjectClick}
           />
           <path
             id="Riverside Building"
             className={`${className} object`}
-            d="M443.586 28.0881H543.3185V127.2958H443.586z"
+            d="M443.586 40.0881H543.3185V139.29579999999999H443.586z"
             onClick={handleObjectClick}
           />
           {/* upper part */}
-          <path
+          {/* <path
             id="Student Plaza Entrance 1"
             className={`${className} object`}
             d="M294 192H338V219H294z"
             onClick={handleObjectClick}
-          />
+          /> */}
           {/* Lower part */}
           <path
-            id="Student Plaza Entrance 2"
+            id="Student Plaza"
             className={`${className} object`}
-            d="M295 217H338V249H295z"
+            d="M264.5 200.5H372.5V263.5H264.5z"
             onClick={handleObjectClick}
           />
            {/* Left part */}
-           <path
+           {/* <path
             id="Student Plaza Entrance 3"
             className={`${className} object`}
              d="M268 192H296V249H268z"
             onClick={handleObjectClick}
-          />
+          /> */}
            {/* Right part */}
-           <path
+           {/* <path
             id="Student Plaza Entrance 4"
             className={`${className} object`}
             d="M338 190H368V249H338z"
             onClick={handleObjectClick}
-          />
+          /> */}
           {/* Left part */}
           <path
             id="North Hall Entrance 1"
             className={`${className} object`}
-             d="M220 385H284V410H220z"
+             d="M220 397H284V422H220z"
             onClick={handleObjectClick}
           />
           {/* Right part */}
           <path
             id="North  Hall Entrance 2"
             className={`${className} object`}
-            d="M287 385H392V410H287z"
+            d="M287 397H392V422H287z"
             onClick={handleObjectClick}
           />
           {/* Ground Floor           */}
           <path
             id="PTC Building Entrance 1"
             className={`${className} object`}
-             d="M40.7803 137.548H87.2835V286.374H40.7803z"
+            d="M40.7803 146.548H87.2835V295.374H40.7803z"
             onClick={handleObjectClick}
           />
           {/* second floor*/}
           <path
             id="PTC Building Entrance 2"
             className={`${className} object`}
-             d="M87.5 224.5H101.5V252.5H87.5z"
+            d="M87.5 236.5H101.5V264.5H87.5z"
             onClick={handleObjectClick}
           />
            <path
             id="Engineering Building"
             className={`${className} object`}
-             d="M375.344 28.0881H441.586V67.3107H375.344z"
+             d="M375.344 40.0881H441.586V79.3107H375.344z"
             onClick={handleObjectClick}
           />
           {/* MBA HALL-P.Ave */}
           <path
             id="MBA Hall Entrance 1"
             className={`${className} object`}
-            d="M397 69H440V175H397z"
+            d="M397 81H440V187H397z"
             onClick={handleObjectClick}
           />
-          {/* MBA Hall -SP */}
+          {/* MBA Hall -PF */}
           <path
             id="MBA Hall Entrance 3"
             className={`${className} object`}
-           d="M396 253H441V375H396z"
+            d="M396 265H441V387H396z"
             onClick={handleObjectClick}
           />
-          {/* MBA HALL - PF */}
+          {/* MBA HALL - SP */}
           <path
             id="MBA Hall Entrance 2"
             className={`${className} object`}
-            d="M396 175H439V249H396z"
+            d="M396 187H441V261H396z"
             onClick={handleObjectClick}
           />
           {/* MBA HALL-NH */}
           <path
             id="MBA Hall Entrance 4"
             className={`${className} object`}
-            d="M398 376H439V408H398z"
+            d="M398 388H439V420H398z"
             onClick={handleObjectClick}
           />
           {/* Left Side */}
             <path
             id="OP/Marketing Department Entrance 1"
             className={`${className} object`}
-            d="M140 219H151V246H140z"
+            d="M140 231H151V258H140z"
             onClick={handleObjectClick}
           />
           {/* lower Side */}
           <path
             id="OP/Marketing Department Entrance 2"
             className={`${className} object`}
-            d="M151 219H174V246H151z"
+            d="M151 231H174V258H151z"
             onClick={handleObjectClick}
           />
           <path
             id="FVR Building"
             className={`${className} object`}
-             d="M139 188H218V201H139z"
+            d="M139 200H218V213H139z"
             onClick={handleObjectClick}
           />
           <path
             id="University Library Building"
             className={`${className} object`}
-             d="M139 202H218V218H139z"
+            d="M139 214H218V230H139z"
             onClick={handleObjectClick}
           />          
           <path
             id="CSDL/ITS Building"
             className={`${className} object`}
-            d="M102.096 155.865H128.8221V216.4522H102.096z"
+            d="M101 169H127.7261V229.5872H101z"
             onClick={handleObjectClick}
           />
           {/* upper part */}
           <path
             id="CMA Building Entrance 1"
             className={`${className} object`}
-            d="M179 270H239V293H179z"
+            d="M179 282H239V305H179z"
             onClick={handleObjectClick}
           />
           {/* Right part */}
           <path
             id="CMA Building Entrance 2"
             className={`${className} object`}
-            d="M179 293H239V377H179z"
+            d="M179 305H239V389H179z"
             onClick={handleObjectClick}
           />
           <path
             id="Technical Vocational Building"
             className={`${className} object`}
-             d="M178.605 386.616H217.1018V414.0607H178.605z"
+            d="M178.605 395.616H217.1018V423.0607H178.605z"
             onClick={handleObjectClick}
           />
           <path
             id="Finance Purchasing Department"
             className={`${className} object`}
-            d="M220 188H239V232H220z"
+            d="M220 200H239V244H220z"
             onClick={handleObjectClick}
           />
            <path
             id="Teller"
             className={`${className} object`}
-            d="M220 233H239V251H220z"
+            d="M220 245H239V263H220z"
             onClick={handleObjectClick}
           />
            <path
             id="Atrium"
             className={`${className} object`}
-              d="M87.2832 251.327H219.44219999999999V269.1721H87.2832z"
+            d="M87.2832 263.327H219.44219999999999V281.1721H87.2832z"
             onClick={handleObjectClick}
           />
            <path
             id="Registrar Office"
             className={`${className} object`}
-              d="M184 218h34v33h-34v-33z"
+            d="M184 230h34v33h-34v-33z"
             onClick={handleObjectClick}
           />
            <path
             id="CMA HALL"
             className={`${className} object`}
-             d="M240.5 187.5H262.5V377.5H240.5z"
+            d="M240.5 199.5H262.5V389.5H240.5z"
             onClick={handleObjectClick}
           />
             <path
             id="Old Stage"
             className={`${className} object`}
-             d="M390.514 344.877c.404-.122.735-.208.986-.266V375.5h-31.999c.003-.066.008-.142.018-.23.058-.494.267-1.346.909-2.678 1.286-2.667 4.276-7.196 11.109-14.537 5.733-6.161 10.892-9.553 14.602-11.403 1.856-.926 3.35-1.467 4.375-1.775z"
+            d="M390.514 356.877c.404-.122.735-.208.986-.266V387.5h-31.999c.003-.066.008-.142.018-.23.058-.494.267-1.346.909-2.678 1.286-2.667 4.276-7.196 11.109-14.537 5.733-6.161 10.892-9.553 14.602-11.403 1.856-.926 3.35-1.467 4.375-1.775z"
             onClick={handleObjectClick}
           />
-                <path
+            <path
             id="School Vehicle Entrance"
             className={`${className} object`}
-             d="M40.2803 105.562H238.14030000000002V135.0067H40.2803z"
+            d="M40 110H106V147H40z"
             onClick={handleObjectClick}
           />
-                <path
+            <path
             id="Pedistrian Entrance/Exit"
             className={`${className} object`}
-             d="M442 136H556V179H442z"
+            d="M442 148H556V191H442z"
             onClick={handleObjectClick}
           />
     </g>
