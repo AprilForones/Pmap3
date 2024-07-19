@@ -61,14 +61,14 @@ export const graphData: GraphData = {
     { id: "v39", objectName: "MBA Hall Entrance 2", cx: 396, cy: 220},//MBA HALL 2
     { id: "v40", objectName: "MBA Hall Entrance 3", cx: 394, cy: 294},//MBA HALL 3
     { id: "v41", objectName: "MBA Hall Entrance 4", cx: 394, cy: 392},//MBA Hall 4
-    { id: "v42", objectName: "Riverside Building", cx: 464, cy: 44},//Riverside Bldg
+    { id: "v42", objectName: "Riverside Building", cx: 464, cy: 144},//Riverside Bldg
     { id: "v43", objectName: "Pedistrian Entrance/Exit", cx: 532, cy: 164},//Pedestrian Entrance/Exit
     { id: "v44", objectName:  "FVR Building", cx: 175, cy: 198},//FVR
     { id: "v45", objectName: "Finance Purchasing Department", cx: 228, cy: 198},//Finance
     { id: "v46", objectName: "School Front Entrance", cx: 33, cy: 233},//Front Entrance
     { id: "v47", objectName: "CSDL/ITS Building", cx: 115, cy: 221},//ITS
     { id: "v48", objectName: "OP/Marketing Department Entrance 1", cx: 139, cy: 241},//OP L
-    { id: "v49", objectName: "University Library Building", cx: 179, cy: 240},//lib
+    { id: "v49", objectName: "University Library Building", cx: 179, cy: 230},//lib
     { id: "v50", objectName: "PTC Building Entrance 1", cx: 84, cy: 233},//PTC Bldg
     { id: "v51", objectName: "PTC Building Entrance 2", cx: 94, cy: 241},//PTC-Artium
     { id: "v52", objectName: "Atrium", cx: 115, cy: 273},//Artium
@@ -82,7 +82,7 @@ export const graphData: GraphData = {
     { id: "v60", objectName: "North Hall Entrance 1", cx: 251, cy: 400},//NH Left
     { id: "v61", objectName: "North  Hall Entrance 2", cx: 308, cy: 400},//NH Right
     { id: "v62", objectName: "Technical Vocational Building", cx: 197, cy: 397},//TechVoc
-    { id: "v83", objectName: "Student Plaza", cx: 263, cy: 311},//SP
+    { id: "v83", objectName: "Student Plaza", cx: 308, cy: 215},//SP
 
     //Gray circles (not to be showned or "null")
     { id: "v63", objectName: "null", cx: 136, cy: 128},//VE-BE
@@ -173,9 +173,12 @@ export const graphData: GraphData = {
 
     //mba
     { id: "v6_to_v65", from: "v6", to: "v65" },
+    { id: "v6_to_v70", from: "v6", to: "v70" },
     { id: "v6_to_v68", from: "v6", to: "v68" },
     { id: "v7_to_v69", from: "v7", to: "v69" },
     { id: "v8_to_v69", from: "v8", to: "v69" },
+    { id: "v8_to_v58", from: "v8", to: "v58" },
+
 
     { id: "v9_to_v31", from: "v9", to: "v31" },
     { id: "v9_to_v32", from: "v9", to: "v32" },
@@ -194,136 +197,87 @@ export const graphData: GraphData = {
     { id: "v13_to_v68", from: "v13", to: "v68" },
 
     //cma upper
-    { id: "v11_to_v95", from: "v11", to: "v95" },
-    { id: "v11_to_v73", from: "v11", to: "v73" },
-    { id: "v11_to_v93", from: "v11", to: "v93" },
-    { id: "v11_to_v79", from: "v11", to: "v79" },
-    { id: "v11_to_v28", from: "v11", to: "v28" },
-    { id: "v11_to_v12", from: "v11", to: "v12" },
-    { id: "v11_to_v94", from: "v11", to: "v94" },
-    { id: "v11_to_v92", from: "v11", to: "v92" },
 
     //sp 
     { id: "v14_to_v71", from: "v14", to: "v71" },
     { id: "v14_to_v79", from: "v14", to: "v79" },
     { id: "v14_to_v69", from: "v14", to: "v69" },
 
-    //CMA Center
-    { id: "v14_to_v95", from: "v14", to: "v95" },
-    { id: "v14_to_v73", from: "v14", to: "v73" },
-    { id: "v14_to_v93", from: "v14", to: "v93" },
-    { id: "v14_to_v79", from: "v14", to: "v79" },
-    { id: "v14_to_v28", from: "v14", to: "v28" },
-    { id: "v14_to_v11", from: "v14", to: "v11" },
-
     //LIB
-    { id: "v20_to_v83", from: "v20", to: "v83" },
+    { id: "v20_to_v84", from: "v20", to: "v84" },
 
-    //mba middle
-     { id: "v16_to_v75", from: "v16", to: "v75" },
 
     //PTC
     { id: "v16_to_v73", from: "v16", to: "v73" },
-    { id: "v51_to_v21", from: "v51", to: "v21" },
+    { id: "v51_to_v22", from: "v51", to: "v22" },
+    { id: "v16_to_v22", from: "v51", to: "v22" },
     
 
     //OP LEFT
     { id: "v19_to_v73", from: "v19", to: "v73" },
     { id: "v19_to_v74", from: "v19", to: "v74" },
+    { id: "v21_to_v75", from: "v21", to: "v75" },
+    { id: "v74_to_v75", from: "v74", to: "v75" },
 
     //ITS
-    { id: "v18_to_v18", from: "v18", to: "v19" },
+    { id: "v18_to_v19", from: "v18", to: "v19" },
     { id: "v18_to_v51", from: "v18", to: "v51" },
     { id: "v18_to_v52", from: "v18", to: "v52" },
+    { id: "v52_to_v74", from: "v52", to: "v74" },
   
 
     //registrar
     { id: "v21_to_v99", from: "v21", to: "v99" },
 
-    //Teller
-    { id: "v22_to_v91", from: "v22", to: "v91" },
+    //atrium
+    { id: "v23_to_v76", from: "v23", to: "v76" },
+    { id: "v25_to_v76", from: "v25", to: "v76" },
+    { id: "v75_to_v76", from: "v75", to: "v76" },
+    { id: "v76_to_v77", from: "v76", to: "v77" },
 
     //CMA Upper
     { id: "v23_to_v99", from: "v23", to: "v99" },
+    //teller
+      { id: "v24_to_v77", from: "v24", to: "v77" },
+      { id: "v78 to_v77", from: "v78", to: "v77" },
+      { id: "v78 to_v71", from: "v78", to: "v71" },
+      { id: "v78 to_v81", from: "v78", to: "v81" },
 
     //ENTRANCE
     { id: "v15_to_v72", from: "v15", to: "v72" },
     { id: "v15_to_v50", from: "v15", to: "v50" },
 
-    //PF and MBA Hall
-    { id: "v25_to_v78", from: "v25", to: "v78" },
-    { id: "v25_to_v75", from: "v25", to: "v75" },
-    { id: "v25_to_v6", from: "v25", to: "v6" },
-    { id: "v25_to_v74", from: "v25", to: "v74" },
-    { id: "v24_to_v34", from: "v25", to: "v34" },
-
     //CMA -CMA HALL
-    { id: "v26_to_v79", from: "v26", to: "v79" },
+    { id: "v26_to_v81", from: "v26", to: "v81" },
 
     // PF Left Side
-    { id: "v27_to_v79", from: "v27", to: "v79" },
+    { id: "v27_to_v81", from: "v27", to: "v81" },
     { id: "v27_to_v80", from: "v27", to: "v80" },
-
-    // NH Left
-    { id: "v28_to_v79", from: "v28", to: "v79" },
-    { id: "v28_to_v93", from: "v28", to: "v93" },
-    { id: "v28_to_v11", from: "v28", to: "v11" },
-    { id: "v28_to_v95", from: "v28", to: "v95" },
-    { id: "v28_to_v73", from: "v28", to: "v73" },
-    { id: "v28_to_v31", from: "v28", to: "v31" },
-    { id: "v28_to_v30", from: "v28", to: "v30" },
-    { id: "v28_to_v29", from: "v28", to: "v29" },
-    //{ id: "v28_to_v95", from: "v28", to: "v95" },
-
+    { id: "v27_to_v79", from: "v27", to: "v79" },
+    // old stage
+    { id: "v28_to_v80", from: "v28", to: "v80" },
+    { id: "v28_to_v8", from: "v28", to: "v8" },
+    
     //techvoc
     { id: "v29_to_v31", from: "v29", to: "v31" },
-    { id: "v29_to_v30", from: "v29", to: "v30" },
-    { id: "v29_to_v28", from: "v29", to: "v28" },
+    { id: "v29_to_v32", from: "v29", to: "v32" },
 
-     //NH-MB-OLD Stage
-     { id: "v30_to_v28", from: "v30", to: "v28" },
-     { id: "v30_to_v29", from: "v30", to: "v29" },
-     { id: "v30_to_v31", from: "v30", to: "v31" },
-     //{ id: "v30_to_v45", from: "v30", to: "v45" },
-
-    //NH Right
-    { id: "v31_to_v28", from: "v31", to: "v28" },
-    { id: "v31_to_v29", from: "v31", to: "v29" },
-    { id: "v31_to_v80", from: "v31", to: "v80" },
-    { id: "v31_to_v78", from: "v31", to: "v78" },
-    { id: "v31_to_v24", from: "v31", to: "v24" },
-    { id: "v31_to_v76", from: "v31", to: "v76" },
-    { id: "v31_to_v12", from: "v31", to: "v12" },
-    { id: "v31_to_v7", from: "v31", to: "v7" },
-    { id: "v31_to_v4", from: "v31", to: "v4" },
+     //NH
+     { id: "v31_to_v81", from: "v31", to: "v81" },
+     { id: "v31_to_v32", from: "v31", to: "v32" },
+     { id: "v32_to_v80", from: "v32", to: "v80" },
 
     //Riverside
     { id: "v10_to_v70", from: "v10", to: "v70" },
     { id: "v11_to_v70", from: "v11", to: "v70" },
 
-    //oldstage
-    { id: "v34_to_v75", from: "v34", to: "v75" },
-    { id: "v34_to_v6", from: "v34", to: "v6" },
-    { id: "v34_to_v74", from: "v34", to: "v74" },
-    { id: "v34_to_v81", from: "v34", to: "v81" },
-    { id: "v34_to_v25", from: "v34", to: "v25" },
-    { id: "v34_to_v94", from: "v34", to: "v94" },
-
-    //OP 2
-    { id: "v21_to_v75", from: "v21", to: "v75" },
-
-    //atrium
-    { id: "v86_to_v98", from: "v86", to: "v98" },
-    //{ id: "v86_to_v101", from: "v86", to: "v101" },
-    { id: "v86_to_v91", from: "v86", to: "v91" },
-    { id: "v86_to_v92", from: "v86", to: "v92" },
-    { id: "v86_to_v84", from: "v86", to: "v84" },
-    { id: "v86_to_v83", from: "v86", to: "v83" },
-    { id: "v86_to_v72", from: "v86", to: "v72" },
-    { id: "v86_to_v99", from: "v86", to: "v99" },
-    { id: "v60_to_v88", from: "v60", to: "v88" },
-
+ 
     //nulls or gray ones
-   
+    { id: "v78_to_v71", from: "v78", to: "v71" },
+    { id: "v71_to_v67", from: "v71", to: "v67" },
+    { id: "v64_to_v67", from: "v64", to: "v67" },
+    { id: "v66_to_v73", from: "v66", to: "v73" },
+    { id: "v68_to_v6", from: "v68", to: "v6" },
+    { id: "v68_to_v69", from: "v68", to: "v69" },
   ],
 };
