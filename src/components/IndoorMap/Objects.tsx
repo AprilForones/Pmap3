@@ -219,12 +219,12 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
             d="M184 230h34v33h-34v-33z"
             onClick={handleObjectClick}
           />
-           <path
+           {/* <path
             id="CMA HALL"
             className={`${className} object`}
             d="M240.5 199.5H262.5V389.5H240.5z"
             onClick={handleObjectClick}
-          />
+          /> */}
             <path
             id="Old Stage"
             className={`${className} object`}

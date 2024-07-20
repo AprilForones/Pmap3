@@ -13,7 +13,7 @@ function MobileRouteDetails() {
       </button>
 
       <div className="p-4 pb-0">
-        <h1 className="text-gray-900 text-xl font-semibold mb-1">
+        <h1 className="text-gray-900 text-m font-semibold mb-1">
           {object?.name}
         </h1>
         <p className="text-gray-500 text-sm">{object?.categoryName}</p>
