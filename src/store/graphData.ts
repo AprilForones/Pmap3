@@ -175,6 +175,11 @@ export const graphData: GraphData = {
 
     //eng
     { id: "v5_to_v65", from: "v5", to: "v65" },
+    { id: "v5_to_v6", from: "v5", to: "v6" },
+    { id: "v5_to_v69", from: "v5", to: "v69" },
+    { id: "v5_to_v8", from: "v5", to: "v8" },
+    { id: "v5_to_v6", from: "v5", to: "v6" },
+    { id: "v5_to_v28", from: "v5", to: "v28" },
 
     //mba
     { id: "v6_to_v65", from: "v6", to: "v65" },
