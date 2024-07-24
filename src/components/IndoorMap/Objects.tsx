@@ -97,18 +97,18 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
           />
           {/* Ground Floor           */}
           <path
-            id="PTC Building Entrance 1"
+            id="PTC Building Entrance"
             className={`${className} object`}
             d="M40.7803 146.548H87.2835V295.374H40.7803z"
             onClick={handleObjectClick}
           />
           {/* second floor*/}
-          <path
+          {/* <path
             id="PTC Building Entrance 2"
             className={`${className} object`}
             d="M87.5 236.5H101.5V264.5H87.5z"
             onClick={handleObjectClick}
-          />
+          /> */}
            <path
             id="Engineering Building"
             className={`${className} object`}
@@ -145,16 +145,9 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
           />
           {/* Left Side */}
             <path
-            id="OP/Marketing Department Entrance 1"
+            id="OP/Marketing Department"
             className={`${className} object`}
-            d="M140 231H151V258H140z"
-            onClick={handleObjectClick}
-          />
-          {/* lower Side */}
-          <path
-            id="OP/Marketing Department Entrance 2"
-            className={`${className} object`}
-            d="M151 231H174V258H151z"
+            d="M140 231H174V258H140z"
             onClick={handleObjectClick}
           />
           <path
@@ -231,12 +224,12 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
             d="M390.514 356.877c.404-.122.735-.208.986-.266V387.5h-31.999c.003-.066.008-.142.018-.23.058-.494.267-1.346.909-2.678 1.286-2.667 4.276-7.196 11.109-14.537 5.733-6.161 10.892-9.553 14.602-11.403 1.856-.926 3.35-1.467 4.375-1.775z"
             onClick={handleObjectClick}
           />
-            <path
+            {/* <path
             id="School Vehicle Entrance"
             className={`${className} object`}
             d="M40 110H106V147H40z"
             onClick={handleObjectClick}
-          />
+          /> */}
             <path
             id="Pedistrian Entrance/Exit"
             className={`${className} object`}

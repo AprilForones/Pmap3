@@ -145,13 +145,6 @@
       "name": "Registrar Office",
       "desc": "Registar's office.Located in second floor at Atruim."
     },
-
-    {
-      "id": "c2v2",
-      "categoryId": "58a9",
-      "name": "School Vehicle Entrance",
-      "desc": "School Vehicle Entrance."
-    },
     {
       "id": "m2m2",
       "categoryId": "58a9",
@@ -161,13 +154,7 @@
     {
       "id": "f7h9",
       "categoryId": "e928",
-      "name": "OP/Marketing Department Entrance 1",
-      "desc": "OP/Marketing department."
-    },
-    {
-      "id": "f7k9",
-      "categoryId": "e928",
-      "name": "OP/Marketing Department Entrance 2",
+      "name": "OP/Marketing Department",
       "desc": "OP/Marketing department."
     },
     {
@@ -179,15 +166,10 @@
     {
       "id": "x5x6",
       "categoryId": "58a9",
-      "name": "PTC Building Entrance 1",
+      "name": "PTC Building Entrance",
       "desc": "This is where the IT Department is Located. Ground Floor Entrance."
-    },
-    {
-      "id": "z5x6",
-      "categoryId": "58a9",
-      "name": "PTC Building Entrance 2",
-      "desc": "This is where the IT Department is Located. Entrance 2 is connected to Atrium"
     }
+
   ],
   "categories": [
     {
