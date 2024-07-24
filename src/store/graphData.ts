@@ -36,9 +36,9 @@ export const graphData: GraphData = {
     { id: "v16", objectName: null, cx: 94, cy: 233},//PTC 1
    // { id: "v17", objectName: null, cx: 85, cy: 241},//ptc 2
     { id: "v18", objectName: null, cx: 115, cy: 241},//its
-    { id: "v19", objectName: "null", cx: 132, cy: 241},//op left
+    { id: "v19", objectName: null, cx: 132, cy: 241},//op left
     { id: "v20", objectName: null, cx: 179, cy: 240},//Lib
-    { id: "v21", objectName: null, cx: 154, cy: 265},//OP 2
+    { id: "v21", objectName: "null", cx: 154, cy: 265},//OP 2
     { id: "v22", objectName: null, cx: 94, cy: 273},//atrium
     { id: "v23", objectName: null, cx: 201, cy: 267},//registrar
     { id: "v24", objectName: null, cx: 228, cy: 267},//teller
@@ -67,12 +67,12 @@ export const graphData: GraphData = {
     { id: "v45", objectName: "Finance Purchasing Department", cx: 228, cy: 198},//Finance
     { id: "v46", objectName: "School Front Entrance", cx: 33, cy: 233},//Front Entrance
     { id: "v47", objectName: "CSDL/ITS Building", cx: 115, cy: 233},//ITS
-    //{ id: "v48", objectName: "OP/Marketing Department Entrance 1", cx: 139, cy: 241},//OP L
+    { id: "v48", objectName: "OP/Marketing Department", cx: 139, cy: 241},//OP L
     { id: "v49", objectName: "University Library Building", cx: 179, cy: 230},//lib
     { id: "v50", objectName: "PTC Building Entrance", cx: 84, cy: 233},//PTC Bldg
     { id: "v51", objectName: "null", cx: 94, cy: 241},//PTC-Artium
     { id: "v52", objectName: "Atrium", cx: 115, cy: 273},//Artium
-    { id: "v53", objectName: "OP/Marketing Department", cx: 154, cy: 258},//OP
+    //{ id: "v53", objectName: "OP/Marketing Department", cx: 154, cy: 258},//OP
     { id: "v54", objectName: "Registrar Office", cx: 201, cy: 261},//Registrar
     { id: "v55", objectName: "Teller", cx: 228, cy: 261},//Teller
     { id: "v56", objectName: "CMA Building Entrance 1", cx: 201, cy: 287},//CMA upper
@@ -134,9 +134,9 @@ export const graphData: GraphData = {
     { id: "v16_to_v50", from: "v16", to: "v50" },//PTC 1
   //  { id: "v17_to_v51", from: "v17", to: "v51" },//ptc 2
     { id: "v18_to_v47", from: "v18", to: "v47" },//ITS
-   // { id: "v19_to_v48", from: "v19", to: "v48" },//op left
+    { id: "v19_to_v48", from: "v19", to: "v48" },//op left
     { id: "v20_to_v49", from: "v20", to: "v49" },//Lib
-    { id: "v21_to_v53", from: "v21", to: "v53" },//OP 2
+    //{ id: "v21_to_v53", from: "v21", to: "v53" },//OP 2
     { id: "v22_to_v52", from: "v22", to: "v52" },//atrium
     { id: "v23_to_v54", from: "v23", to: "v54" },//registrar
     { id: "v24_to_v55", from: "v24", to: "v55" },//teller
@@ -291,7 +291,7 @@ export const graphData: GraphData = {
    // Atrium
    { id: "v52_to_v74", from: "v52", to: "v74" }, 
    { id: "v74_to_v75", from: "v74", to: "v75" }, 
-   { id: "v75_to_v21", from: "v75", to: "v21" }, //op
+   //{ id: "v75_to_v21", from: "v75", to: "v21" }, //op
    { id: "v75_to_v84", from: "v75", to: "v84" },
    { id: "v84_to_v20", from: "v84", to: "v20" },//lib
    { id: "v84_to_v76", from: "v84", to: "v76" },
