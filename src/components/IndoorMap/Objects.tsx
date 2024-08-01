@@ -54,33 +54,33 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
             onClick={handleObjectClick}
           />
           {/* upper part */}
-          {/* <path
-            id="Student Plaza Entrance 1"
+          <path
+            id="Student Plaza Entrance 01"
             className={`${className} object`}
-            d="M294 192H338V219H294z"
+            d="M263 200H301V266H263z"
             onClick={handleObjectClick}
-          /> */}
+          />
           {/* Lower part */}
           <path
-            id="Student Plaza"
+            id="Student Plaza Entrance 02"
             className={`${className} object`}
-            d="M264.5 200.5H372.5V263.5H264.5z"
+            d="M301 199H374V266H301z"
             onClick={handleObjectClick}
           />
            {/* Left part */}
-           {/* <path
-            id="Student Plaza Entrance 3"
+           <path
+            id="Mc Donald's"
             className={`${className} object`}
-             d="M268 192H296V249H268z"
+             d="M40.833 147.507H87.2833V181.4298H40.833z"
             onClick={handleObjectClick}
-          /> */}
+          />
            {/* Right part */}
-           {/* <path
-            id="Student Plaza Entrance 4"
+           <path
+            id="ITS Department Building"
             className={`${className} object`}
-            d="M338 190H368V249H338z"
+            d="M103 171H127V195H103z"
             onClick={handleObjectClick}
-          /> */}
+          />
           {/* Left part */}
           <path
             id="North Hall Entrance 1"
@@ -99,7 +99,7 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
           <path
             id="PTC Building Entrance"
             className={`${className} object`}
-            d="M40.7803 146.548H87.2835V295.374H40.7803z"
+            d="M40.5 182.5H87.5V295.5H40.5z"
             onClick={handleObjectClick}
           />
           {/* second floor*/}
@@ -165,7 +165,7 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
           <path
             id="CSDL/ITS Building"
             className={`${className} object`}
-            d="M101 169H127.7261V229.5872H101z"
+            d="M103 199H127V229H103z"
             onClick={handleObjectClick}
           />
           {/* upper part */}

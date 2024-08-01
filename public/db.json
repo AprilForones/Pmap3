@@ -57,9 +57,17 @@
     {
       "id": "h8k9",
       "categoryId": "16be",
-      "name": "Student Plaza",
+      "name": "Student Plaza Entrance 01",
       "desc": "Student plaza. "
     },
+
+    {
+      "id": "h8k2",
+      "categoryId": "16be",
+      "name": "Student Plaza Entrance 02",
+      "desc": "Student plaza. "
+    },
+    
     {
       "id": "i9j0",
       "categoryId": "e928",
@@ -162,6 +170,18 @@
       "categoryId": "58a9",
       "name": "Old Stage",
       "desc": "Phinma Garden's Olden Stage."
+    },
+    {
+      "id": "v4r4",
+      "categoryId": "58a9",
+      "name": "Mc Donald's",
+      "desc": "Mc Donald's."
+    },
+    {
+      "id": "z1z1",
+      "categoryId": "58a9",
+      "name": "ITS Department Building",
+      "desc": "ITS Department Building."
     },
     {
       "id": "x5x6",

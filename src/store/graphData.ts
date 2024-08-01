@@ -18,7 +18,7 @@ export interface GraphData {
 export const graphData: GraphData = {
   vertices: [
     //visible for change position, Yellow color base on map sample
-//    { id: "v1", objectName: null, cx: 94, cy: 122},//Entrance Vehicle
+    { id: "v1", objectName: null, cx: 113, cy: 164},//Its dept
     { id: "v2", objectName: null, cx: 169, cy: 122},//basic ed
     { id: "v3", objectName: null, cx: 228, cy: 122},//ccje
     { id: "v4", objectName: null, cx: 310, cy: 122},//gym
@@ -32,9 +32,9 @@ export const graphData: GraphData = {
     { id: "v12", objectName: null, cx: 175, cy: 191},//fvr
     { id: "v13", objectName: null, cx: 228, cy: 191},//finance
     { id: "v14", objectName: null, cx: 308, cy: 220},//SP
-    { id: "v15", objectName: null, cx: 41, cy: 233},//Entrance Bldg
+    { id: "v15", objectName: null, cx: 38, cy: 234},//Entrance Bldg
     { id: "v16", objectName: null, cx: 94, cy: 233},//PTC 1
-   // { id: "v17", objectName: null, cx: 85, cy: 241},//ptc 2
+    { id: "v17", objectName: "ITS Department Building", cx: 113, cy: 171},//ITS Dept
     { id: "v18", objectName: null, cx: 115, cy: 241},//its
     { id: "v19", objectName: null, cx: 132, cy: 241},//op left
     { id: "v20", objectName: null, cx: 179, cy: 240},//Lib
@@ -52,7 +52,7 @@ export const graphData: GraphData = {
     { id: "v32", objectName: null, cx: 308, cy: 392},//NH R
 
     //Objects, Green Circles
-   // { id: "v33", objectName: "School Vehicle Entrance", cx: 101, cy: 122},//v entrance
+    { id: "v33", objectName: "Mc Donald's", cx: 86, cy: 164},//mcdo
     { id: "v34", objectName: "BASIC ED Building", cx: 169, cy: 113},//basic ed
     { id: "v35", objectName: "CCJE Department", cx: 228, cy: 113},//ccje
     { id: "v36", objectName: "Gymnasium", cx: 310, cy: 113},//gym
@@ -65,14 +65,14 @@ export const graphData: GraphData = {
     { id: "v43", objectName: "Pedistrian Entrance/Exit", cx: 532, cy: 164},//Pedestrian Entrance/Exit
     { id: "v44", objectName:  "FVR Building", cx: 175, cy: 198},//FVR
     { id: "v45", objectName: "Finance Purchasing Department", cx: 228, cy: 198},//Finance
-    { id: "v46", objectName: "School Front Entrance", cx: 33, cy: 233},//Front Entrance
+    { id: "v46", objectName: "School Front Entrance", cx: 29, cy: 234},//Front Entrance
     { id: "v47", objectName: "CSDL/ITS Building", cx: 115, cy: 233},//ITS
     { id: "v48", objectName: "OP/Marketing Department", cx: 139, cy: 241},//OP L
     { id: "v49", objectName: "University Library Building", cx: 179, cy: 230},//lib
     { id: "v50", objectName: "PTC Building Entrance", cx: 84, cy: 233},//PTC Bldg
     { id: "v51", objectName: "null", cx: 94, cy: 241},//PTC-Artium
     { id: "v52", objectName: "Atrium", cx: 115, cy: 273},//Artium
-    //{ id: "v53", objectName: "OP/Marketing Department", cx: 154, cy: 258},//OP
+    { id: "v53", objectName: "Student Plaza Entrance 01", cx: 277, cy: 221},//sp 01
     { id: "v54", objectName: "Registrar Office", cx: 201, cy: 261},//Registrar
     { id: "v55", objectName: "Teller", cx: 228, cy: 261},//Teller
     { id: "v56", objectName: "CMA Building Entrance 1", cx: 201, cy: 287},//CMA upper
@@ -82,7 +82,7 @@ export const graphData: GraphData = {
     { id: "v60", objectName: "North Hall Entrance 1", cx: 251, cy: 400},//NH Left
     { id: "v61", objectName: "North  Hall Entrance 2", cx: 308, cy: 400},//NH Right
     { id: "v62", objectName: "Technical Vocational Building", cx: 197, cy: 397},//TechVoc
-    { id: "v83", objectName: "Student Plaza", cx: 321, cy: 220},//SP
+    { id: "v83", objectName: "Student Plaza Entrance 02", cx: 321, cy: 220},//SP 02
 
     //Gray circles (not to be showned or "null")
     { id: "v63", objectName: "null", cx: 132, cy: 122},//VE-BE
@@ -94,7 +94,7 @@ export const graphData: GraphData = {
     { id: "v69", objectName: "null", cx: 382, cy: 220},//sp-mba2
     { id: "v70", objectName: "null", cx: 464, cy: 163},//mba1 -riverside
     { id: "v71", objectName: "null", cx: 251, cy: 220},//SP-cma HALL
-    { id: "v72", objectName: "null", cx: 41, cy: 241},//entrance-ptc
+    { id: "v72", objectName: "null", cx: 38, cy: 241},//entrance-ptc
     { id: "v73", objectName: "null", cx: 132, cy: 233},//its-op
     { id: "v74", objectName: "Null", cx: 136, cy: 273},//atrium
     { id: "v75", objectName: "Null", cx: 154, cy: 273},//atrium-op
@@ -106,7 +106,7 @@ export const graphData: GraphData = {
     { id: "v81", objectName: "Null", cx: 251, cy: 311},//cma-pf-cma
     { id: "v82", objectName: "null", cx: 263, cy: 311},//PF-cma
     { id: "v84", objectName: "null", cx: 179, cy: 273},//LIB
-    { id: "v85", objectName: "null", cx: 94, cy: 164},
+    { id: "v85", objectName: null, cx: 94, cy: 164}, //mcdo
     { id: "v86", objectName: "null", cx: 132, cy: 164},
     { id: "v87", objectName: "null", cx: 464, cy: 179},
     { id: "v88", objectName: "null", cx: 524, cy: 179},
@@ -116,7 +116,7 @@ export const graphData: GraphData = {
 
   edges: [
     // positions to objects
-  //  { id: "v1_to_v33", from: "v1", to: "v33" },//Vehicle Entrance
+    { id: "v85_to_v33", from: "v1", to: "v33" },//mcdo
     { id: "v2_to_v34", from: "v2", to: "v34" },//BASIC ED BLDG
     { id: "v3_to_v35", from: "v3", to: "v35" },//CCJE DEPARTMENT
     { id: "v4_to_v36", from: "v4", to: "v36" },//GYMNASIUM
@@ -132,7 +132,7 @@ export const graphData: GraphData = {
     { id: "v14_to_v83", from: "v14", to: "v83" },//sp 
     { id: "v15_to_v46", from: "v15", to: "v46" },//Entrance Bldg
     { id: "v16_to_v50", from: "v16", to: "v50" },//PTC 1
-  //  { id: "v17_to_v51", from: "v17", to: "v51" },//ptc 2
+    { id: "v1_to_v17", from: "v1", to: "v17" },//ITS Dept
     { id: "v18_to_v47", from: "v18", to: "v47" },//ITS
     { id: "v19_to_v48", from: "v19", to: "v48" },//op left
     { id: "v20_to_v49", from: "v20", to: "v49" },//Lib
@@ -223,7 +223,7 @@ export const graphData: GraphData = {
   { id: "v80_to_v27", from: "v80", to: "v27" }, // OLD STAGE - PF
 
   //SP
-  { id: "v14_to_v71", from: "v14", to: "v71" }, // SP-CMA HALL NULL
+  { id: "v71_to_v53", from: "v71", to: "v53" }, // SP 01-CMA HALL NULL
   { id: "v14_to_v79", from: "v14", to: "v79" }, // SP-PF NULL
 
   //PF
@@ -250,6 +250,8 @@ export const graphData: GraphData = {
 
     //V86 AND V66 ITS NULL
     { id: "v86_to_v85", from: "v86", to: "v85" }, 
+    { id: "v86_to_v1", from: "v86", to: "v1" }, 
+    { id: "v85_to_v1", from: "v85", to: "v1" }, 
     { id: "v86_to_v66", from: "v86", to: "v66" }, 
     { id: "v86_to_v73", from: "v86", to: "v73" }, 
     { id: "v86_to_v74", from: "v86", to: "v74" }, 
