@@ -1,4 +1,4 @@
-import floorplan from "@/assets/img/PHINMAPv2.svg";
+import floorplan from "@/assets/img/PhinmaSchoolMap.svg";
 import { ReactNode } from "react";
 interface MapBackgroundProps {
   children: ReactNode;
@@ -8,7 +8,7 @@ function MapBackground({ children }: MapBackgroundProps) {
   return (
     <svg
       //same as mall-floor-plan.svg viewBox
-      viewBox="0 0 567 448"
+      viewBox="0 0 2832 2798"
       className="lg:h-[85vh] lg:w-[75vw] h-[85dvh]"
     >
       <image id="background" width="100%" height="100%" href={floorplan} />
