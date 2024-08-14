@@ -3,44 +3,56 @@
     {
       "id": "a1b2",
       "categoryId": "e753",
-      "name": "School Front Entrance",
-      "desc": "The Front entrance is located here."
+      "name": "Main Entrance Gate",
+      "desc": "Main Entrance Gate is located here."
     },
     {
       "id": "b2c3",
-      "categoryId": "e928",
+      "categoryId": "a191",
       "name": "CSDL/ITS Building",
       "desc": "The CSDL is located here."
     },
     {
       "id": "c3d4",
-      "categoryId": "58a9",
+      "categoryId": "a191",
       "name": "FVR Building",
       "desc": "Various facilities are located here. refer to building information below for further details."
     },
     {
       "id": "c3c4",
-      "categoryId": "58a9",
+      "categoryId": "a191",
       "name": "University Library Building",
       "desc": "University Library located in Second Floor at Atruim."
     },
     {
       "id": "d4e5",
-      "categoryId": "e928",
+      "categoryId": "a191",
       "name": "CMA Building Entrance 1",
       "desc": "Building used by CMA Students. Located in second floor at Atruim."
     },
     {
+      "id": "c4r5",
+      "categoryId": "52f1",
+      "name": "CMA's Comfort Room",
+      "desc": " "
+    },
+    {
       "id": "d4f5",
-      "categoryId": "e928",
+      "categoryId": "a191",
       "name": "CMA Building Entrance 2",
       "desc": "Building used by CMA Students."
     },
     {
       "id": "e5f6",
-      "categoryId": "e928",
+      "categoryId": "a191",
       "name": "BASIC ED Building",
       "desc": "Building used by JR. and SR. Highschool Students."
+    },
+    {
+      "id": "c5r4",
+      "categoryId": "52f1",
+      "name": "BASIC ED's Comfort Room",
+      "desc": " "
     },
     {
       "id": "f6g7",
@@ -49,79 +61,127 @@
       "desc": "Used by Criminology Students."
     },
     {
+      "id": "c6r9",
+      "categoryId": "52f1",
+      "name": "CCJE's Comfort Room",
+      "desc": " "
+    },
+    {
       "id": "g7h8",
       "categoryId": "d21e",
       "name": "Gymnasium",
       "desc": "School Gymnasium."
     },
     {
+      "id": "c8r8",
+      "categoryId": "52f1",
+      "name": "Gymnasium's Comfort Room",
+      "desc": " "
+    },
+    {
       "id": "h8k9",
-      "categoryId": "16be",
+      "categoryId": "a191",
       "name": "Student Plaza Entrance 01",
       "desc": "Student plaza. "
     },
 
     {
       "id": "h8k2",
-      "categoryId": "16be",
+      "categoryId": "a191",
       "name": "Student Plaza Entrance 02",
       "desc": "Student plaza. "
     },
     
     {
       "id": "i9j0",
-      "categoryId": "e928",
+      "categoryId": "a191",
       "name": "Technical Vocational Building",
       "desc": "Used for automotive purposes."
     },
     {
       "id": "j0k1",
-      "categoryId": "87b0",
+      "categoryId": "a191",
       "name": "North Hall Entrance 1",
       "desc": "North hall, used by various department of students."
     },
     {
+      "id": "c0r1",
+      "categoryId": "52f1",
+      "name": "North Hall's Comfort room 1",
+      "desc": " "
+    },
+    {
       "id": "j0k2",
-      "categoryId": "87b0",
+      "categoryId": "a191",
       "name": "North  Hall Entrance 2",
       "desc": "North hall, used by various department of students."
     },
     {
+      "id": "c0r2",
+      "categoryId": "52f1",
+      "name": "North Hall's Comfort room 2",
+      "desc": " "
+    },
+    {
       "id": "l2m3",
-      "categoryId": "16be",
+      "categoryId": "a191",
       "name": "PHINMA Forest",
       "desc": "Used by students to rest and get some fresh air."
     },
     {
       "id": "m3n4",
-      "categoryId": "e928",
+      "categoryId": "16be",
       "name": "Engineering Building",
       "desc": "Engineering Bldg., used by various department of students."
     },
 
     {
       "id": "p6q7",
-      "categoryId": "87b0",
+      "categoryId": "a191",
       "name": "MBA Hall Entrance 1",
-      "desc": "Fashion and quality at the best price."
+      "desc": " "
+    },
+    {
+      "id": "c6r7",
+      "categoryId": "52f1",
+      "name": "MBA Hall's Comfort Room 1",
+      "desc": " "
     },
     {
       "id": "b6b8",
-      "categoryId": "87b0",
+      "categoryId": "a191",
       "name": "MBA Hall Entrance 2",
-      "desc": "Fashion and quality at the best price."
+      "desc": " "
     },
     {
       "id": "c6c7",
-      "categoryId": "87b0",
+      "categoryId": "a191",
       "name": "MBA Hall Entrance 3",
-      "desc": "Fashion and quality at the best price."
+      "desc": " "
+    },
+    {
+      "id": "c6r6",
+      "categoryId": "52f1",
+      "name": "MBA Hall Comfort Room 2",
+      "desc": " "
+    },
+    {
+      "id": "c6h6",
+      "categoryId": "87b0",
+      "name": "University Chapel",
+      "desc": " "
+    },
+    {
+      "id": "c6l6",
+      "categoryId": "87b0",
+      "name": "University Clinic",
+      "desc": " "
     },
     {
       "id": "d6d7",
-      "categoryId": "87b0",
+      "categoryId": "a191",
       "name": "MBA Hall Entrance 4",
-      "desc": "Fashion and quality at the best price."
+      "desc": " "
     },
     {
       "id": "q7r8",
@@ -130,87 +190,178 @@
       "desc": "Building used by Medical Students."
     },
     {
-      "id": "q8r9",
+      "id": "c7r3",
+      "categoryId": "52f1",
+      "name": "Riverside Building's Comfort Room 1",
+      "desc": " "
+    },
+    {
+      "id": "c7r2",
+      "categoryId": "52f1",
+      "name": "Riverside Building's Comfort Room 2",
+      "desc": " "
+    },
+    {
+      "id": "p7r2",
       "categoryId": "58a9",
+      "name": "Riverside Building's Parking Lot Area",
+      "desc": " "
+    },
+    {
+      "id": "f7d2",
+      "categoryId": "e928",
+      "name": "Riverside Building's Food Hub Area",
+      "desc": " "
+    },
+    {
+      "id": "q8r9",
+      "categoryId": "a191",
       "name": "Teller",
       "desc": "Building for Teller."
     },
     {
       "id": "r9y9",
-      "categoryId": "58a9",
+      "categoryId": "a191",
       "name": "Finance Purchasing Department",
       "desc": "Building for financial business."
     },
     {
       "id": "q9r9",
-      "categoryId": "58a9",
+      "categoryId": "a191",
       "name": "Atrium",
       "desc": "Atrium Between PTC and CMA."
     },
     {
       "id": "a4z8",
-      "categoryId": "58a9",
+      "categoryId": "a191",
       "name": "Registrar Office",
       "desc": "Registar's office.Located in second floor at Atruim."
     },
     {
       "id": "m2m2",
-      "categoryId": "58a9",
+      "categoryId": "a191",
       "name": "Pedistrian Entrance/Exit",
       "desc": "Pedistrian Entrance/Exit."
     },
     {
       "id": "f7h9",
-      "categoryId": "e928",
+      "categoryId": "a191",
       "name": "OP/Marketing Department",
       "desc": "OP/Marketing department."
     },
     {
       "id": "n5o6",
-      "categoryId": "58a9",
+      "categoryId": "d21e",
       "name": "Old Stage",
       "desc": "Phinma Garden's Olden Stage."
     },
     {
       "id": "v4r4",
-      "categoryId": "58a9",
+      "categoryId": "e928",
       "name": "Mc Donald's",
       "desc": "Mc Donald's."
     },
     {
       "id": "z1z1",
-      "categoryId": "58a9",
+      "categoryId": "16be",
       "name": "ITS Department Building",
       "desc": "ITS Department Building."
     },
     {
+      "id": "c1w1",
+      "categoryId": "16be",
+      "name": "College of Law Office",
+      "desc": " "
+    },
+    {
+      "id": "o1g1",
+      "categoryId": "16be",
+      "name": "Office of  Graduate and Professionals",
+      "desc": " "
+    },
+    {
+      "id": "o1g1",
+      "categoryId": "16be",
+      "name": "PEDRO Hub Office",
+      "desc": " "
+    },
+    {
       "id": "x5x6",
-      "categoryId": "58a9",
+      "categoryId": "16be",
       "name": "PTC Building Entrance",
       "desc": "This is where the IT Department is Located. Ground Floor Entrance."
+    },
+    {
+      "id": "c5r6",
+      "categoryId": "52f1",
+      "name": "PTC's Comfort Room",
+      "desc": " "
+    },
+    {
+      "id": "p4r1",
+      "categoryId": "58a9",
+      "name": "4 wheels parking area 01",
+      "desc": " "
+    },
+    {
+      "id": "p4r2",
+      "categoryId": "58a9",
+      "name": "4 wheels parking area 02",
+      "desc": " "
+    },
+    {
+      "id": "p4y1",
+      "categoryId": "58a9",
+      "name": "Motorcycle parking area 01",
+      "desc": " "
+    },
+    {
+      "id": "p4y2",
+      "categoryId": "58a9",
+      "name": "Motorcycle parking area 02",
+      "desc": " "
+    },
+    {
+      "id": "p4y3",
+      "categoryId": "58a9",
+      "name": "Motorcycle parking area 03",
+      "desc": " "
+    },
+    {
+      "id": "p4y4",
+      "categoryId": "58a9",
+      "name": "Motorcycle parking area 04",
+      "desc": " "
+    },
+    {
+      "id": "p4y5",
+      "categoryId": "58a9",
+      "name": "Motorcycle parking area 05",
+      "desc": " "
     }
+
 
   ],
   "categories": [
     {
       "id": "52f1",
-      "name": "CR"
+      "name": "Comfort Room"
     },
     {
       "id": "e928",
-      "name": "Foods"
+      "name": "Food Hub Area"
     },
     {
       "id": "58a9",
-      "name": "STORE"
+      "name": "Parking Lot Area"
     },
     {
       "id": "16be",
-      "name": " "
+      "name": "Department"
     },
     {
       "id": "d21e",
-      "name": " "
+      "name": "Utilities"
     },
     {
       "id": "a191",
