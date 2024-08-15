@@ -215,25 +215,25 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
           <path
             id="Motorcycle parking area 01"
             className={`${className} object`}
-            d="M702.5 807.5H961.5V858.5H702.5z"
+            d=" "
             onClick={handleObjectClick}
           />
           <path
             id="Motorcycle parking area 02"
             className={`${className} object`}
-            d="M951.391 708.856H1257.5819999999999V755.5194H951.391z"
+            d=" "
             onClick={handleObjectClick}
           />
           <path
             id="Motorcycle parking area 03"
             className={`${className} object`}
-            d="M1129.28 708.821H1435.471V779.6560000000001H1129.28z"
+            d=" "
             onClick={handleObjectClick}
           />
           <path
             id="Motorcycle parking area 04"
             className={`${className} object`}
-            d="M1749.28 730.787H2055.471V768.7013000000001H1749.28z"
+            d=" "
             onClick={handleObjectClick}
           />                              
           <path
