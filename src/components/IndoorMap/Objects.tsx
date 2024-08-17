@@ -122,7 +122,7 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
           />          
           {/* Ground Floor           */}
           <path
-            id="PTC Building Entrance"
+            id="PTC Building"
             className={`${className} object`}
             d="M143 1140H357V1792H143z"
             onClick={handleObjectClick}
@@ -239,7 +239,7 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
           <path
             id="Motorcycle parking area 05"
             className={`${className} object`}
-            d="M1720.49 1606.77H2110.588V1673.3614H1720.49z"
+            d=" "
             onClick={handleObjectClick}
           />                                                                                                                                  
            <path
