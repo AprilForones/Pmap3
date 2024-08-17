@@ -355,6 +355,7 @@ export const graphData: GraphData = {
     { id: "v19_to_v166", from: "v19", to: "v166" },
     //v166
     { id: "v166_to_v167", from: "v166", to: "v167" },
+    { id: "v166_to_v17", from: "v166", to: "v17" },
     { id: "v166_to_v179", from: "v166", to: "v179" },
     { id: "v166_to_v64", from: "v166", to: "v64" },
     //v164
@@ -589,7 +590,7 @@ export const graphData: GraphData = {
     { id: "v151_to_v214", from: "v151", to: "v214" },
     { id: "v214_to_v215", from: "v214", to: "v215" },
    // { id: "v214_to_v215", from: "v214", to: "v215" },
-    { id: "v215_to_v99", from: "v215", to: "v99" },
+    { id: "v215_to_v79", from: "v215", to: "v79" },
     { id: "v215_to_v216", from: "v215", to: "v216" },
     { id: "v216_to_v232", from: "v216", to: "v232" },
     { id: "v216_to_v217", from: "v216", to: "v217" },

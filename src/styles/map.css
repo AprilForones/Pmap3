@@ -29,14 +29,14 @@
 
 .path {
   stroke: var(--path-color);
-  stroke-width: 1;
+  stroke-width: 255;
   opacity: 0;
   border-radius: 0px;
 }
 
 .path-once {
   opacity: 1;
-  stroke-width: 3;
+  stroke-width: 9;
   stroke-linecap: round;
   stroke-dasharray: 2338.5;
   stroke-dashoffset: 2338.5;
@@ -51,10 +51,10 @@
 
 .path-active {
   opacity: 1;
-  stroke-width: 3;
+  stroke-width: 10;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-dasharray: 5;
+  stroke-dasharray: 15;
   animation: march 3s linear infinite reverse;
 }
 

@@ -57,7 +57,7 @@ function Positions({
         cy={startVertex?.cy}
         fill="none"
         stroke="white"
-        strokeWidth={2}
+        strokeWidth={25}
         r={positionRadius}
       >
         <animate
