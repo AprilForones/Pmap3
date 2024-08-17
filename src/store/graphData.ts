@@ -321,7 +321,7 @@ export const graphData: GraphData = {
     { id: "v8_to_v115", from: "v8", to: "v115" },
     //its
     { id: "v11_to_v114", from: "v11", to: "v114" },
-    { id: "v11_to_v114", from: "v11", to: "v114" },
+    //{ id: "v11_to_v114", from: "v11", to: "v114" },
     { id: "v11_to_v163", from: "v11", to: "v163" },
     //v163
     { id: "v163_to_v164", from: "v163", to: "v164" },
@@ -338,16 +338,17 @@ export const graphData: GraphData = {
     //v159
     { id: "v159_to_v158", from: "v159", to: "v158" },
     { id: "v159_to_v160", from: "v159", to: "v160" },
-    { id: "v159_to_v158", from: "v159", to: "v158" },
+    //{ id: "v159_to_v158", from: "v159", to: "v158" },
     { id: "v159_to_v147", from: "v159", to: "v147" },
     //fvr
     { id: "v16_to_v118", from: "v16", to: "v118" },
-    { id: "v16_to_v163", from: "v16", to: "v163" },
+    //{ id: "v16_to_v163", from: "v16", to: "v163" },
+    { id: "v16_to_v17", from: "v16", to: "v17" },
     { id: "v15_to_v118", from: "v15", to: "v118" },
     { id: "v18_to_v118", from: "v18", to: "v118" },
     //v163
-    { id: "v163_to_v132", from: "v163", to: "v132" },
-    { id: "v163_to_v17", from: "v163", to: "v17" },
+    // { id: "v163_to_v132", from: "v163", to: "v132" },
+    // { id: "v163_to_v17", from: "v163", to: "v17" },
     //finance
     { id: "v17_to_v119", from: "v17", to: "v119" },
     { id: "v19_to_v119", from: "v19", to: "v119" },
@@ -451,8 +452,8 @@ export const graphData: GraphData = {
     { id: "v145_to_v90", from: "v145", to: "v90" },
     { id: "v90_to_v205", from: "v90", to: "v205" }, 
     { id: "v204_to_v205", from: "v204", to: "v205" },
-    { id: "v204_to_v205", from: "v204", to: "v205" },
-    { id: "v205_to_v205", from: "v205", to: "v92" },
+    { id: "v204_to_v45", from: "v204", to: "v45" },
+    { id: "v205_to_v92", from: "v205", to: "v92" },
     //{ id: "v205_to_v205", from: "v205", to: "v91" },
     
     { id: "v204_to_v203", from: "v204", to: "v203" },
@@ -512,7 +513,7 @@ export const graphData: GraphData = {
     { id: "v141_to_v72", from: "v141", to: "v72" },
     //north hall
     { id: "v72_to_v71", from: "v72", to: "v71" },
-    { id: "v72_to_v71", from: "v72", to: "v71" },
+    //{ id: "v72_to_v71", from: "v72", to: "v71" },
     { id: "v72_to_v70", from: "v72", to: "v70" },
     { id: "v223_to_v70", from: "v223", to: "v70" },
     { id: "v223_to_v71", from: "v223", to: "v71" },
@@ -572,7 +573,7 @@ export const graphData: GraphData = {
     { id: "v208_to_v209", from: "v208", to: "v209" },
     { id: "v207_to_v74", from: "v207", to: "v74" },
     { id: "v209_to_v82", from: "v209", to: "v82" },
-    { id: "v209_to_v82", from: "v209", to: "v82" },
+    //{ id: "v209_to_v82", from: "v209", to: "v82" },
     { id: "v82_to_v152", from: "v82", to: "v152" },
     { id: "v74_to_v150", from: "v74", to: "v150" },
     { id: "v211_to_v231", from: "v211", to: "v231" },
@@ -587,7 +588,7 @@ export const graphData: GraphData = {
     { id: "v233_to_v151", from: "v233", to: "v151" },
     { id: "v151_to_v214", from: "v151", to: "v214" },
     { id: "v214_to_v215", from: "v214", to: "v215" },
-    { id: "v214_to_v215", from: "v214", to: "v215" },
+   // { id: "v214_to_v215", from: "v214", to: "v215" },
     { id: "v215_to_v99", from: "v215", to: "v99" },
     { id: "v215_to_v216", from: "v215", to: "v216" },
     { id: "v216_to_v232", from: "v216", to: "v232" },
