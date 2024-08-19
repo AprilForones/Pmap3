@@ -14,7 +14,7 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
            <path
               id="BASIC ED Building"
               className={`${className} object`}
-               d="M954 152.636V771H676.784L720.71 130.372L954 152.636Z"
+              d="M954 152.636V771H676.784L720.71 130.372L954 152.636Z"
               onClick={handleObjectClick}
             /> 
           <path
