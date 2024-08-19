@@ -1,4 +1,4 @@
-import floorplan from "@/assets/img/PMAP500BY500.svg";
+import floorplan from "@/assets/img/PhinMap500X500v1.svg";
 import { ReactNode } from "react";
 interface MapBackgroundProps {
   children: ReactNode;
