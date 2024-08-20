@@ -18,141 +18,31 @@ export interface GraphData {
 export const graphData: GraphData = {
   vertices: [
     //visible for change position, green color base on map sample
-    { id: "v1", objectName: null, cx: 110.5, cy: 1407.5},//Front Entrance
+    { id: "v1", objectName: null, cx: 18.5, cy: 261.5},//Front Entrance
     //PTC BUILDING
-    { id: "v2", objectName: null, cx: 162.5, cy: 1406.5},
-    { id: "v3", objectName: null, cx: 330.5, cy: 1409.5},//
-    { id: "v4", objectName: null, cx: 162.5, cy: 1187.5},
-    { id: "v5", objectName: null, cx: 330.5, cy: 1187.5},
-    { id: "v6", objectName: null, cx: 330.5, cy: 1187.5},
-    //MCDO BUILDING
-    { id: "v7", objectName: null, cx: 340.5, cy: 1057.5},
-    //CSDL BUILDING
-    { id: "v8", objectName: null, cx: 493.5, cy: 1300.5},
-    { id: "v9", objectName: null, cx: 493.5, cy: 1410.5},//
-    { id: "v10", objectName: null, cx: 496.5, cy: 1110.5},
-    { id: "v11", objectName: null, cx: 494.5, cy: 1002.5},//
-    //OP BUILDING
-    { id: "v12", objectName: null, cx: 604.5, cy: 1539.5},//
-    { id: "v13", objectName: null, cx: 716.5, cy: 1539.5},
-    //FVR BUILDING
-    { id: "v14", objectName: null, cx: 703.5, cy: 1387.5},
-    { id: "v15", objectName: null, cx: 703.5, cy: 1272.5},
-    { id: "v16", objectName: null, cx: 761.5, cy: 1189.5},//
-    { id: "v17", objectName: null, cx: 1011.5, cy: 1184.5},//
-    { id: "v18", objectName: null, cx: 890.5, cy: 1267.5},
-    { id: "v19", objectName: null, cx: 1015.5, cy: 1310.5},
-    { id: "v20", objectName: null, cx: 886.5, cy: 1384.5},
-    { id: "v21", objectName: null, cx: 1015.5, cy: 1461.5},
-    { id: "v22", objectName: null, cx: 1016.5, cy: 1566.5},//
-    { id: "v23", objectName: null, cx: 807.5, cy: 1437.5},//
-    //registrar office
-    { id: "v24", objectName: null, cx: 792.5, cy: 1610.5},
-    //Basic ED
-    { id: "v25", objectName: null, cx: 835.5, cy: 210.5},
-    { id: "v26", objectName: null, cx: 740.5, cy: 305.5},
-    { id: "v27", objectName: null, cx: 729.5, cy: 432.5},
-    { id: "v28", objectName: null, cx: 718.5, cy: 585.5},
-    { id: "v29", objectName: null, cx: 718.5, cy: 750.5},
-    { id: "v30", objectName: null, cx: 828.5, cy: 591.5},
-    { id: "v31", objectName: null, cx: 905.5, cy: 424.5},
-    { id: "v32", objectName: null, cx: 909.5, cy: 589.5},
-    { id: "v33", objectName: null, cx: 909.5, cy: 751.5},
-    { id: "v34", objectName: null, cx: 829.5, cy: 791.5},//
-    //ccje
-    { id: "v35", objectName: null, cx: 1064.5, cy: 823.5},//
-    { id: "v36", objectName: null, cx: 1070.5, cy: 627.5},
-    { id: "v37", objectName: null, cx: 1070.5, cy: 515.5},
-    { id: "v38", objectName: null, cx: 1075.5, cy: 368.5},
-    { id: "v39", objectName: null, cx: 1075.5, cy: 266.5},
-    //gym
-    { id: "v40", objectName: null, cx: 1317.5, cy: 823.5},//
-    { id: "v41", objectName: null, cx: 1230.5, cy: 673.5},
-    { id: "v42", objectName: null, cx: 1708.5, cy: 670.5},
-    { id: "v43", objectName: null, cx: 1237.5, cy: 266.5},
-    { id: "v44", objectName: null, cx: 1708.5, cy: 263.5},
-    { id: "v45", objectName: null, cx: 1338.5, cy: 124.5}, // 
-    //SP 
-    { id: "v46", objectName: null, cx: 1222.5, cy: 1384.5},
-    { id: "v47", objectName: null, cx: 1479.5, cy: 1387.5},
-    //cma
-    { id: "v48", objectName: null, cx: 869.5, cy: 1723.5},//
-    { id: "v49", objectName: null, cx: 752.5, cy: 1846.5},
-    { id: "v50", objectName: null, cx: 754.5, cy: 1974.5},
-    { id: "v51", objectName: null, cx: 752.5, cy: 2102.5},
-    { id: "v52", objectName: null, cx: 752.5, cy: 2233.5},
-    { id: "v53", objectName: null, cx: 752.5, cy: 2338.5},  
-    { id: "v54", objectName: null, cx: 873.5, cy: 2338.5},
-    { id: "v55", objectName: null, cx: 986.5, cy: 2338.5},
-    { id: "v56", objectName: null, cx: 986.5, cy: 2233.5},
-    { id: "v57", objectName: null, cx: 986.5, cy: 2105.5},
-    { id: "v58", objectName: null, cx: 986.5, cy: 1852.5},
-    { id: "v59", objectName: null, cx: 1043.5, cy: 2023.5}, // 
-    //Phinma Forest
-    { id: "v60", objectName: null, cx: 1153.5, cy: 1809.5},//
-    { id: "v61", objectName: null, cx: 1404.5, cy: 1712.5},
-    { id: "v62", objectName: null, cx: 1759.5, cy: 1719.5},
-    { id: "v63", objectName: null, cx: 1406.5, cy: 2423.5}, 
-    //north hall
-    { id: "v64", objectName: null, cx: 1094.5, cy: 2420.5},//
-    { id: "v65", objectName: null, cx: 1096.5, cy: 2506.5},
-    { id: "v66", objectName: null, cx: 1025.5, cy: 2649.5},
-    { id: "v67", objectName: null, cx: 1096.5, cy: 2649.5},        
-    { id: "v68", objectName: null, cx: 1406.5, cy: 2506.5},
-    { id: "v69", objectName: null, cx: 1404.5, cy: 2650.5},
-    { id: "v70", objectName: null, cx: 1614.5, cy: 2502.5},
-    { id: "v71", objectName: null, cx: 1800.5, cy: 2652.5}, 
-    { id: "v72", objectName: null, cx: 1800.5, cy: 2506.5}, 
-    //techvoc
-    { id: "v73", objectName: null, cx: 834.5, cy: 2425.5},//
-    //riverside bldg
-    { id: "v74", objectName: null, cx: 2248.5, cy: 964.5},//
-    { id: "v75", objectName: null, cx: 2079.5, cy: 585.5},
-    { id: "v76", objectName: null, cx: 2079.5, cy: 432.5},
-    { id: "v77", objectName: null, cx: 2084.5, cy: 181.5},        
-    { id: "v78", objectName: null, cx: 2248.5, cy: 194.5},
-    { id: "v79", objectName: null, cx: 2563.5, cy: 235.5},
-    { id: "v80", objectName: null, cx: 2557.5, cy: 551.5},
-    { id: "v81", objectName: null, cx: 2654.5, cy: 587.5}, 
-    //pedistrian/vehicle entrance exit
-    { id: "v82", objectName: null, cx: 2623.5, cy: 963.5},// 
-    //old stage
-    { id: "v83", objectName: null, cx: 1761.5, cy: 2210.5},// 
-    //atrium
-    { id: "v84", objectName: null, cx: 388.5, cy: 1476.5},//
-    { id: "v85", objectName: null, cx: 391.5, cy: 1662.5},
-    { id: "v86", objectName: null, cx: 685.5, cy: 1683.5},
-    { id: "v87", objectName: null, cx: 747.5, cy: 1666.5},        
-    { id: "v88", objectName: null, cx: 873.5, cy: 1666.5},    
-    //mba eng.
-    { id: "v89", objectName: null, cx: 1761.5, cy: 380.5},//
-    { id: "v90", objectName: null, cx: 1770.16, cy: 211.155},
-    //{ id: "v91", objectName: null, cx: 1893.16, cy: 114.155},
-    { id: "v92", objectName: null, cx: 1987.16, cy: 211.155},
-    //mba upper hall.
-    { id: "v93", objectName: null, cx: 1869.5, cy: 420.5},//
-    { id: "v94", objectName: null, cx: 1869.5, cy: 536.5},
-    { id: "v95", objectName: null, cx: 1869.5, cy: 601.5},
-    { id: "v96", objectName: null, cx: 1869.5, cy: 677.5},   
-    //mba hall
-    { id: "v97", objectName: null, cx: 1893.5, cy: 860.5},//
-    { id: "v98", objectName: null, cx: 1893.5, cy: 936.5},
-    { id: "v99", objectName: null, cx: 1881.5, cy: 1048.5},
-    { id: "v100", objectName: null, cx: 1880.5, cy: 1120.5},
-    { id: "v235", objectName: null, cx: 1761.5, cy: 983.5},  
+    { id: "v2", objectName: null, cx: 57.5, cy: 261.5},//
+    { id: "v3", objectName: null, cx: 30.5, cy: 261.5},
+    { id: "v4", objectName: null, cx: 30.5, cy: 238.5},
+    { id: "v5", objectName: null, cx: 31.5, cy: 212.5},
+    { id: "v6", objectName: null, cx: 57.5, cy: 212.5},
+    { id: "v7", objectName: null, cx: 57.5, cy: 290.5},
+    { id: "v8", objectName: null, cx: 57.5, cy: 318.5},
+    { id: "v9", objectName: null, cx: 29.5, cy: 290.5},
+    { id: "v10", objectName: null, cx: 31.5, cy: 318.5},
+    { id: "v11", objectName: null, cx: 57.5, cy: 239.5},
+    //mcdo
+    { id: "v12", objectName: null, cx: 63.5, cy: 188.5},
+    //cdsl/ITS
+    { id: "v13", objectName: null, cx: 89.5, cy: 188.5},//ITS
+    { id: "v14", objectName: null, cx: 89.5, cy: 210.5},
+    { id: "v15", objectName: null, cx: 90.5, cy: 242.5},
+    { id: "v16", objectName: null, cx: 90.5, cy: 261.5},//CSDL
 
-    { id: "v101", objectName: null, cx: 1895.5, cy: 1207.5},  
-    { id: "v102", objectName: null, cx: 1895.5, cy: 1283.5},
+    
 
-    { id: "v103", objectName: null, cx: 1901.5, cy: 1389.5},  
-    { id: "v104", objectName: null, cx: 1901.5, cy: 1465.5},
 
-    { id: "v105", objectName: null, cx: 1901.5, cy: 1389.5},  
-    { id: "v106", objectName: null, cx: 1901.5, cy: 1465.5},
-    { id: "v107", objectName: null, cx: 1901.5, cy: 1389.5},  
-    { id: "v108", objectName: null, cx: 1901.5, cy: 1465.5},
-    { id: "v109", objectName: null, cx: 1901.5, cy: 1389.5},  
-    { id: "v110", objectName: null, cx: 1901.5, cy: 1465.5},
+
+
 
     //Objects, yellow Circles
     { id: "v111", objectName: "Main Entrance Gate", cx: 71.5, cy: 1407.5},//front entrance
@@ -199,92 +89,9 @@ export const graphData: GraphData = {
     { id: "v152", objectName: "Pedistrian Entrance/Exit", cx: 2677.5, cy: 968.5},//Pedistrian Entrance/Exit
 
     //purple circles (not to be showned or "null")
-    { id: "v153", objectName: null, cx: 2677.5, cy: 968.5},//Ptc
-    { id: "v154", objectName: "null", cx: 330.5, cy: 1699.5},
-    { id: "v155", objectName: "null", cx: 387.5, cy: 1410.5},
-    { id: "v156", objectName: "null", cx: 388.5, cy: 1059.5},
-    { id: "v157", objectName: "null", cx: 388.5, cy: 1005.5},
-    { id: "v158", objectName: "null", cx: 494.5, cy: 1610.5},
-    { id: "v159", objectName: "null", cx: 616.5, cy: 1611.5},
-    { id: "v160", objectName: "null", cx: 677.5, cy: 1611.5},
-    { id: "v161", objectName: "null", cx: 622.5, cy: 1409.5},
-    { id: "v162", objectName: "null", cx:619.5, cy: 1190.5},
-    { id: "v163", objectName: "null", cx:619.5, cy: 1005.5},
-    { id: "v165", objectName: "null", cx:830.5, cy: 1194.5},
-    { id: "v166", objectName: "null", cx:1105.5, cy: 1181.5},
-    { id: "v167", objectName: "null", cx:1096.5, cy: 1388.5},
-    { id: "v168", objectName: "null", cx:1096.5, cy: 1611.5},
-    { id: "v169", objectName: "null", cx:1011.5, cy: 1611.5},
-    { id: "v170", objectName: "null", cx:1095.5, cy: 1806.5},
-    { id: "v171", objectName: "null", cx:1095.5, cy: 2027.5},
-    { id: "v172", objectName: "null", cx:1402.5, cy: 2207.5},
-    { id: "v173", objectName: "null", cx:828.5, cy: 830.5},
-    { id: "v174", objectName: "null", cx:826.5, cy: 432.5},
-    { id: "v175", objectName: "null", cx:830.5, cy: 302.5},
-    { id: "v176", objectName: "null", cx:741.5, cy: 214.5},
-    { id: "v177", objectName: "null", cx:921.5, cy: 207.5},
-    { id: "v178", objectName: "null", cx:967.5, cy: 830.5},
-    { id: "v179", objectName: "null", cx:1105.5, cy: 826.5},
-    { id: "v180", objectName: "null", cx:1172.5, cy: 826.5},
-    { id: "v181", objectName: "null", cx:1164.5, cy: 126.5},
-    { id: "v182", objectName: "null", cx:1317.5, cy: 677.5},
-    { id: "v183", objectName: "null", cx:1294.5, cy: 263.5},
-    { id: "v184", objectName: "null", cx:1760.5, cy: 826.5},
-    { id: "v185", objectName: "null", cx:1765.5, cy: 1120.5},
-    { id: "v186", objectName: "null", cx:1818.5, cy: 2317.5},
-    { id: "v187", objectName: "null", cx:1818.5, cy: 2251.5},
-    { id: "v188", objectName: "null", cx:1818.5, cy: 2175.5},
-    { id: "v189", objectName: "null", cx:1818.5, cy: 2036.5},
-    { id: "v190", objectName: "null", cx:1818.5, cy: 1954.5},
-    { id: "v191", objectName: "null", cx:1818.5, cy: 1885.5},
-    { id: "v192", objectName: "null", cx:1818.5, cy: 1803.5},
-    { id: "v193", objectName: "null", cx:1828.5, cy: 1648.5},
-    { id: "v194", objectName: "null", cx:1828.5, cy: 1582.5},
-    { id: "v195", objectName: "null", cx:1828.5, cy: 1461.5},
-    { id: "v196", objectName: "null", cx:1828.5, cy: 1461.5},
-    { id: "v197", objectName: "null", cx:1824.5, cy: 1206.5},
-    { id: "v198", objectName: "null", cx:1824.5, cy: 1120.5},
-    { id: "v199", objectName: "null", cx:1816.5, cy: 1046.5},
-    { id: "v200", objectName: "null", cx:1814.5, cy: 679.5},
-    { id: "v201", objectName: "null", cx:1814.5, cy: 605.5},
-    { id: "v202", objectName: "null", cx:1814.5, cy: 536.5},
-    { id: "v203", objectName: "null", cx:1814.5, cy: 425.5},
-    { id: "v204", objectName: "null", cx:1814.5, cy: 315.5},
-    { id: "v205", objectName: "null", cx:1814.5, cy: 215.5},
-    { id: "v206", objectName: "null", cx:2119.5, cy: 1026.5},
-    { id: "v207", objectName: "null", cx:2117.5, cy: 978.5},
-    { id: "v208", objectName: "null", cx:2248.5, cy: 1025.5},
-    { id: "v209", objectName: "null", cx:2563.5, cy: 999.5},
-    { id: "v210", objectName: "null", cx:2084.5, cy: 703.5},
-    { id: "v211", objectName: "null", cx:2248.5, cy: 698.5},
-    { id: "v212", objectName: "null", cx:2557.5, cy: 698.5},
-    { id: "v213", objectName: "null", cx:2654.5, cy: 698.5},
-    { id: "v214", objectName: "null", cx:2654.5, cy: 368.5},
-    { id: "v215", objectName: "null", cx:2557.5, cy: 359.5},
-    { id: "v216", objectName: "null", cx:2466.5, cy: 344.5},
-    { id: "v217", objectName: "null", cx:2248.5, cy: 306.5},
-    { id: "v218", objectName: "null", cx:2084.5, cy: 292.5},
-    { id: "v234", objectName: "null", cx:613.5, cy: 831.5},
-    { id: "v236", objectName: "null", cx:1824.5, cy: 936.5},
-    { id: "v237", objectName: "null", cx:1824.5, cy: 860.5},
-
-
+   
     //othes(cr or food)
-    { id: "v219", objectName: null, cx:1759.5, cy: 1385.5},//MBA HALL 02
-    { id: "v220", objectName: "PTC's Comfort Room", cx:165.5, cy: 1758.5},
-    { id: "v221", objectName: "CMA's Comfort Room", cx:870.5, cy: 1852.5},
-    { id: "v222", objectName: "North Hall's Comfort room 1", cx:1025.5, cy: 2649.5},
-    { id: "v223", objectName: "North Hall's Comfort room 2", cx:165.5, cy: 1758.5},
-    { id: "v224", objectName: "MBA Hall's Comfort Room 2", cx:1877.5, cy: 1954.5},
-    { id: "v225", objectName: "University Clinic", cx:1901.5, cy: 1651.5},
-    { id: "v226", objectName: "University Chapel", cx:1901.5, cy: 1591.5},
-    { id: "v227", objectName: "MBA Hall's Comfort Room 1", cx:1869.5, cy: 420.5},
-    { id: "v228", objectName: "Gymnasium's Comfort Room", cx:1334.5, cy: 173.5},
-    { id: "v229", objectName: "CCJE's Comfort Room", cx:1069.5, cy: 460.5},
-    { id: "v230", objectName: "BASIC ED's Comfort Room", cx:904.5, cy: 305.5},
-    { id: "v231", objectName: "Riverside Building's Comfort Room 2", cx:2154.5, cy: 687.5},
-    { id: "v232", objectName: "Riverside Building's Comfort Room 1", cx:2466.5, cy: 228.5},
-    { id: "v233", objectName: "Riverside Building's Food Hub Area", cx:2557.5, cy: 463.5},
+
   ],
 
   edges: [
