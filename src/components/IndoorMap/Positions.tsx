@@ -14,7 +14,7 @@ function Positions({
   navigation,
 }: PositionsProps) {
   const positionBackgroundColor = "#ff1302";
-  const positionBackgroundRadius = positionRadius + 55;
+  const positionBackgroundRadius = positionRadius + 10;
   const positonBackgroundOpacity = 0.2;
   const startVertex = graphData.vertices.find(
     (v) => v.id === navigation?.start

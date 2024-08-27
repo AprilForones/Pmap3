@@ -29,14 +29,14 @@
 
 .path {
   stroke: var(--path-color);
-  stroke-width: 255;
+  stroke-width: 25;
   opacity: 0;
   border-radius: 0px;
 }
 
 .path-once {
   opacity: 1;
-  stroke-width: 9;
+  stroke-width: 3;
   stroke-linecap: round;
   stroke-dasharray: 2338.5;
   stroke-dashoffset: 2338.5;
@@ -51,7 +51,7 @@
 
 .path-active {
   opacity: 1;
-  stroke-width: 10;
+  stroke-width: 3;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-dasharray: 15;
