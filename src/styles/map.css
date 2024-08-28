@@ -2,8 +2,8 @@
   --object-opacity: 0.1;
   --object-color: #c1c1c1;
   --object-oppacity-hover: 0.5;
-  --position-color: rgb(255, 0, 0);
-  --path-color: #ff1302;
+  --position-color: #021450b6;
+  --path-color:#4136a7;
 }
 
 .object {
@@ -24,7 +24,7 @@
 
 .position-active {
   opacity: 1;
-  fill: #ff1302;
+  fill: #0400ff73;
 }
 
 .path {
