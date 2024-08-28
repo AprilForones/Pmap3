@@ -391,11 +391,12 @@ edges: [
 //ccje
 { id: "v38_to_v193", from: "v38", to: "v193" },
 { id: "v38_to_v195", from: "v38", to: "v195" },
+{ id: "v38_to_v145", from: "v38", to: "v145" },
 { id: "v39_to_v145", from: "v39", to: "v145" },
 { id: "v39_to_v40", from: "v39", to: "v40" },
 { id: "v40_to_v41", from: "v40", to: "v41" },
 { id: "v41_to_v42", from: "v41", to: "v40" },
-{ id: "v39_to_v194", from: "v39", to: "v194" },
+//{ id: "v39_to_v194", from: "v39", to: "v194" },
 
 { id: "v195_to_v194", from: "v195", to: "v194" },
 { id: "v195_to_v43", from: "v195", to: "v43" },
