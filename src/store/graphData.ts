@@ -172,8 +172,8 @@ export const graphData: GraphData = {
 { id: "v119", objectName: null, cx: 384.5, cy: 257.5,r:3.5},
 { id: "v120", objectName: "null", cx: 384.5, cy: 270.5,r:4.5},
 { id: "v121", objectName: null, cx: 384.5, cy: 285.5,r:3.5},
-{ id: "v122", objectName: null, cx: 384.5, cy: 298.5,r:3.5},//chapel
-{ id: "v123", objectName: null, cx: 384.5, cy: 310.5,r:3.5},//clinic
+{ id: "v122", objectName: "University Chapel", cx: 384.5, cy: 298.5,r:3.5},//chapel
+{ id: "v123", objectName: "University Clinic", cx: 384.5, cy: 310.5,r:3.5},//clinic
 
 { id: "v124", objectName: null, cx: 380.5, cy: 334.5,r:3.5},
 { id: "v125", objectName: "null", cx: 380.5, cy: 351.5,r:4.5},
@@ -196,7 +196,7 @@ export const graphData: GraphData = {
 { id: "v140", objectName: "Finance Purchasing Department", cx: 186.5, cy: 238.5,r:4.5},//Finance Purchasing Department
 { id: "v141", objectName: "Teller", cx: 186.5, cy: 269.5,r:4.5},//Teller
 { id: "v142", objectName: "Atrium", cx: 82.5, cy: 298.5,r:4.5},//Atrium
-{ id: "v143", objectName: "Registrar Office", cx: 161.5, cy: 252.5,r:4.5},//Registrar Office
+{ id: "v143", objectName: "Registrar Office", cx: 166.5, cy: 264.5,r:4.5},//Registrar Office
 { id: "v144", objectName: "BASIC ED Building", cx: 144.5, cy: 134.5,r:4.5},//BASIC ED Building
 { id: "v145", objectName: "CCJE Department", cx: 192.5, cy: 134.5,r:4.5},//CCJE Department
 { id: "v146", objectName: "Gymnasium", cx: 256.5, cy: 134.5,r:4.5},//Gymnasium
@@ -211,7 +211,7 @@ export const graphData: GraphData = {
 { id: "v155", objectName: "Student Plaza Entrance 02", cx: 270.5, cy: 269.5,r:4.5},//Student Plaza Entrance 02
 { id: "v156", objectName: "CMA Building Entrance 1", cx: 160.5, cy: 315.5,r:4.5},//CMA Building Entrance  01
 { id: "v157", objectName: "CMA Building Entrance 2", cx: 185.5, cy: 373.5,r:4.5},//CMA Building Entrance  02
-{ id: "v158", objectName: "Technical Vocational Building", cx:150.5, cy: 2461.5,r:4.5},//Technical Vocational Building
+{ id: "v158", objectName: "Technical Vocational Building", cx:150.5, cy: 471.5,r:4.5},//Technical Vocational Building
 { id: "v159", objectName: "North Hall Entrance 1", cx: 202.5, cy: 471.5,r:4.5},//North Hall Entrance 1
 { id: "v160", objectName: "North Hall Entrance 2", cx: 269.5, cy: 471.5,r:4.5},//North Hall Entrance 2
 { id: "v161", objectName: "Old Stage", cx: 355.5, cy: 443.5,r:4.5},//Old Stage
@@ -223,7 +223,7 @@ export const graphData: GraphData = {
 { id: "v167", objectName: "PHINMA Forest", cx: 270.5, cy: 344.5,r:4.5},//PHINMA Forest
 { id: "v168", objectName: "PEDRO Hub Office", cx: 106.5, cy: 309.5,r:4.5},//PEDRO Hub Office
 { id: "v169", objectName: "Office of  Graduate and Professionals", cx: 106.5, cy: 319.5,r:4.5},//Office of  Graduate and Professionals
-{ id: "v170", objectName: "College of Law Office", cx: 120.5, cy: 31.5,r:4.5},//College of Law Office
+{ id: "v170", objectName: "College of Law Office", cx: 120.5, cy: 319.5,r:4.5},//College of Law Office
 { id: "v171", objectName: "Riverside Building", cx: 421.5, cy: 171.5,r:4.5},//Riverside Building
 { id: "v172", objectName: "Riverside Building's Parking Lot Area", cx: 520.5, cy: 93.5,r:4.5},//Riverside Building
 { id: "v173", objectName: "Pedistrian Entrance/Exit", cx:526.5, cy:176.5,r:4.5},//Pedistrian Entrance/Exit
@@ -234,7 +234,7 @@ export const graphData: GraphData = {
 
 //purple circles (not to be showned or "null")
 { id: "v177", objectName: "null", cx: 71.5, cy: 188.5,r:4.5},
-{ id: "v178", objectName: "null", cx: 111.5, cy: 181.5,r:4.5},
+{ id: "v178", objectName: "null", cx: 111.5, cy: 188.5,r:4.5},
 { id: "v179", objectName: "null", cx: 111.5, cy: 220.5,r:4.5},
 { id: "v180", objectName: "null", cx: 111.5, cy: 261.5,r:4.5},
 { id: "v181", objectName: "null", cx: 111.5, cy: 290.5,r:4.5},
@@ -346,10 +346,15 @@ edges: [
 //{ id: "v181_to_v185", from: "v181", to: "v185" },
 //Lib
 { id: "v19_to_v138", from: "v19", to: "v138" },
+{ id: "v19_to_v244", from: "v19", to: "v244" },
+{ id: "v181_to_v244", from: "v181", to: "v244" },
+{ id: "v243_to_v244", from: "v243", to: "v244" },
+{ id: "v243_to_v242", from: "v243", to: "v242" },
+{ id: "v25_to_v244", from: "v25", to: "v244" },
 { id: "v27_to_v138", from: "v27", to: "v138" },
-{ id: "v184_to_v19", from: "v184", to: "19" },
-{ id: "v184_to_v99", from: "v184", to: "99" },
-{ id: "v184_to_v65", from: "v184", to: "65" },
+{ id: "v184_to_v19", from: "v184", to: "v19" },
+{ id: "v184_to_v99", from: "v184", to: "v99" },
+{ id: "v184_to_v65", from: "v184", to: "v65" },
 //fvr
 { id: "v21_to_v179", from: "v21", to: "v179" },
 { id: "v21_to_v139", from: "v21", to: "v139" },
@@ -361,7 +366,7 @@ edges: [
 { id: "v23_to_v187", from: "v23", to: "v187" },
 //teller
 { id: "v25_to_v141", from: "v25", to: "v141"},
-{ id: "v25_to_v185", from: "v25", to: "v185"},
+//{ id: "v25_to_v185", from: "v25", to: "v185"},
 { id: "v25_to_v186", from: "v25", to: "v186"},
 { id: "v24_to_v141", from: "v25", to: "v141"},
 
@@ -372,9 +377,11 @@ edges: [
 { id: "v99_to_v65", from: "v99", to: "v65" },
 { id: "v99_to_v100", from: "v99", to: "v100" },
 //registrar
+{ id: "v222_to_v143", from: "v222", to: "v143" },
+{ id: "v222_to_v242", from: "v222", to: "v242" },
+{ id: "v252_to_v185", from: "v252", to: "v185" },
 { id: "v20_to_v143", from: "v20", to: "v143" },
-{ id: "v20_to_v185", from: "v20", to: "v185" },
-{ id: "v181_to_v185", from: "v181", to: "v185" },
+//{ id: "v181_to_v244", from: "v181", to: "v244" },
 //basic
 { id: "v37_to_v144", from: "v37", to: "v144" },
 { id: "v37_to_v192", from: "v37", to: "v192" },
@@ -418,7 +425,7 @@ edges: [
 //motor p4
 { id: "v196_to_v150", from: "v196", to: "v150" },
 //motor p5
-{ id: "v96_to_v151", from: "v94", to: "v151" },
+{ id: "v96_to_v151", from: "v96", to: "v151" },
 //4 wheel p1
 { id: "v178_to_v152", from: "v178", to: "v152" },    
 //4 wheel p2
@@ -433,11 +440,12 @@ edges: [
 
 //cma 1
 { id: "v65_to_v156", from: "v65", to: "v156" },
-{ id: "232_to_v156", from: "v232", to: "v156" },
+{ id: "v232_to_v67", from: "v232", to: "v67" },
 //Cma 2
 { id: "v78_to_v157", from: "v78", to: "v157" },
 { id: "v77_to_v157", from: "v77", to: "v157" },
 { id: "v79_to_v157", from: "v79", to: "v157" },
+{ id: "v67_to_v157", from: "v67", to: "v157" },
 { id: "v77_to_v67", from: "v77", to: "v67" }, 
 { id: "v68_to_v69", from: "v68", to: "v69" },
 { id: "v70_to_v69", from: "v70", to: "v69" },  
@@ -448,7 +456,7 @@ edges: [
 { id: "v77_to_v75", from: "v77", to: "v75" },
 
 //techvoc
-{ id: "v64_to_v158", from: "614", to: "v158" },
+{ id: "v64_to_v158", from: "v64", to: "v158" },
 { id: "v64_to_v54", from: "v64", to: "v54" },
 //nh 1
 { id: "v54_to_v159", from: "v54", to: "v159" },
@@ -479,7 +487,7 @@ edges: [
 { id: "v61_to_v162", from: "v61", to: "v162" },
 //mba 3
 { id: "v52_to_v163", from: "v52", to: "v163" },
-{ id: "v52_to_v163", from: "v52", to: "v163" },
+{ id: "v52_to_v190", from: "v52", to: "v190" },
 { id: "v221_to_v163", from: "v221", to: "v163" },
 { id: "v223_to_v163", from: "v223", to: "v163" },
 { id: "v123_to_v163", from: "v123", to: "v163" },
@@ -519,6 +527,7 @@ edges: [
 { id: "v97_to_v196", from: "v97", to: "v196" },
 { id: "v214_to_v165", from: "v214", to: "v165" },
 { id: "v165_to_v114", from: "v165", to: "v114" },
+{ id: "v165_to_v214", from: "v165", to: "v214" },
 { id: "v213_to_v165", from: "v213", to: "v165" },
 { id: "v213_to_v113", from: "v213", to: "v113" },
 { id: "v213_to_v212", from: "v213", to: "v212" },
@@ -538,6 +547,7 @@ edges: [
 { id: "v206_to_v205", from: "v206", to: "v205" },
 // mba eng
 { id: "v101_to_v166", from: "v101", to: "v166" },
+{ id: "v101_to_v150", from: "v101", to: "v150" },
 { id: "v235_to_v166", from: "v235", to: "v166" },
 { id: "v235_to_v104", from: "v235", to: "v104" },
 { id: "v235_to_v102", from: "v235", to: "v102" },
@@ -594,6 +604,8 @@ edges: [
 { id: "v187_to_v234", from: "v187", to: "v234" },
 { id: "v234_to_v186", from: "v234", to: "v186" },
 { id: "v188_to_v186", from: "v188", to: "v186" },
+{ id: "v189_to_v186", from: "v189", to: "v186" },
+{ id: "v189_to_v78", from: "v189", to: "v78" },
 { id: "v189_to_v188", from: "v189", to: "v188" },
 { id: "v51_to_v188", from: "v51", to: "v188" },
 { id: "v54_to_v186", from: "v54", to: "v186" },
