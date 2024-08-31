@@ -300,15 +300,10 @@
     {
       "id": "p4r1",
       "categoryId": "58a9",
-      "name": "4 wheels parking area 01",
+      "name": "4 wheels parking area",
       "desc": " "
     },
-    {
-      "id": "p4r2",
-      "categoryId": "58a9",
-      "name": "4 wheels parking area 02",
-      "desc": " "
-    },
+
     {
       "id": "p4y1",
       "categoryId": "58a9",
@@ -338,6 +333,42 @@
       "categoryId": "58a9",
       "name": "Motorcycle parking area 05",
       "desc": " "
+    },
+    {
+      "id": "a0a0",
+      "categoryId": "a191",
+      "name": "Uniform Claiming Area",
+      "desc":" "
+    },
+    {
+      "id": "a3a3",
+      "categoryId": "a191",
+      "name": "Module Claiming Area",
+      "desc":" "
+    },
+    {
+      "id": "a8a0",
+      "categoryId": "a191",
+      "name": "Phinma Forest Pond",
+      "desc":" "
+    },
+    {
+      "id": "a9a9",
+      "categoryId": "a191",
+      "name": "Student Plaza's Food Hub",
+      "desc":" "
+    },
+    {
+      "id": "a6a3",
+      "categoryId": "a191",
+      "name": "College of Allied Health And Sciences (CAHS) Office",
+      "desc":" "
+    },
+    {
+      "id": "a5a5",
+      "categoryId": "a191",
+      "name": "College of Arts And Sciences (CAS) Office",
+      "desc":" "
     }
 
 
