@@ -156,7 +156,7 @@ export const graphData: GraphData = {
 { id: "v108", objectName: null, cx: 375.5, cy: 230.5,r:3.5},
 
 { id: "v109", objectName: null, cx: 384.5, cy: 257.5,r:3.5},
-{ id: "v110", objectName: null, cx: 384.5, cy: 285.5,r:3.5},
+// { id: "v110", objectName: null, cx: 384.5, cy: 285.5,r:3.5},
 { id: "v111", objectName: null, cx: 384.5, cy: 298.5,r:3.5},//chapel
 { id: "v112", objectName: null, cx: 384.5, cy: 310.5,r:3.5},//clinic
 
@@ -228,7 +228,7 @@ export const graphData: GraphData = {
 { id: "v175", objectName: "University Chapel", cx: 384.5, cy: 298.5,r:3.5},//chapel
 { id: "v176", objectName: "University Clinic", cx: 384.5, cy: 310.5,r:3.5},//clinic
 { id: "v177", objectName: "MBA Hall's Comfort Room 1", cx: 375.5, cy: 74.5,r:3.5},//cr
-{ id: "v178", objectName: "MBA Hall's Comfort Room2", cx: 380.5, cy: 368.5,r:3.5},//cr
+{ id: "v178", objectName: "MBA Hall's Comfort Room 2", cx: 380.5, cy: 368.5,r:3.5},//cr
 { id: "v179", objectName: "Phinma Forest Pond", cx: 251.5, cy: 452.5,r:3.5},
 { id: "v180", objectName: "Student Plaza's Food Hub", cx: 280.5, cy: 250.5,r:3.5},//cr
 { id: "v183", objectName: "College of Allied Health And Sciences (CAHS) Office", cx: 464.5, cy: 87.5,r:3.5},
@@ -286,7 +286,7 @@ export const graphData: GraphData = {
 { id: "v229", objectName: "null", cx: 367.5, cy: 230.5,r:4.5},
 
 { id: "v230", objectName: "null", cx: 367.5, cy: 256.5,r:3.5},
-{ id: "v231", objectName: "null", cx: 367.5, cy: 285.5,r:4.5},
+{ id: "v231", objectName: "null", cx: 367.5, cy: 298.5,r:4.5},
 
 { id: "v232", objectName: "null", cx: 367.5, cy: 334.5,r:3.5},
 { id: "v233", objectName: "null", cx: 367.5, cy: 351.5,r:3.5},
@@ -534,14 +534,14 @@ edges: [
 { id: "v234_to_v232", from: "v234", to: "v232" },
 { id: "v232_to_v113", from: "v232", to: "v113" },
 
-{ id: "v232_to_v157", from: "v232", to: "v157" },
-{ id: "v53_to_v157", from: "v53", to: "v157" },
-{ id: "v176_to_v157", from: "v176", to: "v157" },
-{ id: "v231_to_v157", from: "v231", to: "v157" },
+{ id: "v232_to_v151", from: "v232", to: "v151" },
+{ id: "v53_to_v151", from: "v53", to: "v151" },
+{ id: "v176_to_v151", from: "v176", to: "v151" },
+{ id: "v231_to_v151", from: "v231", to: "v151" },
 
 //mba 2
 { id: "v231_to_v175", from: "v231", to: "v175" },
-{ id: "v230_to_v110", from: "v230", to: "v110" },
+{ id: "v230_to_v111", from: "v230", to: "v111" },
 { id: "v230_to_v152", from: "v230", to: "v152" },
 { id: "v90_to_v152", from: "v90", to: "v152" },
 { id: "v229_to_v152", from: "v229", to: "v152" },
@@ -560,6 +560,7 @@ edges: [
 { id: "v153_to_v91", from: "v153", to: "v91" },
 { id: "v208_to_v91", from: "v208", to: "v91" },
 { id: "v207_to_v91", from: "v207", to: "v91" },
+{ id: "v207_to_v154", from: "v207", to: "v154" },
 { id: "v227_to_v226", from: "v227", to: "v226" },
 { id: "v227_to_v105", from: "v227", to: "v105" },
 { id: "v104_to_v226", from: "v105", to: "v226" },
