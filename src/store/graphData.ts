@@ -444,6 +444,7 @@ edges: [
 { id: "v90_to_v139", from: "v90", to: "v139" },
 { id: "v90_to_v53", from: "v90", to: "v53" },
 { id: "v139_to_v208", from: "v139", to: "v208" },
+{ id: "v228_to_v208", from: "v228", to: "v208" },
 //4 wheel p1
 { id: "v23_to_v140", from: "v23", to: "v140" },  
 
@@ -516,6 +517,7 @@ edges: [
 { id: "v1792_to_v65", from: "v179", to: "v65" },
 
 //mba 4
+
 { id: "v62_to_v117", from: "v62", to: "v117" },
 { id: "v62_to_v150", from: "v62", to: "v150" },
 
@@ -523,6 +525,7 @@ edges: [
 { id: "v236_to_v150", from: "v296", to: "v150" },
 
 //mba 3
+
 { id: "v236_to_v116", from: "v296", to: "v116" },
 { id: "v236_to_v235", from: "v236", to: "v235" },
 { id: "v115_to_v235", from: "v115", to: "v235" },
@@ -540,43 +543,46 @@ edges: [
 { id: "v231_to_v151", from: "v231", to: "v151" },
 
 //mba 2
-{ id: "v231_to_v175", from: "v231", to: "v175" },
-{ id: "v230_to_v111", from: "v230", to: "v111" },
-{ id: "v230_to_v152", from: "v230", to: "v152" },
-{ id: "v90_to_v152", from: "v90", to: "v152" },
-{ id: "v229_to_v152", from: "v229", to: "v152" },
-{ id: "v229_to_v109", from: "v229", to: "v109" },
-{ id: "v229_to_v228", from: "v229", to: "v228" },
-{ id: "v108_to_v228", from: "v108", to: "v228" },
+
+// { id: "v231_to_v175", from: "v231", to: "v175" },
+// { id: "v230_to_v111", from: "v230", to: "v111" },
+// { id: "v230_to_v152", from: "v230", to: "v152" },
+// { id: "v90_to_v152", from: "v90", to: "v152" },
+// { id: "v229_to_v152", from: "v229", to: "v152" },
+// { id: "v230_to_v109", from: "v230", to: "v109" },
+// { id: "v229_to_v228", from: "v229", to: "v228" },
+// { id: "v108_to_v229", from: "v108", to: "v229" },
 
 //mba 1
-{ id: "v227_to_v228", from: "v227", to: "v228" },
-{ id: "v227_to_v107", from: "v227", to: "v107" },
-{ id: "v209_to_v107", from: "v209", to: "v107" },
-{ id: "v227_to_v139", from: "v227", to: "v139" },
-{ id: "v227_to_v153", from: "v227", to: "v153" },
-{ id: "v106_to_v153", from: "v106", to: "v153" },
-{ id: "v106_to_v75", from: "v106", to: "v75" },
-{ id: "v153_to_v91", from: "v153", to: "v91" },
-{ id: "v208_to_v91", from: "v208", to: "v91" },
+
+// { id: "v227_to_v228", from: "v227", to: "v228" },
+// { id: "v227_to_v107", from: "v227", to: "v107" },
+// { id: "v209_to_v107", from: "v209", to: "v107" },
+// { id: "v227_to_v139", from: "v227", to: "v139" },
+// { id: "v227_to_v153", from: "v227", to: "v153" },
+// { id: "v106_to_v153", from: "v106", to: "v153" },
+// { id: "v106_to_v75", from: "v106", to: "v75" },
+// { id: "v153_to_v91", from: "v153", to: "v91" },
+// { id: "v208_to_v91", from: "v208", to: "v91" },
 { id: "v207_to_v91", from: "v207", to: "v91" },
 { id: "v207_to_v154", from: "v207", to: "v154" },
-{ id: "v227_to_v226", from: "v227", to: "v226" },
-{ id: "v227_to_v105", from: "v227", to: "v105" },
-{ id: "v104_to_v226", from: "v105", to: "v226" },
+// { id: "v227_to_v226", from: "v227", to: "v226" },
+// { id: "v227_to_v105", from: "v227", to: "v105" },
+// { id: "v104_to_v226", from: "v105", to: "v226" },
 
-{ id: "v225_to_v226", from: "v225", to: "v226" },
-{ id: "v225_to_v103", from: "v225", to: "v104" },
-{ id: "v225_to_v224", from: "v225", to: "v224" },
-{ id: "v223_to_v224", from: "v223", to: "v224" },
-{ id: "v224_to_v102", from: "v224", to: "v102" },
-{ id: "v223_to_v101", from: "v223", to: "v101" },
-{ id: "v223_to_v222", from: "v223", to: "v222" },
-{ id: "v222_to_v101", from: "v222", to: "v101" },
-{ id: "v222_to_v99", from: "v222", to: "v99" },
-{ id: "v100_to_v222", from: "v100", to: "v222" },
-{ id: "v177_to_v222", from: "v177", to: "v222" },
-// { id: "v99_to_v221", from: "v99", to: "v221" },
+// { id: "v225_to_v226", from: "v225", to: "v226" },
+// { id: "v225_to_v103", from: "v225", to: "v104" },
+// { id: "v225_to_v224", from: "v225", to: "v224" },
+// { id: "v223_to_v224", from: "v223", to: "v224" },
+// { id: "v224_to_v102", from: "v224", to: "v102" },
+// { id: "v223_to_v101", from: "v223", to: "v101" },
+// { id: "v223_to_v222", from: "v223", to: "v222" },
+// { id: "v222_to_v101", from: "v222", to: "v101" },
+// { id: "v222_to_v99", from: "v222", to: "v99" },
+// { id: "v100_to_v222", from: "v100", to: "v222" },
+// { id: "v177_to_v222", from: "v177", to: "v222" },
+// // { id: "v99_to_v221", from: "v99", to: "v221" },
+
 // mba eng
 { id: "v154_to_v99", from: "v154", to: "v99" },
 { id: "v154_to_v95", from: "v154", to: "v95" },
