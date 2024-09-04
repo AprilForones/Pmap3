@@ -25,7 +25,7 @@ export const graphData: GraphData = {
 { id: "v3", objectName: null, cx: 57.5, cy: 212.5 ,r:3.5},
 { id: "v4", objectName: null, cx: 31.5, cy: 212.5 ,r:3.5},
 { id: "v5", objectName: null, cx: 30.5, cy: 261.5 ,r:3.5},
-{ id: "v6", objectName: null, cx: 31.5, cy: 318.5 ,r:3.5},
+{ id: "v6", objectName: null, cx: 35.5, cy: 318.5 ,r:3.5},
 { id: "v7", objectName: null, cx: 57.5, cy: 318.5 ,r:3.5},
 
 //mcdo
@@ -33,25 +33,25 @@ export const graphData: GraphData = {
 
 //cdsl/ITS
 { id: "v9", objectName: null, cx: 89.5, cy: 188.5 ,r:3.5},//ITS
-{ id: "v10", objectName: null, cx: 89.5, cy: 210.5 ,r:3.5},
-{ id: "v11", objectName: null, cx: 90.5, cy: 242.5 ,r:3.5},
+{ id: "v10", objectName: "null", cx: 89.5, cy: 210.5 ,r:3.5},
+{ id: "v11", objectName: "null", cx: 90.5, cy: 242.5 ,r:3.5},
 { id: "v12", objectName: null, cx: 90.5, cy: 261.5 ,r:3.5},//CSDL
 
 //op
 { id: "v13", objectName: null, cx: 113.5, cy: 273.5 ,r:3.5},//
-{ id: "v14", objectName: null, cx: 128.5, cy: 273.5 ,r:3.5},
+{ id: "v14", objectName: "null", cx: 128.5, cy: 273.5 ,r:3.5},
 
 //fvr
 { id: "v19", objectName: null, cx: 135.5, cy: 254.5 ,r:3.5},//lib
 { id: "v20", objectName: null, cx: 160.5, cy: 264.5 ,r:3.5},//registrar offce
 { id: "v21", objectName: null, cx: 157.5, cy: 283.5 ,r:3.5},
-{ id: "v22", objectName: null, cx: 166.5, cy: 283.5 ,r:3.5},//
+{ id: "v22", objectName: "null", cx: 166.5, cy: 283.5 ,r:3.5},//
 { id: "v23", objectName: null, cx: 144.5, cy: 220.5 ,r:3.5},//fvr
-{ id: "v24", objectName: null, cx: 144.5, cy: 233.5 ,r:3.5},
+{ id: "v24", objectName: "null", cx: 144.5, cy: 233.5 ,r:3.5},
 { id: "v25", objectName:   null, cx: 186.5, cy: 220.5 ,r:3.5},//finance
-{ id: "v26", objectName: null, cx: 186.5, cy: 233.5 ,r:3.5},
+{ id: "v26", objectName: "null", cx: 186.5, cy: 233.5 ,r:3.5},
 { id: "v27", objectName: null, cx: 187.5, cy: 289.5 ,r:3.5},//teller
-{ id: "v28", objectName: null, cx: 187.5, cy: 277.5 ,r:3.5},
+{ id: "v28", objectName: "null", cx: 187.5, cy: 277.5 ,r:3.5},
 
 //basic ed
 { id: "v29", objectName: null,  cx: 158.5, cy: 54.5 ,r:3.5},//cr 
@@ -135,7 +135,7 @@ export const graphData: GraphData = {
 { id: "v91", objectName: null, cx: 352.5, cy: 183.5,r:3.5},
 //atrium
 { id: "v92", objectName: null, cx: 71.5, cy: 261.5,r:3.5},
-{ id: "v93", objectName: null, cx: 106.5, cy: 301.5,r:3.5},
+{ id: "v93", objectName:"null", cx: 106.5, cy: 301.5,r:3.5},
 { id: "v94", objectName: null, cx: 120.5, cy: 301.5,r:3.5},
 //MBA eng
 { id: "v95", objectName: null, cx: 352.5, cy: 74.5,r:3.5},//
@@ -184,11 +184,11 @@ export const graphData: GraphData = {
 { id: "v132", objectName: "BASIC ED Building", cx: 144.5, cy: 134.5,r:4.5},//BASIC ED Building
 { id: "v133", objectName: "CCJE Department", cx: 192.5, cy: 134.5,r:4.5},//CCJE Department
 { id: "v134", objectName: "Gymnasium", cx: 256.5, cy: 134.5,r:4.5},//Gymnasium
-{ id: "v135", objectName: "Motorcycle parking area 01", cx: 144.5, cy: 152.5,r:4.5},//Motorcycle parking area 01
-{ id: "v136", objectName: "Motorcycle parking area 02", cx: 170.5, cy: 106.5,r:4.5},//Motorcycle parking area 02
-{ id: "v137", objectName: "Motorcycle parking area 03", cx: 212.5, cy: 106.5,r:4.5},//Motorcycle parking area 03
-{ id: "v138", objectName: "Motorcycle parking area 04", cx: 352.5, cy: 109.5,r:4.5},//Motorcycle parking area 04
-{ id: "v139", objectName: "Motorcycle parking area 05", cx: 352.5, cy: 252.5,r:4.5},//Motorcycle parking area 05
+{ id: "v135", objectName: "Motorcycle parking area in front of Basic ED Building", cx: 144.5, cy: 152.5,r:4.5},//Motorcycle parking area 01
+{ id: "v136", objectName: "Motorcycle parking area near at Basic Ed and CCJE bldg.", cx: 170.5, cy: 106.5,r:4.5},//Motorcycle parking area 02
+{ id: "v137", objectName: "Motorcycle parking area near at Gymnasum and CCJE bldg.", cx: 212.5, cy: 106.5,r:4.5},//Motorcycle parking area 03
+{ id: "v138", objectName: "Motorcycle parking area near at Gymnasum and MBA Engineering bldg.", cx: 352.5, cy: 109.5,r:4.5},//Motorcycle parking area 04
+{ id: "v139", objectName: "Motorcycle parking area near at Studemt Plaza and MBA Hall", cx: 352.5, cy: 252.5,r:4.5},//Motorcycle parking area 05
 { id: "v140", objectName: "4 wheels parking area", cx: 144.5, cy: 182.5,r:4.5},//4 wheels parking area 01
 //{ id: "v141", objectName: "4 wheels parking area 02", cx: 144.5, cy: 208.5,r:4.5},//4 wheels parking area 02
 { id: "v142", objectName: "Student Plaza Entrance 01", cx: 218.5, cy: 264.5,r:4.5},//Student Plaza Entrance 01
@@ -364,7 +364,7 @@ edges: [
 { id: "v205_to_v196", from: "v205", to: "v196" },
 
 //teller
-{ id: "v27_to_v28", from: "v27", to: "v128"},
+{ id: "v27_to_v28", from: "v27", to: "v28"},
 { id: "v28_to_v129", from: "v27", to: "v129"},
 { id: "v27_to_v195", from: "v27", to: "v195"},
 { id: "v27_to_v194", from: "v27", to: "v194"},

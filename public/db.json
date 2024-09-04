@@ -159,12 +159,7 @@
       "name": "MBA Hall Entrance 3",
       "desc": "This is where the General Courses go to classes. Various courses and departments use this building. "
     },
-    {
-      "id": "c6r6",
-      "categoryId": "52f1",
-      "name": "MBA Hall Comfort Room 2",
-      "desc": " "
-    },
+
     {
       "id": "c6h6",
       "categoryId": "87b0",
@@ -307,31 +302,31 @@
     {
       "id": "p4y1",
       "categoryId": "58a9",
-      "name": "Motorcycle parking area 01",
+      "name": "Motorcycle parking area in front of Basic ED Building",
       "desc": " "
     },
     {
       "id": "p4y2",
       "categoryId": "58a9",
-      "name": "Motorcycle parking area 02",
+      "name": "Motorcycle parking area near at Basic Ed and CCJE bldg.",
       "desc": " "
     },
     {
       "id": "p4y3",
       "categoryId": "58a9",
-      "name": "Motorcycle parking area 03",
+      "name": "Motorcycle parking area near at Gymnasum and CCJE bldg.",
       "desc": " "
     },
     {
       "id": "p4y4",
       "categoryId": "58a9",
-      "name": "Motorcycle parking area 04",
+      "name": "Motorcycle parking area near at Gymnasum and MBA Engineering bldg.",
       "desc": " "
     },
     {
       "id": "p4y5",
       "categoryId": "58a9",
-      "name": "Motorcycle parking area 05",
+      "name": "Motorcycle parking area near at Studemt Plaza and MBA Hall",
       "desc": " "
     },
     {
