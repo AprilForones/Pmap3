@@ -180,7 +180,7 @@
     },
     {
       "id": "q7r8",
-      "categoryId": "e928",
+      "categoryId": "a191",
       "name": "Riverside Building",
       "desc": "Building used by Medical Students. it features a food court, and a view on the top floor."
     },
@@ -306,27 +306,33 @@
       "desc": " "
     },
     {
+      "id": "p4y9",
+      "categoryId": "58a9",
+      "name": "Motorcycle parking right side of SP",
+      "desc": " "
+    },
+    {
       "id": "p4y2",
       "categoryId": "58a9",
-      "name": "Motorcycle parking area near at Basic Ed and CCJE bldg.",
+      "name": "Motorcycle parking right side of Basic Ed.",
       "desc": " "
     },
     {
       "id": "p4y3",
       "categoryId": "58a9",
-      "name": "Motorcycle parking area near at Gymnasum and CCJE bldg.",
+      "name": "Motorcycle parking right side of CCJE.",
       "desc": " "
     },
     {
       "id": "p4y4",
       "categoryId": "58a9",
-      "name": "Motorcycle parking area near at Gymnasum and MBA Engineering bldg.",
+      "name": "Motorcycle parking right side of Gymnasium.",
       "desc": " "
     },
     {
       "id": "p4y5",
-      "categoryId": "58a9",
-      "name": "Motorcycle parking area near at Studemt Plaza and MBA Hall",
+      "categoryId": "a191",
+      "name": "General Services Department(GSD) Office",
       "desc": " "
     },
     {
