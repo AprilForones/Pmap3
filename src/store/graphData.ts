@@ -54,10 +54,10 @@ export const graphData: GraphData = {
 { id: "v28", objectName: "null", cx: 187.5, cy: 277.5 ,r:3.5},
 
 //basic ed
-{ id: "v29", objectName: null,  cx: 158.5, cy: 54.5 ,r:3.5},//cr 
+{ id: "v29", objectName: null,  cx: 158.5, cy: 60.5 ,r:3.5},//cr 
 { id: "v30", objectName: null, cx: 158.5, cy: 85.5 ,r:3.5},
 { id: "v31", objectName: "null", cx: 130.5, cy: 54.5 ,r:3.5},
-{ id: "v32", objectName: null, cx: 130.5, cy: 85.5 ,r:3.5},
+{ id: "v32", objectName: null, cx: 130.5, cy: 95.5 ,r:3.5},
 { id: "v33", objectName: "null", cx: 130.5, cy: 104.5 ,r:3.5},
 { id: "v34", objectName: "null", cx: 158.5, cy: 104.5 ,r:3.5},
 { id: "v35", objectName: null, cx: 130.5, cy: 133.5 ,r:3.5},
@@ -66,7 +66,7 @@ export const graphData: GraphData = {
 //CCJE
 { id: "v38", objectName: null, cx: 192.5, cy: 143.5 ,r:3.5},// 
 { id: "v39", objectName: null, cx: 192.5, cy: 126.5 ,r:3.5},
-{ id: "v40", objectName: null, cx: 192.5, cy: 89.5 ,r:4.5},
+{ id: "v40", objectName: null, cx: 192.5, cy: 100.5 ,r:4.5},
 { id: "v41", objectName: "null", cx: 192.5, cy: 69.5 ,r:3.5},
 { id: "v42", objectName: "null", cx: 192.5, cy: 46.5 ,r:3.5},
 //gym
@@ -75,7 +75,7 @@ export const graphData: GraphData = {
 { id: "v45", objectName: "null", cx: 238.5, cy: 51.5 ,r:3.5},
 { id: "v46", objectName: "null", cx: 337.5, cy: 51.5,r:3.5},
 { id: "v47", objectName: "null", cx: 337.5, cy: 134.5 ,r:3.5},
-{ id: "v48", objectName: null, cx: 238.5, cy: 32.5 ,r:3.5},//cr
+{ id: "v48", objectName: null, cx: 238.5, cy: 40.5 ,r:3.5},//cr
 //sp
 { id: "v49", objectName: null, cx: 218.5, cy: 264.5 ,r:3.5},//LEFT
 { id: "v50", objectName: null, cx: 280.5, cy: 269.5 ,r:3.5},//R
@@ -87,13 +87,13 @@ export const graphData: GraphData = {
 { id: "v54", objectName: null, cx: 270.5, cy: 462.5,r:3.5},//R
 { id: "v55", objectName: null, cx: 202.5, cy: 462.5,r:3.5},//LEFT
 { id: "v56", objectName: null, cx: 185.5, cy: 471.5,r:3.5},
-{ id: "v57", objectName: null, cx: 185.5, cy: 500.5,r:3.5},
-{ id: "v58", objectName: null, cx: 203.5, cy: 500.5,r:3.5},
-{ id: "v59", objectName: null, cx: 270.5, cy: 500.5,r:3.5},
-{ id: "v60", objectName: null, cx: 318.5, cy: 500.5,r:3.5},//cR
+{ id: "v57", objectName: null, cx: 185.5, cy: 495.5,r:3.5},
+{ id: "v58", objectName: null, cx: 203.5, cy: 495.5,r:3.5},
+{ id: "v59", objectName: null, cx: 270.5, cy: 495.5,r:3.5},
+{ id: "v60", objectName: null, cx: 318.5, cy: 495.5,r:3.5},//cR
 { id: "v61", objectName: null, cx: 318.5, cy: 471.5,r:3.5},
 { id: "v62", objectName: null, cx:365.5, cy: 471.5,r:3.5},
-{ id: "v63", objectName: null, cx: 365.5, cy: 500.5,r:3.5},
+{ id: "v63", objectName: null, cx: 365.5, cy: 495.5,r:3.5},
 //old
 { id: "v64", objectName: null, cx: 354.5, cy: 435.5,r:3.5},//old
 //pond
@@ -144,9 +144,9 @@ export const graphData: GraphData = {
 { id: "v98", objectName: "null", cx: 391.5, cy: 61.5,r:3.5},
 { id: "v99", objectName: null, cx: 367.5, cy: 60.5,r:3.5},
 
-{ id: "v100", objectName: null, cx: 375.5, cy: 74.5,r:3.5},//cr
-{ id: "v101", objectName: null, cx: 375.5, cy: 87.5,r:3.5},
-{ id: "v102", objectName: null, cx: 375.5, cy: 99.5,r:3.5},
+{ id: "v100", objectName: "null", cx: 375.5, cy: 74.5,r:3.5},//cr
+{ id: "v101", objectName: "null", cx: 375.5, cy: 87.5,r:3.5},
+{ id: "v102", objectName: "null", cx: 375.5, cy: 99.5,r:3.5},
 { id: "v103", objectName: "General Services Department(GSD) Office", cx: 290.5, cy: 134.5,r:3.5},//11
 { id: "v104", objectName: null, cx: 290.5, cy: 134.5,r:3.5},//11
 
@@ -157,14 +157,14 @@ export const graphData: GraphData = {
 
 { id: "v109", objectName: null, cx: 384.5, cy: 257.5,r:3.5},
 // { id: "v110", objectName: null, cx: 384.5, cy: 285.5,r:3.5},
-{ id: "v111", objectName: null, cx: 384.5, cy: 298.5,r:3.5},//chapel
-{ id: "v112", objectName: null, cx: 384.5, cy: 310.5,r:3.5},//clinic
+{ id: "v111", objectName: "null", cx: 384.5, cy: 298.5,r:3.5},//chapel
+{ id: "v112", objectName: "null", cx: 384.5, cy: 310.5,r:3.5},//clinic
 
 { id: "v113", objectName: null, cx: 380.5, cy: 334.5,r:3.5},
-{ id: "v114", objectName: null, cx: 380.5, cy: 368.5,r:3.5},//cr
+{ id: "v114", objectName: "null", cx: 380.5, cy: 368.5,r:3.5},//cr
 { id: "v115", objectName: null, cx: 380.5, cy: 407.5,r:3.5},
 { id: "v116", objectName: "null", cx: 290.5, cy: 143.5,r:3.5},
-{ id: "v117", objectName: null, cx: 367.5, cy: 451.5,r:4.5},
+{ id: "v117", objectName: null, cx: 367.5, cy: 445.5,r:4.5},
 { id: "v118", objectName: null, cx: 170.5, cy: 106.5,r:4.5},
 { id: "v119", objectName: null, cx: 212.5, cy: 106.5,r:4.5},
 
@@ -185,13 +185,13 @@ export const graphData: GraphData = {
 { id: "v133", objectName: "CCJE Department", cx: 192.5, cy: 134.5,r:4.5},//CCJE Department
 { id: "v134", objectName: "Gymnasium", cx: 256.5, cy: 134.5,r:4.5},//Gymnasium
 { id: "v135", objectName: "Motorcycle parking area in front of Basic ED Building", cx: 144.5, cy: 152.5,r:4.5},//Motorcycle parking area 01
-{ id: "v136", objectName: "Motorcycle parking right side of Basic Ed.", cx: 170.5, cy: 106.5,r:4.5},//Motorcycle parking area 02
-{ id: "v137", objectName: "Motorcycle parking right side of CCJE.", cx: 212.5, cy: 106.5,r:4.5},//Motorcycle parking area 03
+{ id: "v136", objectName: "Motorcycle parking right side of Basic Ed.", cx: 170.5, cy: 115.5,r:4.5},//Motorcycle parking area 02
+{ id: "v137", objectName: "Motorcycle parking right side of CCJE.", cx: 212.5, cy: 115.5,r:4.5},//Motorcycle parking area 03
 { id: "v138", objectName: "Motorcycle parking right side of Gymnasium.", cx: 352.5, cy: 109.5,r:4.5},//Motorcycle parking area 04
 { id: "v139", objectName: "Motorcycle parking right side of SP", cx: 352.5, cy: 252.5,r:4.5},//Motorcycle parking area 05
-{ id: "v140", objectName: "4 wheels parking area", cx: 144.5, cy: 182.5,r:4.5},//4 wheels parking area 01
-//{ id: "v141", objectName: "4 wheels parking area 02", cx: 144.5, cy: 208.5,r:4.5},//4 wheels parking area 02
-{ id: "v142", objectName: "Student Plaza Entrance 01", cx: 218.5, cy: 264.5,r:4.5},//Student Plaza Entrance 01
+{ id: "v140", objectName: null, cx: 144.5, cy: 182.5,r:4.5},//4 wheels parking area 01
+{ id: "v141", objectName: "4 wheels parking area", cx: 144.5, cy: 208.5,r:4.5},//4 wheels parking area 02
+{ id: "v142", objectName: "Student Plaza Entrance 01", cx: 238.5, cy: 264.5,r:4.5},//Student Plaza Entrance 01
 { id: "v143", objectName: "Student Plaza Entrance 02", cx: 270.5, cy: 269.5,r:4.5},//Student Plaza Entrance 02
 { id: "v144", objectName: "CMA Building Entrance 1", cx: 160.5, cy: 315.5,r:4.5},//CMA Building Entrance  01
 { id: "v145", objectName: "CMA Building Entrance 2", cx: 185.5, cy: 373.5,r:4.5},//CMA Building Entrance  02
@@ -209,15 +209,15 @@ export const graphData: GraphData = {
 { id: "v157", objectName: "Office of  Graduate and Professionals", cx: 106.5, cy: 319.5,r:4.5},//Office of  Graduate and Professionals
 { id: "v158", objectName: "College of Law Office", cx: 120.5, cy: 319.5,r:4.5},//College of Law Office
 { id: "v159", objectName: "Riverside Building", cx: 421.5, cy: 171.5,r:4.5},//Riverside Building
-{ id: "v160", objectName: "Riverside Building's Parking Lot Area", cx: 520.5, cy: 93.5,r:4.5},//Riverside Building
+{ id: "v160", objectName: "Riverside Building's Parking Lot Area", cx: 520.5, cy: 88.5,r:4.5},//Riverside Building
 { id: "v161", objectName: "Pedistrian Entrance/Exit", cx:526.5, cy:176.5,r:4.5},//Pedistrian Entrance/Exit
-{ id: "v162", objectName: "Riverside Building's Comfort Room 2", cx: 421.5, cy: 130.5,r:4.5},//Riverside Building
-{ id: "v163", objectName: "Riverside Building's Comfort Room 1", cx: 499.5, cy: 39.5,r:4.5},//Riverside Building
-{ id: "v164", objectName: "Riverside Building's Food Hub Area", cx: 499.5, cy: 93.5,r:4.5},//Riverside Building
+{ id: "v162", objectName: "Riverside Building's Comfort Room 2", cx: 421.5, cy: 135.5,r:4.5},//Riverside Building
+{ id: "v163", objectName: "Riverside Building's Comfort Room 1", cx: 499.5, cy: 45.5,r:4.5},//Riverside Building
+{ id: "v164", objectName: "Riverside Building's Food Hub Area", cx: 499.5, cy: 85.5,r:4.5},//Riverside Building
 { id: "v165", objectName: "Gymnasium's Comfort Room", cx: 238.5, cy: 32.5,r:4.5},//Riverside Building
 
 { id: "v166", objectName: "PTC's Comfort Room", cx: 31.5, cy: 318.5 ,r:3.5},
-{ id: "v167", objectName: "CMA's Comfort Room", cx: 160.5, cy: 328.5,r:3.5},//cr
+{ id: "v167", objectName: "CMA's Comfort Room", cx: 160.5, cy: 325.5,r:3.5},//cr
 //{ id: "v168", objectName: "CMA's Comfort Room", cx: 160.5, cy: 328.5,r:3.5},//cr
 { id: "v169", objectName: "Uniform Claiming Area", cx: 128.5, cy: 233.5,r:3.5},
 { id: "v170", objectName: "Module Claiming Area", cx: 130.5, cy: 85.5,r:3.5},
@@ -231,8 +231,8 @@ export const graphData: GraphData = {
 { id: "v178", objectName: "MBA Hall's Comfort Room 2", cx: 380.5, cy: 368.5,r:3.5},//cr
 { id: "v179", objectName: "Phinma Forest Pond", cx: 251.5, cy: 452.5,r:3.5},
 { id: "v180", objectName: "Student Plaza's Food Hub", cx: 270.5, cy: 250.5,r:3.5},//cr
-{ id: "v183", objectName: "College of Allied Health And Sciences (CAHS) Office", cx: 464.5, cy: 87.5,r:3.5},
-{ id: "v184", objectName: "College of Arts And Sciences (CAS) Office", cx: 464.5, cy: 97.5,r:3.5},
+{ id: "v183", objectName: "College of Allied Health And Sciences (CAHS) Office", cx: 455.5, cy: 87.5,r:3.5},
+{ id: "v184", objectName: "College of Arts And Sciences (CAS) Office", cx: 455.5, cy: 97.5,r:3.5},
 
 //purple circles (not to be showned or "null")
 { id: "v185", objectName: "null", cx: 71.5, cy: 188.5,r:4.5},
@@ -274,9 +274,9 @@ export const graphData: GraphData = {
 { id: "v221", objectName: "null", cx: 480.467, cy: 97.5,r:4.5},
 
 //MBA eng
-{ id: "v222", objectName: "null", cx: 367.5, cy: 74.5,r:4.5},
-{ id: "v223", objectName: "null", cx: 367.5, cy: 87.5,r:4.5},
-{ id: "v224", objectName: "null", cx: 367.5, cy: 99.5,r:4.5},
+{ id: "v222", objectName: null, cx: 367.5, cy: 74.5,r:4.5},
+{ id: "v223", objectName: null, cx: 367.5, cy: 87.5,r:4.5},
+{ id: "v224", objectName: null, cx: 367.5, cy: 99.5,r:4.5},
 { id: "v225", objectName: "null", cx: 367.5, cy: 119.5,r:4.5},
 { id: "v226", objectName: "null", cx: 367.5, cy:140.5,r:4.5},
 
@@ -286,11 +286,11 @@ export const graphData: GraphData = {
 { id: "v229", objectName: "null", cx: 367.5, cy: 230.5,r:4.5},
 
 { id: "v230", objectName: "null", cx: 367.5, cy: 256.5,r:3.5},
-{ id: "v231", objectName: "null", cx: 367.5, cy: 298.5,r:4.5},
+{ id: "v231", objectName: null, cx: 367.5, cy: 298.5,r:4.5},
 
 { id: "v232", objectName: "null", cx: 367.5, cy: 334.5,r:3.5},
 { id: "v233", objectName: "null", cx: 367.5, cy: 351.5,r:3.5},
-{ id: "v234", objectName: "null", cx: 367.5, cy: 368.5,r:3.5},
+{ id: "v234", objectName: null, cx: 367.5, cy: 368.5,r:3.5},
 { id: "v235", objectName: "null", cx: 367.5, cy: 407.5,r:3.5},
 { id: "v236", objectName: "null", cx: 367.5, cy: 432.5,r:3.5},
 
@@ -456,6 +456,7 @@ edges: [
 { id: "v228_to_v208", from: "v228", to: "v208" },
 //4 wheel p1
 { id: "v23_to_v140", from: "v23", to: "v140" },  
+{ id: "v141_to_v140", from: "v141", to: "v140" }, 
 
 //sp 1
 { id: "v49_to_v200", from: "v49", to: "v200" },
