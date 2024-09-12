@@ -97,7 +97,7 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
           <path
             id="North Hall Entrance 1"
             className={`${className} object`}
-             d="M179 468H229V483H179z"
+             d="M177 465H226V492H177z"
             onClick={handleObjectClick}
           />
 
