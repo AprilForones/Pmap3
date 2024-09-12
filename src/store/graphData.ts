@@ -222,7 +222,7 @@ export const graphData: GraphData = {
 { id: "v169", objectName: "Uniform Claiming Area", cx: 128.5, cy: 233.5,r:3.5},
 { id: "v170", objectName: "Module Claiming Area", cx: 130.5, cy: 85.5,r:3.5},
 { id: "v171", objectName: "North Hall's Comfort Room 1", cx: 185.5, cy: 500.5,r:3.5},
-{ id: "v172", objectName: "North Hall's Comfort Room 2", cx: 318.5, cy: 500.5,r:3.5},//cR
+{ id: "v172", objectName: "null", cx: 318.5, cy: 500.5,r:3.5},//cR
 { id: "v173", objectName: "BASIC ED's Comfort Room",  cx: 158.5, cy: 54.5 ,r:3.5},//cr 
 { id: "v174", objectName: "CCJE's Comfort Room", cx: 192.5, cy: 89.5 ,r:4.5},
 { id: "v175", objectName: "University Chapel", cx: 384.5, cy: 298.5,r:3.5},//chapel
