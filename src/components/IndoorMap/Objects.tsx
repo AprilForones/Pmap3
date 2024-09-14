@@ -14,13 +14,13 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
            <path
               id="BASIC ED Building"
               className={`${className} object`}
-              d="M166.018 28.9847L123.502 25L120.546 78H120V87.7793L117 141.553H166.018V28.9847ZM120 87.7793V93H140V78H120.546L120 87.7793ZM166 47H150V64H166V47Z"
+              d="M122.544 23.9272L165.06 27.9119V140.48H116.041L119 87.4483V94H140V76H119.639L122.544 23.9272ZM119.639 76H119V87.4483L119.639 76ZM148 46H165V63H148V46Z"
               onClick={handleObjectClick}
             /> 
           <path
             id="Gymnasium"
             className={`${className} object`}
-             d="M217.079 24.9272H348.128V139.487H217.079V24.9272ZM229 25H247V41H229V25ZM300 126H280V139H300V126Z"
+             d="M216.079 23.9272H347.128V138.487H302V123H278V138.487H216.079V23.9272ZM278 138.487V139H302V138.487H278ZM225 24H251V40H225V24Z"
             onClick={handleObjectClick}
           />
           <path
@@ -32,7 +32,7 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
           <path
              id="BASIC ED's Comfort Room"
             className={`${className} object`}
-            d="M151 49H164V62H151z"
+            d="M150.055 48.8315H163.0599V59.7894H150.055z"
             onClick={handleObjectClick}
           />
           <path
