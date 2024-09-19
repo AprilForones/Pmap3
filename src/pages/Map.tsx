@@ -16,10 +16,16 @@ export const NavigationContext = createContext<NavigationContextType | null>(
   null
 );
 export const MapDataContext = createContext<MapDataContextType | null>(null);
+
+
 function Map() {
   let [searchParams, setSearchParams] = useSearchParams();
   const defaultPosition = "v1";
   const startPosition = searchParams.get("position") || defaultPosition;
+
+// Add currentLocationId state here
+const [currentLocationId, setCurrentLocationId] = useState<string>(startPosition);
+
   const [navigation, setNavigation] = useState<Navigation>({
     start: startPosition,
     end: "",
@@ -34,11 +40,19 @@ function Map() {
 
   useEffect(() => {
     setSearchParams({ position: navigation.start });
+    setCurrentLocationId(navigation.start); // Update currentLocationId whenever navigation.start changes
   }, [navigation.start]);
 
   const mapData = useMapData();
+
+  // Combine mapData with currentLocationId
+  const mapDataValue: MapDataContextType = {
+    ...mapData,
+    currentLocationId, // Add currentLocationId here
+  };
+
   return (
-    <MapDataContext.Provider value={mapData}>
+    <MapDataContext.Provider value={mapDataValue}>
       <NavigationContext.Provider value={navigationValue}>
         <div className="flex bg-gray-100 text-gray-800 relative overflow-hidden w-full h-screen">
           {isDesktop && <Sidebar />}
@@ -54,7 +68,9 @@ function Map() {
         </div>
       </NavigationContext.Provider>
     </MapDataContext.Provider>
+    
   );
+  
 }
 
 export default Map;

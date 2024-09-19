@@ -2,239 +2,239 @@
   "objects": [
     {
       "id": "a1b2",
-      "categoryId": "e753",
+      "categoryId": "87b0",
       "name": "Main Entrance Gate",
-      "desc": "Main Entrance Gate is located here."
+      "desc": "This is the front entrance of the school it is beside Mcdonalds and the front of PTC Building."
     },
     {
       "id": "b2c3",
-      "categoryId": "a191",
-      "name": "CSDL/ITS Building",
-      "desc": "This is the building for the Center for Student Development and Leadership(CSDL). you can also find the ITS Behind it."
+      "categoryId": "58a9",
+      "name": "CSDL Department",
+      "desc": "This is the Center for Student Development and Leadership(CSDL). This is the department to go if you need help with financial loans or various school related concerns."
     },
     {
       "id": "c3d4",
-      "categoryId": "a191",
+      "categoryId": "58a9",
       "name": "FVR Building",
       "desc": "This building is named after Fidel V. Ramos Library Building. it features a library at the second floor and a museum in his honor."
     },
     {
       "id": "c3c4",
-      "categoryId": "a191",
+      "categoryId": "58a9",
       "name": "University Library Building",
-      "desc": "University Library located in the FVR Building. Students can go here to read books and focus on studying."
+      "desc": "University Library located in second floor the FVR Building. Students can go here to read books and focus on studying."
     },
     {
       "id": "d4e5",
-      "categoryId": "a191",
-      "name": "CMA Building Entrance 1",
+      "categoryId": "e928",
+      "name": "CMA Building Entrance near Registrar",
       "desc": "Building used by College of management and accountancy (CMA) Students. Courses Using this Building are Hospital Management Course, Marketing Management Course, Financial Management Course and Tourism."
     },
     {
       "id": "c4r5",
-      "categoryId": "52f1",
+      "categoryId": "e753",
       "name": "CMA's Comfort Room",
-      "desc": " "
+      "desc": "Located at the first floor of the CMA Building."
     },
     {
       "id": "d4f5",
-      "categoryId": "a191",
-      "name": "CMA Building Entrance 2",
+      "categoryId": "e928",
+      "name": "CMA Building Entrance Near PHINMA Forest",
       "desc":"Building used by College of management and accountancy (CMA) Students. Courses Using this Building are Hospital Management Course, Marketing Management Course, Financial Management Course and Tourism."
     },
     {
       "id": "e5f6",
-      "categoryId": "a191",
+      "categoryId": "e928",
       "name": "BASIC ED Building",
-      "desc": "Building used by Senior High School Students."
+      "desc": "This building is where senior high school students go to classes, it is also the place to pickup modules for the semester."
     },
     {
       "id": "c5r4",
-      "categoryId": "52f1",
+      "categoryId": "e753",
       "name": "BASIC ED's Comfort Room",
-      "desc": " "
+      "desc": "Located at the first floor."
     },
     {
       "id": "f6g7",
       "categoryId": "e928",
       "name": "CCJE Department",
-      "desc": "Used by College of Criminology and Justice Education Students. the CCJE Department is located here."
+      "desc": "This Building is used by the Department of the College of Criminology and Justice Education Students."
     },
     {
       "id": "c6r9",
-      "categoryId": "52f1",
+      "categoryId": "e753",
       "name": "CCJE's Comfort Room",
-      "desc": " "
+      "desc": "Located on the second floor."
     },
     {
       "id": "g7h8",
       "categoryId": "d21e",
       "name": "Gymnasium",
-      "desc": "The school gymnasium, where most school events are held and where you can hang out. it is also used by students for their PE."
+      "desc": "The school gymnasium, where most school events are held such as HK meetings and TES meetings and various events. also used by various departments for physical education etc."
     },
     {
       "id": "c8r8",
-      "categoryId": "52f1",
+      "categoryId": "e753",
       "name": "Gymnasium's Comfort Room",
-      "desc": " "
+      "desc": "Located on the first floor."
     },
     {
       "id": "h8k9",
       "categoryId": "a191",
-      "name": "Student Plaza Entrance 01",
-      "desc": "This is the student plaza, where you can purchase food, drinks and snacks. "
+      "name": "Student Plaza Entrance Near CMA Hall",
+      "desc": "This is the student plaza where you can purchase drinks and food, next to it is the PHINMA Forest."
     },
 
     {
       "id": "h8k2",
       "categoryId": "a191",
-      "name": "Student Plaza Entrance 02",
-      "desc": "This is the student plaza, where you can purchase food, drinks and snacks. "
+      "name": "Student Plaza Entrance Near PHINMA Forest",
+      "desc": "This is the student plaza where you can purchase drinks and food, next to it is the PHINMA Forest."
     },
     
     {
       "id": "i9j0",
-      "categoryId": "a191",
+      "categoryId": "e928",
       "name": "Technical Vocational Building",
-      "desc": "This is used by Technical Vocational Stand Students."
+      "desc": "This is used by the students of Technical Vocational Strand of the Basic ED Department."
     },
     {
       "id": "j0k1",
-      "categoryId": "a191",
+      "categoryId": "e928",
       "name": "North Hall Entrance 1",
-      "desc": "North hall, used by various department of students."
+      "desc": "North hall, used by the departments of Engineering, Architecture and Education Course Students."
     },
     {
       "id": "c0r1",
-      "categoryId": "52f1",
+      "categoryId": "e753",
       "name": "North Hall's Comfort Room 1",
-      "desc": " "
+      "desc": "Located at the first floor."
     },
     {
       "id": "j0k2",
-      "categoryId": "a191",
+      "categoryId": "e928",
       "name": "North Hall Entrance 2",
-      "desc": "North hall, used by various department of students."
+      "desc": "North hall, used by the departments of Engineering, Architecture and Education Course Students."
     },
     {
       "id": "l2m3",
-      "categoryId": "a191",
+      "categoryId": "16be",
       "name": "PHINMA Forest",
-      "desc": "Used by students to rest and get some fresh air. the old stage is also located here."
+      "desc": "This area is for giving relaxation for everyone whether you need to eat somewhere, or study. it is also used for events."
     },
     {
       "id": "m3n4",
-      "categoryId": "16be",
+      "categoryId": "e928",
       "name": "MBA Engineering Building",
-      "desc": "Engineering Bldg., used by various department of students."
+      "desc": "Engineering Building, where the Engineering Department is Located."
     },
 
     {
       "id": "p6q7",
-      "categoryId": "a191",
+      "categoryId": "e928",
       "name": "MBA Hall Entrance 1",
-      "desc": "This is where the General Courses go to classes. Various courses and departments use this building. "
+      "desc": "This is where the CEA, CELA Departments are located. the students in their respective departments use this building."
     },
     {
       "id": "c6r7",
-      "categoryId": "52f1",
+      "categoryId": "e753",
       "name": "MBA Hall's Comfort Room 1",
-      "desc": " "
+      "desc": "Located at the first floor."
     },
     {
       "id": "b6b8",
-      "categoryId": "a191",
+      "categoryId": "e928",
       "name": "MBA Hall Entrance 2",
-      "desc": "This is where the General Courses go to classes. Various courses and departments use this building. "
+      "desc": "This is where the CEA, CELA Departments are located. the students in their respective departments use this building."
     },
     {
       "id": "c6c7",
-      "categoryId": "a191",
+      "categoryId": "e928",
       "name": "MBA Hall Entrance 3",
-      "desc": "This is where the General Courses go to classes. Various courses and departments use this building. "
+      "desc": "This is where the CEA, CELA Departments are located. the students in their respective departments use this building."
     },
 
     {
       "id": "c6h6",
-      "categoryId": "87b0",
+      "categoryId": "16be",
       "name": "University Chapel",
-      "desc": "The University's Chapel. You can come here to pray for safety and luck on your exams. "
+      "desc": "You can go here to pray. Located the 3rd floor"
     },
     {
       "id": "c6l6",
-      "categoryId": "87b0",
+      "categoryId": "16be",
       "name": "University Clinic",
-      "desc": "You can go here if you ever need medical assistance."
+      "desc": "You can go here if you ever need medical assistance. Located at the first floor."
     },
     {
       "id": "d6d7",
-      "categoryId": "a191",
+      "categoryId": "e928",
       "name": "MBA Hall Entrance 4",
-      "desc": "This is where the General Courses go to classes. Various courses and departments use this building. "
+      "desc": "This is where the CEA, CELA Departments are located. the students in their respective departments use this building."
     },
     {
       "id": "q7r8",
-      "categoryId": "a191",
+      "categoryId": "e928",
       "name": "Riverside Building",
       "desc": "Building used by Medical Students. it features a food court, and a view on the top floor."
     },
     {
       "id": "c7r3",
-      "categoryId": "52f1",
-      "name": "Riverside Building's Comfort Room 1",
-      "desc": " "
+      "categoryId": "e753",
+      "name": "Riverside Building's Comfort Room",
+      "desc": "Located at the first floor."
     },
     {
       "id": "c7r2",
-      "categoryId": "52f1",
-      "name": "Riverside Building's Comfort Room 2",
-      "desc": " "
+      "categoryId": "e753",
+      "name": "Riverside Building's Comfort Room near Parking Lot",
+      "desc": "Located at the first floor near the parking lot."
     },
     {
       "id": "p7r2",
-      "categoryId": "58a9",
+      "categoryId": "16be",
       "name": "Riverside Building's Parking Lot Area",
-      "desc": " "
+      "desc": "Located at the ground floor of the Riverside Building."
     },
     {
       "id": "f7d2",
-      "categoryId": "e928",
-      "name": "Riverside Building's Food Hub Area",
-      "desc": "Where you can get food to eat in case you're hungry."
+      "categoryId": "17b0",
+      "name": "Riverside Building's Food Plaza",
+      "desc": "There are many stalls that serve food and drinks here. look at building information for more details."
     },
     {
       "id": "q8r9",
-      "categoryId": "a191",
+      "categoryId": "52f1",
       "name": "Teller",
-      "desc": "This is where Students and Visitors go to ask for information regarding various things."
+      "desc": "This is where Students and Visitors can go to ask for information regarding school etc."
     },
     {
       "id": "r9y9",
-      "categoryId": "a191",
+      "categoryId": "52f1",
       "name": "Finance Purchasing Department",
-      "desc": "This is where students and parents go to pay tuitions and other things."
+      "desc": "This is where the finance department is located."
     },
     {
       "id": "q9r9",
       "categoryId": "a191",
       "name": "Atrium",
-      "desc": "Atrium Features a scenery above the Entrance of the school where you can use to take pictures."
+      "desc": "Atrium Features a scenery above the Entrance of the school where you can take pictures."
     },
     {
       "id": "a4z8",
-      "categoryId": "a191",
+      "categoryId": "52f1",
       "name": "Registrar Office",
-      "desc": "Registar's office, Located at the ground floor of the FVR Building next to the Finance Department."
+      "desc": "Registar's office, Located at the ground floor of the FVR Building near to the Teller Building."
     },
     {
       "id": "m2m2",
-      "categoryId": "a191",
-      "name": "Pedistrian Entrance/Exit",
-      "desc": "Pedistrian Entrance/Exit."
+      "categoryId": "87b0",
+      "name": "Pedestrian Entrance/Exit",
+      "desc": "The exit is located at the back of the school and located aside from a hospital."
     },
     {
       "id": "f7h9",
-      "categoryId": "a191",
+      "categoryId": "52f1",
       "name": "OP/Marketing Department",
       "desc": "This is where the Marketing Department is located."
     },
@@ -246,136 +246,136 @@
     },
     {
       "id": "v4r4",
-      "categoryId": "e928",
+      "categoryId": "17b0",
       "name": "Mc Donald's",
       "desc": "Where you can go to eat McDonalds. it is located near the front entrance. there is also an entrance from inside the school."
     },
     {
       "id": "z1z1",
-      "categoryId": "16be",
+      "categoryId": "58a9",
       "name": "ITS Department Building",
-      "desc": "Where you can go to get your Student Portal Accounts Resolved."
+      "desc": "This is where the ITS Department is located. You can go here to inquire about any problems with your accounts etc."
     },
     {
       "id": "c1w1",
-      "categoryId": "16be",
+      "categoryId": "52f1",
       "name": "College of Law Office",
       "desc": "This where the College of Law Office is Located. it is near the Library at the second floor."
     },
     {
       "id": "o1g1",
-      "categoryId": "16be",
-      "name": "Office of  Graduate and Professionals",
+      "categoryId": "52f1",
+      "name": "Office of Graduate and Professionals",
       "desc": "Located beside the College of Law Office."
     },
     {
       "id": "o1g1",
-      "categoryId": "16be",
+      "categoryId": "52f1",
       "name": "PEDRO Hub Office",
       "desc": "Located on the ground floor of the FVR. Located near the Registrar. "
     },
     {
       "id": "x5x6",
-      "categoryId": "16be",
+      "categoryId": "e928",
       "name": "PTC Building",
-      "desc": "This is where the IT Department is Located. the Ground Floor is the Front Entrance."
+      "desc": "Also known as the Practical Teaching Center Building. The IT Department Courses are found here along with the Maclabs and Computer Laboratories."
     },
     {
       "id": "c5r6",
-      "categoryId": "52f1",
+      "categoryId": "e753",
       "name": "PTC's Comfort Room",
-      "desc": " "
+      "desc": "Located at the 3rd floor of the PTC Building."
     },
     {
       "id": "p4r1",
-      "categoryId": "58a9",
+      "categoryId": "16be",
       "name": "4 wheels parking area",
-      "desc": " "
+      "desc": "Located at the front of the FVR."
     },
 
     {
       "id": "p4y1",
-      "categoryId": "58a9",
+      "categoryId": "16be",
       "name": "Motorcycle parking area in front of Basic ED Building",
-      "desc": " "
+      "desc": "Located in front of the Basic ED Building."
     },
     {
       "id": "p4y9",
-      "categoryId": "58a9",
+      "categoryId": "16be",
       "name": "Motorcycle parking right side of SP",
-      "desc": " "
+      "desc": "Located at the right side of the Student Plaza."
     },
     {
       "id": "p4y2",
-      "categoryId": "58a9",
+      "categoryId": "16be",
       "name": "Motorcycle parking right side of Basic Ed.",
-      "desc": " "
+      "desc": "Located at the right side of the Basic Education Building. "
     },
     {
       "id": "p4y3",
-      "categoryId": "58a9",
+      "categoryId": "16be",
       "name": "Motorcycle parking right side of CCJE.",
-      "desc": " "
+      "desc": "Located at the right side of the CCJE Building."
     },
     {
       "id": "p4y4",
-      "categoryId": "58a9",
+      "categoryId": "16be",
       "name": "Motorcycle parking right side of Gymnasium.",
-      "desc": " "
+      "desc": "Located at the right side of the Gymnasium."
     },
     {
       "id": "p4y5",
-      "categoryId": "a191",
+      "categoryId": "58a9",
       "name": "General Services Department(GSD) Office",
-      "desc": " "
+      "desc": "You can go here to ask for general information etc."
     },
     {
       "id": "a0a0",
-      "categoryId": "a191",
+      "categoryId": "58a9",
       "name": "Uniform Claiming Area",
-      "desc":" "
+      "desc":"Located at the first floor of the FVR Building. you can claim the uniforms here."
     },
     {
       "id": "a3a3",
-      "categoryId": "a191",
+      "categoryId": "58a9",
       "name": "Module Claiming Area",
-      "desc":" "
+      "desc":"Located at the first floor of the Basic Ed Building. You can claim your modules here for the semester."
     },
     {
       "id": "a8a0",
       "categoryId": "a191",
       "name": "Phinma Forest Pond",
-      "desc":" "
+      "desc":"Where you can relax and admire the view of the pond and it's inhabitants."
     },
     {
       "id": "a9a9",
-      "categoryId": "a191",
-      "name": "Student Plaza's Food Hub",
-      "desc":" "
+      "categoryId": "17b0",
+      "name": "Student Plaza's Food Place",
+      "desc":"You can go here to get food and drinks."
     },
     {
       "id": "a6a3",
-      "categoryId": "a191",
+      "categoryId": "52f1",
       "name": "College of Allied Health And Sciences (CAHS) Office",
-      "desc":" "
+      "desc":"Located at the second floor of the Riverside Building."
     },
     {
       "id": "a7x0",
-      "categoryId": "a191",
-      "name": "MBA Hall's Comfort Room 2",
-      "desc":" "
+      "categoryId": "e753",
+      "name": "MBA Hall's Comfort Room ",
+      "desc":"Located at the first floor. "
     },
     {
       "id": "a4x0",
       "categoryId": "a191",
       "name": "Phinma Avenue",
-      "desc":" "
+      "desc":"Located at the middle of the school, in front of the MBA Hall."
     },
     {
       "id": "a5a5",
-      "categoryId": "a191",
+      "categoryId": "52f1",
       "name": "College of Arts And Sciences (CAS) Office",
-      "desc":" "
+      "desc":"Located at the 4th floor of the MBA Hall."
     }
 
 
@@ -383,39 +383,39 @@
   "categories": [
     {
       "id": "52f1",
-      "name": "Comfort Room"
+      "name": "Administrative Building"
     },
     {
       "id": "e928",
-      "name": "Food Hub Area"
+      "name": "Academic/Instructional Building"
     },
     {
       "id": "58a9",
-      "name": "Parking Lot Area"
+      "name": "Student Service Building"
     },
     {
       "id": "16be",
-      "name": "Department"
+      "name": "Amenities"
     },
     {
       "id": "d21e",
-      "name": "Utilities"
+      "name": "Event Building"
     },
     {
       "id": "a191",
-      "name": " "
+      "name": "Infrastructure"
     },
     {
       "id": "87b0",
-      "name": " "
+      "name": "Entry/Exit Point"
     },
     {
       "id": "17b0",
-      "name": " "
+      "name": "Food Area"
     },
     {
       "id": "e753",
-      "name": " "
+      "name": "Comfort Room"
     }
   ]
 }

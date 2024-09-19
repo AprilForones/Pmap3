@@ -4,7 +4,7 @@ import {
   navigateWithDelay as navigationTestAll,
 } from "@/utils/navigationHelper";
 import React, { useContext, useEffect, useRef, useState } from "react";
-import { FiCircle, FiNavigation } from "react-icons/fi";
+import {FiNavigation } from "react-icons/fi";
 import { useOnClickOutside } from "usehooks-ts";
 import { MapDataContext, NavigationContext } from "../pages/Map";
 import {
@@ -13,9 +13,12 @@ import {
   ObjectItem,
 } from "../utils/types";
 
+import { graph } from "@/algorithms/dijkstra";
+
 function SearchBar() {
   const [inputValue, setInputValue] = useState<string>("");
   const { objects } = useContext(MapDataContext) as MapDataContextType;
+  const {currentLocationId} = useContext(MapDataContext) as MapDataContextType;//
   const [suggestions, setSuggestions] = useState<ObjectItem[]>(objects);
   const [isAutocomplete, setIsAutocomplete] = useState<boolean>(false);
   const [isInputInvalid, setIsInputInvalid] = useState<boolean>(false);
@@ -29,6 +32,8 @@ function SearchBar() {
     NavigationContext
   ) as NavigationContextType;
 
+
+  
   useEffect(() => {
     setSuggestions(objects);
   }, [objects]);
@@ -40,20 +45,49 @@ function SearchBar() {
       inputRef.current.blur();
     }
   });
+  // Calculate distance using Dijkstra's algorithm for each object
+  function calculateDistanceFromCurrent(destinationId: string): number {
+    if (!currentLocationId) return Infinity;  // If current location is not set
+    const path = graph.calculateShortestPath(currentLocationId, destinationId);
+    return path.length > 0 ? path.length : Infinity;  // Assuming distance is path length for simplicity
+  }
+
+
+
+  // function handleInputChange(event: React.ChangeEvent<HTMLInputElement>) {
+  //   const value = event.target.value;
+  //   setInputValue(value);
+  //   if (value) {
+  //     setIsAutocomplete(true);
+  //     const filteredSuggestions = objects.filter((obj) =>
+  //       obj.name.toLowerCase().includes(value.trim().toLowerCase())
+  //     );
+  //     setSuggestions(filteredSuggestions);
+  //   } else {
+  //     setIsAutocomplete(false);
+  //   }
+  // }
 
   function handleInputChange(event: React.ChangeEvent<HTMLInputElement>) {
     const value = event.target.value;
     setInputValue(value);
     if (value) {
       setIsAutocomplete(true);
-      const filteredSuggestions = objects.filter((obj) =>
-        obj.name.toLowerCase().includes(value.trim().toLowerCase())
-      );
+      const filteredSuggestions = objects
+        .filter((obj) =>
+          obj.name.toLowerCase().includes(value.trim().toLowerCase())
+        )
+        .map((obj) => ({
+          ...obj,
+          distance: calculateDistanceFromCurrent(obj.id), // Calculate distance for each object
+        }))
+        .sort((a, b) => a.distance - b.distance);  // Sort by distance
       setSuggestions(filteredSuggestions);
     } else {
       setIsAutocomplete(false);
     }
   }
+
 
   function handleKeyDown(event: React.KeyboardEvent<HTMLInputElement>) {
     if (isAutocomplete) {
@@ -137,7 +171,7 @@ function SearchBar() {
       <div className="flex flex-inline rounded w-full">
         <div className="h-12 w-12 center flex-none rounded-l bg-white text-blue-500 text-[8px] ">
           <div className="w-full h-8 center border-gray-300 border-r">
-            <FiCircle />
+            {/* <FiCircle /> */}
           </div>
         </div>
         <div className="flex w-full relative">
@@ -173,6 +207,7 @@ function SearchBar() {
                     onMouseDown={() => handleSuggestionClick(obj)}
                   >
                     {obj.name}
+                    {/* {obj.name} - {obj.distance.toFixed(2)} km */}
                   </li>
                 ))
               ) : (

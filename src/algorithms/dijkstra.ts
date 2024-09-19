@@ -175,7 +175,7 @@ graphData.edges.forEach((edge) => {
   }
 });
 
-function calculateDistance(vertex1: VertexData, vertex2: VertexData) {
+export function calculateDistance(vertex1: VertexData, vertex2: VertexData): number {
   const dx = vertex2.cx - vertex1.cx;
   const dy = vertex2.cy - vertex1.cy;
   return Math.sqrt(dx * dx + dy * dy);

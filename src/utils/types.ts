@@ -1,6 +1,7 @@
 
 
 export interface ObjectItem {
+  distance: any;
   id: string;
   name: string;
   desc: string;
@@ -34,6 +35,7 @@ export interface MapDataContextType {
   objects: ObjectItem[];
   categories: Category[];
   beacons?: Beacon[];
+  currentLocationId?: string | null;
   refetchData: () => void;
 }
 

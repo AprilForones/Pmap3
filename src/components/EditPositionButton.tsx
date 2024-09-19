@@ -8,18 +8,37 @@ import { resetEdges } from "@/utils/navigationHelper";
 function EditPositionButton() {
   // const { isEditMode, setIsEditMode, setNavigation } = useContext(
   //   NavigationContext
-  const {setIsEditMode, setNavigation } = useContext(
+  const {setIsEditMode, setNavigation, isEditMode } = useContext(
     NavigationContext
   ) as NavigationContextType;
 
   function handleEdit() {
-   // setIsEditMode(!isEditMode);
+  //  // setIsEditMode(!isEditMode);
+  //   setIsEditMode(true);
+  //   resetEdges();
+  //   setNavigation((prevNavigation) => ({
+  //     ...prevNavigation,
+  //     end: "",
+  //   }));
+
+  if (isEditMode) {
+    // If already in edit mode, hide the circles and reset the state
+    setIsEditMode(false);
+    // Optionally reset edges here or handle hiding circles differently
+    setNavigation((prevNavigation) => ({
+      ...prevNavigation,
+      end: "", // Reset end point when hiding circles
+    }));
+  } else {
+    // If not in edit mode, enable edit mode and show the circles
     setIsEditMode(true);
-    resetEdges();
+    resetEdges(); // This function shows the circles
     setNavigation((prevNavigation) => ({
       ...prevNavigation,
       end: "",
     }));
+  }
+
   }
 
 // Automatically run the function when the component loads
