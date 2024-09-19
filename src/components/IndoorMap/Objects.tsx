@@ -67,7 +67,7 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
           />
           {/* upper part */}
           <path
-            id="Student Plaza Entrance 01"
+            id="Student Plaza Entrance Near CMA Hall"
             className={`${className} object`}
             d="M217 224H265V289H217z"
             onClick={handleObjectClick}
@@ -290,21 +290,21 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
             onClick={handleObjectClick}
           />          
           <path
-            id="CSDL/ITS Building"
+            id="CSDL Department"
             className={`${className} object`}
             d="M76.026 224.167H106.03729999999999V258.037H76.026z"
             onClick={handleObjectClick}
           />
           {/* upper part */}
           <path
-            id="CMA Building Entrance 1"
+            id="CMA Building Entrance near Registrar"
             className={`${className} object`}
             d="M129 307H193V366H172.5V322H149V343H172.5V366H149H129V307Z"
             onClick={handleObjectClick}
           />
           {/* Right part */}
           <path
-            id="CMA Building Entrance 2"
+            id="CMA Building Entrance Near PHINMA Forest"
             className={`${className} object`}
             d="M129.046 365.624H193.0701V460.26070000000004H129.046z"
             onClick={handleObjectClick}

@@ -173,7 +173,7 @@ export const graphData: GraphData = {
 { id: "v121", objectName: "PTC Building", cx: 51.5, cy: 261.5,r:4.5},//ptc
 { id: "v122", objectName: "Mc Donald's", cx: 57.5, cy: 188.5,r:4.5},//mcdo
 { id: "v123", objectName: "ITS Department Building", cx: 89.5, cy: 200.5,r:4.5},//ITS Department Building        
-{ id: "v124", objectName: "CSDL/ITS Building", cx: 90.5, cy: 249.5,r:4.5},//CSDL/ITS
+{ id: "v124", objectName: "CSDL Department", cx: 90.5, cy: 249.5,r:4.5},//CSDL/ITS
 { id: "v125", objectName: "OP/Marketing Department", cx: 120.5, cy: 273.5,r:4.5},//OP/Marketing Department
 { id: "v126", objectName: "University Library Building", cx: 145.5, cy: 254.5,r:4.5},//University Library Building
 { id: "v127", objectName: "FVR Building", cx: 144.5, cy: 228.5,r:4.5},//FVR Building
@@ -191,10 +191,10 @@ export const graphData: GraphData = {
 { id: "v139", objectName: "Motorcycle parking right side of SP", cx: 352.5, cy: 252.5,r:4.5},//Motorcycle parking area 05
 { id: "v140", objectName: null, cx: 144.5, cy: 182.5,r:4.5},//4 wheels parking area 01
 { id: "v141", objectName: "4 wheels parking area", cx: 144.5, cy: 208.5,r:4.5},//4 wheels parking area 02
-{ id: "v142", objectName: "Student Plaza Entrance 01", cx: 238.5, cy: 264.5,r:4.5},//Student Plaza Entrance 01
+{ id: "v142", objectName: "Student Plaza Entrance Near CMA Hall", cx: 238.5, cy: 264.5,r:4.5},//Student Plaza Entrance 01
 { id: "v143", objectName: "Student Plaza Entrance 02", cx: 270.5, cy: 269.5,r:4.5},//Student Plaza Entrance 02
-{ id: "v144", objectName: "CMA Building Entrance 1", cx: 160.5, cy: 315.5,r:4.5},//CMA Building Entrance  01
-{ id: "v145", objectName: "CMA Building Entrance 2", cx: 185.5, cy: 373.5,r:4.5},//CMA Building Entrance  02
+{ id: "v144", objectName: "CMA Building Entrance near Registrar", cx: 160.5, cy: 315.5,r:4.5},//CMA Building Entrance  01
+{ id: "v145", objectName: "CMA Building Entrance Near PHINMA Forest", cx: 185.5, cy: 373.5,r:4.5},//CMA Building Entrance  02
 { id: "v146", objectName: "Technical Vocational Building", cx:150.5, cy: 471.5,r:4.5},//Technical Vocational Building
 { id: "v147", objectName: "North Hall Entrance 1", cx: 202.5, cy: 471.5,r:4.5},//North Hall Entrance 1
 { id: "v148", objectName: "North Hall Entrance 2", cx: 270.5, cy: 471.5,r:4.5},//North Hall Entrance 2
