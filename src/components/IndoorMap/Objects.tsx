@@ -74,7 +74,7 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
           />
           {/* Lower part */}
           <path
-            id="Student Plaza Entrance 02"
+            id="Student Plaza Entrance Near PHINMA Forest"
             className={`${className} object`}
             d="M341.126 224.167H265.097V244H265V262H265.097V288.918H341.126V224.167ZM265.097 262H290V244H265.097V262Z"
             onClick={handleObjectClick}
@@ -147,13 +147,13 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
             onClick={handleObjectClick}
           />
           <path
-            id="Riverside Building's Comfort Room 1"
+            id="Riverside Building's Comfort Room near Parking Lot"
             className={`${className} object`}
             d="M489 32H510V47H489z"
             onClick={handleObjectClick}
           /> 
           <path
-            id="Riverside Building's Comfort Room 2"
+            id="Riverside Building's Comfort Room"
             className={`${className} object`}
             d="M411 122H428V137H411z"
             onClick={handleObjectClick}
@@ -165,7 +165,7 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
             onClick={handleObjectClick}
           />
           <path
-            id="Riverside Building's Food Hub Area"
+            id="Riverside Building's Food Plaza"
             className={`${className} object`}
             d="M489 77H510V95H489z"
             onClick={handleObjectClick}
@@ -177,7 +177,7 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
             onClick={handleObjectClick}
           /> 
           <path
-            id="Office of  Graduate and Professionals"
+            id="Office of Graduate and Professionals"
             className={`${className} object`}
             d="M94.25 315.25H108.75V324.75H94.25z"
             onClick={handleObjectClick}
@@ -358,7 +358,7 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
             onClick={handleObjectClick}
           />
            <path
-            id="Student Plaza's Food Hub"
+            id="Student Plaza's Food Place"
             className={`${className} object`}
              d="M265 244H290V262H265z"
             onClick={handleObjectClick}
@@ -382,7 +382,7 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
             onClick={handleObjectClick}
           />
             <path
-            id="Pedistrian Entrance/Exit"
+            id="Pedestrian Entrance/Exit"
             className={`${className} object`}
             d="M385 181L527.5 160V190L385 208V181Z"
             onClick={handleObjectClick}

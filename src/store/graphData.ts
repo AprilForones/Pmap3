@@ -175,65 +175,65 @@ export const graphData: GraphData = {
 { id: "v122", objectName: "Mc Donald's", cx: 57.5, cy: 188.5,r:4.5,categoryName: "Amenities"},//mcdo
 { id: "v123", objectName: "ITS Department Building", cx: 89.5, cy: 200.5,r:4.5,categoryName: "Student Service Building"},//ITS Department Building        
 { id: "v124", objectName: "CSDL Department", cx: 90.5, cy: 249.5,r:4.5,categoryName: "Student Service Building"},//CSDL/ITS
-{ id: "v125", objectName: "OP/Marketing Department", cx: 120.5, cy: 273.5,r:4.5,categoryName: "Student Service Building"},//OP/Marketing Department
+{ id: "v125", objectName: "OP/Marketing Department", cx: 120.5, cy: 273.5,r:4.5,categoryName: "Administrative Building"},//OP/Marketing Department
 { id: "v126", objectName: "University Library Building", cx: 145.5, cy: 254.5,r:4.5,categoryName: "Student Service Building"},//University Library Building
 { id: "v127", objectName: "FVR Building", cx: 144.5, cy: 228.5,r:4.5,categoryName: "Student Service Building"},//FVR Building
-{ id: "v128", objectName: "Finance Purchasing Department", cx: 186.5, cy: 238.5,r:4.5,categoryName: "Student Service Building"},//Finance Purchasing Department
+{ id: "v128", objectName: "Finance Purchasing Department", cx: 186.5, cy: 238.5,r:4.5,categoryName: "Administrative Building"},//Finance Purchasing Department
 { id: "v129", objectName: "Teller", cx: 186.5, cy: 269.5,r:4.5,categoryName: "Student Service Building"},//Teller
-{ id: "v130", objectName: "Atrium",cx:73.5, cy: 298.5,r:4.5,categoryName: "Student Service Building"},//Atrium
-{ id: "v131", objectName: "Registrar Office", cx: 166.5, cy: 264.5,r:4.5,categoryName: "Student Service Building"},//Registrar Office
-{ id: "v132", objectName: "BASIC ED Building", cx: 144.5, cy: 134.5,r:4.5,categoryName: "Student Service Building"},//BASIC ED Building
-{ id: "v133", objectName: "CCJE Department", cx: 192.5, cy: 134.5,r:4.5,categoryName: "Student Service Building"},//CCJE Department
-{ id: "v134", objectName: "Gymnasium", cx: 256.5, cy: 134.5,r:4.5,categoryName: "Student Service Building"},//Gymnasium
-{ id: "v135", objectName: "Motorcycle parking area in front of Basic ED Building", cx: 144.5, cy: 152.5,r:4.5,categoryName: "Student Service Building"},//Motorcycle parking area 01
-{ id: "v136", objectName: "Motorcycle parking right side of Basic Ed.", cx: 170.5, cy: 115.5,r:4.5,categoryName: "Student Service Building"},//Motorcycle parking area 02
-{ id: "v137", objectName: "Motorcycle parking right side of CCJE.", cx: 212.5, cy: 115.5,r:4.5,categoryName: "Student Service Building"},//Motorcycle parking area 03
-{ id: "v138", objectName: "Motorcycle parking right side of Gymnasium.", cx: 352.5, cy: 109.5,r:4.5,categoryName: "Student Service Building"},//Motorcycle parking area 04
-{ id: "v139", objectName: "Motorcycle parking right side of SP", cx: 352.5, cy: 252.5,r:4.5,categoryName: "Student Service Building"},//Motorcycle parking area 05
-{ id: "v140", objectName: null, cx: 144.5, cy: 182.5,r:4.5,categoryName: "Student Service Building"},//4 wheels parking area 01
-{ id: "v141", objectName: "4 wheels parking area", cx: 144.5, cy: 208.5,r:4.5,categoryName: "Student Service Building"},//4 wheels parking area 02
-{ id: "v142", objectName: "Student Plaza Entrance Near CMA Hall", cx: 238.5, cy: 264.5,r:4.5,categoryName: "Student Service Building"},//Student Plaza Entrance 01
-{ id: "v143", objectName: "Student Plaza Entrance 02", cx: 270.5, cy: 269.5,r:4.5,categoryName: "Student Service Building"},//Student Plaza Entrance 02
-{ id: "v144", objectName: "CMA Building Entrance near Registrar", cx: 160.5, cy: 315.5,r:4.5,categoryName: "Student Service Building"},//CMA Building Entrance  01
-{ id: "v145", objectName: "CMA Building Entrance Near PHINMA Forest", cx: 185.5, cy: 373.5,r:4.5,categoryName: "Student Service Building"},//CMA Building Entrance  02
-{ id: "v146", objectName: "Technical Vocational Building", cx:150.5, cy: 471.5,r:4.5,categoryName: "Student Service Building"},//Technical Vocational Building
-{ id: "v147", objectName: "North Hall Entrance 1", cx: 202.5, cy: 471.5,r:4.5,categoryName: "Student Service Building"},//North Hall Entrance 1
-{ id: "v148", objectName: "North Hall Entrance 2", cx: 270.5, cy: 471.5,r:4.5,categoryName: "Student Service Building"},//North Hall Entrance 2
-{ id: "v149", objectName: "Old Stage", cx: 355.5, cy: 443.5,r:4.5,categoryName: "Student Service Building"},//Old Stage
-{ id: "v150", objectName: "MBA Hall Entrance 4", cx: 367.5, cy: 451.5,r:4.5,categoryName: "Student Service Building"},//MBA Hall Entrance 4
-{ id: "v151", objectName: "MBA Hall Entrance 3", cx: 367.5, cy: 315.5,r:4.5,categoryName: "Student Service Building"},//MBA Hall Entrance 3
-{ id: "v152", objectName: "MBA Hall Entrance 2", cx: 367.5, cy: 269.5,r:4.5,categoryName: "Student Service Building"},//MBA Hall Entrance 2
-{ id: "v153", objectName: "MBA Hall Entrance 1", cx: 366.5, cy: 183.5,r:4.5,categoryName: "Student Service Building"},//MBA Hall Entrance 1
-{ id: "v154", objectName: "MBA Engineering Building", cx: 352.5, cy: 61.5,r:4.5,categoryName: "Student Service Building"},//Engineering Building
-{ id: "v155", objectName: "PHINMA Forest", cx: 270.5, cy: 344.5,r:4.5,categoryName: "Student Service Building"},//PHINMA Forest
-{ id: "v156", objectName: "PEDRO Hub Office", cx: 106.5, cy: 309.5,r:4.5,categoryName: "Student Service Building"},//PEDRO Hub Office
-{ id: "v157", objectName: "Office of  Graduate and Professionals", cx: 106.5, cy: 319.5,r:4.5,categoryName: "Student Service Building"},//Office of  Graduate and Professionals
-{ id: "v158", objectName: "College of Law Office", cx: 120.5, cy: 319.5,r:4.5,categoryName: "Student Service Building"},//College of Law Office
-{ id: "v159", objectName: "Riverside Building", cx: 421.5, cy: 171.5,r:4.5,categoryName: "Student Service Building"},//Riverside Building
-{ id: "v160", objectName: "Riverside Building's Parking Lot Area", cx: 520.5, cy: 88.5,r:4.5,categoryName: "Student Service Building"},//Riverside Building
-{ id: "v161", objectName: "Pedistrian Entrance/Exit", cx:526.5, cy:176.5,r:4.5,categoryName: "Student Service Building"},//Pedistrian Entrance/Exit
-{ id: "v162", objectName: "Riverside Building's Comfort Room 2", cx: 421.5, cy: 135.5,r:4.5,categoryName: "Student Service Building"},//Riverside Building
-{ id: "v163", objectName: "Riverside Building's Comfort Room 1", cx: 499.5, cy: 45.5,r:4.5,categoryName: "Student Service Building"},//Riverside Building
-{ id: "v164", objectName: "Riverside Building's Food Hub Area", cx: 499.5, cy: 85.5,r:4.5,categoryName: "Student Service Building"},//Riverside Building
-{ id: "v165", objectName: "Gymnasium's Comfort Room", cx: 238.5, cy: 32.5,r:4.5,categoryName: "Student Service Building"},//Riverside Building
+{ id: "v130", objectName: "Atrium",cx:73.5, cy: 298.5,r:4.5,categoryName: "Infrastructure"},//Atrium
+{ id: "v131", objectName: "Registrar Office", cx: 166.5, cy: 264.5,r:4.5,categoryName: "Administrative Building"},//Registrar Office
+{ id: "v132", objectName: "BASIC ED Building", cx: 144.5, cy: 134.5,r:4.5,categoryName: "Academic/Instructional Building"},//BASIC ED Building
+{ id: "v133", objectName: "CCJE Department", cx: 192.5, cy: 134.5,r:4.5,categoryName: "Academic/Instructional Building"},//CCJE Department
+{ id: "v134", objectName: "Gymnasium", cx: 256.5, cy: 134.5,r:4.5,categoryName: "Event Building"},//Gymnasium
+{ id: "v135", objectName: "Motorcycle parking area in front of Basic ED Building", cx: 144.5, cy: 152.5,r:4.5,categoryName: "Amenities"},//Motorcycle parking area 01
+{ id: "v136", objectName: "Motorcycle parking right side of Basic Ed.", cx: 170.5, cy: 115.5,r:4.5,categoryName: "Amenities"},//Motorcycle parking area 02
+{ id: "v137", objectName: "Motorcycle parking right side of CCJE.", cx: 212.5, cy: 115.5,r:4.5,categoryName: "Amenities"},//Motorcycle parking area 03
+{ id: "v138", objectName: "Motorcycle parking right side of Gymnasium.", cx: 352.5, cy: 109.5,r:4.5,categoryName: "Amenities"},//Motorcycle parking area 04
+{ id: "v139", objectName: "Motorcycle parking right side of SP", cx: 352.5, cy: 252.5,r:4.5,categoryName: "Amenities"},//Motorcycle parking area 05
+{ id: "v140", objectName: null, cx: 144.5, cy: 182.5,r:4.5,categoryName: "null"},//4 wheels parking area 01
+{ id: "v141", objectName: "4 wheels parking area", cx: 144.5, cy: 208.5,r:4.5,categoryName: "Amenities"},//4 wheels parking area 02
+{ id: "v142", objectName: "Student Plaza Entrance Near CMA Hall", cx: 238.5, cy: 264.5,r:4.5,categoryName: "Infrastructure"},//Student Plaza Entrance 01
+{ id: "v143", objectName: "Student Plaza Entrance Near PHINMA Forest", cx: 270.5, cy: 269.5,r:4.5,categoryName: "Infrastructure"},//Student Plaza Entrance 02
+{ id: "v144", objectName: "CMA Building Entrance near Registrar", cx: 160.5, cy: 315.5,r:4.5,categoryName: "Academic/Instructional Building"},//CMA Building Entrance  01
+{ id: "v145", objectName: "CMA Building Entrance Near PHINMA Forest", cx: 185.5, cy: 373.5,r:4.5,categoryName: "Academic/Instructional Building"},//CMA Building Entrance  02
+{ id: "v146", objectName: "Technical Vocational Building", cx:150.5, cy: 471.5,r:4.5,categoryName: "Academic/Instructional Building"},//Technical Vocational Building
+{ id: "v147", objectName: "North Hall Entrance 1", cx: 202.5, cy: 471.5,r:4.5,categoryName: "Academic/Instructional Building"},//North Hall Entrance 1
+{ id: "v148", objectName: "North Hall Entrance 2", cx: 270.5, cy: 471.5,r:4.5,categoryName: "Academic/Instructional Building"},//North Hall Entrance 2
+{ id: "v149", objectName: "Old Stage", cx: 355.5, cy: 443.5,r:4.5,categoryName: "Event Building"},//Old Stage
+{ id: "v150", objectName: "MBA Hall Entrance 4", cx: 367.5, cy: 451.5,r:4.5,categoryName: "Academic/Instructional Building"},//MBA Hall Entrance 4
+{ id: "v151", objectName: "MBA Hall Entrance 3", cx: 367.5, cy: 315.5,r:4.5,categoryName: "Academic/Instructional Building"},//MBA Hall Entrance 3
+{ id: "v152", objectName: "MBA Hall Entrance 2", cx: 367.5, cy: 269.5,r:4.5,categoryName: "Academic/Instructional Building"},//MBA Hall Entrance 2
+{ id: "v153", objectName: "MBA Hall Entrance 1", cx: 366.5, cy: 183.5,r:4.5,categoryName: "Academic/Instructional Building"},//MBA Hall Entrance 1
+{ id: "v154", objectName: "MBA Engineering Building", cx: 352.5, cy: 61.5,r:4.5,categoryName: "Academic/Instructional Building"},//Engineering Building
+{ id: "v155", objectName: "PHINMA Forest", cx: 270.5, cy: 344.5,r:4.5,categoryName: "Infrastructure"},//PHINMA Forest
+{ id: "v156", objectName: "PEDRO Hub Office", cx: 106.5, cy: 309.5,r:4.5,categoryName: "Administrative Building"},//PEDRO Hub Office
+{ id: "v157", objectName: "Office of Graduate and Professionals", cx: 106.5, cy: 319.5,r:4.5,categoryName: "Administrative Building"},//Office of  Graduate and Professionals
+{ id: "v158", objectName: "College of Law Office", cx: 120.5, cy: 319.5,r:4.5,categoryName: "Administrative Building"},//College of Law Office
+{ id: "v159", objectName: "Riverside Building", cx: 421.5, cy: 171.5,r:4.5,categoryName: "Academic/Instructional Building"},//Riverside Building
+{ id: "v160", objectName: "Riverside Building's Parking Lot Area", cx: 520.5, cy: 88.5,r:4.5,categoryName: "Amenities"},//Riverside Building
+{ id: "v161", objectName: "Pedestrian Entrance/Exit", cx:526.5, cy:176.5,r:4.5,categoryName: "Entry/Exit Point"},//Pedistrian Entrance/Exit
+{ id: "v162", objectName: "Riverside Building's Comfort Room", cx: 421.5, cy: 135.5,r:4.5,categoryName: "Student Service Building"},//Riverside Building
+{ id: "v163", objectName: "Riverside Building's Comfort Room near Parking Lot", cx: 499.5, cy: 45.5,r:4.5,categoryName: "Amenities"},//Riverside Building
+{ id: "v164", objectName: "Riverside Building's Food Plaza", cx: 499.5, cy: 85.5,r:4.5,categoryName: "Student Service Building"},//Riverside Building
+{ id: "v165", objectName: "Gymnasium's Comfort Room", cx: 238.5, cy: 32.5,r:4.5,categoryName: "Comfort Room"},//Riverside Building
 
-{ id: "v166", objectName: "PTC's Comfort Room", cx: 31.5, cy: 318.5 ,r:3.5,categoryName: "Student Service Building"},
-{ id: "v167", objectName: "CMA's Comfort Room", cx: 160.5, cy: 325.5,r:3.5,categoryName: "Student Service Building"},//cr
+{ id: "v166", objectName: "PTC's Comfort Room", cx: 31.5, cy: 318.5 ,r:3.5,categoryName: "Comfort Room"},
+{ id: "v167", objectName: "CMA's Comfort Room", cx: 160.5, cy: 325.5,r:3.5,categoryName: "Comfort Room"},//cr
 //{ id: "v168", objectName: "CMA's Comfort Room", cx: 160.5, cy: 328.5,r:3.5},//cr
 { id: "v169", objectName: "Uniform Claiming Area", cx: 128.5, cy: 233.5,r:3.5,categoryName: "Student Service Building"},
 { id: "v170", objectName: "Module Claiming Area", cx: 130.5, cy: 85.5,r:3.5,categoryName: "Student Service Building"},
-{ id: "v171", objectName: "North Hall's Comfort Room 1", cx: 185.5, cy: 500.5,r:3.5,categoryName: "Student Service Building"},
-{ id: "v172", objectName: "null", cx: 318.5, cy: 500.5,r:3.5,categoryName: "Student Service Building"},//cR
-{ id: "v173", objectName: "BASIC ED's Comfort Room",  cx: 158.5, cy: 54.5 ,r:3.5,categoryName: "Student Service Building"},//cr 
-{ id: "v174", objectName: "CCJE's Comfort Room", cx: 192.5, cy: 89.5 ,r:4.5,categoryName: "Student Service Building"},
-{ id: "v175", objectName: "University Chapel", cx: 384.5, cy: 298.5,r:3.5,categoryName: "Student Service Building"},//chapel
-{ id: "v176", objectName: "University Clinic", cx: 384.5, cy: 310.5,r:3.5,categoryName: "Student Service Building"},//clinic
-{ id: "v177", objectName: "MBA Hall's Comfort Room 1", cx: 375.5, cy: 74.5,r:3.5,categoryName: "Student Service Building"},//cr
-{ id: "v178", objectName: "MBA Hall's Comfort Room 2", cx: 380.5, cy: 368.5,r:3.5,categoryName: "Student Service Building"},//cr
-{ id: "v179", objectName: "Phinma Forest Pond", cx: 251.5, cy: 452.5,r:3.5,categoryName: "Student Service Building"},
-{ id: "v180", objectName: "Student Plaza's Food Hub", cx: 270.5, cy: 260.5,r:3.5,categoryName: "Student Service Building"},//cr
-{ id: "v183", objectName: "College of Allied Health And Sciences (CAHS) Office", cx: 455.5, cy: 87.5,r:3.5,categoryName: "Student Service Building"},
-{ id: "v184", objectName: "College of Arts And Sciences (CAS) Office", cx: 455.5, cy: 97.5,r:3.5,categoryName: "Student Service Building"},
+{ id: "v171", objectName: "North Hall's Comfort Room 1", cx: 185.5, cy: 500.5,r:3.5,categoryName: "Comfort Room"},
+{ id: "v172", objectName: "null", cx: 318.5, cy: 500.5,r:3.5,categoryName: "null"},//cR
+{ id: "v173", objectName: "BASIC ED's Comfort Room",  cx: 158.5, cy: 54.5 ,r:3.5,categoryName: "Comfort Room"},//cr 
+{ id: "v174", objectName: "CCJE's Comfort Room", cx: 192.5, cy: 89.5 ,r:4.5,categoryName: "Comfort Room"},
+{ id: "v175", objectName: "University Chapel", cx: 384.5, cy: 298.5,r:3.5,categoryName: "Amenities"},//chapel
+{ id: "v176", objectName: "University Clinic", cx: 384.5, cy: 310.5,r:3.5,categoryName: "Amenities"},//clinic
+{ id: "v177", objectName: "MBA Hall's Comfort Room 1", cx: 375.5, cy: 74.5,r:3.5,categoryName: "Comfort Room"},//cr
+{ id: "v178", objectName: "MBA Hall's Comfort Room 2", cx: 380.5, cy: 368.5,r:3.5,categoryName: "Comfort Room"},//cr
+{ id: "v179", objectName: "Phinma Forest Pond", cx: 251.5, cy: 452.5,r:3.5,categoryName: "Infrastructure"},
+{ id: "v180", objectName: "Student Plaza's Food Place", cx: 270.5, cy: 260.5,r:3.5,categoryName: "Student Service Building"},//cr
+{ id: "v183", objectName: "College of Allied Health And Sciences (CAHS) Office", cx: 455.5, cy: 87.5,r:3.5,categoryName: "Administrative Building"},
+{ id: "v184", objectName: "College of Arts And Sciences (CAS) Office", cx: 455.5, cy: 97.5,r:3.5,categoryName: "Administrative Building"},
 
 //purple circles (not to be showned or "null")
 { id: "v185", objectName: "null", cx: 71.5, cy: 188.5,r:4.5},
@@ -300,7 +300,7 @@ export const graphData: GraphData = {
 { id: "v238", objectName: null, cx: 106.5, cy: 319.5,r:4.5},//Office of  Graduate and Professionals
 { id: "v239", objectName: null, cx: 120.5, cy: 319.5,r:4.5},//College of Law Office
 { id: "v240", objectName: null, cx: 256.5, cy: 160.5,r:4.5},//ave
-{ id: "v241", objectName: "Phinma Avenue", cx: 256.5, cy: 168.5,r:4.5},//
+{ id: "v241", objectName: "Phinma Avenue", cx: 256.5, cy: 168.5,r:4.5,categoryName: "Infrastructure"},//
 ],
 
 edges: [
