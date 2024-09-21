@@ -10,6 +10,7 @@
   stroke-opacity: 0;
   opacity: var(--object-opacity);
   fill: var(--object-color);
+  pointer-events: auto;
 }
 .object-hover {
   stroke-opacity: 0;
@@ -29,14 +30,14 @@
 
 .path {
   stroke: var(--path-color);
-  stroke-width: 25;
+  stroke-width: 250;
   opacity: 0;
   border-radius: 0px;
 }
 
 .path-once {
   opacity: 1;
-  stroke-width: 3;
+  stroke-width: 8;
   stroke-linecap: round;
   stroke-dasharray: 2338.5;
   stroke-dashoffset: 2338.5;
@@ -51,7 +52,7 @@
 
 .path-active {
   opacity: 1;
-  stroke-width: 3;
+  stroke-width: 8;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-dasharray: 15;

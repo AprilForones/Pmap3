@@ -20,287 +20,287 @@ export interface GraphData {
 export const graphData: GraphData = {
   vertices: [
 //visible for change position, green color base on map sample
-{ id: "v1", objectName: null, cx: 18.5, cy: 261.5 ,r:3.5,categoryName: "null"},//Front Entrance
+{ id: "v1", objectName: null, cx: 38.5, cy: 576.5 ,r:15,categoryName: "null"},//Front Entrance
 //PTC BUILDING
-{ id: "v2", objectName: null, cx: 57.5, cy: 261.5 ,r:3.5,categoryName: "null"},//
-{ id: "v3", objectName: null, cx: 57.5, cy: 212.5 ,r:3.5,categoryName: "null"},
-{ id: "v4", objectName: null, cx: 31.5, cy: 212.5 ,r:3.5,categoryName: "null"},
-{ id: "v5", objectName: "null", cx: 30.5, cy: 261.5 ,r:3.5,categoryName: "null"},
-{ id: "v6", objectName: null, cx: 35.5, cy: 318.5 ,r:3.5,categoryName: "null"},
-{ id: "v7", objectName: null, cx: 57.5, cy: 318.5 ,r:3.5,categoryName: "null"},
+{ id: "v2", objectName: null, cx: 120.5, cy: 576.5 ,r:15,categoryName: "null"},//
+{ id: "v3", objectName: null, cx: 120.5, cy: 468.5 ,r:15,categoryName: "null"},
+{ id: "v4", objectName: null, cx: 65.5, cy: 468.5 ,r:15,categoryName: "null"},
+{ id: "v5", objectName: "null", cx: 63.5, cy: 576.5 ,r:15,categoryName: "null"},
+{ id: "v6", objectName: null, cx: 70.5, cy: 702.5 ,r:15,categoryName: "null"},
+{ id: "v7", objectName: null, cx: 120.5, cy: 702.5 ,r:15,categoryName: "null"},
 
 //mcdo
-{ id: "v8", objectName: null, cx: 63.5, cy: 188.5 ,r:3.5,categoryName: "null"},
+{ id: "v8", objectName: null, cx: 133.5, cy: 415.5 ,r:15,categoryName: "null"},
 
 //cdsl/ITS
-{ id: "v9", objectName: null, cx: 89.5, cy: 188.5 ,r:3.5,categoryName: "null"},//ITS
-{ id: "v10", objectName: "null", cx: 89.5, cy: 210.5 ,r:3.5,categoryName: "null"},
-{ id: "v11", objectName: "null", cx: 90.5, cy: 242.5 ,r:3.5,categoryName: "null"},
-{ id: "v12", objectName: null, cx: 90.5, cy: 261.5 ,r:3.5,categoryName: "null"},//CSDL
+{ id: "v9", objectName: null, cx: 187.5, cy: 415.5 ,r:15,categoryName: "null"},//ITS
+//{ id: "v10", objectName: "null", cx: 89.5, cy: 210.5 ,r:15,categoryName: "null"},
+//{ id: "v11", objectName: "null", cx: 90.5, cy: 242.5 ,r:15,categoryName: "null"},
+{ id: "v12", objectName: null, cx: 187.5, cy: 577.5 ,r:15,categoryName: "null"},//CSDL
 
 //op
-{ id: "v13", objectName: null, cx: 113.5, cy: 273.5 ,r:3.5,categoryName: "null"},//
-{ id: "v14", objectName: "null", cx: 128.5, cy: 273.5 ,r:3.5,categoryName: "null"},
+{ id: "v13", objectName: null, cx: 233.5, cy: 602.5 ,r:15,categoryName: "null"},//
+//{ id: "v14", objectName: "null", cx: 128.5, cy: 273.5 ,r:15,categoryName: "null"},
 
 //fvr
-{ id: "v19", objectName: null, cx: 135.5, cy: 254.5 ,r:3.5,categoryName: "null"},//lib
-{ id: "v20", objectName: null, cx: 160.5, cy: 264.5 ,r:3.5,categoryName: "null"},//registrar offce
-{ id: "v21", objectName: null, cx: 157.5, cy: 283.5 ,r:3.5,categoryName: "null"},
-{ id: "v22", objectName: "null", cx: 166.5, cy: 283.5 ,r:3.5,categoryName: "null"},//
-{ id: "v23", objectName: null, cx: 144.5, cy: 220.5 ,r:3.5,categoryName: "null"},//fvr
-{ id: "v24", objectName: "null", cx: 144.5, cy: 233.5 ,r:3.5,categoryName: "null"},
-{ id: "v25", objectName:   null, cx: 186.5, cy: 220.5 ,r:3.5,categoryName: "null"},//finance
-{ id: "v26", objectName: "null", cx: 186.5, cy: 233.5 ,r:3.5,categoryName: "null"},
-{ id: "v27", objectName: null, cx: 187.5, cy: 289.5 ,r:3.5,categoryName: "null"},//teller
-{ id: "v28", objectName: "null", cx: 187.5, cy: 277.5 ,r:3.5,categoryName: "null"},
+{ id: "v19", objectName: null, cx: 283.5, cy: 561.5 ,r:15,categoryName: "null"},//lib
+{ id: "v20", objectName: null, cx: 332.5, cy: 582.5 ,r:15,categoryName: "null"},//registrar offce
+{ id: "v21", objectName: null, cx: 327.5, cy: 625.5 ,r:15,categoryName: "null"},
+{ id: "v22", objectName: "null", cx: 348.5, cy: 625.5 ,r:15,categoryName: "null"},//
+{ id: "v23", objectName: null, cx: 300.5, cy: 486.5 ,r:15,categoryName: "null"},//fvr
+{ id: "v24", objectName: "null", cx: 300.5, cy: 513.5 ,r:15,categoryName: "null"},
+{ id: "v25", objectName:  null, cx: 386.5, cy: 486.5 ,r:15,categoryName: "null"},//finance
+{ id: "v26", objectName: "null", cx: 386.5, cy: 513.5 ,r:15,categoryName: "null"},
+{ id: "v27", objectName: null, cx: 389.5, cy: 637.5 ,r:15,categoryName: "null"},//teller
+{ id: "v28", objectName: "null", cx: 389.5, cy: 615.5 ,r:15,categoryName: "null"},
 
 //basic ed
-{ id: "v29", objectName: null,  cx: 158.5, cy: 60.5 ,r:3.5,categoryName: "null"},//cr 
-{ id: "v30", objectName: null, cx: 158.5, cy: 85.5 ,r:3.5,categoryName: "null"},
-{ id: "v31", objectName: "null", cx: 130.5, cy: 54.5 ,r:3.5,categoryName: "null"},
-{ id: "v32", objectName: null, cx: 130.5, cy: 95.5 ,r:3.5,categoryName: "null"},
-{ id: "v33", objectName: "null", cx: 130.5, cy: 104.5 ,r:3.5,categoryName: "null"},
-{ id: "v34", objectName: "null", cx: 158.5, cy: 104.5 ,r:3.5,categoryName: "null"},
-{ id: "v35", objectName: null, cx: 130.5, cy: 133.5 ,r:3.5,categoryName: "null"},
-{ id: "v36", objectName: null, cx: 158.5, cy: 133.5 ,r:3.5,categoryName: "null"},
-{ id: "v37", objectName: null, cx: 144.5, cy: 143.5 ,r:3.5,categoryName: "null"},//
+{ id: "v29", objectName: null,  cx: 331.5, cy: 144.5 ,r:15,categoryName: "null"},//cr 
+{ id: "v30", objectName: null, cx: 331.5, cy: 192.5 ,r:15,categoryName: "null"},
+//{ id: "v31", objectName: "null", cx: 130.5, cy: 54.5 ,r:3.5,categoryName: "null"},
+{ id: "v32", objectName: null, cx: 271.5, cy: 204.5 ,r:15,categoryName: "null"},
+//{ id: "v33", objectName: "null", cx: 130.5, cy: 104.5 ,r:3.5,categoryName: "null"},
+//{ id: "v34", objectName: "null", cx: 158.5, cy: 104.5 ,r:3.5,categoryName: "null"},
+{ id: "v35", objectName: null, cx: 271.5, cy: 294.5 ,r:15,categoryName: "null"},
+{ id: "v36", objectName: null, cx: 331.5, cy: 294.5 ,r:3.5,categoryName: "null"},
+{ id: "v37", objectName: null, cx: 301.5, cy: 317.5 ,r:3.5,categoryName: "null"},//
 //CCJE
-{ id: "v38", objectName: null, cx: 192.5, cy: 143.5 ,r:3.5,categoryName: "null"},// 
-{ id: "v39", objectName: null, cx: 192.5, cy: 126.5 ,r:3.5,categoryName: "null"},
-{ id: "v40", objectName: null, cx: 192.5, cy: 100.5 ,r:4.5,categoryName: "null"},
-{ id: "v41", objectName: "null", cx: 192.5, cy: 69.5 ,r:3.5,categoryName: "null"},
-{ id: "v42", objectName: "null", cx: 192.5, cy: 46.5 ,r:3.5,categoryName: "null"},
+{ id: "v38", objectName: null, cx: 400.5, cy: 317.5 ,r:15,categoryName: "null"},// 
+{ id: "v39", objectName: null, cx: 400.5, cy: 279.5 ,r:15,categoryName: "null"},
+{ id: "v40", objectName: null, cx: 400.5, cy: 219.5 ,r:15,categoryName: "null"},
+//{ id: "v41", objectName: "null", cx: 192.5, cy: 69.5 ,r:3.5,categoryName: "null"},
+//{ id: "v42", objectName: "null", cx: 192.5, cy: 46.5 ,r:3.5,categoryName: "null"},
 //gym
-{ id: "v43", objectName: null, cx: 256.5, cy: 143.5 ,r:3.5,categoryName: "null"},//
-{ id: "v44", objectName: "null", cx: 238.5, cy: 134.5,r:3.5,categoryName: "null"},
-{ id: "v45", objectName: "null", cx: 238.5, cy: 51.5 ,r:3.5,categoryName: "null"},
-{ id: "v46", objectName: "null", cx: 337.5, cy: 51.5,r:3.5,categoryName: "null"},
-{ id: "v47", objectName: "null", cx: 337.5, cy: 134.5 ,r:3.5,categoryName: "null"},
-{ id: "v48", objectName: null, cx: 238.5, cy: 40.5 ,r:3.5,categoryName: "null"},//cr
+{ id: "v43", objectName: null, cx: 533.5, cy: 316.5 ,r:15,categoryName: "null"},//
+{ id: "v44", objectName: "null", cx: 496.5, cy: 295.5,r:15,categoryName: "null"},
+{ id: "v45", objectName: "null", cx: 496.5, cy: 113.5 ,r:15,categoryName: "null"},
+{ id: "v46", objectName: "null", cx: 701.5, cy: 113.5,r:15,categoryName: "null"},
+{ id: "v47", objectName: "null", cx: 701.5, cy: 297.5 ,r:15,categoryName: "null"},
+{ id: "v48", objectName: null, cx: 496.5, cy: 91.5 ,r:15,categoryName: "null"},//cr
 //sp
-{ id: "v49", objectName: null, cx: 218.5, cy: 264.5 ,r:3.5,categoryName: "null"},//LEFT
-{ id: "v50", objectName: null, cx: 280.5, cy: 269.5 ,r:3.5,categoryName: "null"},//R
+{ id: "v49", objectName: null, cx: 454.5, cy: 575.5 ,r:15,categoryName: "null"},//LEFT
+{ id: "v50", objectName: null, cx: 584.5, cy: 595.5 ,r:15,categoryName: "null"},//R
 //PForest
-{ id: "v51", objectName: null, cx: 270.5, cy: 295.5,r:3.5,categoryName: "null"},//LEFT
-{ id: "v52", objectName: null, cx: 218.5, cy: 344.5,r:3.5,categoryName: "null"},//u
-{ id: "v53", objectName: null, cx: 352.5, cy: 315.5,r:3.5,categoryName: "null"},//r
+{ id: "v51", objectName: null, cx: 563.5, cy: 652.5,r:15,categoryName: "null"},//LEFT
+{ id: "v52", objectName: null, cx: 456.5, cy: 758.5,r:15,categoryName: "null"},//u
+{ id: "v53", objectName: null, cx: 733.5, cy: 697.5,r:15,categoryName: "null"},//r
 //NH
-{ id: "v54", objectName: null, cx: 270.5, cy: 462.5,r:3.5,categoryName: "null"},//R
-{ id: "v55", objectName: null, cx: 202.5, cy: 462.5,r:3.5,categoryName: "null"},//LEFT
-{ id: "v56", objectName: null, cx: 185.5, cy: 471.5,r:3.5,categoryName: "null"},
-{ id: "v57", objectName: null, cx: 185.5, cy: 495.5,r:3.5,categoryName: "null"},
-{ id: "v58", objectName: null, cx: 203.5, cy: 495.5,r:3.5,categoryName: "null"},
-{ id: "v59", objectName: null, cx: 270.5, cy: 495.5,r:3.5,categoryName: "null"},
-{ id: "v60", objectName: null, cx: 318.5, cy: 495.5,r:3.5,categoryName: "null"},//cR
-{ id: "v61", objectName: null, cx: 318.5, cy: 471.5,r:3.5,categoryName: "null"},
-{ id: "v62", objectName: null, cx:365.5, cy: 471.5,r:3.5,categoryName: "null"},
-{ id: "v63", objectName: null, cx: 365.5, cy: 495.5,r:3.5,categoryName: "null"},
+{ id: "v54", objectName: null, cx: 562.5, cy: 1020.5,r:15,categoryName: "null"},//R
+{ id: "v55", objectName: null, cx: 421.5, cy: 1020.5,r:15,categoryName: "null"},//LEFT
+{ id: "v56", objectName: null, cx: 385.5, cy: 1040.5,r:15,categoryName: "null"},
+{ id: "v57", objectName: null, cx: 385.5, cy: 1087.5,r:15,categoryName: "null"},
+{ id: "v58", objectName: null, cx: 422.5, cy: 1087.5,r:15,categoryName: "null"},
+{ id: "v59", objectName: null, cx: 563.5, cy: 1087.5,r:15,categoryName: "null"},
+{ id: "v60", objectName: null, cx: 663.5, cy: 1086.5,r:15,categoryName: "null"},//cR
+{ id: "v61", objectName: null, cx: 663.5, cy: 1039.5,r:15,categoryName: "null"},
+{ id: "v62", objectName: null, cx:764.5, cy: 1039.5,r:15,categoryName: "null"},
+{ id: "v63", objectName: null, cx: 764.5, cy: 1086.5,r:15,categoryName: "null"},
 //old
-{ id: "v64", objectName: null, cx: 354.5, cy: 435.5,r:3.5,categoryName: "null"},//old
+{ id: "v64", objectName: null, cx: 740.5, cy: 960.5,r:15,categoryName: "null"},//old
 //pond
-{ id: "v65", objectName: null, cx: 258.5, cy: 452.5,r:33.5,categoryName: "null"},
+{ id: "v65", objectName: null, cx: 539.5, cy: 998.5,r:15,categoryName: "null"},
 //TechVoc
-{ id: "v66", objectName: null, cx: 150.5, cy: 462.5,r:33.5,categoryName: "null"},
+{ id: "v66", objectName: null, cx: 312.5, cy: 1021.5,r:15,categoryName: "null"},
 //CMA Building
-{ id: "v67", objectName: null, cx: 160.5, cy: 302.5,r:3.5,categoryName: "null"},//
-{ id: "v68", objectName: null, cx: 160.5, cy: 328.5,r:3.5,categoryName: "null"},//cr
-{ id: "v69", objectName: null, cx: 185.5, cy: 328.5,r:3.5,categoryName: "null"},
-{ id: "v70", objectName: null, cx: 140.5, cy: 328.5,r:3.5,categoryName: "null"},
-{ id: "v71", objectName: null, cx: 140.5, cy: 373.5,r:3.5,categoryName: "null"},
-{ id: "v72", objectName: null, cx: 140.5, cy: 436.5,r:3.5,categoryName: "null"},
-{ id: "v73", objectName: null, cx: 185.5, cy: 436.5,r:3.5,categoryName: "null"},
-{ id: "v74", objectName: null, cx: 196.5, cy: 373.5,r:3.5,categoryName: "null"},//
+{ id: "v67", objectName: null, cx: 334.5, cy: 668.5,r:15,categoryName: "null"},//
+{ id: "v68", objectName: null, cx: 334.5, cy: 723.5,r:15,categoryName: "null"},//cr
+{ id: "v69", objectName: null, cx: 386.5, cy: 723.5,r:15,categoryName: "null"},
+{ id: "v70", objectName: null, cx: 293.5, cy: 724.5,r:15,categoryName: "null"},
+{ id: "v71", objectName: null, cx: 293.5, cy: 823.5,r:15,categoryName: "null"},
+{ id: "v72", objectName: null, cx: 293.5, cy: 963.5,r:15,categoryName: "null"},
+{ id: "v73", objectName: null, cx: 386.5, cy: 963.5,r:15,categoryName: "null"},
+{ id: "v74", objectName: null, cx: 408.5, cy: 823.5,r:15,categoryName: "null"},//
 //river
-{ id: "v75", objectName: null, cx: 421.5, cy: 181.5,r:3.5,categoryName: "null"},
-{ id: "v76", objectName: null, cx: 459.5, cy: 130.5,r:3.5,categoryName: "null"},
-{ id: "v77", objectName: null, cx: 499.5, cy: 130.5,r:3.5,categoryName: "null"},
-{ id: "v78", objectName: null, cx: 421.5, cy: 181.5,r:3.5,categoryName: "null"},
-{ id: "v79", objectName: null, cx: 520.5, cy: 130.5,r:3.5,categoryName: "null"},
-{ id: "v80", objectName: null, cx: 421.5, cy: 130.5,r:3.5,categoryName: "null"},//cr
-{ id: "v81", objectName: null, cx: 520.5, cy: 93.5,r:3.5,categoryName: "null"},
-{ id: "v82", objectName: null, cx: 499.5, cy: 93.5,r:3.5,categoryName: "null"},//food
-{ id: "v83", objectName: null, cx: 520.5, cy: 61.5,r:3.5,categoryName: "null"},
-{ id: "v84", objectName: null, cx: 499.5, cy: 39.5,r:3.5,categoryName: "null"},//cr2
-{ id: "v85", objectName: null, cx: 520.5, cy: 61.5,r:3.5,categoryName: "null"},
-{ id: "v86", objectName: null, cx: 415.5, cy: 39.5,r:3.5,categoryName: "null"},
-{ id: "v87", objectName: null, cx: 413.5, cy: 74.5,r:3.5,categoryName: "null"},
-{ id: "v88", objectName: null, cx: 413.5, cy: 107.5,r:3.5,categoryName: "null"},
-{ id: "v181", objectName: null, cx: 464.5, cy: 87.5,r:3.5,categoryName: "null"},
-{ id: "v182", objectName: null, cx: 464.5, cy: 97.5,r:3.5,categoryName: "null"},
+{ id: "v75", objectName: null, cx: 877.5, cy: 400.5,r:15,categoryName: "null"},
+{ id: "v76", objectName: null, cx: 992.5, cy: 288.5,r:15,categoryName: "null"},
+{ id: "v77", objectName: null, cx: 1039.5, cy: 288.5,r:15,categoryName: "null"},
+{ id: "v78", objectName: null, cx: 877.5, cy: 400.5,r:3.5,categoryName: "null"},
+{ id: "v79", objectName: null, cx: 1083.5, cy: 288.5,r:15,categoryName: "null"},
+{ id: "v80", objectName: null, cx: 878.5, cy: 307.5,r:15,categoryName: "null"},//cr
+{ id: "v81", objectName: null, cx: 1083.5, cy: 214.5,r:15,categoryName: "null"},
+{ id: "v82", objectName: null, cx: 1039.5, cy: 214.5,r:15,categoryName: "null"},//food
+{ id: "v83", objectName: null, cx: 1083.5, cy: 135.5,r:15,categoryName: "null"},
+{ id: "v84", objectName: null, cx: 1040.5, cy: 108.5,r:3.5,categoryName: "null"},//cr2
+{ id: "v85", objectName: null, cx: 1083.5, cy: 135,r:3.5,categoryName: "null"},
+{ id: "v86", objectName: null, cx: 853.5, cy: 112.5,r:15,categoryName: "null"},
+{ id: "v87", objectName: null, cx: 853.5, cy: 164.5,r:15,categoryName: "null"},
+{ id: "v88", objectName: null, cx: 853.5, cy: 237.5,r:15,categoryName: "null"},
+{ id: "v181", objectName: null, cx: 992.5, cy: 192.5,r:15,categoryName: "null"},
+{ id: "v182", objectName: null, cx: 992.5, cy: 214.5,r:15,categoryName: "null"},
 
 //Pedistrian 
-{ id: "v89", objectName: null, cx: 514.5, cy: 176.5,r:3.5,categoryName: "null"},
+{ id: "v89", objectName: null, cx: 1071.5, cy: 390.5,r:15,categoryName: "null"},
 //motor park 5
-{ id: "v90", objectName: null, cx: 352.5, cy: 269.5,r:3.5,categoryName: "null"},
+{ id: "v90", objectName: null, cx: 733.5, cy: 594.5,r:15,categoryName: "null"},
 //p. ave
-{ id: "v91", objectName: null, cx: 352.5, cy: 183.5,r:3.5,categoryName: "null"},
+{ id: "v91", objectName: null, cx: 735.5, cy: 404.5,r:15,categoryName: "null"},
 //atrium
-{ id: "v92", objectName: null, cx: 71.5, cy: 261.5,r:3.5,categoryName: "null"},
-{ id: "v93", objectName:"null", cx: 106.5, cy: 301.5,r:3.5,categoryName: "null"},
-{ id: "v94", objectName: null, cx: 120.5, cy: 301.5,r:3.5,categoryName: "null"},
+{ id: "v92", objectName: null, cx: 149.5, cy: 577.5,r:15,categoryName: "null"},
+{ id: "v93", objectName:"null", cx: 222.5, cy: 664.5,r:15,categoryName: "null"},
+{ id: "v94", objectName: null, cx: 220.5, cy: 664.5,r:15,categoryName: "null"},
 //MBA eng
-{ id: "v95", objectName: null, cx: 352.5, cy: 74.5,r:3.5,categoryName: "null"},//
-{ id: "v96", objectName: "null", cx: 354.5, cy: 29.5,r:3.5,categoryName: "null"},
-{ id: "v97", objectName: "null", cx: 391.5, cy: 29.5,r:3.5,categoryName: "null"},
-{ id: "v98", objectName: "null", cx: 391.5, cy: 61.5,r:3.5,categoryName: "null"},
-{ id: "v99", objectName: null, cx: 367.5, cy: 60.5,r:3.5,categoryName: "null"},
+{ id: "v95", objectName: null, cx: 734.5, cy: 163.5,r:15,categoryName: "null"},//
+//{ id: "v96", objectName: "null", cx: 354.5, cy: 29.5,r:3.5,categoryName: "null"},
+//{ id: "v97", objectName: "null", cx: 391.5, cy: 29.5,r:3.5,categoryName: "null"},
+//{ id: "v98", objectName: "null", cx: 391.5, cy: 61.5,r:3.5,categoryName: "null"},
+{ id: "v99", objectName: null, cx: 763.5, cy: 135.5,r:15,categoryName: "null"},
 
-{ id: "v100", objectName: "null", cx: 375.5, cy: 74.5,r:3.5,categoryName: "null"},//cr
-{ id: "v101", objectName: "null", cx: 375.5, cy: 87.5,r:3.5,categoryName: "null"},
-{ id: "v102", objectName: "null", cx: 375.5, cy: 99.5,r:3.5,categoryName: "null"},
-{ id: "v103", objectName: "General Services Department(GSD) Office", cx: 290.5, cy: 134.5,r:3.5,categoryName: "Student Service Building"},//11
-{ id: "v104", objectName: null, cx: 290.5, cy: 134.5,r:3.5,categoryName: "null"},//11
+{ id: "v100", objectName: "null", cx: 782.5, cy: 163.5,r:15,categoryName: "null"},//cr
+{ id: "v101", objectName: "null", cx: 782.5, cy: 186.5,r:15,categoryName: "null"},
+{ id: "v102", objectName: "null", cx: 781.5, cy: 220.5,r:15,categoryName: "null"},
+{ id: "v103", objectName: "General Services Department(GSD) Office", cx: 606.5, cy: 297.5,r:15,categoryName: "Student Service Building"},//11
+{ id: "v104", objectName: null, cx: 606.5, cy: 297.5,r:15,categoryName: "null"},//11
 
-{ id: "v105", objectName: null, cx: 375.5, cy: 160.5,r:3.5,categoryName: "null"},
-{ id: "v106", objectName: null, cx: 375.5, cy: 183.5,r:3.5,categoryName: "null"},
-{ id: "v107", objectName: "null", cx: 375.5, cy: 200.5,r:3.5,categoryName: "null"},
-{ id: "v108", objectName: null, cx: 375.5, cy: 230.5,r:3.5,categoryName: "null"},
+{ id: "v105", objectName: null, cx: 781.5, cy: 353.5,r:15,categoryName: "null"},
+{ id: "v106", objectName: null, cx: 780.5, cy: 404.5,r:15,categoryName: "null"},
+{ id: "v107", objectName: "null", cx: 780.5, cy: 442.5,r:15,categoryName: "null"},
+{ id: "v108", objectName: null, cx: 780.5, cy: 508.5,r:15,categoryName: "null"},
 
-{ id: "v109", objectName: null, cx: 384.5, cy: 257.5,r:3.5,categoryName: "null"},
+{ id: "v109", objectName: null, cx: 800.5, cy: 566.5,r:15,categoryName: "null"},
 // { id: "v110", objectName: null, cx: 384.5, cy: 285.5,r:3.5},
-{ id: "v111", objectName: "null", cx: 384.5, cy: 298.5,r:3.5,categoryName: "null"},//chapel
-{ id: "v112", objectName: "null", cx: 384.5, cy: 310.5,r:3.5,categoryName: "null"},//clinic
+{ id: "v111", objectName: "null", cx: 801.5, cy: 658.5,r:15,categoryName: "null"},//chapel
+{ id: "v112", objectName: "null", cx: 801.5, cy: 685.5,r:15,categoryName: "null"},//clinic
 
-{ id: "v113", objectName: null, cx: 380.5, cy: 334.5,r:3.5,categoryName: "null"},
-{ id: "v114", objectName: "null", cx: 380.5, cy: 368.5,r:3.5,categoryName: "null"},//cr
-{ id: "v115", objectName: null, cx: 380.5, cy: 407.5,r:3.5,categoryName: "null"},
-{ id: "v116", objectName: "null", cx: 290.5, cy: 143.5,r:3.5,categoryName: "null"},
-{ id: "v117", objectName: null, cx: 367.5, cy: 445.5,r:4.5,categoryName: "null"},
-{ id: "v118", objectName: null, cx: 170.5, cy: 106.5,r:4.5,categoryName: "null"},
-{ id: "v119", objectName: null, cx: 212.5, cy: 106.5,r:4.5,categoryName: "null"},
+{ id: "v113", objectName: null, cx: 793.5, cy: 737.5,r:15,categoryName: "null"},
+{ id: "v114", objectName: "null", cx: 793.5, cy: 813.5,r:15,categoryName: "null"},//cr
+{ id: "v115", objectName: null, cx: 793.5, cy: 900.5,r:15,categoryName: "null"},
+{ id: "v116", objectName: "null", cx: 606.5, cy: 316.5,r:15,categoryName: "null"},
+{ id: "v117", objectName: null, cx: 764.5, cy: 978.5,r:15,categoryName: "null"},
+{ id: "v118", objectName: null, cx: 355.5, cy: 261.5,r:15,categoryName: "null"},
+{ id: "v119", objectName: null, cx: 443.5, cy: 256.5,r:15,categoryName: "null"},
 
 //Objects, yellow Circles
-{ id: "v120", objectName: "Main Entrance Gate", cx: 11.5, cy: 261.5,r:4.5,categoryName: "Entry/Exit Point"},//front entrance
-{ id: "v121", objectName: "PTC Building", cx: 51.5, cy: 261.5,r:4.5,categoryName: "Academic/Instructional Building"},//ptc
-{ id: "v122", objectName: "Mc Donald's", cx: 57.5, cy: 188.5,r:4.5,categoryName: "Amenities"},//mcdo
-{ id: "v123", objectName: "ITS Department Building", cx: 89.5, cy: 200.5,r:4.5,categoryName: "Student Service Building"},//ITS Department Building        
-{ id: "v124", objectName: "CSDL Department", cx: 90.5, cy: 249.5,r:4.5,categoryName: "Student Service Building"},//CSDL/ITS
-{ id: "v125", objectName: "OP/Marketing Department", cx: 120.5, cy: 273.5,r:4.5,categoryName: "Administrative Building"},//OP/Marketing Department
-{ id: "v126", objectName: "University Library Building", cx: 145.5, cy: 254.5,r:4.5,categoryName: "Student Service Building"},//University Library Building
-{ id: "v127", objectName: "FVR Building", cx: 144.5, cy: 228.5,r:4.5,categoryName: "Student Service Building"},//FVR Building
-{ id: "v128", objectName: "Finance Purchasing Department", cx: 186.5, cy: 238.5,r:4.5,categoryName: "Administrative Building"},//Finance Purchasing Department
-{ id: "v129", objectName: "Teller", cx: 186.5, cy: 269.5,r:4.5,categoryName: "Student Service Building"},//Teller
-{ id: "v130", objectName: "Atrium",cx:73.5, cy: 298.5,r:4.5,categoryName: "Infrastructure"},//Atrium
-{ id: "v131", objectName: "Registrar Office", cx: 166.5, cy: 264.5,r:4.5,categoryName: "Administrative Building"},//Registrar Office
-{ id: "v132", objectName: "BASIC ED Building", cx: 144.5, cy: 134.5,r:4.5,categoryName: "Academic/Instructional Building"},//BASIC ED Building
-{ id: "v133", objectName: "CCJE Department", cx: 192.5, cy: 134.5,r:4.5,categoryName: "Academic/Instructional Building"},//CCJE Department
-{ id: "v134", objectName: "Gymnasium", cx: 256.5, cy: 134.5,r:4.5,categoryName: "Event Building"},//Gymnasium
-{ id: "v135", objectName: "Motorcycle parking area in front of Basic ED Building", cx: 144.5, cy: 152.5,r:4.5,categoryName: "Amenities"},//Motorcycle parking area 01
-{ id: "v136", objectName: "Motorcycle parking right side of Basic Ed.", cx: 170.5, cy: 115.5,r:4.5,categoryName: "Amenities"},//Motorcycle parking area 02
-{ id: "v137", objectName: "Motorcycle parking right side of CCJE.", cx: 212.5, cy: 115.5,r:4.5,categoryName: "Amenities"},//Motorcycle parking area 03
-{ id: "v138", objectName: "Motorcycle parking right side of Gymnasium.", cx: 352.5, cy: 109.5,r:4.5,categoryName: "Amenities"},//Motorcycle parking area 04
-{ id: "v139", objectName: "Motorcycle parking right side of SP", cx: 352.5, cy: 252.5,r:4.5,categoryName: "Amenities"},//Motorcycle parking area 05
-{ id: "v140", objectName: null, cx: 144.5, cy: 182.5,r:4.5,categoryName: "null"},//4 wheels parking area 01
-{ id: "v141", objectName: "4 wheels parking area", cx: 144.5, cy: 208.5,r:4.5,categoryName: "Amenities"},//4 wheels parking area 02
-{ id: "v142", objectName: "Student Plaza Entrance Near CMA Hall", cx: 238.5, cy: 264.5,r:4.5,categoryName: "Infrastructure"},//Student Plaza Entrance 01
-{ id: "v143", objectName: "Student Plaza Entrance Near PHINMA Forest", cx: 270.5, cy: 269.5,r:4.5,categoryName: "Infrastructure"},//Student Plaza Entrance 02
-{ id: "v144", objectName: "CMA Building Entrance near Registrar", cx: 160.5, cy: 315.5,r:4.5,categoryName: "Academic/Instructional Building"},//CMA Building Entrance  01
-{ id: "v145", objectName: "CMA Building Entrance Near PHINMA Forest", cx: 185.5, cy: 373.5,r:4.5,categoryName: "Academic/Instructional Building"},//CMA Building Entrance  02
-{ id: "v146", objectName: "Technical Vocational Building", cx:150.5, cy: 471.5,r:4.5,categoryName: "Academic/Instructional Building"},//Technical Vocational Building
-{ id: "v147", objectName: "North Hall Entrance 1", cx: 202.5, cy: 471.5,r:4.5,categoryName: "Academic/Instructional Building"},//North Hall Entrance 1
-{ id: "v148", objectName: "North Hall Entrance 2", cx: 270.5, cy: 471.5,r:4.5,categoryName: "Academic/Instructional Building"},//North Hall Entrance 2
-{ id: "v149", objectName: "Old Stage", cx: 355.5, cy: 443.5,r:4.5,categoryName: "Event Building"},//Old Stage
-{ id: "v150", objectName: "MBA Hall Entrance 4", cx: 367.5, cy: 451.5,r:4.5,categoryName: "Academic/Instructional Building"},//MBA Hall Entrance 4
-{ id: "v151", objectName: "MBA Hall Entrance 3", cx: 367.5, cy: 315.5,r:4.5,categoryName: "Academic/Instructional Building"},//MBA Hall Entrance 3
-{ id: "v152", objectName: "MBA Hall Entrance 2", cx: 367.5, cy: 269.5,r:4.5,categoryName: "Academic/Instructional Building"},//MBA Hall Entrance 2
-{ id: "v153", objectName: "MBA Hall Entrance 1", cx: 366.5, cy: 183.5,r:4.5,categoryName: "Academic/Instructional Building"},//MBA Hall Entrance 1
-{ id: "v154", objectName: "MBA Engineering Building", cx: 352.5, cy: 61.5,r:4.5,categoryName: "Academic/Instructional Building"},//Engineering Building
-{ id: "v155", objectName: "PHINMA Forest", cx: 270.5, cy: 344.5,r:4.5,categoryName: "Infrastructure"},//PHINMA Forest
-{ id: "v156", objectName: "PEDRO Hub Office", cx: 106.5, cy: 309.5,r:4.5,categoryName: "Administrative Building"},//PEDRO Hub Office
-{ id: "v157", objectName: "Office of Graduate and Professionals", cx: 106.5, cy: 319.5,r:4.5,categoryName: "Administrative Building"},//Office of  Graduate and Professionals
-{ id: "v158", objectName: "College of Law Office", cx: 120.5, cy: 319.5,r:4.5,categoryName: "Administrative Building"},//College of Law Office
-{ id: "v159", objectName: "Riverside Building", cx: 421.5, cy: 171.5,r:4.5,categoryName: "Academic/Instructional Building"},//Riverside Building
-{ id: "v160", objectName: "Riverside Building's Parking Lot Area", cx: 520.5, cy: 88.5,r:4.5,categoryName: "Amenities"},//Riverside Building
-{ id: "v161", objectName: "Pedestrian Entrance/Exit", cx:526.5, cy:176.5,r:4.5,categoryName: "Entry/Exit Point"},//Pedistrian Entrance/Exit
-{ id: "v162", objectName: "Riverside Building's Comfort Room", cx: 421.5, cy: 135.5,r:4.5,categoryName: "Student Service Building"},//Riverside Building
-{ id: "v163", objectName: "Riverside Building's Comfort Room near Parking Lot", cx: 499.5, cy: 45.5,r:4.5,categoryName: "Amenities"},//Riverside Building
-{ id: "v164", objectName: "Riverside Building's Food Plaza", cx: 499.5, cy: 85.5,r:4.5,categoryName: "Student Service Building"},//Riverside Building
-{ id: "v165", objectName: "Gymnasium's Comfort Room", cx: 238.5, cy: 32.5,r:4.5,categoryName: "Comfort Room"},//Riverside Building
+{ id: "v120", objectName: "Main Entrance Gate", cx: 24.5, cy: 576.5,r:15,categoryName: "Entry/Exit Point"},//front entrance
+{ id: "v121", objectName: "PTC Building", cx: 106.5, cy: 576.5,r:15,categoryName: "Academic/Instructional Building"},//ptc
+{ id: "v122", objectName: "Mc Donald's", cx: 119.5, cy: 415.5,r:15,categoryName: "Amenities"},//mcdo
+{ id: "v123", objectName: "ITS Department Building", cx: 187.5, cy: 442.5,r:15,categoryName: "Student Service Building"},//ITS Department Building        
+{ id: "v124", objectName: "CSDL Department", cx: 187.5, cy: 550.5,r:15,categoryName: "Student Service Building"},//CSDL/ITS
+{ id: "v125", objectName: "OP/Marketing Department", cx: 251.5, cy: 602.5,r:15,categoryName: "Administrative Building"},//OP/Marketing Department
+{ id: "v126", objectName: "University Library Building", cx: 300.5, cy: 561.5,r:15,categoryName: "Student Service Building"},//University Library Building
+{ id: "v127", objectName: "FVR Building", cx: 300.5, cy: 513.5,r:15,categoryName: "Student Service Building"},//FVR Building
+{ id: "v128", objectName: "Finance Purchasing Department", cx: 386.5, cy: 513.5,r:15,categoryName: "Administrative Building"},//Finance Purchasing Department
+{ id: "v129", objectName: "Teller", cx: 389.5, cy: 595.5,r:15,categoryName: "Student Service Building"},//Teller
+{ id: "v130", objectName: "Atrium",cx:152.5, cy: 658.5,r:15,categoryName: "Infrastructure"},//Atrium
+{ id: "v131", objectName: "Registrar Office", cx: 348.5, cy: 582.5,r:15,categoryName: "Administrative Building"},//Registrar Office
+{ id: "v132", objectName: "BASIC ED Building", cx: 301.5, cy: 294.5,r:15,categoryName: "Academic/Instructional Building"},//BASIC ED Building
+{ id: "v133", objectName: "CCJE Department", cx: 400.5, cy: 295.5,r:15,categoryName: "Academic/Instructional Building"},//CCJE Department
+{ id: "v134", objectName: "Gymnasium", cx: 533.5, cy: 295.5,r:15,categoryName: "Event Building"},//Gymnasium
+{ id: "v135", objectName: "Motorcycle parking area in front of Basic ED Building", cx: 301.5, cy: 336.5,r:15,categoryName: "Amenities"},//Motorcycle parking area 01
+{ id: "v136", objectName: "Motorcycle parking right side of Basic Ed.", cx: 355.5, cy: 234.5,r:15,categoryName: "Amenities"},//Motorcycle parking area 02
+{ id: "v137", objectName: "Motorcycle parking right side of CCJE.", cx: 443.5, cy: 234.5,r:15,categoryName: "Amenities"},//Motorcycle parking area 03
+{ id: "v138", objectName: "Motorcycle parking right side of Gymnasium.", cx: 734.5, cy: 240.5,r:15,categoryName: "Amenities"},//Motorcycle parking area 04
+{ id: "v139", objectName: "Motorcycle parking right side of SP", cx: 733.5, cy: 556.5,r:15,categoryName: "Amenities"},//Motorcycle parking area 05
+{ id: "v140", objectName: null, cx: 300.5, cy: 408.5,r:15,categoryName: "null"},//4 wheels parking area 01
+{ id: "v141", objectName: "4 wheels parking area", cx: 300.5, cy: 459.5,r:15,categoryName: "Amenities"},//4 wheels parking area 02
+{ id: "v142", objectName: "Student Plaza Entrance Near CMA Hall", cx: 488.5, cy: 575.5,r:15,categoryName: "Infrastructure"},//Student Plaza Entrance 01
+{ id: "v143", objectName: "Student Plaza Entrance Near PHINMA Forest", cx: 563.5, cy: 595.5,r:15,categoryName: "Infrastructure"},//Student Plaza Entrance 02
+{ id: "v144", objectName: "CMA Building Entrance near Registrar", cx: 334.5, cy: 697.5,r:15,categoryName: "Academic/Instructional Building"},//CMA Building Entrance  01
+{ id: "v145", objectName: "CMA Building Entrance Near PHINMA Forest", cx: 386.5, cy: 823.5,r:15,categoryName: "Academic/Instructional Building"},//CMA Building Entrance  02
+{ id: "v146", objectName: "Technical Vocational Building", cx:312.5, cy: 1040.5,r:15,categoryName: "Academic/Instructional Building"},//Technical Vocational Building
+{ id: "v147", objectName: "North Hall Entrance 1", cx: 422.5, cy: 1040.5,r:15,categoryName: "Academic/Instructional Building"},//North Hall Entrance 1
+{ id: "v148", objectName: "North Hall Entrance 2", cx: 563.5, cy: 1040.5,r:15,categoryName: "Academic/Instructional Building"},//North Hall Entrance 2
+{ id: "v149", objectName: "Old Stage", cx: 740.5, cy: 978.5,r:15,categoryName: "Event Building"},//Old Stage
+{ id: "v150", objectName: "MBA Hall Entrance 4", cx: 764.5, cy: 996.5,r:15,categoryName: "Academic/Instructional Building"},//MBA Hall Entrance 4
+{ id: "v151", objectName: "MBA Hall Entrance 3", cx: 763.5, cy: 697.5,r:15,categoryName: "Academic/Instructional Building"},//MBA Hall Entrance 3
+{ id: "v152", objectName: "MBA Hall Entrance 2", cx: 763.5, cy: 594.5,r:15,categoryName: "Academic/Instructional Building"},//MBA Hall Entrance 2
+{ id: "v153", objectName: "MBA Hall Entrance 1", cx: 765.5, cy: 404.5,r:15,categoryName: "Academic/Instructional Building"},//MBA Hall Entrance 1
+{ id: "v154", objectName: "MBA Engineering Building", cx: 733.5, cy: 135.5,r:15,categoryName: "Academic/Instructional Building"},//Engineering Building
+{ id: "v155", objectName: "PHINMA Forest", cx: 563.5, cy: 758.5,r:15,categoryName: "Infrastructure"},//PHINMA Forest
+{ id: "v156", objectName: "PEDRO Hub Office", cx: 201.5, cy: 679.5,r:15,categoryName: "Administrative Building"},//PEDRO Hub Office
+{ id: "v157", objectName: "Office of Graduate and Professionals", cx: 203.5, cy: 704.5,r:15,categoryName: "Administrative Building"},//Office of  Graduate and Professionals
+{ id: "v158", objectName: "College of Law Office", cx: 235.5, cy: 704.5,r:15,categoryName: "Administrative Building"},//College of Law Office
+{ id: "v159", objectName: "Riverside Building", cx: 877.5, cy: 378.5,r:15,categoryName: "Academic/Instructional Building"},//Riverside Building
+{ id: "v160", objectName: "Riverside Building's Parking Lot Area", cx: 1083.5, cy: 214.5,r:15,categoryName: "Amenities"},//Riverside Building
+{ id: "v161", objectName: "Pedestrian Entrance/Exit", cx:1095.5, cy:390.5,r:15,categoryName: "Entry/Exit Point"},//Pedistrian Entrance/Exit
+{ id: "v162", objectName: "Riverside Building's Comfort Room", cx: 878.5, cy: 288.5,r:15,categoryName: "Student Service Building"},//Riverside Building
+{ id: "v163", objectName: "Riverside Building's Comfort Room near Parking Lot", cx: 1040.5, cy: 87.5,r:15,categoryName: "Amenities"},//Riverside Building
+{ id: "v164", objectName: "Riverside Building's Food Plaza", cx: 1039.5, cy: 192.5,r:15,categoryName: "Student Service Building"},//Riverside Building
+{ id: "v165", objectName: "Gymnasium's Comfort Room", cx: 496.5, cy: 71.5,r:15,categoryName: "Comfort Room"},//Riverside Building
 
-{ id: "v166", objectName: "PTC's Comfort Room", cx: 31.5, cy: 318.5 ,r:3.5,categoryName: "Comfort Room"},
-{ id: "v167", objectName: "CMA's Comfort Room", cx: 160.5, cy: 325.5,r:3.5,categoryName: "Comfort Room"},//cr
+{ id: "v166", objectName: "PTC's Comfort Room", cx: 70.5, cy: 715.5 ,r:15,categoryName: "Comfort Room"},
+{ id: "v167", objectName: "CMA's Comfort Room", cx: 334.5, cy: 739.5,r:15,categoryName: "Comfort Room"},//cr
 //{ id: "v168", objectName: "CMA's Comfort Room", cx: 160.5, cy: 328.5,r:3.5},//cr
-{ id: "v169", objectName: "Uniform Claiming Area", cx: 128.5, cy: 233.5,r:3.5,categoryName: "Student Service Building"},
-{ id: "v170", objectName: "Module Claiming Area", cx: 130.5, cy: 85.5,r:3.5,categoryName: "Student Service Building"},
-{ id: "v171", objectName: "North Hall's Comfort Room 1", cx: 185.5, cy: 500.5,r:3.5,categoryName: "Comfort Room"},
-{ id: "v172", objectName: "null", cx: 318.5, cy: 500.5,r:3.5,categoryName: "null"},//cR
-{ id: "v173", objectName: "BASIC ED's Comfort Room",  cx: 158.5, cy: 54.5 ,r:3.5,categoryName: "Comfort Room"},//cr 
-{ id: "v174", objectName: "CCJE's Comfort Room", cx: 192.5, cy: 89.5 ,r:4.5,categoryName: "Comfort Room"},
-{ id: "v175", objectName: "University Chapel", cx: 384.5, cy: 298.5,r:3.5,categoryName: "Amenities"},//chapel
-{ id: "v176", objectName: "University Clinic", cx: 384.5, cy: 310.5,r:3.5,categoryName: "Amenities"},//clinic
-{ id: "v177", objectName: "MBA Hall's Comfort Room 1", cx: 375.5, cy: 74.5,r:3.5,categoryName: "Comfort Room"},//cr
-{ id: "v178", objectName: "MBA Hall's Comfort Room 2", cx: 380.5, cy: 368.5,r:3.5,categoryName: "Comfort Room"},//cr
-{ id: "v179", objectName: "Phinma Forest Pond", cx: 251.5, cy: 452.5,r:3.5,categoryName: "Infrastructure"},
-{ id: "v180", objectName: "Student Plaza's Food Place", cx: 270.5, cy: 260.5,r:3.5,categoryName: "Student Service Building"},//cr
-{ id: "v183", objectName: "College of Allied Health And Sciences (CAHS) Office", cx: 455.5, cy: 87.5,r:3.5,categoryName: "Administrative Building"},
-{ id: "v184", objectName: "College of Arts And Sciences (CAS) Office", cx: 455.5, cy: 97.5,r:3.5,categoryName: "Administrative Building"},
+{ id: "v169", objectName: "Uniform Claiming Area", cx: 269.5, cy: 514.5,r:15,categoryName: "Student Service Building"},
+{ id: "v170", objectName: "Module Claiming Area", cx: 271.5, cy: 189.5,r:15,categoryName: "Student Service Building"},
+{ id: "v171", objectName: "North Hall's Comfort Room 1", cx: 385.5, cy: 1105.5,r:15,categoryName: "Comfort Room"},
+{ id: "v172", objectName: "North Hall's Comfort Room 2", cx: 664.5, cy: 1104.5,r:15,categoryName: "Comfort Room"},//cR
+{ id: "v173", objectName: "BASIC ED's Comfort Room",  cx: 331.5, cy: 124.5 ,r:15,categoryName: "Comfort Room"},//cr 
+{ id: "v174", objectName: "CCJE's Comfort Room", cx: 400.5, cy: 201.5 ,r:15,categoryName: "Comfort Room"},
+{ id: "v175", objectName: "University Chapel", cx: 801.5, cy: 658.5,r:15,categoryName: "Amenities"},//chapel
+{ id: "v176", objectName: "University Clinic", cx: 801.5, cy: 685.5,r:15,categoryName: "Amenities"},//clinic
+{ id: "v177", objectName: "MBA Hall's Comfort Room 1", cx: 782.5, cy: 163.5,r:15,categoryName: "Comfort Room"},//cr
+{ id: "v178", objectName: "MBA Hall's Comfort Room 2", cx: 793.5, cy: 813.5,r:15,categoryName: "Comfort Room"},//cr
+{ id: "v179", objectName: "Phinma Forest Pond", cx: 521.5, cy: 998.5,r:15,categoryName: "Infrastructure"},
+{ id: "v180", objectName: "Student Plaza's Food Place", cx: 564.5, cy: 575.5,r:15,categoryName: "Student Service Building"},//cr
+{ id: "v183", objectName: "College of Allied Health And Sciences (CAHS) Office", cx: 968.5, cy: 192.5,r:15,categoryName: "Administrative Building"},
+{ id: "v184", objectName: "College of Arts And Sciences (CAS) Office", cx: 968.5, cy: 215.5,r:15,categoryName: "Administrative Building"},
 
 //purple circles (not to be showned or "null")
-{ id: "v185", objectName: "null", cx: 71.5, cy: 188.5,r:4.5},
-{ id: "v186", objectName: "null", cx: 111.5, cy: 188.5,r:4.5},
-{ id: "v187", objectName: "null", cx: 111.5, cy: 220.5,r:4.5},
-{ id: "v188", objectName: "null", cx: 111.5, cy: 261.5,r:4.5},
-{ id: "v189", objectName: "null", cx: 111.5, cy: 290.5,r:4.5},
-{ id: "v190", objectName: "null", cx: 106.5, cy: 290.5,r:4.5},
-{ id: "v191", objectName: "null", cx: 90.5, cy: 290.5,r:4.5},
-{ id: "v192", objectName: "null", cx: 144.5, cy: 303.5,r:4.5},
-{ id: "v193", objectName: "null", cx: 157.5, cy: 290.5,r:4.5},
-{ id: "v194", objectName: "null", cx: 166.5, cy: 290.5,r:4.5},
-{ id: "v195", objectName: "null", cx: 205.5, cy: 289.5,r:4.5},
-{ id: "v196", objectName: "null", cx: 205.5, cy: 220.5,r:4.5},
-{ id: "v197", objectName: "null", cx: 205.5, cy: 344.5,r:4.5},
-{ id: "v198", objectName: "null", cx: 205.5, cy: 373.5,r:4.5},
-{ id: "v199", objectName: "null", cx: 270.5, cy: 315.5,r:4.5},
-{ id: "v200", objectName: "null", cx: 205.5, cy: 264.5,r:4.5},
-{ id: "v201", objectName: "null", cx: 270.5, cy: 435.5,r:4.5 },
-{ id: "v202", objectName: "null", cx: 270.5, cy: 452.5,r:4.5 },
-{ id: "v203", objectName: "null", cx: 111.5, cy: 143.5,r:4.5 },
-{ id: "v204", objectName: "null", cx: 170.5, cy: 143.5,r:4.5},
-{ id: "v205", objectName: "null", cx: 205.5, cy: 143.5,r:4.5},
-{ id: "v206", objectName: "null", cx: 212.5, cy: 143.5,r:4.5},
-{ id: "v207", objectName: "null", cx: 352.5, cy: 142.5,r:4.5},
-{ id: "v208", objectName: "null", cx: 352.5, cy: 200.5,r:4.5},
-{ id: "v209", objectName: "null", cx: 421.5, cy: 200.5,r:4.5},
-{ id: "v210", objectName: "null", cx: 514.5, cy: 187.5,r:4.5},
-{ id: "v211", objectName: "null", cx: 415.5, cy: 53.5,r:4.5},
-{ id: "v212", objectName: "null", cx: 57.5, cy: 298.5,r:4.5},
-{ id: "v213", objectName: "null", cx: 443.731, cy: 53.7306,r:4.5},
-{ id: "v214", objectName: "null", cx: 471.599, cy: 56.4455,r:4.5},
-{ id: "v215", objectName: "null", cx: 499.467, cy: 59.1608,r:4.5},
-{ id: "v216", objectName: "null", cx: 410.467, cy: 152.5,r:4.5},
-{ id: "v217", objectName: "null", cx: 421.467, cy: 152.5,r:4.5},
-{ id: "v218", objectName: "null", cx: 464.467, cy: 150.5,r:4.5},
-{ id: "v219", objectName: "null", cx: 480.467, cy: 130.5,r:4.5},
-{ id: "v220", objectName: "null", cx: 480.467, cy: 87.5,r:4.5},
-{ id: "v221", objectName: "null", cx: 480.467, cy: 97.5,r:4.5},
+{ id: "v185", objectName: "null", cx: 149.5, cy: 415.5,r:15},
+{ id: "v186", objectName: "null", cx: 233.5, cy: 415.5,r:4.5},
+{ id: "v187", objectName: "null", cx: 233.5, cy: 486.5,r:4.5},
+{ id: "v188", objectName: "null", cx: 233.5, cy: 577.5,r:4.5},
+{ id: "v189", objectName: "null", cx: 220.5, cy: 640.5,r:4.5},
+{ id: "v190", objectName: "null",cx: 233.5, cy: 640.5,r:4.5},
+{ id: "v191", objectName: "null", cx: 187.5, cy: 640.5,r:4.5},
+{ id: "v192", objectName: "null", cx: 300.5, cy: 668.5,r:4.5},
+{ id: "v193", objectName: "null", cx: 327.5, cy: 638.5,r:4.5},
+{ id: "v194", objectName: "null", cx: 345.5, cy: 638.5,r:4.5},
+{ id: "v195", objectName: "null", cx: 427.5, cy: 638.5,r:4.5},
+{ id: "v196", objectName: "null", cx: 427.5, cy: 486.5,r:4.5},
+{ id: "v197", objectName: "null", cx: 427.5, cy: 758.5,r:4.5},
+{ id: "v198", objectName: "null", cx: 427.5, cy: 823.5,r:4.5},
+{ id: "v199", objectName: "null", cx: 563.5, cy: 695.5,r:4.5},
+{ id: "v200", objectName: "null", cx: 427.5, cy: 575.5,r:4.5},
+{ id: "v201", objectName: "null", cx: 526.5, cy: 998.5,r:4.5 },
+{ id: "v202", objectName: "null", cx: 562.5, cy: 998.5,r:4.5 },
+{ id: "v203", objectName: "null", cx: 233.5, cy: 317.5,r:4.5 },
+{ id: "v204", objectName: "null", cx: 354.5, cy: 316.5,r:4.5},
+{ id: "v205", objectName: "null", cx: 426.5, cy: 316.5,r:4.5},
+{ id: "v206", objectName: "null", cx: 443.5, cy: 316.5,r:4.5},
+{ id: "v207", objectName: "null", cx: 734.5, cy: 315.5,r:4.5},
+{ id: "v208", objectName: "null", cx: 735.5, cy: 442.5,r:4.5},
+{ id: "v209", objectName: "null", cx: 877.5, cy: 441.5,r:4.5},
+{ id: "v210", objectName: "null", cx: 1071.5, cy: 414.5,r:4.5},
+//{ id: "v211", objectName: "null", cx: 415.5, cy: 53.5,r:4.5},
+{ id: "v212", objectName: "null", cx: 120.5, cy: 658.5,r:4.5},
+{ id: "v213", objectName: "null", cx: 924.5, cy: 118.5,r:4.5},
+{ id: "v214", objectName: "null", cx: 982.5, cy: 124.5,r:4.5},
+{ id: "v215", objectName: "null", cx: 1040.5, cy: 130.5,r:4.5},
+{ id: "v216", objectName: "null", cx: 853.5, cy: 307.5,r:4.5},
+{ id: "v217", objectName: "null", cx: 877.5, cy: 331.5,r:4.5},
+{ id: "v218", objectName: "null", cx: 967.5, cy: 325.5,r:4.5},
+{ id: "v219", objectName: "null", cx: 992.5, cy: 288.5,r:4.5},
+{ id: "v220", objectName: "null", cx: 992.5, cy:192.5,r:4.5},
+{ id: "v221", objectName: "null", cx: 992.5, cy: 214.5,r:4.5},
 
 //MBA eng
-{ id: "v222", objectName: null, cx: 367.5, cy: 74.5,r:4.5},
-{ id: "v223", objectName: null, cx: 367.5, cy: 87.5,r:4.5},
-{ id: "v224", objectName: null, cx: 367.5, cy: 99.5,r:4.5},
-{ id: "v225", objectName: "null", cx: 367.5, cy: 119.5,r:4.5},
-{ id: "v226", objectName: "null", cx: 367.5, cy:140.5,r:4.5},
+{ id: "v222", objectName: null, cx: 765.5, cy: 163.5,r:4.5},
+{ id: "v223", objectName: null, cx: 765.5, cy: 186.5,r:4.5},
+{ id: "v224", objectName: null, cx: 765.5, cy: 220.5,r:4.5},
+//{ id: "v225", objectName: "null", cx: 367.5, cy: 119.5,r:4.5},
+//{ id: "v226", objectName: "null", cx: 367.5, cy:140.5,r:4.5},
 
-{ id: "v227", objectName: "null", cx: 367.5, cy: 160.5,r:4.5},
-{ id: "v228", objectName: "null", cx: 367.5, cy: 200.5,r:4.5},
+{ id: "v227", objectName: "null", cx: 765.5, cy: 353.5,r:4.5},
+{ id: "v228", objectName: "null", cx: 765.5, cy: 442.5,r:4.5},
 
-{ id: "v229", objectName: "null", cx: 367.5, cy: 230.5,r:4.5},
+{ id: "v229", objectName: "null", cx: 765.5, cy: 508.5,r:4.5},
 
-{ id: "v230", objectName: "null", cx: 367.5, cy: 256.5,r:3.5},
-{ id: "v231", objectName: null, cx: 367.5, cy: 298.5,r:4.5},
+{ id: "v230", objectName: "null", cx: 765.5, cy: 566.5,r:3.5},
+{ id: "v231", objectName: null, cx: 765.5, cy: 658.5,r:4.5},
 
-{ id: "v232", objectName: "null", cx: 367.5, cy: 334.5,r:3.5},
-{ id: "v233", objectName: "null", cx: 367.5, cy: 351.5,r:3.5},
-{ id: "v234", objectName: null, cx: 367.5, cy: 368.5,r:3.5},
-{ id: "v235", objectName: "null", cx: 367.5, cy: 407.5,r:3.5},
-{ id: "v236", objectName: "null", cx: 367.5, cy: 432.5,r:3.5},
+{ id: "v232", objectName: "null", cx: 765.5, cy: 737.5,r:3.5},
+//{ id: "v233", objectName: "null", cx: 765.5, cy: 351.5,r:3.5},
+{ id: "v234", objectName: null, cx: 765.5, cy: 813.5,r:3.5},
+{ id: "v235", objectName: "null", cx: 765.5, cy: 900.5,r:3.5},
+{ id: "v236", objectName: "null", cx: 765.5, cy: 953.5,r:3.5},
 
 //additionals
-{ id: "v237", objectName: null, cx: 106.5, cy: 309.5,r:4.5},//PEDRO Hub Office
-{ id: "v238", objectName: null, cx: 106.5, cy: 319.5,r:4.5},//Office of  Graduate and Professionals
-{ id: "v239", objectName: null, cx: 120.5, cy: 319.5,r:4.5},//College of Law Office
-{ id: "v240", objectName: null, cx: 256.5, cy: 160.5,r:4.5},//ave
-{ id: "v241", objectName: "Phinma Avenue", cx: 256.5, cy: 168.5,r:4.5,categoryName: "Infrastructure"},//
+{ id: "v237", objectName: null, cx: 222.5, cy: 679.5,r:4.5},//PEDRO Hub Office
+{ id: "v238", objectName: null, cx: 220.5, cy: 704.5,r:4.5},//Office of  Graduate and Professionals
+{ id: "v239", objectName: null, cx: 250.5, cy: 704.5,r:4.5},//College of Law Office
+{ id: "v240", objectName: null, cx: 533.5, cy: 355.5,r:4.5},//ave
+{ id: "v241", objectName: "Phinma Avenue", cx: 533.5, cy: 371.5,r:4.5,categoryName: "Infrastructure"},//
 ],
 
 edges: [
@@ -329,19 +329,19 @@ edges: [
 //ITS dept
 { id: "v9_to_v123", from: "v9", to: "v123" },
 { id: "v9_to_v186", from: "v9", to: "v186" },
-{ id: "v123_to_v10", from: "v123", to: "v10" },
+//{ id: "v123_to_v10", from: "v123", to: "v10" },
 { id: "v187_to_v186", from: "v187", to: "v186" },
 { id: "v203_to_v186", from: "v203", to: "v186" },
 //CSDL
 { id: "v12_to_v124", from: "v12", to: "v124" },
-{ id: "v11_to_v124", from: "v11", to: "v124" },
+//{ id: "v11_to_v124", from: "v11", to: "v124" },
 { id: "v12_to_v92", from: "v12", to: "v92" },
 { id: "v12_to_v191", from: "v12", to: "v191" },
 { id: "v12_to_v188", from: "v12", to: "v188" },
 { id: "v187_to_v188", from: "v187", to: "v188" },
 //op
 { id: "v13_to_v125", from: "v13", to: "v125" },
-{ id: "v14_to_v125", from: "v14", to: "v125" },
+//{ id: "v14_to_v125", from: "v14", to: "v125" },
 { id: "v13_to_v188", from: "v13", to: "v188" },
 { id: "v13_to_v189", from: "v13", to: "v189" },
 { id: "v190_to_v189", from: "v190", to: "v189" },
@@ -396,13 +396,13 @@ edges: [
 { id: "v37_to_v204", from: "v37", to: "v204" },
 { id: "v35_to_v132", from: "v35", to: "v132" },
 { id: "v36_to_v132", from: "v36", to: "v132" },
-{ id: "v36_to_v34", from: "v36", to: "v34" },
-{ id: "v35_to_v33", from: "v35", to: "v33" },
-{ id: "v32_to_v33", from: "v32", to: "v33" },
-{ id: "v170_to_v33", from: "v170", to: "v33" },
-{ id: "v32_to_v31", from: "v32", to: "v31" },
-{ id: "v170_to_v31", from: "v170", to: "v31" },
-{ id: "v34_to_v30", from: "v34", to: "v30" },
+{ id: "v36_to_v30", from: "v36", to: "v30" },
+{ id: "v35_to_v32", from: "v35", to: "v33" },
+//{ id: "v32_to_v33", from: "v32", to: "v33" },
+//{ id: "v170_to_v33", from: "v170", to: "v33" },
+//{ id: "v32_to_v31", from: "v32", to: "v31" },
+//{ id: "v170_to_v31", from: "v170", to: "v31" },
+//{ id: "v34_to_v30", from: "v34", to: "v30" },
 { id: "v29_to_v30", from: "v29", to: "v30" },
 { id: "v173_to_v30", from: "v173", to: "v30" },
 
@@ -579,13 +579,13 @@ edges: [
 { id: "v208_to_v91", from: "v208", to: "v91" },
 { id: "v207_to_v91", from: "v207", to: "v91" },
 { id: "v207_to_v154", from: "v207", to: "v154" },
-{ id: "v227_to_v226", from: "v227", to: "v226" },
+//{ id: "v227_to_v226", from: "v227", to: "v226" },
 { id: "v227_to_v105", from: "v227", to: "v105" },
 
 
-{ id: "v225_to_v226", from: "v225", to: "v226" },
+//{ id: "v225_to_v226", from: "v225", to: "v226" },
 
-{ id: "v225_to_v224", from: "v225", to: "v224" },
+{ id: "v227_to_v224", from: "v227", to: "v224" },
 { id: "v223_to_v224", from: "v223", to: "v224" },
 { id: "v224_to_v102", from: "v224", to: "v102" },
 { id: "v223_to_v101", from: "v223", to: "v101" },
@@ -600,9 +600,9 @@ edges: [
 { id: "v154_to_v99", from: "v154", to: "v99" },
 { id: "v154_to_v95", from: "v154", to: "v95" },
 { id: "v98_to_v99", from: "v98", to: "v99" },
-{ id: "v154_to_v96", from: "v154", to: "v96" },
-{ id: "v98_to_v97", from: "v98", to: "v97" },
-{ id: "v97_to_v96", from: "v97", to: "v96" },
+//{ id: "v154_to_v96", from: "v154", to: "v96" },
+//{ id: "v98_to_v97", from: "v98", to: "v97" },
+//{ id: "v97_to_v96", from: "v97", to: "v96" },
 
 //P Forest
 { id: "v52_to_v197", from: "v52", to: "v197" },

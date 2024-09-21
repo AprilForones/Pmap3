@@ -8,7 +8,7 @@ function MapBackground({ children }: MapBackgroundProps) {
   return (
     <svg
       //same as mall-floor-plan.svg viewBox
-      viewBox="0 0 559 521"
+      viewBox="0 0 1162 1150"
       className="lg:h-[85vh] lg:w-[75vw] h-[85dvh]"
     >
       <image id="background" width="100%" height="100%" href={floorplan} />

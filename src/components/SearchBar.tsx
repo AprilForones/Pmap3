@@ -1,10 +1,10 @@
-import Tooltip from "@/components/ui/Tooltip";
+//import Tooltip from "@/components/ui/Tooltip";
 import {
   navigateToObject,
   navigateWithDelay as navigationTestAll,
 } from "@/utils/navigationHelper";
 import React, { useContext, useEffect, useRef, useState } from "react";
-import {FiNavigation } from "react-icons/fi";
+//import {FiNavigation } from "react-icons/fi";
 import { useOnClickOutside } from "usehooks-ts";
 import { MapDataContext, NavigationContext } from "../pages/Map";
 import {
@@ -132,6 +132,9 @@ function SearchBar() {
     console.log(selectedObject);
     setInputValue(selectedObject.name);
     setIsAutocomplete(false);
+
+      // Trigger automatic search
+  handleSearch(selectedObject.name);
   }
   function handleInputFocus(event: React.FocusEvent<HTMLInputElement>) {
     setIsEditMode(false);
@@ -222,7 +225,7 @@ function SearchBar() {
           )}
         </div>
 
-        <div className="">
+        {/* <div className="">
           <Tooltip content="Search" className="bg-blue-500">
             <button
               className="h-12 w-12 flex flex-none center justify-center rounded-r bg-blue-500 text-white"
@@ -232,7 +235,7 @@ function SearchBar() {
               <FiNavigation />
             </button>
           </Tooltip>
-        </div>
+        </div> */}
       </div>
     </div>
   );
