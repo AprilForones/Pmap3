@@ -209,7 +209,7 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
           <path
             id="Uniform Claiming Area"
             className={`${className} object`}
-            d="M249.882 178.656H285.2819V200.7124H249.882z"
+            d="M246.011 507.381H267.011V525.395H246.011V507.381Z"
             onClick={handleObjectClick}
           />
           <path
