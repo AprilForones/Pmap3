@@ -117,7 +117,7 @@ export const graphData: GraphData = {
 { id: "v78", objectName: null, cx: 877.5, cy: 400.5,r:3.5,categoryName: "null"},
 { id: "v79", objectName: null, cx: 1083.5, cy: 288.5,r:15,categoryName: "null"},
 { id: "v80", objectName: null, cx: 878.5, cy: 307.5,r:15,categoryName: "null"},//cr
-{ id: "v81", objectName: null, cx: 1083.5, cy: 214.5,r:15,categoryName: "null"},
+//{ id: "v81", objectName: null, cx: 1083.5, cy: 214.5,r:15,categoryName: "null"},
 { id: "v82", objectName: null, cx: 1039.5, cy: 214.5,r:15,categoryName: "null"},//food
 { id: "v83", objectName: null, cx: 1083.5, cy: 135.5,r:15,categoryName: "null"},
 { id: "v84", objectName: null, cx: 1040.5, cy: 108.5,r:3.5,categoryName: "null"},//cr2
@@ -125,8 +125,8 @@ export const graphData: GraphData = {
 { id: "v86", objectName: null, cx: 853.5, cy: 112.5,r:15,categoryName: "null"},
 { id: "v87", objectName: null, cx: 853.5, cy: 164.5,r:15,categoryName: "null"},
 { id: "v88", objectName: null, cx: 853.5, cy: 237.5,r:15,categoryName: "null"},
-{ id: "v181", objectName: null, cx: 992.5, cy: 192.5,r:15,categoryName: "null"},
-{ id: "v182", objectName: null, cx: 992.5, cy: 214.5,r:15,categoryName: "null"},
+//{ id: "v181", objectName: null, cx: 992.5, cy: 192.5,r:15,categoryName: "null"},
+//{ id: "v182", objectName: null, cx: 992.5, cy: 214.5,r:15,categoryName: "null"},
 
 //Pedistrian 
 { id: "v89", objectName: null, cx: 1071.5, cy: 390.5,r:15,categoryName: "null"},
@@ -210,7 +210,7 @@ export const graphData: GraphData = {
 { id: "v157", objectName: "Office of Graduate and Professionals", cx: 203.5, cy: 704.5,r:15,categoryName: "Administrative Building"},//Office of  Graduate and Professionals
 { id: "v158", objectName: "College of Law Office", cx: 235.5, cy: 704.5,r:15,categoryName: "Administrative Building"},//College of Law Office
 { id: "v159", objectName: "Riverside Building", cx: 877.5, cy: 378.5,r:15,categoryName: "Academic/Instructional Building"},//Riverside Building
-{ id: "v160", objectName: "Riverside Building's Parking Lot Area", cx: 1083.5, cy: 214.5,r:15,categoryName: "Amenities"},//Riverside Building
+{ id: "v160", objectName: "Riverside Building's Parking Lot Area", cx: 1083.5, cy: 200.5,r:15,categoryName: "Amenities"},//Riverside Building
 { id: "v161", objectName: "Pedestrian Entrance/Exit", cx:1095.5, cy:390.5,r:15,categoryName: "Entry/Exit Point"},//Pedistrian Entrance/Exit
 { id: "v162", objectName: "Riverside Building's Comfort Room", cx: 878.5, cy: 288.5,r:15,categoryName: "Student Service Building"},//Riverside Building
 { id: "v163", objectName: "Riverside Building's Comfort Room near Parking Lot", cx: 1040.5, cy: 87.5,r:15,categoryName: "Amenities"},//Riverside Building
@@ -270,9 +270,9 @@ export const graphData: GraphData = {
 { id: "v216", objectName: "null", cx: 853.5, cy: 307.5,r:4.5},
 { id: "v217", objectName: "null", cx: 877.5, cy: 331.5,r:4.5},
 { id: "v218", objectName: "null", cx: 930.5, cy:307.5,r:4.5},
-{ id: "v219", objectName: "null", cx: 992.5, cy: 307.5,r:4.5},
-{ id: "v220", objectName: "null", cx: 992.5, cy:192.5,r:4.5},
-{ id: "v221", objectName: "null", cx: 992.5, cy: 214.5,r:4.5},
+//{ id: "v219", objectName: "null", cx: 992.5, cy: 307.5,r:4.5},
+{ id: "v220", objectName: null, cx: 992.5, cy:192.5,r:4.5},
+{ id: "v221", objectName: null, cx: 992.5, cy: 214.5,r:4.5},
 
 //MBA eng
 { id: "v222", objectName: null, cx: 765.5, cy: 163.5,r:4.5},
@@ -652,12 +652,13 @@ edges: [
 { id: "v160_to_v83", from: "v160", to: "v83" },
 { id: "v77_to_v164", from: "v77", to: "v164" },
 
-{ id: "v219_to_v244", from: "v219", to: "v244" },
-{ id: "v77_to_v244", from: "v77", to: "v244" },
-{ id: "v219_to_v220", from: "v219", to: "v220" },
+//{ id: "v219_to_v244", from: "v219", to: "v244" },
+{ id: "v76_to_v221", from: "v76", to: "v221" },
+//{ id: "v77_to_v244", from: "v77", to: "v244" },
+{ id: "v76_to_v220", from: "v76", to: "v220" },
 { id: "v159_to_v78", from: "v159", to: "v78" },
 { id: "v161_to_v78", from: "v161", to: "v78" },
-{ id: "v221_to_v219", from: "v221", to: "v219" },
+//{ id: "v221_to_v219", from: "v221", to: "v219" },
 { id: "v221_to_v182", from: "v221", to: "v182" },
 { id: "v221_to_v184", from: "v221", to: "v184" },
 { id: "v221_to_v220", from: "v221", to: "v220" },
