@@ -303,7 +303,7 @@ export const graphData: GraphData = {
 { id: "v241", objectName: "Phinma Avenue", cx: 533.5, cy: 371.5,r:4.5,categoryName: "Infrastructure"},//
 { id: "v242", objectName: "null", cx: 562.5, cy: 960.5,r:4.5},//
 { id: "v243", objectName: "null", cx: 220.5, cy: 577.5,r:4.5},//
-{ id: "v244", objectName: null, cx: 1039.5, cy: 307.5,r:4.5},//
+{ id: "v244", objectName: "null", cx: 1039.5, cy: 307.5,r:4.5},//
 ],
 
 edges: [
