@@ -673,11 +673,11 @@ edges: [
 { id: "v214_to_v215", from: "v214", to: "v215" },
 { id: "v214_to_v213", from: "v214", to: "v213" },
 { id: "v211_to_v213", from: "v211", to: "v213" },
-{ id: "v86_to_v211", from: "v86", to: "v211" },
-{ id: "v87_to_v211", from: "v87", to: "v211" },
+{ id: "v86_to_v87", from: "v86", to: "v87" },
+{ id: "v86_to_v214", from: "v86", to: "v214" },
 { id: "v87_to_v88", from: "v87", to: "v88" },
 { id: "v216_to_v88", from: "v216", to: "v88" },
-{ id: "v216_to_v217", from: "v216", to: "v217" },
+{ id: "v216_to_v80", from: "v216", to: "v80" },
 
 //Pedistrian
 { id: "v75_to_v89", from: "v75", to: "v89" },
