@@ -654,7 +654,7 @@ edges: [
 
 { id: "v219_to_v244", from: "v219", to: "v244" },
 { id: "v77_to_v244", from: "v77", to: "v244" },
-{ id: "v219_to_v220", from: "v219", to: "v76" },
+{ id: "v219_to_v220", from: "v219", to: "v220" },
 { id: "v159_to_v78", from: "v159", to: "v78" },
 { id: "v161_to_v78", from: "v161", to: "v78" },
 { id: "v221_to_v219", from: "v221", to: "v219" },
