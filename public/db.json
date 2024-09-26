@@ -111,6 +111,12 @@
       "desc": "Located at the first floor."
     },
     {
+      "id": "c0r2",
+      "categoryId": "e753",
+      "name": "North Hall's Comfort Room 2",
+      "desc": "Located at the first floor."
+    },
+    {
       "id": "j0k2",
       "categoryId": "e928",
       "name": "North Hall Entrance 2",
