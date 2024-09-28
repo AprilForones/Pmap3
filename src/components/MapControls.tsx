@@ -1,5 +1,5 @@
 import { useControls } from "react-zoom-pan-pinch";
-import { FaPlus, FaMinus, FaExpandAlt } from "react-icons/fa";
+import { FaPlus, FaMinus, FaUndo } from "react-icons/fa";
 
 function Controls() {
   const { zoomIn, zoomOut, resetTransform } = useControls();
@@ -24,7 +24,7 @@ function Controls() {
         aria-label="resetTransform"
         onClick={() => resetTransform()}
       >
-        <FaExpandAlt />
+        <FaUndo />
       </button>
     </div>
   );
