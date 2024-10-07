@@ -20,26 +20,26 @@ export interface GraphData {
 export const graphData: GraphData = {
   vertices: [
 //visible for change position, green color base on map sample
-{ id: "v1", objectName: null, cx: 38.5, cy: 576.5 ,r:15,categoryName: "null"},//Front Entrance
+{ id: "v1", objectName: null, cx: 576.5, cy: 1134.49 ,r:15,categoryName: "null"},//Front Entrance
 //PTC BUILDING
-{ id: "v2", objectName: null, cx: 120.5, cy: 576.5 ,r:15,categoryName: "null"},//
-{ id: "v3", objectName: null, cx: 120.5, cy: 468.5 ,r:15,categoryName: "null"},
-{ id: "v4", objectName: null, cx: 65.5, cy: 468.5 ,r:15,categoryName: "null"},
-{ id: "v5", objectName: "null", cx: 63.5, cy: 576.5 ,r:15,categoryName: "null"},
-{ id: "v6", objectName: null, cx: 70.5, cy: 702.5 ,r:15,categoryName: "null"},
-{ id: "v7", objectName: null, cx: 120.5, cy: 702.5 ,r:15,categoryName: "null"},
+{ id: "v2", objectName: null, cx: 575.5, cy: 1052.5 ,r:15,categoryName: "null"},//
+{ id: "v3", objectName: null, cx: 469.5, cy: 1052.5 ,r:15,categoryName: "null"},
+{ id: "v4", objectName: null, cx: 468.5, cy: 1102.5 ,r:15,categoryName: "null"},
+{ id: "v5", objectName: "null", cx: 576.5, cy: 1108.49 ,r:15,categoryName: "null"},
+{ id: "v6", objectName: null, cx: 683.5, cy: 1103.49 ,r:15,categoryName: "null"},
+{ id: "v7", objectName: null, cx: 683.5, cy: 1052.49 ,r:15,categoryName: "null"},
 
 //mcdo
-{ id: "v8", objectName: null, cx: 133.5, cy: 415.5 ,r:15,categoryName: "null"},
+{ id: "v8", objectName: null, cx: 416.5, cy: 1039.5 ,r:15,categoryName: "null"},
 
 //cdsl/ITS
-{ id: "v9", objectName: null, cx: 187.5, cy: 415.5 ,r:15,categoryName: "null"},//ITS
+{ id: "v9", objectName: null, cx: 414.5, cy: 985.5 ,r:15,categoryName: "null"},//ITS
 //{ id: "v10", objectName: "null", cx: 89.5, cy: 210.5 ,r:15,categoryName: "null"},
 //{ id: "v11", objectName: "null", cx: 90.5, cy: 242.5 ,r:15,categoryName: "null"},
-{ id: "v12", objectName: null, cx: 187.5, cy: 577.5 ,r:15,categoryName: "null"},//CSDL
+{ id: "v12", objectName: null, cx: 577.5, cy: 984.5 ,r:15,categoryName: "null"},//CSDL
 
 //op
-{ id: "v13", objectName: null, cx: 233.5, cy: 602.5 ,r:15,categoryName: "null"},//
+{ id: "v13", objectName: null, cx: 602.5, cy: 939.5 ,r:15,categoryName: "null"},//
 //{ id: "v14", objectName: "null", cx: 128.5, cy: 273.5 ,r:15,categoryName: "null"},
 
 //fvr
