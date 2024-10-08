@@ -43,43 +43,43 @@ export const graphData: GraphData = {
 //{ id: "v14", objectName: "null", cx: 128.5, cy: 273.5 ,r:15,categoryName: "null"},
 
 //fvr
-{ id: "v19", objectName: null, cx: 283.5, cy: 561.5 ,r:15,categoryName: "null"},//lib
-{ id: "v20", objectName: null, cx: 332.5, cy: 582.5 ,r:15,categoryName: "null"},//registrar offce
-{ id: "v21", objectName: null, cx: 327.5, cy: 625.5 ,r:15,categoryName: "null"},
-{ id: "v22", objectName: "null", cx: 348.5, cy: 625.5 ,r:15,categoryName: "null"},//
-{ id: "v23", objectName: null, cx: 300.5, cy: 486.5 ,r:15,categoryName: "null"},//fvr
-{ id: "v24", objectName: "null", cx: 300.5, cy: 513.5 ,r:15,categoryName: "null"},
-{ id: "v25", objectName:  null, cx: 386.5, cy: 486.5 ,r:15,categoryName: "null"},//finance
-{ id: "v26", objectName: "null", cx: 386.5, cy: 513.5 ,r:15,categoryName: "null"},
-{ id: "v27", objectName: null, cx: 389.5, cy: 637.5 ,r:15,categoryName: "null"},//teller
-{ id: "v28", objectName: "null", cx: 389.5, cy: 615.5 ,r:15,categoryName: "null"},
+{ id: "v19", objectName: null, cx: 561.5, cy: 877.5 ,r:15,categoryName: "null"},//lib
+{ id: "v20", objectName: null, cx: 584.5, cy: 840.5 ,r:15,categoryName: "null"},//registrar offce
+{ id: "v21", objectName: null, cx: 624.5, cy: 846.5 ,r:15,categoryName: "null"},
+{ id: "v22", objectName: "null", cx: 623.5, cy: 825.5 ,r:15,categoryName: "null"},//
+{ id: "v23", objectName: null, cx: 485.5, cy: 873.5 ,r:15,categoryName: "null"},//fvr
+{ id: "v24", objectName: "null", cx: 513.5, cy: 873.5 ,r:15,categoryName: "null"},
+{ id: "v25", objectName:  null, cx: 487.5, cy: 784.5 ,r:15,categoryName: "null"},//finance
+{ id: "v26", objectName: "null", cx: 507.5, cy: 784.5 ,r:15,categoryName: "null"},
+{ id: "v27", objectName: null, cx: 637.5, cy: 783.5 ,r:15,categoryName: "null"},//teller
+{ id: "v28", objectName: "null", cx: 615.5, cy: 782.5 ,r:15,categoryName: "null"},
 
 //basic ed
-{ id: "v29", objectName: null,  cx: 331.5, cy: 144.5 ,r:15,categoryName: "null"},//cr 
-{ id: "v30", objectName: null, cx: 331.5, cy: 192.5 ,r:15,categoryName: "null"},
+{ id: "v29", objectName: null,  cx: 144.5, cy: 842.5 ,r:15,categoryName: "null"},//cr 
+{ id: "v30", objectName: null, cx: 194.5, cy: 840.5 ,r:15,categoryName: "null"},
 //{ id: "v31", objectName: "null", cx: 130.5, cy: 54.5 ,r:3.5,categoryName: "null"},
-{ id: "v32", objectName: null, cx: 271.5, cy: 204.5 ,r:15,categoryName: "null"},
+{ id: "v32", objectName: null, cx: 206.5, cy: 2900.5,r:15,categoryName: "null"},
 //{ id: "v33", objectName: "null", cx: 130.5, cy: 104.5 ,r:3.5,categoryName: "null"},
 //{ id: "v34", objectName: "null", cx: 158.5, cy: 104.5 ,r:3.5,categoryName: "null"},
-{ id: "v35", objectName: null, cx: 271.5, cy: 294.5 ,r:15,categoryName: "null"},
-{ id: "v36", objectName: null, cx: 331.5, cy: 294.5 ,r:3.5,categoryName: "null"},
-{ id: "v37", objectName: null, cx: 301.5, cy: 317.5 ,r:3.5,categoryName: "null"},//
+{ id: "v35", objectName: null, cx: 294.5, cy: 901.5 ,r:15,categoryName: "null"},
+{ id: "v36", objectName: null, cx: 294.5, cy: 842.5 ,r:3.5,categoryName: "null"},
+{ id: "v37", objectName: null, cx: 316.5, cy: 872.5 ,r:3.5,categoryName: "null"},//
 //CCJE
-{ id: "v38", objectName: null, cx: 400.5, cy: 317.5 ,r:15,categoryName: "null"},// 
-{ id: "v39", objectName: null, cx: 400.5, cy: 279.5 ,r:15,categoryName: "null"},
-{ id: "v40", objectName: null, cx: 400.5, cy: 219.5 ,r:15,categoryName: "null"},
+{ id: "v38", objectName: null, cx: 317.5, cy: 773.5 ,r:15,categoryName: "null"},// 
+{ id: "v39", objectName: null, cx: 280.5, cy: 773.5 ,r:15,categoryName: "null"},
+{ id: "v40", objectName: null, cx: 221.5, cy: 774.5 ,r:15,categoryName: "null"},
 //{ id: "v41", objectName: "null", cx: 192.5, cy: 69.5 ,r:3.5,categoryName: "null"},
 //{ id: "v42", objectName: "null", cx: 192.5, cy: 46.5 ,r:3.5,categoryName: "null"},
 //gym
-{ id: "v43", objectName: null, cx: 533.5, cy: 316.5 ,r:15,categoryName: "null"},//
-{ id: "v44", objectName: "null", cx: 496.5, cy: 295.5,r:15,categoryName: "null"},
-{ id: "v45", objectName: "null", cx: 496.5, cy: 113.5 ,r:15,categoryName: "null"},
-{ id: "v46", objectName: "null", cx: 701.5, cy: 113.5,r:15,categoryName: "null"},
-{ id: "v47", objectName: "null", cx: 701.5, cy: 297.5 ,r:15,categoryName: "null"},
-{ id: "v48", objectName: null, cx: 496.5, cy: 91.5 ,r:15,categoryName: "null"},//cr
+{ id: "v43", objectName: null, cx: 317.5, cy: 638.5 ,r:15,categoryName: "null"},//
+{ id: "v44", objectName: "null", cx: 294.5, cy: 677.5,r:15,categoryName: "null"},
+{ id: "v45", objectName: "null", cx: 113.5, cy: 679.5 ,r:15,categoryName: "null"},
+{ id: "v46", objectName: "null", cx: 114.5, cy: 472.5,r:15,categoryName: "null"},
+{ id: "v47", objectName: "null", cx: 296.5, cy: 471.5 ,r:15,categoryName: "null"},
+{ id: "v48", objectName: null, cx: 93.5, cy: 679.5 ,r:15,categoryName: "null"},//cr
 //sp
-{ id: "v49", objectName: null, cx: 454.5, cy: 575.5 ,r:15,categoryName: "null"},//LEFT
-{ id: "v50", objectName: null, cx: 584.5, cy: 595.5 ,r:15,categoryName: "null"},//R
+{ id: "v49", objectName: null, cx: 577.5, cy: 716.5 ,r:15,categoryName: "null"},//LEFT
+{ id: "v50", objectName: null, cx: 596.5, cy: 587.5 ,r:15,categoryName: "null"},//R
 //PForest
 { id: "v51", objectName: null, cx: 563.5, cy: 652.5,r:15,categoryName: "null"},//LEFT
 { id: "v52", objectName: null, cx: 456.5, cy: 758.5,r:15,categoryName: "null"},//u
