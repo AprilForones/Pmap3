@@ -81,84 +81,84 @@ export const graphData: GraphData = {
 { id: "v49", objectName: null, cx: 577.5, cy: 716.5 ,r:15,categoryName: "null"},//LEFT
 { id: "v50", objectName: null, cx: 596.5, cy: 587.5 ,r:15,categoryName: "null"},//R
 //PForest
-{ id: "v51", objectName: null, cx: 563.5, cy: 652.5,r:15,categoryName: "null"},//LEFT
-{ id: "v52", objectName: null, cx: 456.5, cy: 758.5,r:15,categoryName: "null"},//u
-{ id: "v53", objectName: null, cx: 733.5, cy: 697.5,r:15,categoryName: "null"},//r
+{ id: "v51", objectName: null, cx: 653.5, cy: 609.5,r:15,categoryName: "null"},//LEFT
+{ id: "v52", objectName: null, cx:758.5, cy: 716.5,r:15,categoryName: "null"},//u
+{ id: "v53", objectName: null, cx: 699.5, cy: 439.5,r:15,categoryName: "null"},//r
 //NH
-{ id: "v54", objectName: null, cx: 562.5, cy: 1020.5,r:15,categoryName: "null"},//R
-{ id: "v55", objectName: null, cx: 421.5, cy: 1020.5,r:15,categoryName: "null"},//LEFT
-{ id: "v56", objectName: null, cx: 385.5, cy: 1040.5,r:15,categoryName: "null"},
-{ id: "v57", objectName: null, cx: 385.5, cy: 1087.5,r:15,categoryName: "null"},
-{ id: "v58", objectName: null, cx: 422.5, cy: 1087.5,r:15,categoryName: "null"},
-{ id: "v59", objectName: null, cx: 563.5, cy: 1087.5,r:15,categoryName: "null"},
-{ id: "v60", objectName: null, cx: 663.5, cy: 1086.5,r:15,categoryName: "null"},//cR
-{ id: "v61", objectName: null, cx: 663.5, cy: 1039.5,r:15,categoryName: "null"},
-{ id: "v62", objectName: null, cx:764.5, cy: 1039.5,r:15,categoryName: "null"},
-{ id: "v63", objectName: null, cx: 764.5, cy: 1086.5,r:15,categoryName: "null"},
+{ id: "v54", objectName: null, cx: 1021.5, cy: 610.5,r:15,categoryName: "null"},//R
+{ id: "v55", objectName: null, cx: 1019.5, cy: 745.5,r:15,categoryName: "null"},//LEFT
+{ id: "v56", objectName: null, cx: 1041.5, cy: 785.5,r:15,categoryName: "null"},
+{ id: "v57", objectName: null, cx: 1089.5, cy: 786.5,r:15,categoryName: "null"},
+{ id: "v58", objectName: null, cx: 1089.5, cy: 745.5,r:15,categoryName: "null"},
+{ id: "v59", objectName: null, cx: 1087.5, cy: 610.5,r:15,categoryName: "null"},
+{ id: "v60", objectName: null, cx: 1087.5, cy: 520.5,r:15,categoryName: "null"},//cR
+{ id: "v61", objectName: null, cx: 1040.5, cy:518.5,r:15,categoryName: "null"},
+{ id: "v62", objectName: null, cx:1039.5, cy: 408.5,r:15,categoryName: "null"},
+{ id: "v63", objectName: null, cx: 1088.5, cy: 407.5,r:15,categoryName: "null"},
 //old
-{ id: "v64", objectName: null, cx: 740.5, cy: 960.5,r:15,categoryName: "null"},//old
+{ id: "v64", objectName: null, cx: 959.5, cy: 433.5,r:15,categoryName: "null"},//old
 //pond
-{ id: "v65", objectName: null, cx: 539.5, cy: 998.5,r:15,categoryName: "null"},
+{ id: "v65", objectName: null, cx: 998.5, cy: 632.5,r:15,categoryName: "null"},
 //TechVoc
-{ id: "v66", objectName: null, cx: 312.5, cy: 1021.5,r:15,categoryName: "null"},
+{ id: "v66", objectName: null, cx: 1022.5, cy: 859.5,r:15,categoryName: "null"},
 //CMA Building
-{ id: "v67", objectName: null, cx: 334.5, cy: 668.5,r:15,categoryName: "null"},//
-{ id: "v68", objectName: null, cx: 334.5, cy: 723.5,r:15,categoryName: "null"},//cr
-{ id: "v69", objectName: null, cx: 386.5, cy: 723.5,r:15,categoryName: "null"},
-{ id: "v70", objectName: null, cx: 293.5, cy: 724.5,r:15,categoryName: "null"},
-{ id: "v71", objectName: null, cx: 293.5, cy: 823.5,r:15,categoryName: "null"},
-{ id: "v72", objectName: null, cx: 293.5, cy: 963.5,r:15,categoryName: "null"},
-{ id: "v73", objectName: null, cx: 386.5, cy: 963.5,r:15,categoryName: "null"},
-{ id: "v74", objectName: null, cx: 408.5, cy: 823.5,r:15,categoryName: "null"},//
+{ id: "v67", objectName: null, cx: 667.5, cy: 838.5,r:15,categoryName: "null"},//
+{ id: "v68", objectName: null, cx: 748.5, cy: 837.5,r:15,categoryName: "null"},//cr
+{ id: "v69", objectName: null, cx: 747.5, cy: 786.5,r:15,categoryName: "null"},
+{ id: "v70", objectName: null, cx: 746.5, cy: 879.5,r:15,categoryName: "null"},
+{ id: "v71", objectName: null, cx: 823.5, cy: 879.5,r:15,categoryName: "null"},
+{ id: "v72", objectName: null, cx:963.5, cy: 881.5,r:15,categoryName: "null"},
+{ id: "v73", objectName: null, cx: 963.5, cy: 785.5,r:15,categoryName: "null"},
+{ id: "v74", objectName: null, cx: 824.5, cy: 762.5,r:15,categoryName: "null"},//
 //river
-{ id: "v75", objectName: null, cx: 877.5, cy: 400.5,r:15,categoryName: "null"},
-{ id: "v76", objectName: null, cx: 992.5, cy: 307.5,r:15,categoryName: "null"},
-{ id: "v77", objectName: null, cx: 1039.5, cy: 288.5,r:15,categoryName: "null"},
-{ id: "v78", objectName: null, cx: 877.5, cy: 400.5,r:3.5,categoryName: "null"},
-{ id: "v79", objectName: null, cx: 1083.5, cy: 288.5,r:15,categoryName: "null"},
-{ id: "v80", objectName: null, cx: 878.5, cy: 307.5,r:15,categoryName: "null"},//cr
+{ id: "v75", objectName: null, cx: 401.5, cy: 294.5,r:15,categoryName: "null"},
+{ id: "v76", objectName: null, cx: 308.5, cy: 204.5,r:15,categoryName: "null"},
+{ id: "v77", objectName: null, cx: 287.5, cy: 134.5,r:15,categoryName: "null"},
+{ id: "v78", objectName: null,  cx: 401.5, cy: 294.5,r:3.5,categoryName: "null"},
+{ id: "v79", objectName: null, cx: 287.5, cy: 89.5,r:15,categoryName: "null"},
+{ id: "v80", objectName: null, cx: 305.5, cy: 294.5,r:15,categoryName: "null"},//cr
 //{ id: "v81", objectName: null, cx: 1083.5, cy: 214.5,r:15,categoryName: "null"},
-{ id: "v82", objectName: null, cx: 1039.5, cy: 214.5,r:15,categoryName: "null"},//food
-{ id: "v83", objectName: null, cx: 1083.5, cy: 135.5,r:15,categoryName: "null"},
-{ id: "v84", objectName: null, cx: 1040.5, cy: 108.5,r:3.5,categoryName: "null"},//cr2
-{ id: "v85", objectName: null, cx: 1083.5, cy: 135,r:3.5,categoryName: "null"},
-{ id: "v86", objectName: null, cx: 853.5, cy: 112.5,r:15,categoryName: "null"},
-{ id: "v87", objectName: null, cx: 853.5, cy: 164.5,r:15,categoryName: "null"},
-{ id: "v88", objectName: null, cx: 853.5, cy: 237.5,r:15,categoryName: "null"},
+{ id: "v82", objectName: null, cx: 214.5, cy: 134.5,r:15,categoryName: "null"},//food
+{ id: "v83", objectName: null, cx: 133.5, cy: 89.5,r:15,categoryName: "null"},
+{ id: "v84", objectName: null, cx: 110.5, cy: 131.5,r:3.5,categoryName: "null"},//cr2
+{ id: "v85", objectName: null, cx: 133.5, cy: 89.5,r:3.5,categoryName: "null"},
+{ id: "v86", objectName: null, cx: 113.5, cy: 314.5,r:15,categoryName: "null"},
+{ id: "v87", objectName: null, cx: 166.5, cy: 318.5,r:15,categoryName: "null"},
+{ id: "v88", objectName: null, cx: 238.5, cy: 318.5,r:15,categoryName: "null"},
 //{ id: "v181", objectName: null, cx: 992.5, cy: 192.5,r:15,categoryName: "null"},
 //{ id: "v182", objectName: null, cx: 992.5, cy: 214.5,r:15,categoryName: "null"},
 
 //Pedistrian 
-{ id: "v89", objectName: null, cx: 1071.5, cy: 390.5,r:15,categoryName: "null"},
+{ id: "v89", objectName: null, cx: 388.5, cy: 100.5,r:15,categoryName: "null"},
 //motor park 5
-{ id: "v90", objectName: null, cx: 733.5, cy: 594.5,r:15,categoryName: "null"},
+{ id: "v90", objectName: null, cx: 594.5, cy: 439.5,r:15,categoryName: "null"},
 //p. ave
-{ id: "v91", objectName: null, cx: 735.5, cy: 404.5,r:15,categoryName: "null"},
+{ id: "v91", objectName: null, cx: 404.5, cy: 439.5,r:15,categoryName: "null"},
 //atrium
-{ id: "v92", objectName: null, cx: 149.5, cy: 577.5,r:15,categoryName: "null"},
-{ id: "v93", objectName:"null", cx: 222.5, cy: 664.5,r:15,categoryName: "null"},
-{ id: "v94", objectName: null, cx: 250.5, cy: 664.5,r:15,categoryName: "null"},
+{ id: "v92", objectName: null, cx: 577.5, cy: 1022.5,r:15,categoryName: "null"},
+{ id: "v93", objectName:"null", cx: 641.5, cy: 953.5,r:15,categoryName: "null"},
+{ id: "v94", objectName: null, cx: 664.5, cy: 921.5,r:15,categoryName: "null"},
 //MBA eng
-{ id: "v95", objectName: null, cx: 734.5, cy: 163.5,r:15,categoryName: "null"},//
+{ id: "v95", objectName: null, cx: 163.5, cy: 435.5,r:15,categoryName: "null"},//
 //{ id: "v96", objectName: "null", cx: 354.5, cy: 29.5,r:3.5,categoryName: "null"},
 //{ id: "v97", objectName: "null", cx: 391.5, cy: 29.5,r:3.5,categoryName: "null"},
 //{ id: "v98", objectName: "null", cx: 391.5, cy: 61.5,r:3.5,categoryName: "null"},
-{ id: "v99", objectName: null, cx: 763.5, cy: 135.5,r:15,categoryName: "null"},
+{ id: "v99", objectName: null, cx: 135.5, cy: 409.5,r:15,categoryName: "null"},
 
-{ id: "v100", objectName: "null", cx: 782.5, cy: 163.5,r:15,categoryName: "null"},//cr
-{ id: "v101", objectName: "null", cx: 782.5, cy: 186.5,r:15,categoryName: "null"},
-{ id: "v102", objectName: "null", cx: 781.5, cy: 220.5,r:15,categoryName: "null"},
-{ id: "v103", objectName: "General Services Department(GSD) Office", cx: 606.5, cy: 297.5,r:15,categoryName: "Student Service Building"},//11
-{ id: "v104", objectName: null, cx: 606.5, cy: 297.5,r:15,categoryName: "null"},//11
+{ id: "v100", objectName: "null", cx: 165.5, cy: 389.5,r:15,categoryName: "null"},//cr
+{ id: "v101", objectName: "null", cx: 189.5, cy: 389.5,r:15,categoryName: "null"},
+{ id: "v102", objectName: "null", cx: 221.5, cy: 389.5,r:15,categoryName: "null"},
+{ id: "v103", objectName: "General Services Department(GSD) Office", cx: 297.5, cy: 567.5,r:15,categoryName: "Student Service Building"},//11
+{ id: "v104", objectName: null, cx: 297.5, cy: 567.5,r:15,categoryName: "null"},//11
 
-{ id: "v105", objectName: null, cx: 781.5, cy: 353.5,r:15,categoryName: "null"},
-{ id: "v106", objectName: null, cx: 780.5, cy: 404.5,r:15,categoryName: "null"},
-{ id: "v107", objectName: "null", cx: 780.5, cy: 442.5,r:15,categoryName: "null"},
-{ id: "v108", objectName: null, cx: 780.5, cy: 508.5,r:15,categoryName: "null"},
+{ id: "v105", objectName: null, cx: 353.5, cy: 391.5,r:15,categoryName: "null"},
+{ id: "v106", objectName: null, cx: 405.5, cy: 391.5,r:15,categoryName: "null"},
+{ id: "v107", objectName: "null", cx: 442.5, cy: 391.5,r:15,categoryName: "null"},
+{ id: "v108", objectName: null, cx: 509.5, cy: 391.5,r:15,categoryName: "null"},
 
-{ id: "v109", objectName: null, cx: 800.5, cy: 566.5,r:15,categoryName: "null"},
+{ id: "v109", objectName: null, cx: 564.5, cy: 371.5,r:15,categoryName: "null"},
 // { id: "v110", objectName: null, cx: 384.5, cy: 285.5,r:3.5},
-{ id: "v111", objectName: "null", cx: 801.5, cy: 658.5,r:15,categoryName: "null"},//chapel
+{ id: "v111", objectName: "null", cx: 657.5, cy: 371.5,r:15,categoryName: "null"},//chapel --stop
 { id: "v112", objectName: "null", cx: 801.5, cy: 685.5,r:15,categoryName: "null"},//clinic
 
 { id: "v113", objectName: null, cx: 793.5, cy: 737.5,r:15,categoryName: "null"},
