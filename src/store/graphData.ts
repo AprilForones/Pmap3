@@ -159,15 +159,15 @@ export const graphData: GraphData = {
 { id: "v109", objectName: null, cx: 564.5, cy: 371.5,r:15,categoryName: "null"},
 // { id: "v110", objectName: null, cx: 384.5, cy: 285.5,r:3.5},
 { id: "v111", objectName: "null", cx: 657.5, cy: 371.5,r:15,categoryName: "null"},//chapel --stop
-{ id: "v112", objectName: "null", cx: 801.5, cy: 685.5,r:15,categoryName: "null"},//clinic
+{ id: "v112", objectName: "null", cx: 685.5, cy: 371.5,r:15,categoryName: "null"},//clinic
 
-{ id: "v113", objectName: null, cx: 793.5, cy: 737.5,r:15,categoryName: "null"},
-{ id: "v114", objectName: "null", cx: 793.5, cy: 813.5,r:15,categoryName: "null"},//cr
-{ id: "v115", objectName: null, cx: 793.5, cy: 900.5,r:15,categoryName: "null"},
-{ id: "v116", objectName: "null", cx: 606.5, cy: 316.5,r:15,categoryName: "null"},
-{ id: "v117", objectName: null, cx: 764.5, cy: 978.5,r:15,categoryName: "null"},
-{ id: "v118", objectName: null, cx: 355.5, cy: 261.5,r:15,categoryName: "null"},
-{ id: "v119", objectName: null, cx: 443.5, cy: 256.5,r:15,categoryName: "null"},
+{ id: "v113", objectName: null, cx: 737.5, cy: 378.5,r:15,categoryName: "null"},
+{ id: "v114", objectName: "null", cx: 815.5, cy: 378.5,r:15,categoryName: "null"},//cr
+{ id: "v115", objectName: null, cx: 900.5, cy: 380.5,r:15,categoryName: "null"},
+{ id: "v116", objectName: "null", cx: 315.5, cy: 567.5,r:15,categoryName: "null"},
+{ id: "v117", objectName: null, cx: 979.5, cy: 409.5,r:15,categoryName: "null"},
+{ id: "v118", objectName: null, cx: 263.5, cy: 816.5,r:15,categoryName: "null"},
+{ id: "v119", objectName: null, cx: 267.5, cy: 729.5,r:15,categoryName: "null"},
 
 //Objects, yellow Circles
 { id: "v120", objectName: "Main Entrance Gate", cx: 24.5, cy: 576.5,r:15,categoryName: "Entry/Exit Point"},//front entrance
