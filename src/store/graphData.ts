@@ -58,7 +58,7 @@ export const graphData: GraphData = {
 { id: "v29", objectName: null,  cx: 144.5, cy: 842.5 ,r:15,categoryName: "null"},//cr 
 { id: "v30", objectName: null, cx: 194.5, cy: 840.5 ,r:15,categoryName: "null"},
 //{ id: "v31", objectName: "null", cx: 130.5, cy: 54.5 ,r:3.5,categoryName: "null"},
-{ id: "v32", objectName: null, cx: 206.5, cy: 2900.5,r:15,categoryName: "null"},
+{ id: "v32", objectName: null, cx: 206.5, cy: 900.5,r:15,categoryName: "null"},
 //{ id: "v33", objectName: "null", cx: 130.5, cy: 104.5 ,r:3.5,categoryName: "null"},
 //{ id: "v34", objectName: "null", cx: 158.5, cy: 104.5 ,r:3.5,categoryName: "null"},
 { id: "v35", objectName: null, cx: 294.5, cy: 901.5 ,r:15,categoryName: "null"},
