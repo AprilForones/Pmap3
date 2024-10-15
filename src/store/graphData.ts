@@ -231,7 +231,7 @@ export const graphData: GraphData = {
 { id: "v177", objectName: "MBA Hall's Comfort Room 1", cx: 165.5, cy: 389.5,r:15,categoryName: "Comfort Room"},//cr
 { id: "v178", objectName: "MBA Hall's Comfort Room 2", cx: 815.5, cy: 378.5,r:15,categoryName: "Comfort Room"},//cr
 { id: "v179", objectName: "Phinma Forest Pond", cx: 1000.5, cy: 651.5,r:15,categoryName: "Infrastructure"},
-{ id: "v180", objectName: "Student Plaza's Food Place", cx: 651.5, cy: 609.5,r:15,categoryName: "Student Service Building"},//cr
+{ id: "v180", objectName: "Student Plaza's Food Place", cx: 576.5, cy: 609.5,r:15,categoryName: "Student Service Building"},//cr
 { id: "v183", objectName: "College of Allied Health And Sciences (CAHS) Office", cx:255.5, cy: 220.5,r:15,categoryName: "Administrative Building"},
 { id: "v184", objectName: "College of Arts And Sciences (CAS) Office", cx: 254.5, cy: 241.5,r:15,categoryName: "Administrative Building"},
 
@@ -382,8 +382,8 @@ edges: [
 { id: "v212_to_v130", from: "v212", to: "v130" },
 
 { id: "v92_to_v130", from: "v92", to: "v130" },
-{ id: "v130_to_v93", from: "v130", to: "v93" },
-{ id: "v94_to_v93", from: "v94", to: "v93" },
+{ id: "v130_to_v94", from: "v130", to: "v94" },
+//{ id: "v94_to_v93", from: "v94", to: "v93" },
 { id: "v192_to_v94", from: "v192", to: "v94" },
 { id: "v192_to_v67", from: "v192", to: "v67" },
 
@@ -527,6 +527,7 @@ edges: [
 { id: "v53_to_v149", from: "v53", to: "v149" },
 { id: "v91_to_v149", from: "v91", to: "v149" },
 { id: "v155_to_v242", from: "v155", to: "v242" },
+{ id: "v54_to_v242", from: "v54", to: "v242" },
 
 //Pond
 { id: "v202_to_v201", from: "v202", to: "v201" },
