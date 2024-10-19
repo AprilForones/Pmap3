@@ -146,8 +146,8 @@ export const graphData: GraphData = {
 { id: "v99", objectName: null, cx: 135.5, cy: 409.5,r:15,categoryName: "null"},
 
 { id: "v100", objectName: "null", cx: 165.5, cy: 389.5,r:15,categoryName: "null"},//cr
-{ id: "v101", objectName: "null", cx: 189.5, cy: 389.5,r:15,categoryName: "null"},
-{ id: "v102", objectName: "null", cx: 221.5, cy: 389.5,r:15,categoryName: "null"},
+{ id: "v101", objectName: "College of Education And Liberal Arts (CELA) Office", cx: 189.5, cy: 389.5,r:15,categoryName: "null"},
+{ id: "v102", objectName: "College of Informatio Technology Education (CITE) Office", cx: 221.5, cy: 389.5,r:15,categoryName: "null"},
 { id: "v103", objectName: "General Services Department(GSD) Office", cx: 297.5, cy: 567.5,r:15,categoryName: "Student Service Building"},//11
 { id: "v104", objectName: null, cx: 297.5, cy: 567.5,r:15,categoryName: "null"},//11
 
@@ -303,6 +303,7 @@ export const graphData: GraphData = {
 { id: "v241", objectName: "Phinma Avenue", cx: 371.5, cy: 638.5, r:4.5,categoryName: "Infrastructure"},//
 { id: "v242", objectName: "null", cx: 960.5, cy: 610.5,r:4.5},//
 { id: "v243", objectName: "null", cx: 577.5, cy: 960.5,r:4.5},//
+{ id: "v250", objectName: "Senior High School (SHS) Office", cx: 180.5, cy: 840.5 ,r:15, categoryName: "null"},
 //{ id: "v244", objectName: "null", cx: 1039.5, cy: 307.5,r:4.5},//
 ],
 
@@ -406,9 +407,9 @@ edges: [
 { id: "v170_to_v32", from: "v170", to: "v32" },
 //{ id: "v32_to_v31", from: "v32", to: "v31" },
 //{ id: "v170_to_v31", from: "v170", to: "v31" },
-//{ id: "v34_to_v30", from: "v34", to: "v30" },
-{ id: "v29_to_v30", from: "v29", to: "v30" },
-{ id: "v173_to_v30", from: "v173", to: "v30" },
+{ id: "v250_to_v30", from: "v250", to: "v30" },
+{ id: "v29_to_v250", from: "v250", to: "v29" },
+{ id: "v173_to_v250", from: "v173", to: "v250" },
 
 //ccje
 { id: "v38_to_v204", from: "v38", to: "v204" },
