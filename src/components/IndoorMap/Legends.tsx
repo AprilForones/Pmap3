@@ -8,100 +8,124 @@ interface ObjectsProps {
       <g id="Legends">
             <path
               id="CCJE Department"
-              className={`${className} object`}
-               d="M309 742H58V807H309V742ZM219 756H183V793H219V756Z"
+              className={`${className} legend`}
+               d="M567.674 96.9923H761.374V110.6742H567.674z"
               onClick={handleObjectClick}
             />
            <path
               id="ITS Department Building"
-              className={`${className} object`}
-              d="M424.5 954.5H491.5V1011.5H424.5z"
+              className={`${className} legend`}
+              d="M835.674 62.5455H1029.374V76.2274H835.674z"
               onClick={handleObjectClick}
             /> 
             <path
               id="University Chapel"
-              className={`${className} object`}
-              d="M646.5 358.5H669.5V384.5H646.5z"
+              className={`${className} legend`}
+              d="M835.674 164.621H1029.374V178.30290000000002H835.674z"
               onClick={handleObjectClick}
             />
             <path
               id="University Clinic"
-              className={`${className} object`}
-              d="M673.5 357.5H696.5V383.5H673.5"
+              className={`${className} legend`}
+              d="M835.674 181.728H1029.374V195.40990000000002H835.674z"
               onClick={handleObjectClick}
             /> 
+           <path
+            id="College of Education And Liberal Arts (CELA) Office"
+            className={`${className} legend`}
+            d="M567.674 113.815H761.374V127.4969H567.674z"
+            onClick={handleObjectClick}
+          />
             <path
               id="College of Law Office"
-              className={`${className} object`}
-              d="M696.5 917.5H716.5V945.5H696.5z"
+              className={`${className} legend`}
+              d="M567.674 164.567H761.374V178.24890000000002H567.674z"
               onClick={handleObjectClick}
             />
             <path
               id="Office of Graduate and Professionals"
-              className={`${className} object`}
-              d="M696.5 947.5H716.5V975.5H696.5z"
+              className={`${className} legend`}
+              d="M835.674 79.6531H1029.374V93.335H835.674z"
               onClick={handleObjectClick}
             />
             <path
               id="PEDRO Hub Office"
-              className={`${className} object`}
-              d="M674.5 947.5H694.5V975.5H674.5z"
+              className={`${className} legend`}
+              d="M835.674 96.4756H1029.374V110.1575H835.674z"
               onClick={handleObjectClick}
             /> 
             <path
               id="University Library Building"
-              className={`${className} object`}
-              d="M536.372 821.068V927.272H576.104V821.068H536.372Z"
+              className={`${className} legend`}
+              d="M835.674 198.836H1029.374V212.51790000000003H835.674z"
               onClick={handleObjectClick}
             />
             <path
+              id="College of Arts And Sciences (CAS) Office"
+              className={`${className} legend`}
+              d="M567.674 79.8848H761.374V93.5667H567.674z"
+              onClick={handleObjectClick}
+            />
+          <path
+            id="College of Engineering And Achitecture (CEA) Office"
+            className={`${className} object`}
+            d="M567.674 130.922H761.374V144.6039H567.674z"
+            onClick={handleObjectClick}
+          />
+          <path
+            id="College of Informatio Technology Education (CITE) Office"
+            className={`${className} object`}
+            d="M567.674 147.745H761.374V161.42690000000002H567.674z"
+            onClick={handleObjectClick}
+          />
+            <path
               id="CSDL Department"
-              className={`${className} object`}
-              d="M497.5 953.5H564.5V1010.5H497.5z"
+              className={`${className} legend`}
+              d="M567.674 45.9547H761.374V59.6366H567.674z"
               onClick={handleObjectClick}
             />
             {/* upper part */}
-            <path
+            {/* <path
               id="CMA Building Entrance near Registrar"
-              className={`${className} object`}
+              className={`${className} legend`}
               d="M705 863.5V864H705.5H757.5H758H807.5V901.5H678.5V772.5H807.5V863H758.5V812V811.5H758H705.5H705V812V863.5Z"
               onClick={handleObjectClick}
-            /> 
+            />  */}
             {/* Right part */}
             <path
               id="CMA Building Entrance Near PHINMA Forest"
-              className={`${className} object`}
-              d="M808.5 772.5H1017.5V902.5H808.5z"
+              className={`${className} legend`}
+              d="M567.674 181.675H761.374V195.35690000000002H567.674z"
               onClick={handleObjectClick}
             />
             <path
               id="Finance Purchasing Department"
-              className={`${className} object`}
-              d="M572 819H498V769H572V819Z"
+              className={`${className} legend`}
+              d="M567.674 198.782H761.374V212.46390000000002H567.674z"
               onClick={handleObjectClick}
             /> 
             <path
               id="Registrar Office"
-              className={`${className} object`}
-              d="M574.5 821.5H626.5V873.5H574.5z"
+              className={`${className} legend`}
+              d="M835.674 130.691H1029.374V144.37290000000002H835.674z"
               onClick={handleObjectClick}
             />
               <path
               id="College of Allied Health And Sciences (CAHS) Office"
-              className={`${className} object`}
-              d="M226.5 211.5H252.5V228.5H226.5z"
+              className={`${className} legend`}
+              d="M567.674 62.7771H761.374V76.459H567.674z"
               onClick={handleObjectClick}
             />
             <path
               id="General Services Department(GSD) Office"
-              className={`${className} object`}
-              d="M277.5 554.5H308.5V590.5H277.5z"
+              className={`${className} legend`}
+              d="M835.674 45.438H1029.374V59.1199H835.674z"
               onClick={handleObjectClick}
             /> 
-            <path
-            id="Riverside Building's Parking Lot Area"
-            className={`${className} object`}
-            d="M125.816 63.0655L177.687 66.2771L239.491 69.4887L301.296 72.7003L290.259 119.804L232.869 114.451L171.065 109.098L118.09 103.746L125.816 63.0655Z"
+          <path
+            id="University Canteen"
+            className={`${className} legend`}
+            d="M835.674 147.513H1029.374V161.19490000000002H835.674z"
             onClick={handleObjectClick}
           />
       </g>

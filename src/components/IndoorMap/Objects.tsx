@@ -405,8 +405,20 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
             d=" "
             onClick={handleObjectClick}
           />
+          <path
+            id="College of Engineering And Achitecture (CEA) Office"
+            className={`${className} object`}
+            d=" "
+            onClick={handleObjectClick}
+          />
            <path
             id="College of Informatio Technology Education (CITE) Office"
+            className={`${className} object`}
+            d=" "
+            onClick={handleObjectClick}
+          />
+          <path
+            id="University Canteen"
             className={`${className} object`}
             d=" "
             onClick={handleObjectClick}

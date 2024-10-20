@@ -147,7 +147,7 @@ export const graphData: GraphData = {
 
 { id: "v100", objectName: "null", cx: 165.5, cy: 389.5,r:15,categoryName: "null"},//cr
 { id: "v101", objectName: "College of Education And Liberal Arts (CELA) Office", cx: 189.5, cy: 389.5,r:15,categoryName: "null"},
-{ id: "v102", objectName: "College of Informatio Technology Education (CITE) Office", cx: 221.5, cy: 389.5,r:15,categoryName: "null"},
+{ id: "v102", objectName: "College of Engineering And Achitecture (CEA) Office", cx: 221.5, cy: 389.5,r:15,categoryName: "null"},
 { id: "v103", objectName: "General Services Department(GSD) Office", cx: 297.5, cy: 567.5,r:15,categoryName: "Student Service Building"},//11
 { id: "v104", objectName: null, cx: 297.5, cy: 567.5,r:15,categoryName: "null"},//11
 
@@ -304,6 +304,8 @@ export const graphData: GraphData = {
 { id: "v242", objectName: "null", cx: 960.5, cy: 610.5,r:4.5},//
 { id: "v243", objectName: "null", cx: 577.5, cy: 960.5,r:4.5},//
 { id: "v250", objectName: "Senior High School (SHS) Office", cx: 180.5, cy: 840.5 ,r:15, categoryName: "null"},
+{ id: "v251", objectName: "College of Informatio Technology Education (CITE) Office", cx: 665.5, cy: 1103.5 ,r:15, categoryName: "null"},
+{ id: "v252", objectName: "University Canteen", cx: 193.5, cy: 134.5,r:15,categoryName: "Student Service Building"},//Riverside Building
 //{ id: "v244", objectName: "null", cx: 1039.5, cy: 307.5,r:4.5},//
 ],
 
@@ -319,8 +321,9 @@ edges: [
 { id: "v2_to_v5", from: "v2", to: "v5"},
 { id: "v3_to_v4", from: "v3", to: "v4"},
 { id: "v4_to_v5", from: "v4", to: "v5"},
-{ id: "v6_to_v5", from: "v6", to: "v5"},
-{ id: "v6_to_v7", from: "v6", to: "v7"},
+{ id: "v6_to_v251", from: "v6", to: "v251"},
+{ id: "v7_to_v251", from: "v7", to: "v251"},
+// { id: "v6_to_v7", from: "v6", to: "v7"},
 { id: "v166_to_v5", from: "v166", to: "v5"},
 { id: "v166_to_v6", from: "v166", to: "v6"},
 { id: "v2_to_v7", from: "v2", to: "v7" },
@@ -653,6 +656,7 @@ edges: [
 { id: "v81_to_v83", from: "v81", to: "v83" },
 { id: "v160_to_v83", from: "v160", to: "v83" },
 { id: "v77_to_v164", from: "v77", to: "v164" },
+{ id: "v77_to_v252", from: "v77", to: "v252" },
 
 //{ id: "v219_to_v244", from: "v219", to: "v244" },
 //{ id: "v76_to_v221", from: "v76", to: "v221" },
