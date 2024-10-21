@@ -1,8 +1,11 @@
 interface ObjectsProps {
   handleObjectClick: (e: React.MouseEvent<SVGPathElement>) => void;
   className?: string;
+  selectedId?: string;
 }
 function Objects({ handleObjectClick, className }: ObjectsProps) {
+
+
   return (
     <g id="Objects">
       <path
@@ -402,25 +405,25 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
            <path
             id="College of Education And Liberal Arts (CELA) Office"
             className={`${className} object`}
-            d=" "
+            d="M179.135 402.967H206.1362V417.9783H179.135z"
             onClick={handleObjectClick}
           />
           <path
             id="College of Engineering And Achitecture (CEA) Office"
             className={`${className} object`}
-            d=" "
+            d="M212.159 399.967H236.16V414.9783H212.159z"
             onClick={handleObjectClick}
           />
            <path
-            id="College of Informatio Technology Education (CITE) Office"
+            id="College of Information Technology Education (CITE) Office"
             className={`${className} object`}
-            d=" "
+            d="M0 0H35.4014V22.0729H0z"
             onClick={handleObjectClick}
           />
           <path
             id="University Canteen"
             className={`${className} object`}
-            d=" "
+            d="M247.217 110.957H286.7833V130.8226H247.217z"
             onClick={handleObjectClick}
           />
             <path

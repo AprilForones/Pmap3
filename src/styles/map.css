@@ -1,6 +1,7 @@
 :root {
   --object-opacity: 0.1;
   --object-color: #c1c1c1;
+  --legend-color: #FFFFFF00;
   --object-oppacity-hover: 0.5;
   --position-color: #FFA500;
   --path-color:#FFA500;
@@ -17,6 +18,19 @@
   opacity: var(--object-oppacity-hover);
   cursor: pointer;
 }
+
+.legend {
+  stroke-opacity: 0;
+  opacity: var(--object-opacity);
+  fill: var(--legend-color);
+  pointer-events: auto;
+}
+.legend-hover {
+  stroke-opacity: 0;
+  opacity: var(--object-oppacity-hover);
+  cursor: pointer;
+}
+
 
 .position {
   fill: var(--position-color);

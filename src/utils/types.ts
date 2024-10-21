@@ -8,6 +8,15 @@ export interface ObjectItem {
   categoryId: string;
   categoryName?: string;
 }
+
+export interface Legend {
+  id: string;
+  name: string;
+  desc: string;
+  categoryId: string;
+  categoryName?: string;
+}
+
 export interface Category {
   id: string;
   name: string;

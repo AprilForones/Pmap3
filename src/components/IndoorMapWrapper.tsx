@@ -8,8 +8,7 @@ import {
   NavigationContextType,
   ObjectItem,
 } from "../utils/types";
-import { MapBackground, Paths, Positions, Objects } from "./IndoorMap";
-
+import { MapBackground, Paths, Positions, Objects , Legends } from "./IndoorMap";
 import Controls from "./MapControls";
 import ObjectDetailsModal from "./Modals/ObjectDetailsModal";
 import { navigateToObject } from "@/utils/navigationHelper";
@@ -35,6 +34,18 @@ function IndoorMapWrapper() {
       }
     }
   }
+  function handleLegendClick(e: React.MouseEvent<SVGPathElement>) {
+    const targetId = (e.target as HTMLElement).id; // Get the ID of the clicked legend
+    const selectedObject = objects.find((obj) => obj.name === targetId); // Find the matching object by ID
+  
+    if (selectedObject?.id) {
+      setObject(selectedObject); // Set the object state to the selected object
+      setModalOpen(true); // Open the object details modal
+    } else {
+      toast.error("Object not found 2"); // Show an error if no matching object is found
+    }
+  }
+  
   const handlePositionClick = (e: React.MouseEvent<SVGPathElement>) => {
     if (isEditMode) {
       const vertexId = (e.target as HTMLElement).id;
@@ -77,6 +88,10 @@ function IndoorMapWrapper() {
               className={
                 isEditMode ? "" : "hover:cursor-pointer hover:opacity-50"
               }
+            />
+            <Legends
+              handleLegendClick={handleLegendClick} // Pass the legend click handler here
+              className="hover:cursor-pointer hover:opacity-50"
             />
 
             {/*Vertexes are the circles on the map aka the positions*/}
