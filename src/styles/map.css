@@ -5,6 +5,7 @@
   --object-oppacity-hover: 0.5;
   --position-color: #FFA500;
   --path-color:#FFA500;
+  --rain-color:#8d8a85;
 }
 
 .object {
@@ -44,6 +45,13 @@
 
 .path {
   stroke: var(--path-color);
+  stroke-width: 250;
+  opacity: 0;
+  border-radius: 0px;
+}
+
+.rain {
+  stroke: var(--rain-color);
   stroke-width: 250;
   opacity: 0;
   border-radius: 0px;
