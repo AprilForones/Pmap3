@@ -14,14 +14,24 @@ import ObjectDetailsModal from "./Modals/ObjectDetailsModal";
 import { navigateToObject } from "@/utils/navigationHelper";
 import { toast } from "react-toastify";
 
+
 function IndoorMapWrapper() {
   const [modalOpen, setModalOpen] = useState(false);
   const [object, setObject] = useState<ObjectItem>({} as ObjectItem);
+  const [showRainRoute, setShowRainRoute] = useState(false); // Add state for toggling rain route
+
+
   const positionRadius = isMobile ? 6 : 6;
   const { navigation, setNavigation, isEditMode, setIsEditMode } = useContext(
     NavigationContext
   ) as NavigationContextType;
   const { objects } = useContext(MapDataContext) as MapDataContextType;
+
+// Function to toggle visibility of rain route
+    function handleTogglePaths() {
+      setShowRainRoute((prev) => !prev);  // Toggle visibility of rain route
+    }
+
   async function handleObjectClick(e: React.MouseEvent<SVGPathElement>) {
     if (!isEditMode) {
       const targetId = (e.target as HTMLElement).id;
@@ -60,6 +70,11 @@ function IndoorMapWrapper() {
   }
   return (
     <div className="relative w-full h-full bg-white center">
+      {/* Toggle Button for Rain Route */}
+      <button onClick={handleTogglePaths}>
+        Toggle Rain Route
+      </button>
+
       <ObjectDetailsModal
         open={modalOpen}
         object={object}
@@ -79,7 +94,7 @@ function IndoorMapWrapper() {
           <MapBackground>
           
            {/*Edges are the lines on the map aka the paths*/}
-           <Paths />
+           <Paths showRainRoute={false} />
 
 
             {/*Objects are the clickable areas on the map e.g. Rooms, Desks, ...*/}
@@ -88,6 +103,15 @@ function IndoorMapWrapper() {
               className={
                 isEditMode ? "" : "hover:cursor-pointer hover:opacity-50"
               }
+            />
+             {/* Pass the 'showRainRoute' state to the Paths component */}
+            <Paths showRainRoute={showRainRoute} />
+            
+            <Positions
+              positionRadius={positionRadius}
+              handlePositionClick={() => {}}
+              className={isEditMode ? "opacity-100" : "opacity-0"}
+              navigation={navigation}
             />
             <Legends
               handleLegendClick={handleLegendClick} // Pass the legend click handler here
