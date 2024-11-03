@@ -18,7 +18,7 @@ import { toast } from "react-toastify";
 function IndoorMapWrapper() {
   const [modalOpen, setModalOpen] = useState(false);
   const [object, setObject] = useState<ObjectItem>({} as ObjectItem);
-  const [showRainRoute, setShowRainRoute] = useState(false); // Add state for toggling rain route
+  // const [showRainRoute, setShowRainRoute] = useState(true); // Add state for toggling rain route
 
 
   const positionRadius = isMobile ? 6 : 6;
@@ -28,9 +28,9 @@ function IndoorMapWrapper() {
   const { objects } = useContext(MapDataContext) as MapDataContextType;
 
 // Function to toggle visibility of rain route
-    function handleTogglePaths() {
-      setShowRainRoute((prev) => !prev);  // Toggle visibility of rain route
-    }
+    // function handleTogglePaths() {
+    //   setShowRainRoute((prev) => !prev);  // Toggle visibility of rain route
+    // }
 
   async function handleObjectClick(e: React.MouseEvent<SVGPathElement>) {
     if (!isEditMode) {
@@ -50,9 +50,10 @@ function IndoorMapWrapper() {
   
     if (selectedObject?.id) {
       setObject(selectedObject); // Set the object state to the selected object
-      setModalOpen(true); // Open the object details modal
+      // setModalOpen(false); // Open the object details modal
+      navigateToObject(selectedObject.name, navigation, setNavigation);
     } else {
-      toast.error("Object not found 2"); // Show an error if no matching object is found
+      toast.error("Building not found"); // Show an error if no matching object is found
     }
   }
   
@@ -70,10 +71,6 @@ function IndoorMapWrapper() {
   }
   return (
     <div className="relative w-full h-full bg-white center">
-      {/* Toggle Button for Rain Route */}
-      <button onClick={handleTogglePaths}>
-        Toggle Rain Route
-      </button>
 
       <ObjectDetailsModal
         open={modalOpen}
@@ -94,8 +91,7 @@ function IndoorMapWrapper() {
           <MapBackground>
           
            {/*Edges are the lines on the map aka the paths*/}
-           <Paths showRainRoute={false} />
-
+           <Paths/>
 
             {/*Objects are the clickable areas on the map e.g. Rooms, Desks, ...*/}
             <Objects
@@ -104,9 +100,7 @@ function IndoorMapWrapper() {
                 isEditMode ? "" : "hover:cursor-pointer hover:opacity-50"
               }
             />
-             {/* Pass the 'showRainRoute' state to the Paths component */}
-            <Paths showRainRoute={showRainRoute} />
-            
+
             <Positions
               positionRadius={positionRadius}
               handlePositionClick={() => {}}
@@ -115,7 +109,7 @@ function IndoorMapWrapper() {
             />
             <Legends
               handleLegendClick={handleLegendClick} // Pass the legend click handler here
-              className="hover:cursor-pointer hover:opacity-50"
+              className="hover:cursor-pointer hover:opacity-0"
             />
 
             {/*Vertexes are the circles on the map aka the positions*/}

@@ -56,6 +56,10 @@
   opacity: 0;
   border-radius: 0px;
 }
+.position-rain {
+  fill: var(--legend-color);
+  transition: fill 0.3s ease; /* Füge eine sanfte Übergangseffekt hinzu */
+}
 
 .path-once {
   opacity: 1;

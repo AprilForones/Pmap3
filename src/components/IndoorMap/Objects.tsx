@@ -351,7 +351,7 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
            <path
             id="Module Claiming Area"
             className={`${className} object`}
-            d="M178.791 923.107H214.1924V945.1799H178.791z"
+            d="M177.5 889.5H201.5V921.5H177.5z"
             onClick={handleObjectClick}
           />
             <path

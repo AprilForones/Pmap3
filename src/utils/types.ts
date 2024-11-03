@@ -1,6 +1,8 @@
 
 
 export interface ObjectItem {
+  edges: any;
+  vertices: any;
   distance: any;
   id: string;
   name: string;

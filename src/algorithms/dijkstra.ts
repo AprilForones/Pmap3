@@ -1,4 +1,4 @@
-import { graphData, VertexData } from "@/store/graphData";
+import { graphData, rainGraphData, VertexData } from "@/store/graphData";
 
 type NodeId = string;
 interface Node {
@@ -140,26 +140,41 @@ class DijkstraCalculator {
       }
     }
 
-    let finalPath: string[] = [];
-    if (!smallest) {
-      finalPath = path.reverse();
-    } else {
-      finalPath = path.concat(smallest).reverse();
-    }
+    // let finalPath: string[] = [];
+    // if (!smallest) {
+    //   finalPath = path.reverse();
+    // } else {
+    //   finalPath = path.concat(smallest).reverse();
+    // }
 
-    if (finalPath.length <= 1) {
-      // if the final path has only 1 or fewer elements, there was no traversal that was possible.
-      return [];
-    }
+    // if (finalPath.length <= 1) {
+    //   // if the final path has only 1 or fewer elements, there was no traversal that was possible.
+    //   return [];
+    // }
 
-    return finalPath;
+    // return finalPath;
+
+    const finalPath = smallest ? path.concat(smallest).reverse() : path.reverse();
+    return finalPath.length > 1 ? finalPath : [];
   }
 }
 
 export const graph = new DijkstraCalculator();
+export const rainGraph = new DijkstraCalculator();
 
-graphData.vertices.forEach((vertex) => {
-  graph.addVertex(vertex.id);
+// graphData.vertices.forEach((vertex) => {
+//   graph.addVertex(vertex.id);
+// });
+
+// Add vertices and edges to the original graph
+graphData.vertices.forEach((vertex) => graph.addVertex(vertex.id));
+graphData.edges.forEach((edge) => {
+  const fromVertex = graphData.vertices.find((v) => v.id === edge.from);
+  const toVertex = graphData.vertices.find((v) => v.id === edge.to);
+  if (fromVertex && toVertex) {
+    const length = calculateDistance(fromVertex, toVertex);
+    graph.addEdge(edge.from, edge.to, length);
+  }
 });
 
 graphData.edges.forEach((edge) => {
@@ -172,6 +187,16 @@ graphData.edges.forEach((edge) => {
     //add the distance between the two vertices as the weight of the edge
     const length = calculateDistance(fromVertex, toVertex);
     graph.addEdge(from, to, length);
+  }
+});
+// Add vertices and edges to the rain graph
+rainGraphData.vertices.forEach((vertex) => rainGraph.addVertex(vertex.id));
+rainGraphData.edges.forEach((edge) => {
+  const fromVertex = rainGraphData.vertices.find((v) => v.id === edge.from);
+  const toVertex = rainGraphData.vertices.find((v) => v.id === edge.to);
+  if (fromVertex && toVertex) {
+    const length = calculateDistance(fromVertex, toVertex);
+    rainGraph.addEdge(edge.from, edge.to, length);
   }
 });
 

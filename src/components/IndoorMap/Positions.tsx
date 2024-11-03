@@ -1,4 +1,4 @@
-import { graphData } from "@/store/graphData";
+import { graphData, rainGraphData } from "@/store/graphData";
 import { NavigationContextType } from "@/utils/types";
 
 interface PositionsProps {
@@ -50,6 +50,23 @@ function Positions({
           r={positionRadius}
         />
       ))}
+
+     {/* Render rainGraphData vertices with different styling */}
+     {rainGraphData.vertices.map((vertex) => (
+        <circle
+          onClick={vertex.objectName ? () => {} : handlePositionClick}
+          key={`rain-${vertex.id}`} // Unique key for rainGraphData vertices
+          id={vertex.id}
+          className={`position-rain ${vertex.objectName ? "opacity-0" : className}${isActivePosition(vertex.id) && "position-active opacity-100"}`}
+          cx={vertex.cx}
+          cy={vertex.cy}
+          //fill={rainPositionColor} // Different color for rainGraphData
+          opacity={positonBackgroundOpacity}
+          r={positionRadius}
+        />
+      ))}
+
+
       {/* Circle animation */}
       <circle
         id="circle-animation"
@@ -67,6 +84,7 @@ function Positions({
           repeatCount="indefinite"
         />
       </circle>
+      
     </g>
   );
   // //End Point

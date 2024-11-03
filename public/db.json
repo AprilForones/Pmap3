@@ -172,6 +172,8 @@
       "name": "University Clinic",
       "desc": "You can go here if you ever need medical assistance. Located at the first floor."
     },
+
+    
     {
       "id": "d6d7",
       "categoryId": "e928",
@@ -382,6 +384,24 @@
       "categoryId": "52f1",
       "name": "College of Arts And Sciences (CAS) Office",
       "desc":"Located at the 4th floor of the MBA Hall."
+    },
+    {
+      "id": "x5x5",
+      "categoryId": "52f1",
+      "name": "College of Engineering And Achitecture (CEA) Office",
+      "desc":"Located at the 3rd floor of the MBA Engineering."
+    },
+    {
+      "id": "f5x5",
+      "categoryId": "52f1",
+      "name": "College of Information Technology Education (CITE) Office",
+      "desc":"Located at the 4th floor of the PTC Building."
+    },
+    {
+      "id": "v5x5",
+      "categoryId": "52f1",
+      "name": "College of Education And Liberal Arts (CELA) Office",
+      "desc":"Located at the 3rd floor of the MBA Engineering."
     }
 
 
