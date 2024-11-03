@@ -1,4 +1,4 @@
-import { graphData, rainGraphData, VertexData } from "@/store/graphData";
+import { EdgeData, graphData, rainGraphData, VertexData } from "@/store/graphData";
 
 type NodeId = string;
 interface Node {
@@ -140,67 +140,63 @@ class DijkstraCalculator {
       }
     }
 
-    // let finalPath: string[] = [];
-    // if (!smallest) {
-    //   finalPath = path.reverse();
-    // } else {
-    //   finalPath = path.concat(smallest).reverse();
-    // }
+    let finalPath: string[] = [];
+    if (!smallest) {
+      finalPath = path.reverse();
+    } else {
+      finalPath = path.concat(smallest).reverse();
+    }
 
-    // if (finalPath.length <= 1) {
-    //   // if the final path has only 1 or fewer elements, there was no traversal that was possible.
-    //   return [];
-    // }
+    if (finalPath.length <= 1) {
+      // if the final path has only 1 or fewer elements, there was no traversal that was possible.
+      return [];
+    }
 
-    // return finalPath;
-
-    const finalPath = smallest ? path.concat(smallest).reverse() : path.reverse();
-    return finalPath.length > 1 ? finalPath : [];
+    return finalPath;
   }
 }
 
 export const graph = new DijkstraCalculator();
-export const rainGraph = new DijkstraCalculator();
 
+///Original code
 // graphData.vertices.forEach((vertex) => {
 //   graph.addVertex(vertex.id);
 // });
 
-// Add vertices and edges to the original graph
-graphData.vertices.forEach((vertex) => graph.addVertex(vertex.id));
-graphData.edges.forEach((edge) => {
-  const fromVertex = graphData.vertices.find((v) => v.id === edge.from);
-  const toVertex = graphData.vertices.find((v) => v.id === edge.to);
-  if (fromVertex && toVertex) {
-    const length = calculateDistance(fromVertex, toVertex);
-    graph.addEdge(edge.from, edge.to, length);
-  }
-});
+// graphData.edges.forEach((edge) => {
+//   //console.log(edge.from, edge.to);
+//   const { from, to } = edge;
+//   const fromVertex = graphData.vertices.find((vertex) => vertex.id === from);
+//   const toVertex = graphData.vertices.find((vertex) => vertex.id === to);
 
-graphData.edges.forEach((edge) => {
-  //console.log(edge.from, edge.to);
-  const { from, to } = edge;
-  const fromVertex = graphData.vertices.find((vertex) => vertex.id === from);
-  const toVertex = graphData.vertices.find((vertex) => vertex.id === to);
+//   if (fromVertex && toVertex) {
+//     //add the distance between the two vertices as the weight of the edge
+//     const length = calculateDistance(fromVertex, toVertex);
+//     graph.addEdge(from, to, length);
+//   }
+// });
 
-  if (fromVertex && toVertex) {
-    //add the distance between the two vertices as the weight of the edge
-    const length = calculateDistance(fromVertex, toVertex);
-    graph.addEdge(from, to, length);
-  }
-});
-// Add vertices and edges to the rain graph
-rainGraphData.vertices.forEach((vertex) => rainGraph.addVertex(vertex.id));
-rainGraphData.edges.forEach((edge) => {
-  const fromVertex = rainGraphData.vertices.find((v) => v.id === edge.from);
-  const toVertex = rainGraphData.vertices.find((v) => v.id === edge.to);
-  if (fromVertex && toVertex) {
-    const length = calculateDistance(fromVertex, toVertex);
-    rainGraph.addEdge(edge.from, edge.to, length);
-  }
-});
+// Function to add vertices and edges from a data set
+function addGraphData(data: { vertices: VertexData[]; edges: EdgeData[] }) {
+  data.vertices.forEach((vertex) => graph.addVertex(vertex.id));
 
-export function calculateDistance(vertex1: VertexData, vertex2: VertexData): number {
+  data.edges.forEach((edge) => {
+    const { from, to } = edge;
+    const fromVertex = data.vertices.find((vertex) => vertex.id === from);
+    const toVertex = data.vertices.find((vertex) => vertex.id === to);
+
+    if (fromVertex && toVertex) {
+      const length = calculateDistance(fromVertex, toVertex);
+      graph.addEdge(from, to, length);
+    }
+  });
+}
+
+// Add graphData and rainGraphData
+addGraphData(graphData);
+addGraphData(rainGraphData);
+
+function calculateDistance(vertex1: VertexData, vertex2: VertexData) {
   const dx = vertex2.cx - vertex1.cx;
   const dy = vertex2.cy - vertex1.cy;
   return Math.sqrt(dx * dx + dy * dy);
