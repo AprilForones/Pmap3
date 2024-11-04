@@ -1,4 +1,4 @@
-import { graphData, VertexData } from "@/store/graphData";
+import { rainGraphData, RainVertexData } from "@/store/rainGraphData";
 
 type NodeId = string;
 interface Node {
@@ -156,26 +156,26 @@ class DijkstraCalculator {
   }
 }
 
-export const graph = new DijkstraCalculator();
+export const rain = new DijkstraCalculator();
 
-graphData.vertices.forEach((vertex) => {
-  graph.addVertex(vertex.id);
+rainGraphData.vertices.forEach((vertex) => {
+  rain.addVertex(vertex.id);
 });
 
-graphData.edges.forEach((edge) => {
+rainGraphData.edges.forEach((edge) => {
   //console.log(edge.from, edge.to);
   const { from, to } = edge;
-  const fromVertex = graphData.vertices.find((vertex) => vertex.id === from);
-  const toVertex = graphData.vertices.find((vertex) => vertex.id === to);
+  const fromVertex = rainGraphData.vertices.find((vertex) => vertex.id === from);
+  const toVertex = rainGraphData.vertices.find((vertex) => vertex.id === to);
 
   if (fromVertex && toVertex) {
     //add the distance between the two vertices as the weight of the edge
     const length = calculateDistance(fromVertex, toVertex);
-    graph.addEdge(from, to, length);
+    rain.addEdge(from, to, length);
   }
 });
 
-function calculateDistance(vertex1: VertexData, vertex2: VertexData) {
+function calculateDistance(vertex1: RainVertexData, vertex2: RainVertexData) {
   const dx = vertex2.cx - vertex1.cx;
   const dy = vertex2.cy - vertex1.cy;
   return Math.sqrt(dx * dx + dy * dy);

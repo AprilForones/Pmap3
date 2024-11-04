@@ -2,6 +2,7 @@ import { useRouteDetails } from "@/hooks/useRouteDetails";
 import { useState } from "react";
 import { FaX, FaChevronDown, FaChevronUp } from "react-icons/fa6";
 import { TbRoute } from "react-icons/tb";
+import { RiRectangleFill } from "react-icons/ri";
 
 function MobileRouteDetails() {
   // const { object, rightRouteLength, walkingTime, handleLeave } =
@@ -56,10 +57,20 @@ function MobileRouteDetails() {
               Click the Green button to start new location position.
             </h6>        
           </div>
-          <div className="bg-gray-200 text-gray-900 px-3 py-1 center w-fit rounded-md text-sm font-semibold m-3">
-            <TbRoute className="inline-block mr-1" />
-            {/* {walkingTime} seconds away -  */}
-            {rightRouteLength} meters
+          <div className="flex space-x-3 bg-gray-200 text-gray-900 px-3 py-1 rounded-md text-sm font-semibold m-3">
+              <div className="flex items-center">
+                <TbRoute className="inline-block mr-1" />
+                {/* {walkingTime} seconds away -  */}
+                {rightRouteLength} meters
+              </div>
+              <div className="flex items-center">
+                <RiRectangleFill className="inline-block mr-1" color="#FFA500" />
+                Day Path
+              </div>
+              <div className="flex items-center">
+                <RiRectangleFill className="inline-block mr-1" color="#1b1b1b79" />
+                Rain Path
+              </div>
           </div>
           </>
            )}

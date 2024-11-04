@@ -1,4 +1,5 @@
-import { graphData, rainGraphData } from "@/store/graphData";
+import { graphData} from "@/store/graphData";
+import {  rainGraphData } from "@/store/rainGraphData";
 import { NavigationContextType } from "@/utils/types";
 
 interface PositionsProps {

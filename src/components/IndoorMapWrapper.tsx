@@ -8,7 +8,7 @@ import {
   NavigationContextType,
   ObjectItem,
 } from "../utils/types";
-import { MapBackground, Paths, Positions, Objects , Legends } from "./IndoorMap";
+import { MapBackground, Paths, Positions, Objects , Legends, RainPath } from "./IndoorMap";
 import Controls from "./MapControls";
 import ObjectDetailsModal from "./Modals/ObjectDetailsModal";
 import { navigateToObject } from "@/utils/navigationHelper";
@@ -92,6 +92,7 @@ function IndoorMapWrapper() {
           
            {/*Edges are the lines on the map aka the paths*/}
            <Paths/>
+           <RainPath/>
 
             {/*Objects are the clickable areas on the map e.g. Rooms, Desks, ...*/}
             <Objects

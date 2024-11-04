@@ -14,6 +14,7 @@ import {
 } from "../utils/types";
 
 import { graph } from "@/algorithms/dijkstra";
+import { rain } from "@/algorithms/Raindijkstra";
 
 function SearchBar() {
   const [inputValue, setInputValue] = useState<string>("");
@@ -52,6 +53,12 @@ function SearchBar() {
     return path.length > 0 ? path.length : Infinity;  // Assuming distance is path length for simplicity
   }
 
+  function calculateDistanceFromCurrent2(destinationId: string): number {
+    if (!currentLocationId) return Infinity;  // If current location is not set
+    const path = rain.calculateShortestPath(currentLocationId, destinationId);
+    return path.length > 0 ? path.length : Infinity;  // Assuming distance is path length for simplicity
+  }
+
 
 
   // function handleInputChange(event: React.ChangeEvent<HTMLInputElement>) {
@@ -79,7 +86,8 @@ function SearchBar() {
         )
         .map((obj) => ({
           ...obj,
-          distance: calculateDistanceFromCurrent(obj.id), // Calculate distance for each object
+          distance: calculateDistanceFromCurrent(obj.id),
+          raindistance: calculateDistanceFromCurrent2(obj.id), // Calculate distance for each object
         }))
         .sort((a, b) => a.distance - b.distance);  // Sort by distance
       setSuggestions(filteredSuggestions);

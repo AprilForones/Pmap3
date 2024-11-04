@@ -5,7 +5,7 @@
   --object-oppacity-hover: 0.5;
   --position-color: #FFA500;
   --path-color:#FFA500;
-  --rain-color:#8d8a85;
+  --rain-color:#1b1b1b79;
 }
 
 .object {
@@ -40,7 +40,7 @@
 
 .position-active {
   opacity: 1;
-  fill: #1C6352;
+  fill: #FFA500;
 }
 
 .path {
@@ -84,6 +84,16 @@
   stroke-dasharray: 15;
   animation: march 3s linear infinite reverse;
 }
+
+.rain-active {
+  opacity: 1;
+  stroke-width: 8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 15;
+  animation: march 3s linear infinite reverse;
+}
+
 
 @keyframes march {
   to {
