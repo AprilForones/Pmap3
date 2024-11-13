@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext,  useState } from "react";
 import { isMobile } from "react-device-detect";
 import { TransformComponent, TransformWrapper } from "react-zoom-pan-pinch";
 import { MapDataContext, NavigationContext } from "../pages/Map";
@@ -31,6 +31,16 @@ function IndoorMapWrapper() {
     // function handleTogglePaths() {
     //   setShowRainRoute((prev) => !prev);  // Toggle visibility of rain route
     // }
+    // const transformWrapperRef = useRef<any>(null); // Set ref type to 'any' to access methods like setTransform
+
+    // // Automatically zoom to "vertex 1" on component mount
+    // useEffect(() => {
+    //   if (transformWrapperRef.current) {
+    //     const zoomLevel = 1.5; // Adjust the zoom level as needed
+    //     transformWrapperRef.current.setTransform(5000, 5000, zoomLevel);
+    //   }
+    // }, []);
+  
 
   async function handleObjectClick(e: React.MouseEvent<SVGPathElement>) {
     if (!isEditMode) {
@@ -80,6 +90,7 @@ function IndoorMapWrapper() {
       />
 
       <TransformWrapper
+      // ref={transformWrapperRef}
         centerOnInit
         minScale={isMobile ? 0.9 : 1}
         doubleClick={{ mode: "reset" }}

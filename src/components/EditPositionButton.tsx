@@ -48,10 +48,10 @@ useEffect(() => {
 
 
   return (
-    <Tooltip content="Change Position" className="bg-green-500">
+    <Tooltip content="Change Position" className="bg-[#22672D]">
       <button
         data-tooltip-target="tooltip-default"
-        className="ml-1 h-12 w-12 bg-green-500 center rounded text-white"
+        className="ml-1 h-12 w-12 bg-[#22672D] center rounded text-white"
         onClick={() => handleEdit()}
         aria-label="change position"
       >
