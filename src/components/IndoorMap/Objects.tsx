@@ -405,13 +405,13 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
            <path
             id="College of Education And Liberal Arts (CELA) Office"
             className={`${className} object`}
-            d="M179.135 402.967H206.1362V417.9783H179.135z"
+            d="M178.5 375.5H201.5V401.5H178.5z"
             onClick={handleObjectClick}
           />
           <path
             id="College of Engineering And Achitecture (CEA) Office"
             className={`${className} object`}
-            d="M212.159 399.967H236.16V414.9783H212.159z"
+            d="M208.5 376.5H231.5V402.5H208.5z"
             onClick={handleObjectClick}
           />
            <path
@@ -429,7 +429,7 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
             <path
             id="Senior High School (SHS) Office"
             className={`${className} object`}
-            d=" "
+            d="M164.5 830.5H188.5V862.5H164.5z"
             onClick={handleObjectClick}
           />
     </g>

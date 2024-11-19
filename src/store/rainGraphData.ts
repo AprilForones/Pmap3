@@ -303,7 +303,7 @@ export interface RainVertexData {
       { id: "v241", objectName: "Phinma Avenue", cx: 371.5, cy: 638.5, r:4.5,categoryName: "Infrastructure"},//
       { id: "v242", objectName: "null", cx: 960.5, cy: 610.5,r:4.5},//
       { id: "v243", objectName: "null", cx: 577.5, cy: 960.5,r:4.5},//
-      { id: "v250", objectName: "Senior High School (SHS) Office", cx: 180.5, cy: 840.5 ,r:15, categoryName: "null"},
+      { id: "v250", objectName: "Senior High School (SHS) Office", cx: 194.5, cy: 840.5 ,r:15, categoryName: "null"},
       { id: "v251", objectName: "College of Information Technology Education (CITE) Office", cx: 665.5, cy: 1103.5 ,r:15, categoryName: "null"},
       { id: "v252", objectName: "University Canteen", cx: 193.5, cy: 134.5,r:15,categoryName: "Student Service Building"},//Riverside Building
       //{ id: "v244", objectName: "null", cx: 1039.5, cy: 307.5,r:4.5},//

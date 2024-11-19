@@ -362,6 +362,12 @@
       "desc":"You can go here to get food and drinks."
     },
     {
+      "id": "c9r9",
+      "categoryId": "17b0",
+      "name": "University Canteen",
+      "desc":"You can go here to get food and drinks."
+    },
+    {
       "id": "a6a3",
       "categoryId": "52f1",
       "name": "College of Allied Health And Sciences (CAHS) Office",
@@ -372,6 +378,12 @@
       "categoryId": "e753",
       "name": "MBA Hall's Comfort Room 2",
       "desc":"Located at the first floor. "
+    },
+    {
+      "id": "A77A",
+      "categoryId": "52f1",
+      "name": "Senior High School (SHS) Office",
+      "desc": " "
     },
     {
       "id": "a4x0",

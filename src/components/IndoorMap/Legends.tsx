@@ -108,7 +108,7 @@ interface  LegendsProps{
             <path
               id="Registrar Office"
               className={`${className} legend`}
-              d="M835.674 130.691H1029.374V144.37290000000002H835.674z"
+              d="M835.674 113.583H1029.374V127.2649H835.674z"
               onClick={handleLegendClick}
             />
               <path
@@ -127,6 +127,12 @@ interface  LegendsProps{
             id="University Canteen"
             className={`${className} legend`}
             d="M835.674 147.513H1029.374V161.19490000000002H835.674z"
+            onClick={handleLegendClick}
+          />
+          <path
+            id="Senior High School (SHS) Office"
+            className={`${className} legend`}
+            d="M835.674 130.691H1029.374V144.37290000000002H835.674z"
             onClick={handleLegendClick}
           />
       </g>
