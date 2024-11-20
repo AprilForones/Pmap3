@@ -158,7 +158,7 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
           <path
             id="Riverside Building's Comfort Room near Parking Lot"
             className={`${className} object`}
-            d="M1026.6 74.9916H1053.6705V101.45920000000001H1026.6z"
+            d="M78.5 113.5H107.5V146.5H78.5z"
             onClick={handleObjectClick}
           /> 
           <path
@@ -412,12 +412,6 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
             id="College of Engineering And Achitecture (CEA) Office"
             className={`${className} object`}
             d="M208.5 376.5H231.5V402.5H208.5z"
-            onClick={handleObjectClick}
-          />
-           <path
-            id="College of Information Technology Education (CITE) Office"
-            className={`${className} object`}
-            d="M0 0H35.4014V22.0729H0z"
             onClick={handleObjectClick}
           />
           <path
