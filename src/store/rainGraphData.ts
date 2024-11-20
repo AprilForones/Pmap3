@@ -304,8 +304,9 @@ export interface RainVertexData {
       { id: "v242", objectName: "null", cx: 960.5, cy: 610.5,r:4.5},//
       { id: "v243", objectName: "null", cx: 577.5, cy: 960.5,r:4.5},//
       { id: "v250", objectName: "Senior High School (SHS) Office", cx: 194.5, cy: 840.5 ,r:15, categoryName: "null"},
-      { id: "v251", objectName: "College of Information Technology Education (CITE) Office", cx: 665.5, cy: 1103.5 ,r:15, categoryName: "null"},
+      { id: "v251", objectName: "College of Information Technology Education (CITE) Office", cx: 683.5, cy: 1052.49 ,r:15, categoryName: "null"},
       { id: "v252", objectName: "University Canteen", cx: 193.5, cy: 134.5,r:15,categoryName: "Student Service Building"},//Riverside Building
+      { id: "v255", objectName: "College of Management and Accounting (CMA) Office", cx: 747.5, cy: 786.5 ,r:15,categoryName: "null"},
       //{ id: "v244", objectName: "null", cx: 1039.5, cy: 307.5,r:4.5},//
     ],
     
@@ -488,7 +489,9 @@ export interface RainVertexData {
       { id: "v198_to_v74", from: "v198", to: "v74" },
       { id: "v145_to_v74", from: "v145", to: "v74" },
       { id: "v145_to_v69", from: "v145", to: "v69" },
+      { id: "v145_to_255", from: "v145", to: "v255" },
       { id: "v167_to_v68", from: "v167", to: "v68" },
+      { id: "v68_to_v255", from: "v68", to: "v255" },
       { id: "v68_to_v69", from: "v68", to: "v69" },
       //{ id: "v167_to_v70", from: "v167", to: "v69" },
       { id: "v68_to_v70", from: "v68", to: "v70" },

@@ -94,7 +94,7 @@ interface  LegendsProps{
             />  */}
             {/* Right part */}
             <path
-              id="CMA Building Entrance Near PHINMA Forest"
+              id="College of Management and Accounting (CMA) Office"
               className={`${className} legend`}
               d="M567.674 181.675H761.374V195.35690000000002H567.674z"
               onClick={handleLegendClick}

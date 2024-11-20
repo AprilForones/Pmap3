@@ -432,6 +432,18 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
             d="M164.5 830.5H188.5V862.5H164.5z"
             onClick={handleObjectClick}
           />
+           <path
+            id="College of Information Technology Education (CITE) Office"
+            className={`${className} object`}
+            d="M688.5 1054.5H716.5V1071.5H688.5z"
+            onClick={handleObjectClick}
+          />
+          <path
+            id="College of Management and Accounting (CMA) Office"
+            className={`${className} object`}
+            d="M706.5 774.5H741.5V785.5H706.5z"
+            onClick={handleObjectClick}
+          />
     </g>
   );
 }

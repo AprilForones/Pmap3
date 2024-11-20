@@ -283,6 +283,12 @@
       "desc": "Located on the ground floor of the FVR. Located near the Registrar. "
     },
     {
+      "id": "g1g1",
+      "categoryId": "52f1",
+      "name": "College of Management and Accounting (CMA) Office",
+      "desc": " "
+    },
+    {
       "id": "x5x6",
       "categoryId": "e928",
       "name": "PTC Building",
