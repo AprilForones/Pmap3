@@ -13,8 +13,8 @@ import Controls from "./MapControls";
 import ObjectDetailsModal from "./Modals/ObjectDetailsModal";
 import { navigateToObject } from "@/utils/navigationHelper";
 import { toast } from "react-toastify";
-import LegendsBtn from "./MapLegends";
-import DirectoryBtn from "./MapDirectory";
+
+
 
 function IndoorMapWrapper() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -138,8 +138,6 @@ function IndoorMapWrapper() {
             />
           </MapBackground>
         </TransformComponent>
-        <DirectoryBtn/>
-        <LegendsBtn/>
         <Controls />
       </TransformWrapper>
     </div>

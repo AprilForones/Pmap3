@@ -10,79 +10,79 @@ interface  LegendsProps{
             <path
               id="CCJE Department"
               className={`${className} legend`}
-               d="M567.674 96.9923H761.374V110.6742H567.674z"
+               d="M1385 225H1784V270H1385z"
               onClick={handleLegendClick}
             />
            <path
               id="ITS Department Building"
               className={`${className} legend`}
-              d="M835.674 62.5455H1029.374V76.2274H835.674z"
+              d="M1385 634H1784V679H1385z"
               onClick={handleLegendClick}
             /> 
             <path
               id="University Chapel"
               className={`${className} legend`}
-              d="M835.674 164.621H1029.374V178.30290000000002H835.674z"
+              d="M1385 942H1784V987H1385z"
               onClick={handleLegendClick}
             />
             <path
               id="University Clinic"
               className={`${className} legend`}
-              d="M835.674 181.728H1029.374V195.40990000000002H835.674z"
+              d="M1385 994H1784V1039H1385z"
               onClick={handleLegendClick}
             /> 
            <path
             id="College of Education And Liberal Arts (CELA) Office"
             className={`${className} legend`}
-            d="M567.674 113.815H761.374V127.4969H567.674z"
+            d="M1385 275H1784V320H1385z"
             onClick={handleLegendClick}
           />
             <path
               id="College of Law Office"
               className={`${className} legend`}
-              d="M567.674 164.567H761.374V178.24890000000002H567.674z"
+              d="M1385 427H1784V472H1385z"
               onClick={handleLegendClick}
             />
             <path
               id="Office of Graduate and Professionals"
               className={`${className} legend`}
-              d="M835.674 79.6531H1029.374V93.335H835.674z"
+              d="M1385 686H1784V731H1385z"
               onClick={handleLegendClick}
             />
             <path
               id="PEDRO Hub Office"
               className={`${className} legend`}
-              d="M835.674 96.4756H1029.374V110.1575H835.674z"
+              d="M1385 736H1784V781H1385z"
               onClick={handleLegendClick}
             /> 
             <path
               id="University Library Building"
               className={`${className} legend`}
-              d="M835.674 198.836H1029.374V212.51790000000003H835.674z"
+              d="M1385 1044H1784V1089H1385z"
               onClick={handleLegendClick}
             />
             <path
               id="College of Arts And Sciences (CAS) Office"
               className={`${className} legend`}
-              d="M567.674 79.8848H761.374V93.5667H567.674z"
+              d="M1385 173H1784V218H1385z"
               onClick={handleLegendClick}
             />
           <path
             id="College of Engineering And Achitecture (CEA) Office"
             className={`${className} object`}
-            d="M567.674 130.922H761.374V144.6039H567.674z"
+            d="M1385 325H1784V370H1385z"
             onClick={handleLegendClick}
           />
           <path
             id="College of Information Technology Education (CITE) Office"
             className={`${className} object`}
-            d="M567.674 147.745H761.374V161.42690000000002H567.674z"
+            d="M1385 377H1784V422H1385z"
             onClick={handleLegendClick}
           />
             <path
               id="CSDL Department"
               className={`${className} legend`}
-              d="M567.674 45.9547H761.374V59.6366H567.674z"
+              d="M1385 73H1784V118H1385z"
               onClick={handleLegendClick}
             />
             {/* upper part */}
@@ -96,43 +96,43 @@ interface  LegendsProps{
             <path
               id="College of Management and Accounting (CMA) Office"
               className={`${className} legend`}
-              d="M567.674 181.675H761.374V195.35690000000002H567.674z"
+              d="M1385 477H1784V522H1385z"
               onClick={handleLegendClick}
             />
             <path
               id="Finance Purchasing Department"
               className={`${className} legend`}
-              d="M567.674 198.782H761.374V212.46390000000002H567.674z"
+              d="M1385 534H1784V579H1385z"
               onClick={handleLegendClick}
             /> 
             <path
               id="Registrar Office"
               className={`${className} legend`}
-              d="M835.674 113.583H1029.374V127.2649H835.674z"
+              d="M1385 786H1784V831H1385z"
               onClick={handleLegendClick}
             />
               <path
               id="College of Allied Health And Sciences (CAHS) Office"
               className={`${className} legend`}
-              d="M567.674 62.7771H761.374V76.459H567.674z"
+              d="M1385 123H1784V168H1385z"
               onClick={handleLegendClick}
             />
             <path
               id="General Services Department(GSD) Office"
               className={`${className} legend`}
-              d="M835.674 45.438H1029.374V59.1199H835.674z"
+              d="M1385 584H1784V629H1385z"
               onClick={handleLegendClick}
             /> 
           <path
             id="University Canteen"
             className={`${className} legend`}
-            d="M835.674 147.513H1029.374V161.19490000000002H835.674z"
+            d="M1385 892H1784V937H1385z"
             onClick={handleLegendClick}
           />
           <path
             id="Senior High School (SHS) Office"
             className={`${className} legend`}
-            d="M835.674 130.691H1029.374V144.37290000000002H835.674z"
+            d="M1385 842H1784V887H1385z"
             onClick={handleLegendClick}
           />
       </g>
